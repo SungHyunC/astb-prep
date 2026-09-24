@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rct_0001",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Landing in a Crosswind",
+    "passage": "When wind blows across a runway rather than straight down it, a pilot must keep the aircraft aligned with the centerline while preventing it from drifting sideways. Two techniques are common. In the crab method, the pilot points the nose partly into the wind so that the aircraft tracks straight along the approach path, then uses the rudder to straighten the nose just before touchdown. In the wing-low, or slip, method, the pilot lowers the upwind wing and holds opposite rudder, keeping the nose aligned with the runway throughout the final approach. Many pilots combine the two, crabbing on the longer part of the approach and switching to a slip near the ground. Touching down while still crabbed places a heavy side load on the landing gear, which can damage it or cause loss of directional control.",
+    "passage_ko": "바람이 활주로를 따라 곧게 불지 않고 가로질러 불면, 조종사는 항공기가 옆으로 밀리지 않게 하면서 활주로 중심선에 정렬된 상태를 유지해야 한다. 흔히 두 가지 기법이 쓰인다. 크랩(crab) 기법에서는 조종사가 기수를 바람 쪽으로 약간 돌려 항공기가 접근 경로를 따라 곧게 나아가게 한 뒤, 접지 직전에 러더로 기수를 똑바로 편다. 윙로(wing-low), 즉 슬립(slip) 기법에서는 바람이 불어오는 쪽 날개를 낮추고 반대 방향 러더를 유지하여, 최종 접근 내내 기수를 활주로와 일치시킨다. 많은 조종사는 두 방법을 섞어, 접근의 긴 구간에서는 크랩을 하다가 지면 근처에서 슬립으로 바꾼다. 여전히 크랩 상태로 접지하면 착륙장치에 큰 측면 하중이 걸려 장치가 손상되거나 방향 조종을 잃을 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The wing-low method is always safer than crabbing, regardless of wind strength.",
+      "Most runways are built to line up with the prevailing wind at that airport.",
+      "A pilot who crabs on approach must align the nose with the runway before touchdown.",
+      "In the slip method, the pilot lowers the downwind wing and holds rudder the same way."
+    ],
+    "answer": 2,
+    "explain": "근거: \"then uses the rudder to straighten the nose just before touchdown\" — 크랩 상태로 접지하면 착륙장치에 큰 측면 하중이 걸린다.\n(1) 과잉 일반화 — always, 두 방법의 우열은 지문에 없음\n(2) 지문에 없는 상식 — 활주로 방향과 탁월풍 이야기는 없음\n(4) 세부 비틀기 — 바람 쪽(upwind) 날개를 낮추고 반대(opposite) 러더를 씀"
+  },
+  {
+    "id": "rct_0002",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Stiff Ships and Tender Ships",
+    "passage": "A ship's resistance to rolling depends largely on the relationship between its center of gravity and a point called the metacenter. When the metacenter lies well above the center of gravity, the ship is described as stiff: it rights itself quickly after being tipped, but it tends to snap back with short, jerky rolls that are hard on crew and equipment. When the distance between the two points is small, the ship is tender, rolling slowly and gently but recovering less forcefully. Loading heavy weight high in a ship, such as ice accumulating on the upper decks in cold seas, raises the center of gravity and reduces that distance. Naval architects therefore aim for a middle range, since a ship that is too stiff is uncomfortable and one that is too tender risks capsizing in severe conditions.",
+    "passage_ko": "배가 옆으로 흔들리는 것(롤링)에 저항하는 정도는 주로 무게중심과 메타센터(metacenter)라는 점 사이의 관계에 달려 있다. 메타센터가 무게중심보다 훨씬 위에 있으면 그 배는 '스티프(stiff)'하다고 한다. 기울어진 뒤 빠르게 바로 서지만, 짧고 급격하게 되튀는 롤링을 하는 경향이 있어 승조원과 장비에 부담을 준다. 두 점 사이의 거리가 작으면 배는 '텐더(tender)'하여, 느리고 부드럽게 흔들리지만 복원하는 힘은 약하다. 추운 바다에서 상갑판에 얼음이 쌓이는 경우처럼 무거운 무게가 배의 높은 곳에 실리면 무게중심이 올라가 그 거리가 줄어든다. 그래서 조선 설계자들은 중간 범위를 목표로 한다. 너무 스티프한 배는 불편하고, 너무 텐더한 배는 혹독한 조건에서 전복될 위험이 있기 때문이다.",
+    "q": "It can be inferred from the passage that ice building up on a ship's upper decks would most likely",
+    "q_ko": "지문으로부터 추론할 때, 배의 상갑판에 얼음이 쌓이면 가장 가능성 높은 결과는?",
+    "options": [
+      "make the ship roll more slowly and right itself less forcefully",
+      "make the ship stiffer, so that its rolls become short, quick, and jerky",
+      "force the crew to chip it away before it can freeze any thicker",
+      "cause the ship to capsize no matter how calm the sea is"
+    ],
+    "answer": 0,
+    "explain": "근거: \"raises the center of gravity and reduces that distance\" → 거리가 작아지면 \"the ship is tender, rolling slowly and gently but recovering less forcefully\".\n(2) 인과 뒤집기 — 무게중심이 오르면 stiff가 아니라 tender해짐\n(3) 지문에 없는 상식 — 얼음 제거 작업은 언급 없음\n(4) 과잉 일반화 — 전복 위험은 '혹독한 조건(severe conditions)'에서만 언급"
+  },
+  {
+    "id": "rct_0003",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Why Camouflage Patterns Differ",
+    "passage": "Camouflage works less by matching a background exactly than by breaking up the outline of a person or object. The human eye finds targets largely by recognizing familiar shapes and edges, so a pattern of irregular blotches can make a soldier's silhouette harder to pick out even when the colors are only roughly correct. Color still matters, however. A pattern designed for green woodland may stand out sharply in a desert, and a desert pattern can look pale and conspicuous in a forest. For this reason, many armed forces have issued different uniforms for different environments, while others have tried so-called universal patterns meant to work acceptably in several settings. Critics of universal patterns argue that a design that performs acceptably everywhere may perform well nowhere.",
+    "passage_ko": "위장은 배경과 정확히 똑같아 보이게 하기보다는 사람이나 물체의 윤곽을 깨뜨리는 방식으로 효과를 낸다. 사람의 눈은 주로 익숙한 형태와 가장자리를 알아봄으로써 표적을 찾기 때문에, 불규칙한 얼룩무늬는 색이 대략만 맞아도 병사의 실루엣을 알아보기 어렵게 만들 수 있다. 그렇지만 색도 여전히 중요하다. 초록빛 삼림용으로 설계된 무늬는 사막에서 확연히 눈에 띌 수 있고, 사막용 무늬는 숲속에서 창백하고 두드러져 보일 수 있다. 이 때문에 많은 군대가 환경별로 다른 전투복을 지급해 왔고, 다른 군대들은 여러 환경에서 무난하게 통하도록 만든 이른바 범용(universal) 무늬를 시도했다. 범용 무늬를 비판하는 사람들은 어디서나 무난한 디자인은 어디에서도 뛰어나지 못할 수 있다고 주장한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Universal patterns have been abandoned by all of the armed forces that tried them.",
+      "Matching a background's colors exactly is the main way camouflage succeeds.",
+      "Modern camouflage uniforms often use dyes that reduce infrared visibility.",
+      "A camouflage pattern suited to one environment may be ineffective in another."
+    ],
+    "answer": 3,
+    "explain": "근거: \"A pattern designed for green woodland may stand out sharply in a desert\".\n(1) 과잉 일반화 — all, 범용 무늬를 모두 포기했다는 말은 없음\n(2) 비교 뒤집기 — 지문은 색을 정확히 맞추는 것보다 윤곽을 깨는 것이 핵심이라고 함\n(3) 지문에 없는 상식 — 적외선 차단 염료는 언급 없음"
+  },
+  {
+    "id": "rct_0004",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Sound in Air and Water",
+    "passage": "Sound is a pressure wave that travels by passing vibrations from one particle to the next, so it cannot cross a vacuum. Its speed depends on the medium. In air at room temperature, sound covers roughly 340 meters per second, but in seawater it moves more than four times faster, because water resists compression far more than air does. Temperature also plays a role: in both air and water, sound generally travels faster as temperature rises. In the ocean, however, pressure and salinity change with depth as well, and these factors can bend sound waves, sometimes trapping them in layers where they travel great distances with little loss. Sailors and scientists who rely on underwater sound must therefore account for conditions that vary from place to place.",
+    "passage_ko": "소리는 입자에서 입자로 진동을 전달하며 이동하는 압력파이므로 진공을 건너갈 수 없다. 소리의 속도는 매질에 따라 달라진다. 실온의 공기 중에서 소리는 초속 약 340미터로 움직이지만, 바닷물에서는 네 배 이상 빠르게 움직이는데, 물이 공기보다 압축에 훨씬 강하게 저항하기 때문이다. 온도도 영향을 준다. 공기와 물 모두에서 소리는 대체로 온도가 올라갈수록 빨라진다. 그러나 바다에서는 깊이에 따라 압력과 염분도 달라지며, 이 요인들이 음파를 휘게 해 때로는 음파를 특정 층에 가두어 거의 손실 없이 먼 거리를 이동하게 만든다. 따라서 수중음에 의존하는 선원과 과학자는 장소마다 달라지는 조건을 고려해야 한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "sound usually travels more slowly in water than in air because water is denser",
+      "the same sound signal may travel differently at two places in the ocean",
+      "whales use deep sound channels to communicate across entire ocean basins",
+      "temperature is the only factor that affects the speed of sound in seawater"
+    ],
+    "answer": 1,
+    "explain": "근거: \"conditions that vary from place to place\" — 압력·염분이 깊이에 따라 달라져 음파를 휘게 함.\n(1) 비교 뒤집기 — 바닷물에서 네 배 이상 '빠름'\n(3) 지문에 없는 상식 — 고래 이야기는 없음\n(4) 과잉 일반화 — only, 압력과 염분도 영향을 줌"
+  },
+  {
+    "id": "rct_0005",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Invisible Wake",
+    "passage": "Every airplane that produces lift also produces wingtip vortices, spinning masses of air that trail behind the wings. The vortices are strongest behind an aircraft that is heavy and flying slowly, which is why a large transport on takeoff or approach creates a far more dangerous wake than a small trainer in cruise. The vortices generally sink below the flight path of the aircraft that created them and drift with the wind. Because they are invisible, controllers apply extra spacing behind heavy aircraft, and pilots of lighter airplanes are taught to stay at or above the larger aircraft's flight path and to land beyond its touchdown point. A light crosswind can be especially hazardous, since it may hold one vortex over the runway instead of carrying both away.",
+    "passage_ko": "양력을 만드는 모든 비행기는 날개 끝 와류(wingtip vortex), 즉 날개 뒤로 끌려 나오는 회전하는 공기 덩어리도 만든다. 와류는 무겁고 느리게 비행하는 항공기 뒤에서 가장 강하며, 그래서 이륙하거나 접근 중인 대형 수송기는 순항 중인 소형 훈련기보다 훨씬 더 위험한 후류를 만든다. 와류는 대체로 그것을 만든 항공기의 비행경로 아래로 가라앉고 바람을 따라 흘러간다. 와류는 눈에 보이지 않기 때문에 관제사는 대형기 뒤에 추가 간격을 두며, 가벼운 비행기의 조종사는 큰 항공기의 비행경로와 같거나 그보다 높게 머물고 그 항공기의 접지점보다 더 멀리 착지하도록 교육받는다. 약한 측풍은 특히 위험할 수 있는데, 두 와류를 모두 날려 보내는 대신 한쪽 와류를 활주로 위에 붙잡아 둘 수 있기 때문이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Wake vortices are strongest when an aircraft is light and flying fast.",
+      "A pilot following a heavy jet should avoid flying below that jet's path.",
+      "Wake turbulence has been a factor in a number of fatal accidents.",
+      "Any crosswind, however light, is strong enough to clear vortices from the runway."
+    ],
+    "answer": 1,
+    "explain": "근거: \"The vortices generally sink below the flight path\" + \"stay at or above the larger aircraft's flight path\".\n(1) 비교 뒤집기 — 무겁고 느릴 때 가장 강함\n(3) 지문에 없는 상식 — 사고 사례는 언급 없음\n(4) 세부 비틀기 — any, 약한 측풍은 오히려 와류를 활주로 위에 붙잡아 둘 수 있음"
+  },
+  {
+    "id": "rct_0006",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "How a Submarine Controls Its Depth",
+    "passage": "A submarine dives and surfaces mainly by changing its own weight. Large ballast tanks outside the pressure hull can be flooded with seawater or emptied with compressed air. When the tanks fill, the submarine becomes heavier than the water it displaces and begins to sink; when air forces the water out, the boat grows lighter and rises. Smaller trim tanks let the crew make fine adjustments, shifting water forward or aft to keep the boat level and neutrally buoyant, neither rising nor sinking. Once submerged and under way, however, the submarine changes depth chiefly with movable planes, much like an aircraft's control surfaces, rather than by flooding or emptying its main tanks. Holding neutral buoyancy lets the boat keep a steady depth with little effort.",
+    "passage_ko": "잠수함은 주로 자신의 무게를 바꾸는 방식으로 잠항하고 부상한다. 내압선체 바깥에 있는 큰 밸러스트 탱크는 바닷물로 채우거나 압축공기로 비울 수 있다. 탱크가 차면 잠수함은 자신이 밀어낸 물보다 무거워져 가라앉기 시작하고, 공기가 물을 밀어내면 가벼워져 떠오른다. 더 작은 트림 탱크는 물을 앞뒤로 옮겨 함을 수평으로 유지하고, 떠오르지도 가라앉지도 않는 중성 부력 상태를 맞추도록 승조원이 미세하게 조정할 수 있게 해 준다. 그러나 잠항한 채 항주할 때 잠수함은 주 탱크를 채우거나 비우기보다는, 항공기의 조종면과 매우 비슷한 움직이는 수평타(planes)로 주로 깊이를 바꾼다. 중성 부력을 유지하면 큰 힘을 들이지 않고도 일정한 깊이를 지킬 수 있다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "a submarine's diving planes work exactly like an airplane's wings",
+      "trim tanks are the most important system aboard a submarine",
+      "a submarine uses both its tanks and its planes to control depth",
+      "modern submarines rely on nuclear reactors to stay submerged for months"
+    ],
+    "answer": 2,
+    "explain": "근거: 잠항·부상은 \"mainly by changing its own weight\"(밸러스트·트림 탱크), 항주 중 깊이 변경은 \"chiefly with movable planes\" — 탱크와 수평타로 깊이를 조절한다는 것이 요지.\n(1) 세부 비틀기 — 'much like'를 'exactly like'로 바꾼 일부 세부\n(2) 과잉 일반화 — 트림 탱크는 미세 조정용 세부일 뿐\n(4) 지문에 없는 상식 — 원자력 추진은 언급 없음"
+  },
+  {
+    "id": "rct_0007",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Dogs in Uniform",
+    "passage": "Military working dogs are valued chiefly for their sense of smell, which allows them to detect explosives, track people, and search areas far faster than human teams can. A dog's effectiveness, however, depends heavily on its handler. Handlers must learn to read subtle changes in the dog's behavior, such as a shift in breathing or a sudden change of direction, that signal it has found a scent. For this reason, a dog and handler usually train together as a team for months, and reassigning a dog to a new handler often requires a period of retraining before the pair performs reliably. Dogs also tire, and their performance can fall in extreme heat, so commanders must plan rest periods rather than treating a dog as a tireless sensor.",
+    "passage_ko": "군견은 주로 후각 때문에 귀하게 여겨진다. 후각 덕분에 군견은 폭발물을 탐지하고, 사람을 추적하며, 인간 팀보다 훨씬 빠르게 지역을 수색할 수 있다. 하지만 군견의 효과는 핸들러에게 크게 좌우된다. 핸들러는 호흡의 변화나 갑작스러운 방향 전환처럼 군견이 냄새를 찾았음을 알리는 미묘한 행동 변화를 읽는 법을 배워야 한다. 이 때문에 군견과 핸들러는 보통 몇 달 동안 한 팀으로 함께 훈련하며, 군견을 새 핸들러에게 재배치하면 그 조가 믿을 만하게 임무를 수행하기까지 재훈련 기간이 필요한 경우가 많다. 군견도 지치며 극심한 더위에서는 성능이 떨어질 수 있으므로, 지휘관은 군견을 지칠 줄 모르는 센서처럼 다루지 말고 휴식 시간을 계획해야 한다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "a trained dog may not work reliably at first with an unfamiliar handler",
+      "dogs detect explosives more accurately than any electronic sensor now in use",
+      "Belgian Malinois and German shepherds are the breeds most often used",
+      "a dog's ability to find scents tends to improve in very hot weather"
+    ],
+    "answer": 0,
+    "explain": "근거: \"reassigning a dog to a new handler often requires a period of retraining before the pair performs reliably\".\n(2) 과잉 일반화 — any, 전자 센서와의 비교는 지문에 없음\n(3) 지문에 없는 상식 — 견종은 언급 없음\n(4) 인과 뒤집기 — 극심한 더위에서는 성능이 '떨어질' 수 있음"
+  },
+  {
+    "id": "rct_0008",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "A Weak Signal from Space",
+    "passage": "Satellite navigation receivers determine position by measuring how long signals take to arrive from several satellites orbiting about 20,000 kilometers overhead. By the time these signals reach the ground, they are extremely faint, weaker than much of the background radio noise. As a result, a relatively low-powered transmitter broadcasting on the same frequencies can overwhelm them across a wide area, a practice known as jamming. A more deceptive threat, called spoofing, involves broadcasting false signals that lead a receiver to calculate an incorrect position without alerting the user. Because so many systems now depend on satellite timing and position, military planners emphasize backups such as inertial navigation, which tracks movement using onboard sensors and needs no outside signal, though its errors grow the longer it runs uncorrected.",
+    "passage_ko": "위성항법 수신기는 약 2만 킬로미터 상공을 도는 여러 위성에서 신호가 도착하는 데 걸리는 시간을 측정해 위치를 알아낸다. 이 신호는 지상에 도달할 무렵 극도로 약해져, 배경 전파 잡음의 상당 부분보다도 약하다. 그 결과 같은 주파수로 방송하는 비교적 저출력의 송신기도 넓은 지역에서 이 신호를 압도할 수 있는데, 이를 재밍(jamming)이라 한다. 스푸핑(spoofing)이라 불리는 더 기만적인 위협은 가짜 신호를 방송해 수신기가 사용자에게 경고하지 않은 채 잘못된 위치를 계산하게 만드는 것이다. 이제 매우 많은 시스템이 위성의 시각·위치 정보에 의존하므로, 군 계획가들은 관성항법 같은 예비 수단을 강조한다. 관성항법은 탑재 센서로 움직임을 추적해 외부 신호가 필요 없지만, 보정 없이 오래 작동할수록 오차가 커진다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Inertial navigation remains perfectly accurate no matter how long it is used.",
+      "Jamming usually requires a transmitter more powerful than the satellites themselves.",
+      "The GPS satellite constellation is operated by the United States Space Force.",
+      "A spoofed receiver may display a wrong position without warning the user."
+    ],
+    "answer": 3,
+    "explain": "근거: \"calculate an incorrect position without alerting the user\".\n(1) 과잉 일반화 — perfectly/no matter how long, 관성항법 오차는 시간이 갈수록 커짐\n(2) 세부 비틀기 — 비교적 저출력(low-powered) 송신기로도 신호를 압도할 수 있음\n(3) 지문에 없는 상식 — 운영 주체는 언급 없음"
+  },
+  {
+    "id": "rct_0009",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Messages by Tower",
+    "passage": "In the 1790s, France began building a chain of towers that could relay messages across the country far faster than a rider on horseback. Each tower carried a mechanical arm whose positions stood for letters, numbers, or coded phrases. An operator watched the neighboring tower through a telescope, copied its signal, and repeated it for the next station down the line. Under good conditions, a short message could cross hundreds of kilometers in well under an hour. The system had clear limits, however. It could not operate at night or in fog, it required large numbers of trained operators, and its messages could be seen by anyone with a telescope, which is why important traffic was sent in code. The network was eventually replaced by the electrical telegraph in the mid-nineteenth century.",
+    "passage_ko": "1790년대에 프랑스는 말을 탄 전령보다 훨씬 빠르게 전국에 메시지를 중계할 수 있는 탑의 연결망을 짓기 시작했다. 각 탑에는 기계식 팔이 달려 있었고, 그 팔의 위치가 글자, 숫자 또는 암호화된 문구를 나타냈다. 운용원은 망원경으로 이웃 탑을 지켜보며 신호를 받아 적고, 그것을 다음 역을 향해 다시 되풀이했다. 조건이 좋으면 짧은 메시지는 한 시간도 훨씬 안 되는 시간에 수백 킬로미터를 건널 수 있었다. 그러나 이 시스템에는 분명한 한계가 있었다. 밤이나 안개 속에서는 작동할 수 없었고, 훈련된 운용원이 많이 필요했으며, 망원경만 있으면 누구나 메시지를 볼 수 있었기 때문에 중요한 통신은 암호로 보냈다. 이 연결망은 결국 19세기 중반에 전기 전신으로 대체되었다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "the towers could relay messages at any hour and in any kind of weather",
+      "the system was designed by a French engineer named Claude Chappe",
+      "a message arriving after dark would usually wait until daylight to move on",
+      "sending messages in code made the towers faster than the electrical telegraph"
+    ],
+    "answer": 2,
+    "explain": "근거: \"It could not operate at night or in fog\" → 밤에 도착한 메시지는 날이 밝을 때까지 기다려야 한다.\n(1) 과잉 일반화 — any hour/any weather, 밤·안개에는 작동 불가\n(2) 지문에 없는 상식 — 설계자 이름은 지문에 없음\n(4) 비교 뒤집기 — 암호는 보안 때문이었고, 결국 전기 전신이 이 체계를 대체함"
+  },
+  {
+    "id": "rct_0010",
+    "topic": "leadership",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Commander's Intent",
+    "passage": "Military orders typically include a statement called the commander's intent, which explains the purpose of an operation and the conditions that define success. Detailed instructions describe how a task should be done, but plans rarely survive unchanged once events begin to move quickly. When communications fail or circumstances shift, subordinates who understand the intent can adapt their actions and still work toward the same goal, rather than waiting for new orders or following a plan that no longer fits. Writing a clear intent is harder than it sounds. It must be brief enough to remember under stress, yet specific enough that two junior leaders acting independently would make compatible decisions. Many organizations outside the military have adopted the idea for similar reasons.",
+    "passage_ko": "군의 명령에는 보통 '지휘관 의도(commander's intent)'라는 진술이 들어가는데, 이는 작전의 목적과 성공을 정의하는 조건을 설명한다. 세부 지시는 임무를 어떻게 수행해야 하는지를 설명하지만, 사태가 빠르게 움직이기 시작하면 계획이 바뀌지 않고 그대로 유지되는 경우는 드물다. 통신이 끊기거나 상황이 바뀌었을 때, 의도를 이해한 부하는 새 명령을 기다리거나 더 이상 맞지 않는 계획을 따르는 대신 행동을 조정하면서도 같은 목표를 향해 나아갈 수 있다. 명확한 의도를 쓰는 일은 생각보다 어렵다. 압박 속에서도 기억할 수 있을 만큼 짧으면서도, 독립적으로 행동하는 두 하급 지휘자가 서로 어긋나지 않는 결정을 내릴 수 있을 만큼 구체적이어야 한다. 군 밖의 많은 조직도 비슷한 이유로 이 개념을 받아들였다.",
+    "q": "According to the passage, a commander's intent is especially useful when",
+    "q_ko": "지문에 따르면, 지휘관 의도가 특히 유용한 때는?",
+    "options": [
+      "an operation unfolds exactly the way it was originally planned",
+      "subordinates must act without being able to receive new orders",
+      "the written plan already contains detailed step-by-step instructions",
+      "orders are prepared in the standard five-paragraph military format"
+    ],
+    "answer": 1,
+    "explain": "근거: \"When communications fail or circumstances shift, subordinates who understand the intent can adapt\".\n(1) 인과 뒤집기 — 의도는 계획이 '틀어질 때' 쓸모가 큼\n(3) 세부 비틀기 — 세부 지시는 '어떻게'를 말할 뿐, 의도가 유용해지는 조건이 아님\n(4) 지문에 없는 상식 — 5단락 명령 형식은 언급 없음"
+  },
+  {
+    "id": "rct_0011",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Hot, High, and Heavy",
+    "passage": "Pilots use the term density altitude to describe how thin the air feels to an aircraft, expressed as the altitude in a standard atmosphere that would have the same air density. Density altitude rises with elevation, with temperature, and, to a lesser extent, with humidity. When it is high, wings produce less lift at a given speed, propellers bite less air, and engines that are not turbocharged lose power. The result is a longer takeoff roll and a weaker climb. An airplane that easily clears the trees at the end of a sea-level runway on a cool morning may struggle to do so from a mountain airport on a summer afternoon, even if the two runways are the same length. For this reason, pilots consult performance charts rather than relying on past experience at other airfields.",
+    "passage_ko": "조종사들은 밀도고도(density altitude)라는 용어로 공기가 항공기에 얼마나 희박하게 느껴지는지를 표현하는데, 이는 같은 공기 밀도를 갖는 표준대기상의 고도로 나타낸다. 밀도고도는 표고가 높을수록, 기온이 높을수록, 그리고 그보다는 덜하지만 습도가 높을수록 올라간다. 밀도고도가 높으면 같은 속도에서 날개가 만드는 양력이 줄고, 프로펠러가 공기를 덜 붙잡으며, 터보차저가 없는 엔진은 출력을 잃는다. 그 결과 이륙 활주 거리가 길어지고 상승이 약해진다. 서늘한 아침 해수면 활주로 끝의 나무를 쉽게 넘는 비행기도, 두 활주로의 길이가 같더라도 여름 오후 산악 공항에서는 그러기 힘들 수 있다. 이 때문에 조종사는 다른 비행장에서의 과거 경험에 의존하지 않고 성능 차트를 참고한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "At a given airport, an airplane may need more runway on hot days than on cool ones.",
+      "Humidity raises density altitude more than either temperature or field elevation does.",
+      "Engines with turbochargers lose the most power when density altitude is high.",
+      "Airplanes can never take off safely from mountain airports on summer afternoons."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Density altitude rises with elevation, with temperature\" → 밀도고도가 높으면 \"a longer takeoff roll\".\n(2) 비교 뒤집기 — 습도의 영향은 \"to a lesser extent\"(더 작음)\n(3) 세부 비틀기 — 출력을 잃는 것은 터보차저가 '없는' 엔진\n(4) 과잉 일반화 — never, 지문은 '힘들 수 있다(may struggle)'고만 함"
+  },
+  {
+    "id": "rct_0012",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Refueling Under Way",
+    "passage": "Navies extend the reach of their ships by transferring fuel, food, and ammunition at sea, a process called underway replenishment. In the most common method, a supply ship and a receiving ship steam side by side, typically only 30 to 60 meters apart, while hoses and cables are passed between them. Both ships must hold the same course and speed for long periods, which demands constant attention from the helmsmen and officers on the bridge. The narrow gap creates its own hazard: water flowing rapidly between the hulls lowers the pressure there, tending to draw the ships toward each other. Helicopters can also move cargo between ships, a method called vertical replenishment, which is slower for bulk fuel but useful for delivering smaller loads when ships cannot come alongside.",
+    "passage_ko": "해군은 연료, 식량, 탄약을 바다 위에서 옮겨 실어 함정의 작전 범위를 넓히는데, 이 과정을 해상 보급(underway replenishment)이라 한다. 가장 흔한 방식에서는 보급함과 수급함이 보통 30~60미터 간격으로 나란히 항해하며 그 사이로 호스와 케이블을 주고받는다. 두 함정은 오랫동안 같은 침로와 속력을 유지해야 하므로, 조타수와 함교의 장교들은 끊임없이 주의를 기울여야 한다. 좁은 간격은 그 자체로 위험을 만든다. 두 선체 사이로 물이 빠르게 흐르면 그곳의 압력이 낮아져 두 함정을 서로 끌어당기는 경향이 생긴다. 헬리콥터로 함정 사이에 화물을 옮길 수도 있는데, 이를 수직 보급(vertical replenishment)이라 한다. 이 방법은 대량의 연료를 옮기기에는 더 느리지만, 함정들이 나란히 붙을 수 없을 때 작은 화물을 전달하는 데 유용하다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "vertical replenishment is the fastest way to move large amounts of fuel",
+      "underway replenishment is carried out only in calm seas and in daylight",
+      "many U.S. Navy supply ships are crewed partly or wholly by civilian mariners",
+      "ships steaming alongside must steer to counter a pull between their hulls"
+    ],
+    "answer": 3,
+    "explain": "근거: \"lowers the pressure there, tending to draw the ships toward each other\" → 끌림에 맞서 계속 조타해야 함.\n(1) 비교 뒤집기 — 수직 보급은 대량 연료에는 '더 느림'\n(2) 과잉 일반화 — only, 그런 조건 제한은 지문에 없음\n(3) 지문에 없는 상식 — 민간 선원 이야기는 없음"
+  },
+  {
+    "id": "rct_0013",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Two Ways to See at Night",
+    "passage": "Night-vision equipment falls into two broad families. Image intensifiers collect the small amount of light available from the moon, stars, or distant towns and amplify it into a visible picture, usually shown in shades of green. Because they depend on some existing light, they perform poorly in total darkness, such as inside a windowless building, and can be overwhelmed by a sudden bright source. Thermal imagers work differently: they detect the heat that objects give off, so they need no light at all and can reveal a warm body hidden in shadows or thin foliage. Thermal images, however, show little fine detail, which can make it hard to read signs or identify faces. Some modern systems combine both methods in a single device to gain the advantages of each.",
+    "passage_ko": "야간 투시 장비는 크게 두 계열로 나뉜다. 영상 증폭관(image intensifier)은 달, 별, 먼 도시에서 오는 적은 양의 빛을 모아 증폭해 볼 수 있는 화면으로 만드는데, 보통 초록색 음영으로 표시된다. 이미 존재하는 빛에 의존하기 때문에 창문 없는 건물 내부처럼 완전한 어둠 속에서는 성능이 나쁘고, 갑작스러운 밝은 광원에 압도될 수 있다. 열영상 장비(thermal imager)는 다르게 작동한다. 물체가 내뿜는 열을 감지하므로 빛이 전혀 필요 없고, 그늘이나 얇은 수풀 속에 숨은 따뜻한 몸체를 드러낼 수 있다. 그러나 열영상은 세밀한 부분을 거의 보여 주지 못해 표지판을 읽거나 얼굴을 식별하기 어려울 수 있다. 일부 최신 장비는 두 방식을 한 장치에 결합해 각각의 장점을 얻는다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Thermal imagers need some moonlight or starlight in order to form a usable image.",
+      "A thermal imager would be more useful than an intensifier in a pitch-dark room.",
+      "Image intensifiers show finer detail than any other kind of sensor ever built.",
+      "Night-vision devices are also widely used by search-and-rescue teams."
+    ],
+    "answer": 1,
+    "explain": "근거: 증폭관은 \"they perform poorly in total darkness\", 열영상은 \"they need no light at all\".\n(1) 세부 비틀기 — 달빛·별빛이 필요한 것은 증폭관 쪽\n(3) 과잉 일반화 — any other sensor, 그런 비교는 지문에 없음\n(4) 지문에 없는 상식 — 수색구조 용도는 언급 없음"
+  },
+  {
+    "id": "rct_0014",
+    "topic": "space",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Bones in Orbit",
+    "passage": "On Earth, bones constantly rebuild themselves in response to the loads they carry. Walking, lifting, and even standing place stress on the skeleton, and that stress signals the body to maintain bone strength. In the weightlessness of orbit, those signals largely disappear. Astronauts on long missions can lose bone mass from the hips and spine at a rate of about one percent per month if they take no countermeasures. To slow this loss, crews on the International Space Station exercise for roughly two hours a day, using treadmills with harnesses and resistance machines that simulate lifting weights. Exercise has reduced the problem considerably, but it has not eliminated it, and researchers continue to study how bone recovers after astronauts return to Earth.",
+    "passage_ko": "지구에서 뼈는 자신이 받는 하중에 반응해 끊임없이 스스로를 재건한다. 걷기, 들어 올리기, 심지어 서 있는 것도 골격에 스트레스를 주며, 그 스트레스는 몸에 뼈의 강도를 유지하라는 신호가 된다. 궤도의 무중력 상태에서는 이 신호가 대부분 사라진다. 장기 임무 중인 우주비행사는 아무 대책을 쓰지 않으면 엉덩이뼈와 척추에서 한 달에 약 1퍼센트씩 골량을 잃을 수 있다. 이 손실을 늦추기 위해 국제우주정거장의 승무원들은 하네스를 단 러닝머신과 역기 들기를 흉내 내는 저항 운동 기구를 이용해 하루 약 두 시간씩 운동한다. 운동으로 문제는 상당히 줄었지만 완전히 없어지지는 않았고, 연구자들은 우주비행사가 지구로 돌아온 뒤 뼈가 어떻게 회복되는지 계속 연구하고 있다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "astronauts who exercise daily in orbit lose no bone mass at all",
+      "bone loss in orbit is caused mainly by poor nutrition aboard the station",
+      "the loads placed on bones in daily life on Earth help keep them strong",
+      "astronauts also lose muscle strength during long stays in weightlessness"
+    ],
+    "answer": 2,
+    "explain": "근거: \"that stress signals the body to maintain bone strength\".\n(1) 과잉 일반화 — 운동으로 줄었지만 \"has not eliminated it\"\n(2) 원인 바꾸기(인과 뒤집기) — 원인은 하중 신호의 소실이지 영양이 아님\n(4) 지문에 없는 상식 — 근력 손실은 언급 없음"
+  },
+  {
+    "id": "rct_0015",
+    "topic": "environment",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "When Coral Turns White",
+    "passage": "Reef-building corals depend on a partnership with tiny algae that live inside their tissues. The algae use sunlight to produce food, much of which they share with the coral, and they also give many corals their color. When water becomes unusually warm for several weeks, this partnership can break down: the stressed coral expels the algae and turns pale or white, a process known as bleaching. A bleached coral is not necessarily dead. If temperatures return to normal fairly quickly, the algae can recolonize the coral and it may recover. If the heat lasts too long, however, the coral may starve or become vulnerable to disease. Because recovery takes years, reefs struck by repeated bleaching events may have little chance to rebuild between them.",
+    "passage_ko": "산호초를 만드는 산호는 조직 안에 사는 아주 작은 조류(藻類)와의 협력 관계에 의존한다. 조류는 햇빛으로 양분을 만들어 그중 많은 부분을 산호와 나누며, 많은 산호에 색을 입혀 주기도 한다. 몇 주 동안 바닷물이 비정상적으로 따뜻해지면 이 협력 관계가 무너질 수 있다. 스트레스를 받은 산호가 조류를 내보내고 창백하거나 하얗게 변하는데, 이를 백화(bleaching)라고 한다. 백화된 산호가 반드시 죽은 것은 아니다. 수온이 비교적 빨리 정상으로 돌아오면 조류가 다시 산호에 자리 잡아 산호가 회복될 수 있다. 그러나 더위가 너무 오래 지속되면 산호는 굶거나 질병에 취약해질 수 있다. 회복에는 몇 년이 걸리므로, 백화가 반복해서 일어나는 산호초는 그 사이에 다시 자랄 기회가 거의 없을 수 있다.",
+    "q": "Which of the following best states the main idea of the passage?",
+    "q_ko": "다음 중 지문의 중심 내용을 가장 잘 나타낸 것은?",
+    "options": [
+      "Heat can break the coral–algae partnership, and recovery depends on how long it lasts.",
+      "Algae give many reef-building corals their color while producing food for them from sunlight.",
+      "Once a coral has turned white, it is always dead and can never be brought back to health.",
+      "Pollution and overfishing now threaten coral reefs more than warming water does."
+    ],
+    "answer": 0,
+    "explain": "근거: 지문 전체가 백화의 원인(\"unusually warm\")과 회복 조건(\"If temperatures return to normal fairly quickly\")을 다룬다.\n(2) 너무 좁음(세부) — 조류가 색을 준다는 것은 일부 세부\n(3) 과잉 일반화 — always/never, 지문은 \"not necessarily dead\"\n(4) 지문에 없는 상식 — 오염·남획과의 비교는 없음"
+  },
+  {
+    "id": "rct_0016",
+    "topic": "health",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Adjusting to the Dark",
+    "passage": "The human eye contains two main kinds of light-sensitive cells. Cones work best in bright light and allow us to see color and fine detail, while rods are far more sensitive and handle most of our vision at night. When a person moves from bright light into darkness, the rods need time to reach full sensitivity, and complete dark adaptation can take around thirty minutes. A brief exposure to bright white light can undo much of that progress. Rods, however, are relatively insensitive to deep red light, which is why red lamps have traditionally been used on ship bridges and in some cockpits at night. Because rods are concentrated away from the center of the retina, a faint object at night is often easier to detect by looking slightly to one side of it.",
+    "passage_ko": "사람의 눈에는 빛을 감지하는 세포가 크게 두 종류 있다. 원뿔세포(cone)는 밝은 빛에서 가장 잘 작동하며 색과 세밀한 부분을 보게 해 주고, 막대세포(rod)는 훨씬 더 민감해 야간 시력의 대부분을 담당한다. 밝은 곳에서 어두운 곳으로 이동하면 막대세포가 최대 감도에 이르기까지 시간이 필요하며, 완전한 암순응에는 약 30분이 걸릴 수 있다. 밝은 흰 빛에 잠깐만 노출되어도 그 진전의 상당 부분이 무너질 수 있다. 그러나 막대세포는 짙은 붉은빛에는 비교적 둔감하기 때문에, 전통적으로 밤에 함교와 일부 조종석에서 붉은 등을 사용해 왔다. 막대세포는 망막 중심에서 벗어난 곳에 몰려 있으므로, 밤에 희미한 물체는 약간 옆을 보면서 찾는 편이 더 쉬운 경우가 많다.",
+    "q": "The passage most strongly suggests that a lookout searching for a dim light at night should",
+    "q_ko": "지문이 가장 강하게 시사하는 바에 따르면, 밤에 희미한 불빛을 찾는 견시병은 어떻게 해야 하는가?",
+    "options": [
+      "stare directly at the spot where the light is expected to appear",
+      "check charts with a bright white flashlight between searches",
+      "eat foods rich in vitamin A to sharpen night vision before a watch",
+      "look slightly to one side of the area being searched"
+    ],
+    "answer": 3,
+    "explain": "근거: \"a faint object at night is often easier to detect by looking slightly to one side of it\".\n(1) 뒤집기 — 막대세포는 망막 중심에서 떨어져 있어 정면 응시가 불리\n(2) 세부 비틀기 — 밝은 흰 빛은 암순응을 무너뜨림(그래서 붉은 등을 씀)\n(3) 지문에 없는 상식 — 비타민 A 이야기는 없음"
+  },
+  {
+    "id": "rct_0017",
+    "topic": "economics",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Cost of a Choice",
+    "passage": "Economists define the opportunity cost of a decision as the value of the best alternative given up when that choice is made. The idea reaches beyond money. A student who spends a weekend working a part-time job earns wages, but the opportunity cost may include study time that could have raised an exam grade. Governments face the same logic on a larger scale: funds spent on one program cannot be spent on another, even if both are worthwhile. Opportunity costs are easy to overlook because they involve outcomes that never happen and so leave no receipt. A decision can therefore appear cheap when only direct spending is counted, yet prove expensive once the forgone alternatives are considered.",
+    "passage_ko": "경제학자들은 어떤 결정의 기회비용을 그 선택을 할 때 포기한 최선의 대안의 가치로 정의한다. 이 개념은 돈 문제를 넘어선다. 주말에 아르바이트를 하는 학생은 임금을 벌지만, 그 기회비용에는 시험 성적을 올릴 수 있었던 공부 시간이 포함될 수 있다. 정부도 더 큰 규모에서 같은 논리를 마주한다. 한 사업에 쓴 자금은 둘 다 가치 있는 사업이라 해도 다른 사업에는 쓸 수 없다. 기회비용은 결코 일어나지 않는 결과와 관련되어 영수증을 남기지 않기 때문에 간과하기 쉽다. 따라서 어떤 결정은 직접 지출만 따지면 싸 보이지만, 포기한 대안까지 고려하면 비싼 것으로 드러날 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Opportunity cost applies only to choices that involve spending money.",
+      "Opportunity costs are usually easy to notice because they leave a clear record.",
+      "Two choices with the same price may not carry the same true cost.",
+      "Businesses often use opportunity cost when deciding how to invest their profits."
+    ],
+    "answer": 2,
+    "explain": "근거: \"A decision can therefore appear cheap when only direct spending is counted\" — 포기한 대안까지 따지면 비쌀 수 있으므로 값이 같아도 실제 비용은 다를 수 있다.\n(1) 과잉 일반화 — only, 지문은 \"reaches beyond money\"\n(2) 뒤집기 — 기회비용은 \"leave no receipt\"라서 놓치기 쉬움\n(4) 지문에 없는 상식 — 기업 투자 사례는 없음"
+  },
+  {
+    "id": "rct_0018",
+    "topic": "science",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Nearly Indestructible Animals",
+    "passage": "Tardigrades, sometimes called water bears, are animals usually less than a millimeter long that live in moss, soil, and water around the world. They are famous for surviving conditions that would kill most living things. When their surroundings dry out, many species pull in their legs, lose nearly all of their body water, and enter a state called cryptobiosis, in which their metabolism slows almost to a stop. In this form they can endure extreme cold, high radiation, and even exposure to the vacuum of space, then revive within hours when water returns. Their toughness has limits, however. Active tardigrades are far more fragile than dried ones, and they cannot survive indefinitely in harsh conditions.",
+    "passage_ko": "완보동물(tardigrade)은 '물곰'이라고도 불리며, 보통 몸길이가 1밀리미터도 안 되고 전 세계의 이끼, 흙, 물속에 산다. 이들은 대부분의 생물을 죽일 만한 조건에서도 살아남는 것으로 유명하다. 주변이 말라붙으면 많은 종이 다리를 움츠리고 몸속 수분을 거의 모두 잃은 채 크립토비오시스(cryptobiosis)라는 상태에 들어가는데, 이 상태에서는 대사가 거의 멈출 정도로 느려진다. 이 형태로 그들은 극심한 추위, 강한 방사선, 심지어 우주의 진공에 노출되는 것까지 견딘 뒤, 물이 돌아오면 몇 시간 안에 되살아날 수 있다. 그러나 그 강인함에도 한계가 있다. 활동 중인 완보동물은 말라 있는 것보다 훨씬 연약하며, 가혹한 조건에서 무한정 살아남을 수는 없다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "A dried tardigrade can withstand conditions that would kill an active one.",
+      "Tardigrades survive harsh conditions best while they are active and moving.",
+      "Tardigrades can survive any harsh condition for an unlimited length of time.",
+      "Tardigrades were first described by scientists in the eighteenth century."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Active tardigrades are far more fragile than dried ones\".\n(2) 뒤집기 — 활동 상태일 때가 훨씬 더 약함\n(3) 과잉 일반화 — any/unlimited, 지문은 \"cannot survive indefinitely\"\n(4) 지문에 없는 상식 — 최초 기록 시기는 없음"
+  },
+  {
+    "id": "rct_0019",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "When the Inner Ear Lies",
+    "passage": "The inner ear contains fluid-filled canals that sense rotation, but they respond to changes in motion rather than to steady motion. If an aircraft enters a gradual bank, slowly enough that the fluid never registers the change, the pilot may continue to feel level even while the wings are tilted. When the pilot later rolls back to level flight, the inner ear detects that roll and produces a false sensation of banking in the opposite direction. Pilots call this illusion the leans, and many feel a strong urge to tilt their bodies or the aircraft to match it. The illusion is most dangerous when outside visual references are lost, as in clouds or on a dark night over water. Training therefore stresses one rule above all: when the body and the instruments disagree, believe the instruments.",
+    "passage_ko": "내이(속귀)에는 회전을 감지하는, 액체로 찬 반고리관이 있지만, 이 기관은 일정한 운동이 아니라 운동의 변화에 반응한다. 항공기가 액체가 변화를 전혀 감지하지 못할 만큼 천천히 완만한 경사에 들어가면, 조종사는 날개가 기울어져 있는데도 계속 수평이라고 느낄 수 있다. 나중에 조종사가 수평 비행으로 되돌리면 내이는 그 롤을 감지해 반대 방향으로 기울어진 듯한 거짓 감각을 만든다. 조종사들은 이 착각을 '리닝(the leans)'이라 부르며, 많은 이들이 이 감각에 맞춰 몸이나 항공기를 기울이고 싶은 강한 충동을 느낀다. 이 착각은 구름 속이나 어두운 밤바다 위처럼 외부 시각 참조물이 사라졌을 때 가장 위험하다. 그래서 훈련에서는 무엇보다 한 가지 규칙을 강조한다. 몸의 감각과 계기가 다를 때는 계기를 믿어라.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The leans occur only when a pilot is flying at night over open water.",
+      "The inner ear tends to sense a steady turn more accurately than a change in motion.",
+      "Spatial disorientation has been a factor in many fatal aviation accidents.",
+      "A pilot who feels level may nonetheless be flying with the wings banked."
+    ],
+    "answer": 3,
+    "explain": "근거: \"the pilot may continue to feel level even while the wings are tilted\".\n(1) 과잉 일반화 — only, 밤바다는 '가장 위험한' 상황의 예일 뿐\n(2) 비교 뒤집기 — 반고리관은 일정한 운동이 아니라 운동의 '변화'에 반응\n(3) 지문에 없는 상식 — 사고 통계는 언급 없음"
+  },
+  {
+    "id": "rct_0020",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Listening Versus Pinging",
+    "passage": "Sonar comes in two basic forms. Active sonar sends out a pulse of sound, often called a ping, and listens for the echo that returns from a target. By timing the echo, an operator can measure the target's range as well as its direction. The drawback is that the ping can be heard by others, including the submarine being hunted, which may learn it has been detected. Passive sonar only listens for sounds that other vessels make, such as noise from propellers and machinery. It reveals nothing about the listener, but it usually gives direction more readily than range, and a very quiet target may escape notice. For these reasons, submarines rely heavily on passive sonar, and designers work hard to make their own boats as quiet as possible.",
+    "passage_ko": "소나에는 두 가지 기본 형태가 있다. 능동 소나는 흔히 '핑(ping)'이라 불리는 음파 펄스를 내보내고 표적에서 되돌아오는 메아리를 듣는다. 메아리가 돌아오는 시간을 재면 운용자는 표적의 방향뿐 아니라 거리도 측정할 수 있다. 단점은 추적당하는 잠수함을 포함한 다른 이들도 그 핑을 들을 수 있어서, 상대가 자신이 탐지되었다는 사실을 알게 될 수 있다는 점이다. 수동 소나는 프로펠러나 기계 소음처럼 다른 함정이 내는 소리만 듣는다. 듣는 쪽에 대해서는 아무것도 드러내지 않지만, 보통 거리보다 방향을 더 쉽게 알려 주며, 아주 조용한 표적은 탐지를 피할 수도 있다. 이런 이유로 잠수함은 수동 소나에 크게 의존하며, 설계자들은 자기 함정을 최대한 조용하게 만들려고 애쓴다.",
+    "q": "According to the passage, one disadvantage of active sonar is that it",
+    "q_ko": "지문에 따르면, 능동 소나의 단점 하나는?",
+    "options": [
+      "cannot measure how far away a target is",
+      "may alert the target that it has been detected",
+      "detects only vessels that are making noise",
+      "can never be used by submarines while they are on patrol"
+    ],
+    "answer": 1,
+    "explain": "근거: \"the ping can be heard by others ... which may learn it has been detected\".\n(1) 뒤집기 — 능동 소나는 거리(range)까지 측정함\n(3) 세부 비틀기 — 소음을 내는 표적에만 의존하는 것은 수동 소나\n(4) 과잉 일반화 — never, 잠수함이 수동 소나에 '크게 의존'한다고만 함"
+  },
+  {
+    "id": "rct_0021",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Feeding Troops in the Field",
+    "passage": "Field rations must meet demands that ordinary food does not. They have to survive rough handling, airdrops, and extreme temperatures, and they must remain safe to eat for years in storage. Troops in hard physical work may burn far more calories than office workers, so a day's rations are designed to supply substantial energy in a compact package. Yet nutrition on paper does not guarantee nutrition in practice. Studies of soldiers in the field have found that many eat less than they need, partly because they grow tired of the same few menus and partly because they skip meals when busy or exhausted. Designers have responded by increasing variety and creating items that can be eaten on the move, since a ration that goes uneaten provides no benefit.",
+    "passage_ko": "야전 전투식량은 일반 음식에는 없는 요구 조건을 충족해야 한다. 거친 취급, 공중 투하, 극한 온도를 견뎌야 하고, 저장 상태에서 수년 동안 안전하게 먹을 수 있어야 한다. 힘든 육체 작업을 하는 병력은 사무직 근로자보다 훨씬 많은 열량을 소모할 수 있으므로, 하루치 식량은 작은 포장에 상당한 에너지를 담도록 설계된다. 그러나 서류상의 영양이 실제 영양을 보장하지는 않는다. 야전 병사들을 조사한 연구들은 많은 병사가 필요한 양보다 적게 먹는다는 사실을 발견했는데, 몇 가지 같은 메뉴에 질리기도 하고, 바쁘거나 지쳤을 때 끼니를 거르기도 하기 때문이다. 설계자들은 메뉴를 다양화하고 이동하면서 먹을 수 있는 품목을 만드는 것으로 대응했다. 먹지 않은 식량은 아무 도움이 되지 않기 때문이다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "improving the variety of rations may help troops get enough energy",
+      "field rations usually supply fewer calories than the meals of office workers",
+      "soldiers in the field always eat every meal that they are issued",
+      "modern rations include flameless heaters to warm the main course"
+    ],
+    "answer": 0,
+    "explain": "근거: \"many eat less than they need, partly because they grow tired of the same few menus\" + \"a ration that goes uneaten provides no benefit\".\n(2) 비교 뒤집기 — 고된 작업을 하는 병력이 사무직보다 훨씬 많은 열량을 씀\n(3) 과잉 일반화 — always, 오히려 끼니를 거른다고 함\n(4) 지문에 없는 상식 — 무화염 발열체는 언급 없음"
+  },
+  {
+    "id": "rct_0022",
+    "topic": "technology",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "When Batteries Overheat",
+    "passage": "Lithium-ion batteries store a great deal of energy in a small, light package, which is why they power everything from phones to military radios. That same energy density creates a risk. If a cell is damaged, overcharged, or exposed to high heat, internal reactions can release more heat, which speeds up further reactions in a cycle called thermal runaway. Once it begins, the cell may vent flammable gases, catch fire, or spread heat to neighboring cells in the same pack. Such fires are difficult to put out because the cell can continue producing heat internally. Well-designed packs therefore include electronic circuits that stop charging at safe limits and physical barriers that slow the spread of heat between cells, though no design removes the hazard entirely.",
+    "passage_ko": "리튬이온 배터리는 작고 가벼운 포장에 많은 에너지를 저장하기 때문에 휴대전화부터 군용 무전기까지 온갖 장비에 전력을 공급한다. 바로 그 높은 에너지 밀도가 위험을 만든다. 셀이 손상되거나, 과충전되거나, 높은 열에 노출되면 내부 반응이 더 많은 열을 내고, 그 열이 다시 반응을 가속하는 순환이 생기는데 이를 열폭주(thermal runaway)라 한다. 일단 시작되면 셀은 가연성 가스를 내뿜거나, 불이 붙거나, 같은 팩 안의 이웃 셀로 열을 퍼뜨릴 수 있다. 셀이 내부에서 계속 열을 만들어 낼 수 있기 때문에 이런 화재는 끄기 어렵다. 그래서 잘 설계된 배터리 팩에는 안전 한계에서 충전을 멈추는 전자 회로와 셀 사이의 열 확산을 늦추는 물리적 차단벽이 들어가지만, 어떤 설계도 위험을 완전히 없애지는 못한다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Thermal runaway is most often triggered by storing a battery in extreme cold.",
+      "Well-designed packs have removed the danger of thermal runaway entirely.",
+      "Once thermal runaway starts, a cell can keep heating without any outside heat.",
+      "Lithium-ion cells store less energy for their weight than most older batteries."
+    ],
+    "answer": 2,
+    "explain": "근거: \"the cell can continue producing heat internally\" — 열이 반응을 더 빠르게 하는 순환이 스스로 이어진다.\n(1) 세부 비틀기 — 원인은 손상·과충전·'고온'이지 추위가 아님\n(2) 과잉 일반화 — entirely, 지문은 \"no design removes the hazard entirely\"\n(4) 비교 뒤집기 — 작고 가벼운 데 에너지를 '많이' 저장함"
+  },
+  {
+    "id": "rct_0023",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Finding Longitude at Sea",
+    "passage": "For centuries, sailors could find their latitude fairly easily by measuring the height of the sun or certain stars, but longitude was another matter. Because the earth turns fifteen degrees every hour, longitude can be found by comparing local time with the time at a reference point, yet that requires a clock that keeps accurate time for weeks aboard a rolling ship. Ordinary pendulum clocks failed at sea, and errors of only a few minutes could place a ship many miles from its true position. In the eighteenth century, the British government offered a large prize for a practical solution. A carpenter and self-taught clockmaker eventually built marine timekeepers accurate enough to meet the challenge, though it took decades before such instruments became common on ships.",
+    "passage_ko": "수 세기 동안 선원들은 태양이나 특정 별의 고도를 재어 위도는 비교적 쉽게 알아낼 수 있었지만, 경도는 사정이 달랐다. 지구는 한 시간에 15도씩 돌기 때문에 현지 시각을 기준 지점의 시각과 비교하면 경도를 구할 수 있지만, 그러려면 흔들리는 배 위에서 몇 주 동안 정확한 시간을 유지하는 시계가 필요하다. 보통의 진자시계는 바다에서 제 역할을 하지 못했고, 불과 몇 분의 오차만으로도 배의 위치가 실제보다 여러 마일이나 벗어날 수 있었다. 18세기에 영국 정부는 실용적인 해결책에 큰 상금을 내걸었다. 결국 목수이자 독학한 시계 제작자가 이 과제를 해결할 만큼 정확한 해상용 시계를 만들었지만, 그런 기구가 배에서 흔해지기까지는 수십 년이 걸렸다.",
+    "q": "It can be inferred from the passage that before accurate marine clocks became common,",
+    "q_ko": "지문으로부터 추론할 때, 정확한 해상용 시계가 흔해지기 전에는?",
+    "options": [
+      "sailors had no reliable way to determine their latitude",
+      "a ship's estimated longitude could be off by a considerable distance",
+      "pendulum clocks were the standard timekeepers on all ocean voyages",
+      "navigators on land sometimes used Jupiter's moons to find longitude"
+    ],
+    "answer": 1,
+    "explain": "근거: \"errors of only a few minutes could place a ship many miles from its true position\".\n(1) 뒤집기 — 위도는 \"fairly easily\" 구할 수 있었음\n(3) 과잉 일반화 — all, 진자시계는 바다에서 실패했음\n(4) 지문에 없는 상식 — 목성 위성 관측법은 언급 없음"
+  },
+  {
+    "id": "rct_0024",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Learning from the After-Action Review",
+    "passage": "After a training exercise or operation, many military units hold an after-action review, a structured discussion of what was supposed to happen, what actually happened, why the two differed, and what should be done next time. The review works best when participants speak openly about mistakes, including their own. For that reason, leaders often set rank aside during the discussion and focus on events rather than on assigning blame. A review that turns into a search for someone to punish tends to teach people to hide errors, which defeats its purpose. The most useful reviews are held soon after the event, while memories are fresh, and end with specific actions that someone is responsible for carrying out.",
+    "passage_ko": "훈련이나 작전이 끝난 뒤 많은 군 부대는 사후 강평(after-action review)을 연다. 이는 원래 무엇이 일어나야 했는지, 실제로 무엇이 일어났는지, 둘이 왜 달랐는지, 다음에는 무엇을 해야 하는지를 다루는 구조화된 토의다. 강평은 참가자들이 자신의 실수를 포함한 잘못을 솔직하게 이야기할 때 가장 효과가 좋다. 그래서 지휘자들은 토의 중에는 계급을 제쳐 두고 책임을 묻기보다 사건 자체에 초점을 맞추는 경우가 많다. 처벌할 사람을 찾는 자리로 변한 강평은 사람들에게 실수를 숨기도록 가르치는 경향이 있고, 이는 강평의 목적을 무너뜨린다. 가장 유용한 강평은 기억이 생생할 때, 즉 사건 직후에 열리며, 누군가가 책임지고 실행할 구체적인 조치로 마무리된다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Reviews are most useful when they are held several weeks after an event.",
+      "Leaders should usually avoid discussing their own mistakes during a review.",
+      "After-action reviews were developed by the U.S. Army in the 1970s.",
+      "Using a review to assign blame can make later reviews less honest."
+    ],
+    "answer": 3,
+    "explain": "근거: \"A review that turns into a search for someone to punish tends to teach people to hide errors\".\n(1) 뒤집기 — 기억이 생생할 때 \"soon after\" 여는 것이 가장 유용\n(2) 세부 비틀기 — 자신의 실수까지(\"including their own\") 솔직히 말해야 함\n(3) 지문에 없는 상식 — 기원은 언급 없음"
+  },
+  {
+    "id": "rct_0025",
+    "topic": "culture",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Songs for Hauling Rope",
+    "passage": "On sailing ships of the nineteenth century, sea shanties were more than entertainment. Many heavy tasks, such as raising an anchor or hoisting a large sail, required a group of sailors to pull or push in unison. A lead singer, called the shantyman, sang the verses while the crew answered with a chorus, and the rhythm told everyone exactly when to heave. Different jobs called for different songs: a steady, repetitive task suited a long song with an even beat, while short, sharp pulls needed a song with a strong accent at regular intervals. As steam engines replaced sails and machines took over much of the hauling, shanties lost their practical role, though many survive today as folk music.",
+    "passage_ko": "19세기 범선에서 뱃노래(sea shanty)는 단순한 오락 이상이었다. 닻을 올리거나 큰 돛을 끌어올리는 것처럼 무거운 작업 중에는 여러 선원이 한꺼번에 당기거나 밀어야 하는 일이 많았다. '샨티맨(shantyman)'이라 불리는 선창자가 절을 부르면 선원들이 후렴으로 답했고, 그 리듬이 모두에게 정확히 언제 힘을 써야 하는지 알려 주었다. 작업마다 맞는 노래가 달랐다. 꾸준히 반복되는 일에는 박자가 고른 긴 노래가, 짧고 날카롭게 당기는 일에는 일정한 간격으로 강한 악센트가 있는 노래가 어울렸다. 증기기관이 돛을 대신하고 기계가 끌어올리는 일의 많은 부분을 맡게 되면서 뱃노래는 실용적인 역할을 잃었지만, 많은 노래가 오늘날 민요로 남아 있다.",
+    "q": "The main point of the passage is that sea shanties",
+    "q_ko": "지문의 요지에 따르면, 뱃노래(sea shanty)는?",
+    "options": [
+      "served a practical purpose by helping sailors coordinate heavy work",
+      "are still sung today by many people as a popular form of folk music",
+      "were sung only while raising the anchor on the largest sailing ships",
+      "caused steam engines to replace sails on nineteenth-century ships"
+    ],
+    "answer": 0,
+    "explain": "근거: \"sea shanties were more than entertainment\" + 리듬이 \"exactly when to heave\"를 알려 줌 — 작업 조율이라는 실용적 역할이 요지.\n(2) 너무 좁음(세부) — 오늘날 민요로 남았다는 것은 마지막 세부\n(3) 과잉 일반화 — only, 돛 올리기 등 여러 작업에 쓰임\n(4) 인과 뒤집기 — 증기기관 때문에 뱃노래가 실용성을 잃은 것"
+  },
+  {
+    "id": "rct_0026",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Ice in a Warm Engine",
+    "passage": "Many pilots are surprised to learn that carburetor ice can form on a mild day. In a carbureted engine, air speeds up as it passes through a narrow throat called the venturi, and the drop in pressure, together with the evaporation of fuel, can cool the air by 20 degrees Celsius or more. If the air is humid, moisture may freeze on the inside of the carburetor even when the outside temperature is well above freezing. The ice gradually restricts airflow, and the first sign is often a slow loss of engine power. Pilots counter it by applying carburetor heat, which routes warmed air into the intake. Because low power settings make icing more likely in some engines, many pilots apply carburetor heat before reducing power for a descent.",
+    "passage_ko": "많은 조종사는 온화한 날에도 기화기 결빙이 생길 수 있다는 사실을 알고 놀란다. 기화기 엔진에서는 공기가 벤투리(venturi)라는 좁은 목을 지나며 빨라지는데, 이때의 압력 강하와 연료의 증발이 함께 공기를 섭씨 20도 이상 식힐 수 있다. 공기가 습하면 바깥 기온이 영상보다 훨씬 높아도 수분이 기화기 내부에서 얼 수 있다. 얼음은 공기 흐름을 점점 막고, 첫 징후는 흔히 엔진 출력이 서서히 떨어지는 것이다. 조종사는 데워진 공기를 흡입구로 보내는 기화기 히트(carburetor heat)를 사용해 이에 대응한다. 일부 엔진에서는 낮은 출력 설정이 결빙 가능성을 높이므로, 많은 조종사가 강하를 위해 출력을 줄이기 전에 기화기 히트를 켠다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Carburetor ice can form only when the outside air is below freezing.",
+      "Fuel-injected engines are generally not subject to carburetor icing.",
+      "A gradual loss of power on a humid day may point to carburetor ice.",
+      "Carburetor heat works by cooling the air before it enters the engine."
+    ],
+    "answer": 2,
+    "explain": "근거: \"If the air is humid, moisture may freeze\" + \"the first sign is often a slow loss of engine power\".\n(1) 과잉 일반화 — only, 바깥 기온이 영상이어도 생길 수 있음\n(2) 지문에 없는 상식 — 연료분사식 엔진은 언급 없음\n(4) 세부 비틀기 — 기화기 히트는 '데운' 공기를 넣음"
+  },
+  {
+    "id": "rct_0027",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Holding the Flooding Back",
+    "passage": "Warships are divided into many watertight compartments so that damage to one section need not sink the whole ship. The protection, however, is only as good as the doors and hatches between compartments. During routine steaming, many fittings are left open so that crew members can move and work efficiently. As the threat of attack or collision rises, the ship sets progressively stricter material conditions, closing more fittings each time. The strictest condition offers the most protection against spreading flooding and fire, but it also slows movement through the ship, making it harder to carry out repairs, bring ammunition forward, or move casualties. Commanding officers must therefore judge when greater security is worth the loss of mobility inside the hull.",
+    "passage_ko": "군함은 많은 수밀 구획으로 나뉘어 있어서 한 구역이 손상되어도 배 전체가 가라앉지 않을 수 있다. 그러나 그 보호 효과는 구획 사이의 문과 해치가 얼마나 잘 닫혀 있느냐에 달려 있다. 평상시 항해 중에는 승조원이 효율적으로 이동하고 일할 수 있도록 많은 개폐 장치를 열어 둔다. 공격이나 충돌의 위협이 커지면 함정은 점점 더 엄격한 '물적 상태(material condition)'를 설정하고, 그때마다 더 많은 개폐 장치를 닫는다. 가장 엄격한 상태는 침수와 화재의 확산을 가장 잘 막아 주지만, 함 내부의 이동을 느리게 해 수리 작업, 탄약 운반, 부상자 이송을 더 어렵게 만든다. 그러므로 함장은 더 큰 안전이 함 내 기동성 손실을 감수할 만한 때가 언제인지 판단해야 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The strictest condition is the best choice at all times while under way.",
+      "Leaving more fittings open can improve protection against the spread of fire.",
+      "Modern warships often use sensors to detect flooding in unmanned spaces.",
+      "A captain might accept a less strict condition even when some threat exists."
+    ],
+    "answer": 3,
+    "explain": "근거: \"Commanding officers must therefore judge when greater security is worth the loss of mobility\" → 위협이 있어도 기동성을 위해 덜 엄격한 상태를 택할 수 있다.\n(1) 과잉 일반화 — at all times, 가장 엄격한 상태는 이동·수리를 늦춤\n(2) 뒤집기 — 더 많이 '닫을수록' 확산 방지 효과가 큼\n(3) 지문에 없는 상식 — 센서 이야기는 없음"
+  },
+  {
+    "id": "rct_0028",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Counting Paces",
+    "passage": "Even in an age of satellite navigation, soldiers still learn to navigate with a map, a compass, and a pace count. A pace count is the number of steps a person takes to cover a known distance, often 100 meters, and it allows a navigator to estimate how far he or she has traveled. The count is personal, since it depends on stride length, and it changes with conditions. Walking uphill, carrying a heavy load, or moving through mud or thick brush all shorten a person's stride, so more steps are needed to cover the same ground. Experienced navigators check their count on different kinds of terrain and adjust for these effects, and they confirm their estimated position whenever they can by matching the map to landmarks such as hilltops, streams, and road junctions.",
+    "passage_ko": "위성항법의 시대에도 병사들은 여전히 지도, 나침반, 보수(pace count)로 길을 찾는 법을 배운다. 보수란 이미 아는 거리, 흔히 100미터를 가는 데 필요한 걸음 수로, 항법자는 이를 통해 자신이 얼마나 이동했는지 추정할 수 있다. 보수는 보폭에 따라 달라지므로 개인마다 다르며, 조건에 따라서도 바뀐다. 오르막을 걷거나, 무거운 짐을 지거나, 진흙이나 빽빽한 덤불을 지나면 모두 보폭이 짧아지므로 같은 거리를 가는 데 더 많은 걸음이 필요하다. 숙련된 항법자는 여러 지형에서 자신의 보수를 확인해 이러한 영향을 보정하며, 가능할 때마다 산봉우리, 개울, 도로 교차점 같은 지형지물을 지도와 맞춰 추정 위치를 확인한다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Every soldier in a unit uses the same standard pace count.",
+      "A soldier carrying a heavy load usually needs more steps to cover 100 meters.",
+      "Walking uphill tends to lengthen a person's stride and reduce the step count.",
+      "Military GPS receivers use encrypted signals that resist jamming."
+    ],
+    "answer": 1,
+    "explain": "근거: \"carrying a heavy load ... all shorten a person's stride, so more steps are needed\".\n(1) 과잉 일반화 — every/same, 보수는 개인마다 다름(\"The count is personal\")\n(3) 인과 뒤집기 — 오르막은 보폭을 '줄여' 걸음 수가 늘어남\n(4) 지문에 없는 상식 — 암호화 GPS 신호는 언급 없음"
+  },
+  {
+    "id": "rct_0029",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Crystals and Cooling",
+    "passage": "When molten rock cools and hardens, the size of the crystals that form depends largely on how quickly it cools. Magma that cools slowly deep underground gives atoms time to migrate and join growing crystals, producing coarse-grained rock such as granite, in which individual crystals are easy to see. Lava that erupts onto the surface cools much faster, so crystals have little time to grow, and the result is fine-grained rock such as basalt. If cooling is extremely rapid, as when lava pours into water, crystals may not form at all, leaving a natural glass. Some rocks show two distinct crystal sizes, large crystals scattered through a fine-grained background, which geologists interpret as a record of two stages of cooling.",
+    "passage_ko": "녹은 암석이 식어 굳을 때 생기는 결정의 크기는 주로 얼마나 빨리 식느냐에 달려 있다. 땅속 깊은 곳에서 천천히 식는 마그마는 원자들이 이동해 자라는 결정에 붙을 시간을 주므로, 화강암처럼 개별 결정이 쉽게 보이는 조립질 암석을 만든다. 지표로 분출한 용암은 훨씬 빨리 식어 결정이 자랄 시간이 거의 없고, 그 결과 현무암 같은 세립질 암석이 된다. 용암이 물속으로 쏟아질 때처럼 냉각이 극도로 빠르면 결정이 아예 생기지 않아 천연 유리가 남을 수 있다. 어떤 암석은 세립질 바탕 속에 큰 결정이 흩어져 있는, 뚜렷한 두 가지 결정 크기를 보이는데, 지질학자들은 이를 두 단계 냉각의 기록으로 해석한다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "A rock with large visible crystals probably cooled slowly below the surface.",
+      "Faster cooling generally produces larger crystals than slower cooling does.",
+      "Every igneous rock contains crystals that can be seen without a microscope.",
+      "Granite is widely used as a building stone because it is hard and durable."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Magma that cools slowly deep underground ... producing coarse-grained rock\".\n(2) 인과 뒤집기 — 빨리 식을수록 결정이 '작음'\n(3) 과잉 일반화 — every, 급랭하면 결정 없는 유리가 됨\n(4) 지문에 없는 상식 — 건축 석재 용도는 없음"
+  },
+  {
+    "id": "rct_0030",
+    "topic": "space",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Debris in Low Orbit",
+    "passage": "Thousands of active satellites now circle the earth, along with a much larger number of dead satellites, spent rocket stages, and fragments from past collisions and explosions. Because objects in low orbit travel at around 7 to 8 kilometers per second, even a fragment the size of a coin can strike with enough energy to damage a spacecraft. Operators track the larger pieces and move their satellites when a close approach is predicted, but the smallest fragments are too numerous and too small to follow. Scientists have warned that if debris becomes dense enough, each collision could create fragments that cause further collisions, a chain reaction that might make some orbits hazardous to use for generations. To reduce this risk, newer satellites are increasingly designed to leave orbit at the end of their working lives.",
+    "passage_ko": "현재 수천 개의 작동 중인 위성이 지구를 돌고 있으며, 그보다 훨씬 많은 수의 고장 난 위성, 다 쓴 로켓 단, 과거 충돌과 폭발에서 생긴 파편도 함께 돌고 있다. 저궤도의 물체는 초속 약 7~8킬로미터로 움직이므로, 동전만 한 파편도 우주선을 손상시킬 만한 에너지로 부딪칠 수 있다. 운영자들은 비교적 큰 파편을 추적하다가 근접 통과가 예측되면 위성을 이동시키지만, 가장 작은 파편은 너무 많고 너무 작아서 추적할 수 없다. 과학자들은 잔해가 충분히 밀집되면 충돌 하나하나가 또 다른 충돌을 일으키는 파편을 만들어, 일부 궤도를 여러 세대 동안 사용하기 위험하게 만드는 연쇄 반응이 일어날 수 있다고 경고해 왔다. 이런 위험을 줄이기 위해, 새 위성은 수명이 끝나면 궤도를 벗어나도록 설계되는 경우가 점점 늘고 있다.",
+    "q": "According to the passage, satellite operators respond to a predicted close approach by",
+    "q_ko": "지문에 따르면, 위성 운영자들은 근접 통과가 예측되면 어떻게 대응하는가?",
+    "options": [
+      "adding extra shielding to protect against fragments of any size",
+      "following even the smallest fragments more closely than usual",
+      "having space station crews shelter inside their return capsules",
+      "maneuvering their satellites away from the predicted path"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Operators track the larger pieces and move their satellites when a close approach is predicted\".\n(1) 과잉 일반화 — any size, 차폐 이야기는 지문에 없음\n(2) 세부 비틀기 — 가장 작은 파편은 \"too small to follow\"\n(3) 지문에 없는 상식 — 우주정거장 승무원 대피는 언급 없음"
+  },
+  {
+    "id": "rct_0031",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Nature's Sponges",
+    "passage": "Wetlands such as marshes and swamps can reduce flooding downstream. During heavy rain, they absorb and store large volumes of water, then release it slowly over days or weeks, lowering the peak flow that reaches towns along a river. Coastal wetlands can also soften the force of storm surges by slowing moving water with dense vegetation. For much of the past two centuries, however, wetlands were commonly drained and filled to create farmland or building sites. In some river basins, engineers later found that flood peaks had grown higher, since water that once spread across the wetlands now rushed directly into the channel. Several regions have since begun restoring wetlands, often at considerable cost, as a complement to levees and dams rather than a replacement for them.",
+    "passage_ko": "늪과 소택지 같은 습지는 하류의 홍수를 줄일 수 있다. 폭우가 내리는 동안 습지는 많은 양의 물을 흡수해 저장했다가 며칠이나 몇 주에 걸쳐 천천히 내보내, 강을 따라 있는 마을에 닿는 최대 유량을 낮춘다. 해안 습지는 빽빽한 식물로 움직이는 물을 늦춰 폭풍 해일의 힘을 약화시킬 수도 있다. 그러나 지난 두 세기의 상당 기간 동안 습지는 농지나 건축 부지를 만들기 위해 흔히 배수되고 메워졌다. 일부 하천 유역에서는 나중에 기술자들이 홍수 최고 수위가 더 높아졌다는 것을 발견했는데, 예전에는 습지 전체로 퍼지던 물이 이제는 곧바로 하도로 몰려들었기 때문이다. 이후 여러 지역이 흔히 상당한 비용을 들여 습지를 복원하기 시작했는데, 이는 제방과 댐을 대체하기 위해서가 아니라 보완하기 위해서였다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Restored wetlands have made levees and dams unnecessary in several regions.",
+      "Draining wetlands in a river basin may make downstream floods more severe.",
+      "Wetlands also filter pollutants and provide habitat for migrating birds.",
+      "Wetlands can raise flood peaks by releasing their stored water all at once."
+    ],
+    "answer": 1,
+    "explain": "근거: \"flood peaks had grown higher, since water that once spread across the wetlands now rushed directly into the channel\".\n(1) 세부 비틀기 — 복원은 제방·댐의 \"a complement ... rather than a replacement\"\n(3) 지문에 없는 상식 — 정화·서식지 기능은 언급 없음\n(4) 인과 뒤집기 — 습지는 물을 '천천히' 내보내 최대 유량을 낮춤"
+  },
+  {
+    "id": "rct_0032",
+    "topic": "health",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Too Much Water",
+    "passage": "Dehydration is a well-known danger during long exertion in the heat, but drinking far more water than the body loses can also cause harm. During prolonged exercise, people lose sodium along with water in their sweat. If they replace the lost fluid with large amounts of plain water alone, the sodium in their blood can become diluted, a condition called hyponatremia. Mild cases cause nausea and headache, symptoms that are easily mistaken for dehydration, which may lead a person to drink even more. Severe cases can cause confusion, seizures, and death. For this reason, guidance for military training and endurance sports now generally limits hourly water intake and encourages salty snacks or electrolyte drinks during long events, rather than urging people to drink as much as possible.",
+    "passage_ko": "탈수는 더위 속 장시간 활동에서 잘 알려진 위험이지만, 몸이 잃는 것보다 훨씬 많은 물을 마시는 것도 해로울 수 있다. 오래 운동하는 동안 사람은 땀으로 물과 함께 나트륨도 잃는다. 잃은 수분을 많은 양의 맹물로만 보충하면 혈중 나트륨이 희석될 수 있는데, 이를 저나트륨혈증(hyponatremia)이라 한다. 가벼운 경우에는 메스꺼움과 두통이 나타나는데, 이 증상은 탈수로 착각하기 쉬워서 오히려 물을 더 마시게 만들 수 있다. 심한 경우에는 의식 혼란, 발작, 사망까지 일어날 수 있다. 이 때문에 오늘날 군사 훈련과 지구력 스포츠의 지침은 가능한 한 많이 마시라고 권하는 대신, 대체로 시간당 물 섭취량을 제한하고 긴 행사 중에는 짭짤한 간식이나 전해질 음료를 권장한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "drinking as much plain water as possible is the safest way to avoid heat injury",
+      "hyponatremia usually results from losing too much fluid through heavy sweating",
+      "a soldier with nausea and headache on a long march may not need more water",
+      "heat stroke occurs when the body's core temperature rises above about 40°C"
+    ],
+    "answer": 2,
+    "explain": "근거: \"symptoms that are easily mistaken for dehydration, which may lead a person to drink even more\" → 메스꺼움·두통이 있어도 물이 더 필요한 것은 아닐 수 있다.\n(1) 과잉 일반화 — 지문은 '최대한 마셔라'는 권고를 버렸다고 함\n(2) 인과 뒤집기 — 원인은 수분 손실이 아니라 맹물을 너무 많이 마셔 나트륨이 희석되는 것\n(4) 지문에 없는 상식 — 열사병 체온 기준은 없음"
+  },
+  {
+    "id": "rct_0033",
+    "topic": "economics",
+    "diff": 2,
+    "qtype": "main_idea",
+    "title": "Fixed Incomes and Rising Prices",
+    "passage": "Inflation is a general rise in prices that reduces what a given amount of money can buy. Its effects are not spread evenly. People whose wages rise as fast as prices may notice little change in their standard of living, but those living on a fixed income, such as a pension that pays the same amount each year, lose purchasing power every year that prices climb. Savers can also lose ground if the interest they earn is lower than the rate of inflation. Borrowers, on the other hand, may benefit, because they repay loans with money that is worth less than when they borrowed it. For this reason, many pensions and benefit programs are adjusted periodically to keep pace with the cost of living.",
+    "passage_ko": "인플레이션은 전반적인 물가 상승으로, 일정한 금액의 돈으로 살 수 있는 것을 줄어들게 한다. 그 영향은 고르게 퍼지지 않는다. 임금이 물가만큼 빠르게 오르는 사람은 생활수준의 변화를 거의 느끼지 못할 수 있지만, 매년 같은 금액을 받는 연금처럼 고정 소득으로 사는 사람은 물가가 오르는 해마다 구매력을 잃는다. 저축하는 사람도 받는 이자가 물가상승률보다 낮으면 손해를 볼 수 있다. 반면 돈을 빌린 사람은 빌릴 때보다 가치가 떨어진 돈으로 대출을 갚으므로 이득을 볼 수도 있다. 이 때문에 많은 연금과 복지 제도는 생활비 변화에 맞춰 주기적으로 조정된다.",
+    "q": "The main point of the passage is that inflation",
+    "q_ko": "지문의 요지에 따르면, 인플레이션은?",
+    "options": [
+      "is caused mainly by governments printing too much money",
+      "harms borrowers more than it harms people on fixed incomes",
+      "always lowers the living standard of every person in an economy",
+      "affects different groups of people in different ways"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Its effects are not spread evenly\" 뒤로 연금 생활자·저축자·차입자가 받는 영향의 차이를 설명한다.\n(1) 지문에 없는 상식 — 인플레이션의 원인은 다루지 않음\n(2) 비교 뒤집기 — 차입자는 오히려 이득을 볼 수 있음\n(3) 과잉 일반화 — always/every, 임금이 물가만큼 오르면 변화가 적음"
+  },
+  {
+    "id": "rct_0034",
+    "topic": "technology",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Light Through Glass",
+    "passage": "Fiber-optic cables carry information as pulses of light through strands of glass thinner than a human hair. Compared with copper wires, they can carry far more data and send it much farther before the signal needs to be boosted. Because they use light rather than electricity, they are also unaffected by electrical interference from nearby motors or power lines, and they give off no electromagnetic signal that could be picked up by an eavesdropper standing nearby. Fiber does have drawbacks. The glass can crack if the cable is bent too sharply, and joining two fibers requires careful alignment and special tools. For these reasons, copper is still common in short connections inside buildings, where its lower cost and easier handling matter more.",
+    "passage_ko": "광섬유 케이블은 사람 머리카락보다 가는 유리 가닥을 통해 빛의 펄스로 정보를 전달한다. 구리선과 비교하면 훨씬 많은 데이터를 운반할 수 있고, 신호를 증폭해야 하기 전까지 훨씬 멀리 보낼 수 있다. 전기 대신 빛을 사용하기 때문에 근처의 모터나 전력선에서 생기는 전기적 간섭의 영향을 받지 않으며, 가까이 서 있는 도청자가 잡아낼 수 있는 전자기 신호도 내보내지 않는다. 광섬유에도 단점은 있다. 케이블을 너무 급하게 구부리면 유리가 깨질 수 있고, 두 가닥을 잇는 데는 정밀한 정렬과 특수 공구가 필요하다. 이런 이유로 건물 내부의 짧은 연결에서는 낮은 비용과 쉬운 취급이 더 중요하기 때문에 여전히 구리선이 흔히 쓰인다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Fiber-optic cable may be a good choice near equipment that creates electrical noise.",
+      "Copper wires can carry more data over longer distances than optical fiber can.",
+      "Fiber-optic cables can be bent at any angle without any risk of damage.",
+      "Most undersea internet cables use optical fiber to cross the oceans."
+    ],
+    "answer": 0,
+    "explain": "근거: \"they are also unaffected by electrical interference from nearby motors or power lines\".\n(2) 비교 뒤집기 — 광섬유가 더 많은 데이터를 더 멀리 보냄\n(3) 과잉 일반화 — any angle, 너무 급히 구부리면 유리가 깨짐\n(4) 지문에 없는 상식 — 해저 케이블은 언급 없음"
+  },
+  {
+    "id": "rct_0035",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Railroad Time",
+    "passage": "Until the late nineteenth century, most towns in the United States kept their own local time, setting clocks so that noon fell when the sun was highest overhead. Because the sun's position shifts as one travels east or west, neighboring cities might differ by several minutes. For people who rarely traveled, this caused little trouble. For railroads, however, it was a constant source of confusion, since a single line might pass through dozens of local times, and timetables had to list departures by one time or another. In 1883 the major railroads adopted a system of standard time zones, and most towns soon followed. The federal government did not formally establish time zones in law until 1918, decades after the railroads had made them part of daily life.",
+    "passage_ko": "19세기 후반까지 미국의 대부분 도시는 해가 가장 높이 뜬 때를 정오로 삼아 시계를 맞추는 식으로 각자의 지방시를 썼다. 동쪽이나 서쪽으로 이동하면 해의 위치가 달라지므로, 이웃한 도시끼리도 몇 분씩 차이가 날 수 있었다. 여행을 거의 하지 않는 사람들에게는 이것이 별 문제가 되지 않았다. 그러나 철도에는 끊임없는 혼란의 원인이었다. 한 노선이 수십 개의 지방시를 지나갈 수 있었고, 시간표는 출발 시각을 이런저런 시간 중 하나로 표기해야 했기 때문이다. 1883년 주요 철도 회사들이 표준시간대 체계를 채택했고, 대부분의 도시가 곧 뒤따랐다. 연방 정부는 1918년이 되어서야 법으로 시간대를 공식 제정했는데, 이는 철도가 시간대를 일상생활의 일부로 만든 지 수십 년이 지난 뒤였다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "federal law required the railroads to adopt standard time in 1883",
+      "the clocks of two neighboring towns usually differed by several hours",
+      "standard time zones came into wide use before any law required them",
+      "Great Britain adopted a single national time before the United States"
+    ],
+    "answer": 2,
+    "explain": "근거: \"did not formally establish time zones in law until 1918, decades after the railroads had made them part of daily life\".\n(1) 인과 뒤집기 — 철도가 먼저 채택했고 법은 1918년에야 생김\n(2) 세부 비틀기 — 차이는 '몇 분(several minutes)'\n(4) 지문에 없는 상식 — 영국 이야기는 없음"
+  },
+  {
+    "id": "rct_0036",
+    "topic": "leadership",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "How Many Can One Leader Direct?",
+    "passage": "The number of people who report directly to a single leader is called the span of control. There is no single correct number. A supervisor overseeing workers who perform simple, similar tasks in one location may manage a large group effectively, while a leader whose subordinates handle complex, varied, or dangerous work may need a much smaller group to give each person adequate attention. Spans that are too wide leave subordinates without guidance, and decisions pile up waiting for the leader's approval. Spans that are too narrow create extra layers of management, which can slow communication as messages pass up and down the chain. Military organizations have traditionally kept spans small in combat units, often three to five subordinate elements, because situations change quickly and leaders must stay closely informed.",
+    "passage_ko": "한 지휘자에게 직접 보고하는 인원의 수를 통제 범위(span of control)라고 한다. 정답인 단 하나의 숫자는 없다. 한 장소에서 단순하고 비슷한 작업을 하는 인원을 감독하는 관리자는 큰 집단도 효과적으로 관리할 수 있지만, 부하들이 복잡하거나 다양하거나 위험한 일을 다루는 지휘자는 각자에게 충분한 관심을 기울이기 위해 훨씬 작은 집단이 필요할 수 있다. 통제 범위가 너무 넓으면 부하들은 지도를 받지 못하고, 결정은 지휘자의 승인을 기다리며 쌓인다. 통제 범위가 너무 좁으면 관리 계층이 늘어나, 메시지가 지휘 계통을 오르내리는 동안 소통이 느려질 수 있다. 군 조직은 상황이 빠르게 변하고 지휘자가 늘 정보를 긴밀히 파악해야 하므로, 전통적으로 전투 부대의 통제 범위를 작게, 흔히 예하 3~5개 단위로 유지해 왔다.",
+    "q": "With which of the following statements would the author most likely agree?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "The best span of control is three to five people in every kind of organization.",
+      "Narrowing spans of control throughout an organization may slow the flow of information.",
+      "Wider spans of control generally help leaders make decisions more quickly.",
+      "Modern communication technology allows leaders to supervise larger groups."
+    ],
+    "answer": 1,
+    "explain": "근거: \"Spans that are too narrow create extra layers of management, which can slow communication\".\n(1) 과잉 일반화 — every kind, 지문은 \"There is no single correct number\"\n(3) 인과 뒤집기 — 통제 범위가 너무 넓으면 결정이 쌓여 오히려 늦어짐\n(4) 지문에 없는 상식 — 통신 기술 이야기는 없음"
+  },
+  {
+    "id": "rct_0037",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Birds and Airplanes",
+    "passage": "Collisions between aircraft and birds, known as bird strikes, happen most often at low altitude, during takeoff, climb, approach, and landing, when aircraft share the airspace near airports with large numbers of birds. Most strikes cause little or no damage, but a large bird or a flock can crack windshields, dent wings, or damage engines, especially when struck at high speed. Airports reduce the risk by making their grounds less attractive to wildlife: they remove standing water, manage grass height, and use noise devices or trained staff to scare birds away. Pilots can lower their exposure by reporting bird activity and, where procedures allow, by limiting speed at low altitude, since the energy of an impact increases sharply with speed.",
+    "passage_ko": "항공기와 새의 충돌, 즉 조류 충돌(bird strike)은 항공기가 공항 근처 공역을 많은 새와 함께 쓰는 이륙, 상승, 접근, 착륙 단계의 저고도에서 가장 자주 일어난다. 대부분의 충돌은 피해가 거의 또는 전혀 없지만, 큰 새나 새 떼는 특히 빠른 속도로 부딪칠 경우 앞유리에 금이 가게 하거나 날개를 찌그러뜨리거나 엔진을 손상시킬 수 있다. 공항은 부지를 야생동물에게 덜 매력적으로 만들어 위험을 줄인다. 고인 물을 없애고, 풀 높이를 관리하며, 소음 장치나 훈련된 인력을 이용해 새를 쫓는다. 조종사는 조류 활동을 보고하고, 절차가 허용하는 경우 저고도에서 속도를 제한함으로써 노출을 줄일 수 있다. 충돌 에너지는 속도에 따라 급격히 커지기 때문이다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "bird strikes are most likely to occur during high-altitude cruise flight",
+      "every bird strike causes serious damage to an aircraft's engines",
+      "jet engines must pass tests in which birds are fired into them",
+      "an airport that removes ponds near its runways may see fewer bird strikes"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Airports reduce the risk by making their grounds less attractive to wildlife: they remove standing water\".\n(1) 뒤집기 — 대부분 저고도(이착륙 단계)에서 발생\n(2) 과잉 일반화 — every, 대부분은 피해가 거의 없음\n(3) 지문에 없는 상식 — 엔진 인증 시험은 언급 없음"
+  },
+  {
+    "id": "rct_0038",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Dead Reckoning",
+    "passage": "Dead reckoning is the practice of estimating a ship's current position from its last known position, its course, its speed, and the time that has passed. If a ship steams due east at 12 knots for two hours from a known point, the navigator can plot a new position 24 nautical miles to the east. The method needs no outside signal, which is why it remains a basic skill even on ships equipped with satellite receivers. Its weakness is that small errors add up. Currents and wind can push a ship off its intended track, and a slightly inaccurate speed or heading grows into a larger error over time. Navigators therefore update the estimate with a fresh fix from landmarks, stars, or electronic aids whenever one becomes available.",
+    "passage_ko": "추측항법(dead reckoning)은 배의 마지막으로 확인된 위치, 침로, 속력, 경과 시간으로부터 현재 위치를 추정하는 방법이다. 배가 알려진 지점에서 12노트로 정동쪽을 향해 두 시간 항해했다면, 항해사는 동쪽으로 24해리 떨어진 곳에 새 위치를 표시할 수 있다. 이 방법은 외부 신호가 필요 없기 때문에 위성 수신기를 갖춘 배에서도 여전히 기본 기술로 남아 있다. 약점은 작은 오차가 누적된다는 것이다. 해류와 바람이 배를 의도한 항적에서 밀어낼 수 있고, 조금 부정확한 속력이나 침로는 시간이 지나면서 더 큰 오차로 커진다. 그래서 항해사는 지형지물, 별, 전자 항법 장비로 새 위치 확인(fix)을 얻을 수 있을 때마다 추정 위치를 갱신한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A dead-reckoning position grows less reliable the longer it goes uncorrected.",
+      "Dead reckoning depends on a steady signal from navigation satellites.",
+      "Dead reckoning is never used aboard ships that carry satellite receivers.",
+      "Early sailors measured speed by paying out a knotted line over the side."
+    ],
+    "answer": 0,
+    "explain": "근거: \"small errors add up\" + \"grows into a larger error over time\".\n(2) 세부 비틀기 — 추측항법은 \"needs no outside signal\"\n(3) 과잉 일반화 — never, 위성 수신기를 갖춘 배에서도 기본 기술로 유지됨\n(4) 지문에 없는 상식 — 매듭 줄(측정의) 이야기는 없음"
+  },
+  {
+    "id": "rct_0039",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Tooth and Tail",
+    "passage": "Military writers sometimes describe an army in terms of its tooth and its tail. The tooth consists of the combat units that engage the enemy, while the tail includes the supply, maintenance, medical, and transportation units that keep them fighting. It might seem efficient to shrink the tail and put more personnel into combat roles, but experience suggests otherwise. Modern forces use enormous quantities of fuel, ammunition, and spare parts, and the farther they advance from their bases, the longer and more vulnerable their supply lines become. An offensive that outruns its support may stall not because the enemy stops it, but because vehicles run dry and weapons go silent. Skilled commanders therefore plan logistics as carefully as they plan maneuver.",
+    "passage_ko": "군사 저술가들은 때때로 군대를 '이빨(tooth)'과 '꼬리(tail)'로 설명한다. 이빨은 적과 교전하는 전투 부대이고, 꼬리는 그들이 계속 싸울 수 있게 해 주는 보급, 정비, 의무, 수송 부대를 말한다. 꼬리를 줄이고 더 많은 인원을 전투 임무에 배치하는 것이 효율적으로 보일 수 있지만, 경험은 그렇지 않다고 말해 준다. 현대 군대는 막대한 양의 연료, 탄약, 예비 부품을 사용하며, 기지에서 멀리 전진할수록 보급선은 더 길고 취약해진다. 지원 능력보다 앞서 나간 공세는 적이 막아서가 아니라 차량의 연료가 떨어지고 무기가 멈춰서 정체될 수 있다. 그래서 유능한 지휘관은 기동을 계획하는 것만큼 신중하게 군수를 계획한다.",
+    "q": "The author would most likely agree with which of the following statements?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "Reducing support units is always an efficient way to strengthen an army.",
+      "Supply lines usually grow shorter and safer as an army advances from its bases.",
+      "An advance can come to a halt even when the enemy offers little resistance.",
+      "Most modern armies have more personnel in support roles than in combat roles."
+    ],
+    "answer": 2,
+    "explain": "근거: \"may stall not because the enemy stops it, but because vehicles run dry\".\n(1) 과잉 일반화 — always, 지문은 \"experience suggests otherwise\"\n(2) 인과 뒤집기 — 멀리 나아갈수록 보급선은 길고 취약해짐\n(4) 지문에 없는 상식 — 인원 비율은 언급 없음(그럴듯하지만 근거 없음)"
+  },
+  {
+    "id": "rct_0040",
+    "topic": "science",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "The Honeybee's Dance",
+    "passage": "When a forager honeybee finds a rich source of nectar, it returns to the hive and performs a movement known as the waggle dance on the vertical surface of the comb. The bee runs in a straight line while shaking its body, then circles back and repeats the run. The angle of the straight run relative to vertical indicates the direction of the food relative to the sun, and the length of the waggle portion indicates distance: the longer the waggle, the farther away the flowers. Other bees follow the dancer closely, then fly out to search the indicated area. For food sources very close to the hive, bees perform a simpler circular dance that signals the presence of food nearby but conveys little information about direction.",
+    "passage_ko": "먹이를 찾는 꿀벌이 꿀이 풍부한 곳을 발견하면 벌집으로 돌아와 벌집의 수직면 위에서 '8자 춤(waggle dance)'이라 불리는 움직임을 보인다. 벌은 몸을 흔들며 직선으로 달린 뒤 원을 그리며 되돌아와 그 직선 달리기를 반복한다. 수직 방향에 대한 직선 달리기의 각도는 태양을 기준으로 한 먹이의 방향을 나타내고, 몸을 흔드는 구간의 길이는 거리를 나타낸다. 흔드는 구간이 길수록 꽃은 더 멀리 있다. 다른 벌들은 춤추는 벌을 바짝 따라다닌 뒤 날아가서 알려 준 지역을 찾는다. 벌집에 아주 가까운 먹이에 대해서는 더 단순한 원형 춤을 추는데, 이 춤은 근처에 먹이가 있다는 것은 알려 주지만 방향에 대한 정보는 거의 전하지 않는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A short waggle run signals that the flowers are far from the hive.",
+      "A bee reporting distant flowers waggles longer than one reporting nearby flowers.",
+      "Every dance performed in the hive shows both the direction and distance of food.",
+      "Honeybees can see ultraviolet patterns on flowers that humans cannot see."
+    ],
+    "answer": 1,
+    "explain": "근거: \"the longer the waggle, the farther away the flowers\".\n(1) 뒤집기 — 짧은 흔들기는 '가까운' 꽃을 뜻함\n(3) 과잉 일반화 — every, 가까운 먹이의 원형 춤은 방향 정보가 거의 없음\n(4) 지문에 없는 상식 — 자외선 시각은 언급 없음"
+  }
+]

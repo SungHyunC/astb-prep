@@ -1,0 +1,58 @@
+[
+  {
+    "key": "inference",
+    "ko": "추론 (가장 잘 뒷받침되는 진술)",
+    "pts": [
+      "알아보기: 'best supported by the passage', 'most strongly suggests', 'can be inferred', 'the author would most likely agree' → ASTB-E RCT의 대부분(약 80% 이상)을 차지하는 유형.",
+      "정답 = 지문 문장을 다른 말로 바꾼 것(paraphrase)이거나 지문에서 한 걸음만 논리를 이은 결론. 지문 밖 지식이 한 조각이라도 필요하면 오답이다.",
+      "함정① 지문에 없는 상식 — 현실에서는 맞지만 지문이 말하지 않은 진술(연도·인물·다른 용도·통계). 배경지식이 많을수록 잘 걸린다.",
+      "함정② 과잉 일반화 — 지문의 some·often·may·in most cases를 always·never·all·every·only·completely로 부풀린 진술.",
+      "함정③ 인과·비교 뒤집기 — 원인↔결과, 더↔덜, 빠름↔느림, 먼저↔나중, 증가↔감소를 바꿔 놓은 진술.",
+      "함정④ 세부 비틀기 — 지문 단어를 그대로 쓰면서 주어·조건·숫자를 살짝 바꾼 진술(예: A 방식의 특징을 B 방식에 붙이기, 'not turbocharged'를 'turbocharged'로)."
+    ],
+    "steps": "① 질문부터 읽고 추론형인지 확인한다. ② 지문을 읽으며 주장, 대조 신호(however, but, while), 조건(unless, only if, when), 한정어(some, often, may, generally)에 표시한다. ③ 보기를 하나씩 지문과 대조하며 '이 보기를 뒷받침하는 문장을 지문에서 손가락으로 짚을 수 있는가?'를 묻는다. 짚을 수 없으면 지운다. ④ 네 가지 함정(지문에 없는 상식·과잉 일반화·뒤집기·세부 비틀기)에 걸리는 보기를 지운다. ⑤ 남은 보기 중 지문 표현과 가장 가깝고, may·can·some·likely처럼 가장 조심스럽게 말한 보기를 고른다.",
+    "trap": "가장 흔한 실수는 '사실인 것'과 '지문이 뒷받침하는 것'을 혼동하는 것이다. 항공·해군 지식이 있는 수험생일수록 지문에 없는 참 진술(함정①)을 고르기 쉽다. 또 한정어를 흘려 읽으면 과잉 일반화(함정②)에 끌린다. 지문이 may·often·in most cases라고 했다면 always·never·only가 들어간 보기는 거의 틀린다. 반대로 정답은 대개 조심스러운 표현(may, can, some, likely)을 쓴다. 단, 보기 길이나 위치로 답을 고르지 말고 반드시 근거 문장을 확인한다.",
+    "example": {
+      "q": "Passage: 'Some airports repair their runways at night, when traffic is lightest, although a few late arrivals may be delayed.' Which of the following statements is best supported by the passage? (A) Runway repairs are always done at night. (B) Airports may time repairs to disturb as few flights as possible. (C) Late arrivals are never affected by the repairs. (D) Most runways are paved with concrete or asphalt.",
+      "a": "(B) Airports may time repairs to disturb as few flights as possible.",
+      "explain": "근거: 'when traffic is lightest' — 가장 한산한 때를 고른 이유는 운항 방해를 줄이기 위해서라고 한 걸음 추론할 수 있다. (A) always = 과잉 일반화(지문은 Some airports). (C) 'a few late arrivals may be delayed'와 반대 = 뒤집기. (D) 현실에서는 맞지만 지문에 없는 상식."
+    }
+  },
+  {
+    "key": "main_idea",
+    "ko": "요지 (중심 내용)",
+    "pts": [
+      "알아보기: 'The main point of the passage is that', 'best states the main idea', 'primarily concerned with', 'best title' → 지문 전체를 한 문장으로 요약한 보기를 고른다.",
+      "요지는 주로 첫 문장, 또는 however·therefore·for this reason 뒤의 문장에 있다. 나머지 문장은 그 이유·방법·예시다.",
+      "정답의 범위는 지문 전체를 덮되 지문을 넘지 않는다. 세부 하나만 다루면 너무 좁고, 지문에 없는 일반론까지 가면 너무 넓다.",
+      "함정① 지문에 없는 상식 — 주제와 관련된 참 진술이지만 지문이 다루지 않은 내용(원인·역사·다른 사례).",
+      "함정② 과잉 일반화 / 함정③ 인과·비교 뒤집기 — 추론형과 같은 함정이 요지형 보기에도 섞여 나온다(only, always / 원인과 결과를 바꾼 요약).",
+      "함정④ 너무 좁음(세부 비틀기) — 지문에 실제로 있는 맞는 세부라서 끌리지만 글 전체를 대표하지 못하는 보기. 요지형에서 가장 자주 쓰이는 오답이다."
+    ],
+    "steps": "① 지문을 끝까지 읽고 '이 글은 결국 무엇에 관한 글인가?'를 한국어 한 문장으로 먼저 요약한다. ② 첫 문장과 대조·결론 신호(however, therefore, for this reason)가 붙은 문장을 다시 확인한다. ③ 보기 가운데 내 요약과 범위가 같은 것을 찾는다. ④ 지문에 있지만 일부만 다루는 세부 보기, 지문보다 넓거나 지문에 없는 보기, 한정어를 부풀린 보기를 지운다. ⑤ 두 개가 남으면 지문의 더 많은 문장을 설명해 주는 쪽을 고른다.",
+    "trap": "요지형의 오답은 대부분 '틀린 말'이 아니라 '지문에 있는 맞는 세부'다. 그래서 '맞는 말인가?'가 아니라 '글 전체를 대표하는가?'로 판단해야 한다. 지문 마지막에 나온 흥미로운 사실(예: 오늘날에도 민요로 남아 있다)은 기억에 강하게 남아 요지로 착각하기 쉽다. 또 첫 문장이 도입용 배경일 뿐이고 진짜 요지가 however 뒤에 오는 경우도 있으니 대조 신호를 놓치지 않는다.",
+    "example": {
+      "q": "Passage: 'For most of the twentieth century, ships called for help in Morse code, and radio officers kept watch around the clock. Satellite-based distress systems gradually took over this job, and by the end of the century most merchant ships no longer carried a radio officer, although some navies still teach Morse for signal lamps.' The main point of the passage is that (A) radio officers once kept watch around the clock (B) satellite systems gradually replaced Morse-based distress calls at sea (C) no navy teaches Morse code any longer (D) the Titanic sent its distress calls in Morse code",
+      "a": "(B) satellite systems gradually replaced Morse-based distress calls at sea",
+      "explain": "근거: 첫 문장(과거의 모스 부호 조난 통신) → 둘째 문장(위성 시스템이 대체)이 글 전체의 흐름. (A) 지문에 있는 세부일 뿐 = 너무 좁음. (C) 'some navies still teach Morse'와 반대 = 과잉 일반화·뒤집기. (D) 사실이지만 지문에 없는 상식."
+    }
+  },
+  {
+    "key": "detail",
+    "ko": "세부 내용 (According to the passage)",
+    "pts": [
+      "알아보기: 'According to the passage', 'The passage states that', 'Which of the following is mentioned' → 지문에 직접 쓰인 정보를 찾는 유형. 추론은 거의 필요 없다.",
+      "질문 속 핵심어(고유명사·숫자·기술 용어·'disadvantage' 같은 방향어)를 지문에서 찾아 그 문장과 앞뒤 한 문장만 정밀하게 읽는다.",
+      "정답은 대개 지문 문장을 다른 단어로 바꿔 말한 것이다. 지문 단어를 그대로 많이 옮겨 온 보기가 오히려 함정일 수 있다.",
+      "함정① 지문에 없는 상식 / 함정② 과잉 일반화(never·only·every) / 함정③ 뒤집기(할 수 있다↔없다, 더↔덜, 장점↔단점).",
+      "함정④ 세부 비틀기 — 지문의 다른 대상(A 방식 vs B 방식, 원인 vs 결과)에 해당하는 정보를 질문 대상에 붙인 보기. 비교 지문의 세부형에서 가장 흔하다."
+    ],
+    "steps": "① 질문이 묻는 대상과 방향(예: 능동 소나의 '단점')에 밑줄을 긋는다. ② 지문에서 그 대상이 나오는 문장을 찾는다. ③ 그 문장과 보기를 한 단어씩 대조한다 — 주어가 같은가, 조건이 같은가, 긍정/부정이 같은가, 숫자가 같은가. ④ 다른 대상의 특징을 가져온 보기, 한정어를 과장한 보기, 지문에 없는 보기를 지운다. ⑤ 남은 보기가 질문의 방향(장점/단점, 원인/결과)과 맞는지 마지막으로 확인한다.",
+    "trap": "세부형은 쉬워 보여서 서두르다 틀린다. 대표적인 실수는 두 가지를 비교하는 지문에서 A와 B의 특징을 뒤바꿔 읽는 것(예: 능동 소나는 거리까지 잰다 / 수동 소나는 방향을 더 쉽게 준다를 섞기)과, 질문이 단점(disadvantage)을 묻는데 장점을 고르는 것이다. NOT·EXCEPT·disadvantage·fail 같은 방향어를 반드시 확인하고, 기억에 의존하지 말고 해당 문장을 다시 읽는다.",
+    "example": {
+      "q": "Passage: 'Most diesel-electric submarines must surface or raise a snorkel to run their engines and recharge their batteries, while nuclear submarines can stay submerged for months.' According to the passage, most diesel-electric submarines (A) can stay submerged for months at a time (B) must periodically surface or raise a snorkel to recharge (C) never need to recharge their batteries (D) are quieter than nuclear submarines when running on batteries",
+      "a": "(B) must periodically surface or raise a snorkel to recharge",
+      "explain": "근거: 'must surface or raise a snorkel to run their engines and recharge their batteries'. (A) 원자력 잠수함의 특징을 가져온 세부 비틀기. (C) never = 과잉 일반화·뒤집기. (D) 현실에서는 맞을 수 있지만 지문에 없는 상식."
+    }
+  }
+]

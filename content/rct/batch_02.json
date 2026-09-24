@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rct_0041",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Automation in the Cockpit",
+    "passage": "Modern cockpits replace many separate dials with computer screens and automated systems that can fly a programmed route, hold altitude, and even manage the approach to a runway. Automation reduces workload on long flights and can fly more precisely than a human hand for hours at a time. Researchers have found, however, that heavy reliance on automation can erode manual flying skills that pilots seldom practice. It can also lead to complacency: a crew that trusts the system may be slow to notice when it behaves unexpectedly, or may not fully understand which mode it is in. For these reasons, many training programs now require pilots to fly manually at regular intervals and to state aloud any change in automation mode, so that both crew members share the same picture.",
+    "passage_ko": "현대 조종석은 여러 개의 개별 계기를 컴퓨터 화면으로, 그리고 입력된 경로를 비행하고 고도를 유지하며 활주로 접근까지 관리할 수 있는 자동화 시스템으로 대체한다. 자동화는 장거리 비행의 업무량을 줄여 주며, 몇 시간씩 사람 손보다 더 정밀하게 비행할 수 있다. 그러나 연구자들은 자동화에 크게 의존하면 조종사가 거의 연습하지 않는 수동 비행 기량이 약해질 수 있다는 것을 발견했다. 자동화는 안일함으로 이어질 수도 있다. 시스템을 믿는 승무원은 시스템이 예상치 못하게 작동할 때 알아차리는 것이 늦거나, 시스템이 어떤 모드에 있는지 제대로 이해하지 못할 수 있다. 이런 이유로 오늘날 많은 훈련 과정은 조종사가 정기적으로 수동 비행을 하고, 자동화 모드가 바뀔 때마다 소리 내어 말해 두 승무원이 같은 상황 인식을 공유하도록 요구한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Automated systems have made manual flying skills unnecessary for today's pilots.",
+      "A pilot who rarely flies by hand may find manual flying harder over time.",
+      "Automation tends to increase the workload of pilots during long flights.",
+      "Glass cockpits first appeared on airliners during the 1980s."
+    ],
+    "answer": 1,
+    "explain": "근거: \"heavy reliance on automation can erode manual flying skills that pilots seldom practice\".\n(1) 과잉 일반화 — unnecessary, 지문은 오히려 정기적인 수동 비행을 요구함\n(3) 뒤집기 — 자동화는 장거리 비행의 업무량을 '줄임'\n(4) 지문에 없는 상식 — 도입 시기는 언급 없음"
+  },
+  {
+    "id": "rct_0042",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Watches and Bells",
+    "passage": "Because a ship at sea must be operated around the clock, its crew is divided into groups that stand watch in turns. A traditional watch lasts four hours, and the ship's bell once marked the passing time within each watch: one stroke after the first half hour, two after the first hour, and so on, up to eight bells at the end of the watch. Sailors without their own clocks could thus tell how much of their watch remained. To keep the same people from standing the same hours every night, many ships split one evening period into two shorter watches of two hours each, which shifts the rotation from day to day. Although clocks are now everywhere aboard ship, the bells are still rung on many vessels as a matter of tradition.",
+    "passage_ko": "바다에 있는 배는 24시간 내내 운용되어야 하므로, 승조원은 여러 조로 나뉘어 교대로 당직을 선다. 전통적인 당직은 네 시간이며, 예전에는 배의 종이 각 당직 안에서 흐른 시간을 알려 주었다. 첫 30분이 지나면 한 번, 첫 한 시간이 지나면 두 번, 이런 식으로 쳐서 당직이 끝날 때 여덟 번(eight bells)까지 쳤다. 그래서 자기 시계가 없는 선원도 당직이 얼마나 남았는지 알 수 있었다. 같은 사람이 매일 밤 같은 시간대에 당직을 서지 않도록, 많은 배는 저녁의 한 시간대를 두 시간짜리 짧은 당직 두 개로 나누는데, 이렇게 하면 교대 순번이 날마다 바뀐다. 이제는 배 안 어디에나 시계가 있지만, 많은 함선에서 여전히 전통으로 종을 친다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "a single bell was struck at the end of each four-hour watch",
+      "ships stopped ringing their bells once clocks became common aboard",
+      "the two short evening watches are known as the dog watches",
+      "during a four-hour watch, four bells meant half of it had passed"
+    ],
+    "answer": 3,
+    "explain": "근거: \"one stroke after the first half hour, two after the first hour ... up to eight bells at the end of the watch\" → 4점종은 네 시간 당직 중 2시간, 즉 절반이 지났다는 뜻.\n(1) 세부 비틀기 — 당직이 끝날 때는 한 번이 아니라 여덟 번(eight bells)\n(2) 뒤집기 — 전통으로 \"still rung on many vessels\"\n(3) 지문에 없는 상식 — '독 워치(dog watch)'라는 이름은 지문에 없음"
+  },
+  {
+    "id": "rct_0043",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Weight of Protection",
+    "passage": "Body armor has saved many lives, but every added layer of protection carries a cost. Hard ceramic plates that can stop rifle rounds are heavy, and a soldier wearing a full set of armor along with weapons, water, and ammunition may carry well over a third of his or her body weight. Heavy loads slow movement, speed fatigue, and raise the risk of heat illness and joint injuries. Armor also restricts how freely a soldier can turn, crouch, or aim. For this reason, commanders often adjust the level of protection to the mission. A unit expecting close combat may wear full armor, while one that must patrol on foot for many hours in hot terrain might accept lighter protection in exchange for greater mobility and endurance.",
+    "passage_ko": "방탄복은 많은 생명을 구했지만, 보호층을 하나 더할 때마다 대가가 따른다. 소총탄을 막을 수 있는 단단한 세라믹 판은 무거워서, 방탄복 한 벌에 무기, 물, 탄약까지 갖춘 병사는 자기 체중의 3분의 1을 훨씬 넘는 무게를 질 수 있다. 무거운 짐은 움직임을 느리게 하고, 피로를 앞당기며, 열 손상과 관절 부상의 위험을 높인다. 방탄복은 병사가 몸을 돌리거나 웅크리거나 조준하는 자유도 제한한다. 이 때문에 지휘관은 흔히 임무에 맞춰 보호 수준을 조정한다. 근접 전투가 예상되는 부대는 방탄복을 완전히 갖출 수 있지만, 더운 지형에서 여러 시간 도보 정찰을 해야 하는 부대는 더 큰 기동성과 지구력을 얻는 대신 더 가벼운 보호를 받아들일 수도 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The best level of armor for a unit may depend on the mission it must perform.",
+      "Wearing full armor can increase a soldier's speed and endurance during long foot patrols.",
+      "Soldiers should always wear the heaviest armor available in any situation.",
+      "Soft armor vests are often woven from aramid fibers such as Kevlar."
+    ],
+    "answer": 0,
+    "explain": "근거: \"commanders often adjust the level of protection to the mission\".\n(2) 인과 뒤집기 — 무거운 짐은 이동을 늦추고 피로를 앞당김\n(3) 과잉 일반화 — always/any, 임무에 따라 가벼운 보호를 택하기도 함\n(4) 지문에 없는 상식 — 아라미드 섬유(케블라)는 언급 없음"
+  },
+  {
+    "id": "rct_0044",
+    "topic": "science",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Living Light in the Deep",
+    "passage": "Below a depth of about 1,000 meters, no sunlight reaches the ocean, yet the darkness is far from empty of light. A large share of deep-sea animals, including many fish, squid, and shrimp, produce their own light through chemical reactions, a process called bioluminescence. They use it in many ways. Some anglerfish dangle a glowing lure to attract prey. Certain shrimp release clouds of glowing fluid to confuse predators, much as a squid squirts ink. Many animals that swim in the dim twilight zone above the deep produce faint light on their undersides that matches the glow from the surface, hiding their silhouettes from predators looking up. Scientists believe bioluminescence has evolved independently many times, a sign of how useful light is in a world without sunlight.",
+    "passage_ko": "수심 약 1,000미터 아래로는 햇빛이 전혀 닿지 않지만, 그 어둠에 빛이 없는 것은 결코 아니다. 많은 물고기, 오징어, 새우를 포함한 심해 동물의 상당수가 화학 반응을 통해 스스로 빛을 내는데, 이를 생물 발광(bioluminescence)이라 한다. 이들은 빛을 여러 방식으로 사용한다. 어떤 아귀는 빛나는 미끼를 늘어뜨려 먹이를 꾄다. 어떤 새우는 오징어가 먹물을 뿜듯 빛나는 액체 구름을 내뿜어 포식자를 혼란시킨다. 심해 위의 어스레한 박광층(twilight zone)에서 헤엄치는 많은 동물은 배 쪽에서 수면에서 내려오는 빛과 맞먹는 희미한 빛을 내어, 위를 올려다보는 포식자에게서 자신의 실루엣을 숨긴다. 과학자들은 생물 발광이 여러 번 독립적으로 진화했다고 보는데, 이는 햇빛이 없는 세계에서 빛이 얼마나 유용한지를 보여 준다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "anglerfish are the only deep-sea animals that use their light to catch prey",
+      "sunlight reaches every level of the ocean in small amounts",
+      "many deep-sea animals make their own light and use it in various ways",
+      "some fireflies and fungi on land also produce their own light"
+    ],
+    "answer": 2,
+    "explain": "근거: \"A large share of deep-sea animals ... produce their own light\" + \"They use it in many ways\"가 요지이고, 나머지 문장은 그 예시다.\n(1) 과잉 일반화 — only, 아귀는 여러 예 중 하나\n(2) 뒤집기 — 1,000미터 아래에는 햇빛이 닿지 않음\n(4) 지문에 없는 상식 — 육상 생물은 언급 없음"
+  },
+  {
+    "id": "rct_0045",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Minutes of Useful Consciousness",
+    "passage": "As an aircraft climbs, the air holds less oxygen pressure, and a pilot without supplemental oxygen or cabin pressurization can develop hypoxia. Its early effects are subtle and often pleasant: a sense of well-being, mild euphoria, and slowed thinking that the victim may not recognize. The time of useful consciousness, the period during which a person can still act effectively after losing an adequate oxygen supply, shrinks rapidly with altitude, from many minutes at moderate heights to only seconds at the altitudes where airliners cruise. Because each person's symptoms tend to be consistent from one exposure to the next, military aviators experience hypoxia under controlled conditions, usually in an altitude chamber, so that they can recognize their own warning signs and put on oxygen before judgment fails.",
+    "passage_ko": "항공기가 상승하면 공기 중 산소 분압이 낮아져, 보조 산소나 객실 여압이 없는 조종사는 저산소증(hypoxia)에 걸릴 수 있다. 저산소증의 초기 영향은 미묘하고 흔히 기분 좋게 느껴진다. 행복감, 가벼운 도취감, 그리고 본인이 알아차리지 못할 수 있는 사고 속도의 저하가 나타난다. 유효의식시간(time of useful consciousness), 즉 충분한 산소 공급을 잃은 뒤에도 여전히 효과적으로 행동할 수 있는 시간은 고도가 높아질수록 빠르게 줄어, 중간 고도에서는 여러 분이지만 여객기가 순항하는 고도에서는 불과 몇 초에 그친다. 각 개인의 증상은 노출될 때마다 대체로 일관되기 때문에, 군 조종사들은 보통 고공 챔버(altitude chamber)에서 통제된 조건으로 저산소증을 경험하여, 판단력이 무너지기 전에 자신만의 경고 신호를 알아차리고 산소를 착용할 수 있게 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Hypoxia is usually easy to notice because its first effects are unpleasant.",
+      "The time of useful consciousness grows longer as an aircraft climbs ever higher.",
+      "Some pilots use a pulse oximeter to check the oxygen level in their blood.",
+      "A pilot who has seen his or her own hypoxia symptoms may notice them sooner."
+    ],
+    "answer": 3,
+    "explain": "근거: \"each person's symptoms tend to be consistent\" + 훈련 목적이 \"recognize their own warning signs\".\n(1) 세부 비틀기 — 초기 증상은 미묘하고 \"often pleasant\"\n(2) 비교 뒤집기 — 고도가 높을수록 유효의식시간은 급격히 '줄어듦'\n(3) 지문에 없는 상식 — 산소포화도 측정기는 언급 없음"
+  },
+  {
+    "id": "rct_0046",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Metal That Sacrifices Itself",
+    "passage": "When two different metals are connected and immersed in seawater, they form a kind of battery, and the more chemically active metal corrodes faster while the other is protected. Shipbuilders turn this effect to their advantage. Blocks of zinc or aluminum, called sacrificial anodes, are bolted to a steel hull, rudder, or propeller shaft. Because these metals are more active than steel, they corrode in place of the parts they are attached to. The anodes are gradually consumed and must be inspected and replaced during maintenance periods. If they are painted over, they can no longer do their job, and if they wear away completely, the steel they once protected begins to corrode instead.",
+    "passage_ko": "서로 다른 두 금속을 연결해 바닷물에 담그면 일종의 전지가 만들어져, 화학적으로 더 활성인 금속은 더 빨리 부식되고 다른 금속은 보호된다. 조선공들은 이 효과를 유리하게 이용한다. 희생 양극(sacrificial anode)이라 불리는 아연이나 알루미늄 덩어리를 강철 선체, 방향타, 프로펠러 축에 볼트로 고정한다. 이 금속들은 강철보다 활성이 크기 때문에, 붙어 있는 부품 대신 자신이 부식된다. 양극은 점차 소모되므로 정비 기간에 점검하고 교체해야 한다. 양극 위에 페인트를 칠하면 더 이상 제 역할을 할 수 없고, 양극이 완전히 닳아 없어지면 그것이 보호하던 강철이 대신 부식되기 시작한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "sacrificial anodes are made of metals that are less active than steel",
+      "a hull whose anodes have been used up may begin to corrode",
+      "painting over anodes helps them protect a hull for a longer time",
+      "impressed-current systems can also protect hulls from corrosion"
+    ],
+    "answer": 1,
+    "explain": "근거: \"if they wear away completely, the steel they once protected begins to corrode instead\".\n(1) 비교 뒤집기 — 양극 금속은 강철보다 '더 활성'이라 대신 부식됨\n(3) 세부 비틀기 — 칠을 하면 \"can no longer do their job\"\n(4) 지문에 없는 상식 — 외부전원식 방식은 언급 없음"
+  },
+  {
+    "id": "rct_0047",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Crossing the Gap",
+    "passage": "Rivers, canals, and ravines can halt an advancing force as effectively as an enemy position. Military engineers therefore train to build crossings quickly. Some bridges are carried on trucks and can be unfolded across a short gap in minutes, while longer floating bridges are assembled from sections that are driven into the water and joined together. Speed matters because a crossing site draws attention: vehicles bunch up on both banks, and the bridge itself becomes an obvious target. Engineers often prepare several possible sites, use smoke to hide the work, and move units across in carefully timed groups. A crossing is considered one of the most complex operations a ground force can undertake, since it requires engineers, combat troops, and air defense to act in close coordination.",
+    "passage_ko": "강, 운하, 협곡은 적의 진지만큼이나 효과적으로 진격하는 부대를 멈춰 세울 수 있다. 그래서 공병은 도하 수단을 빠르게 설치하는 훈련을 한다. 어떤 교량은 트럭에 실려 다니다가 짧은 간격 위에 몇 분 만에 펼칠 수 있고, 더 긴 부교는 물속으로 몰고 들어간 구간들을 서로 연결해 조립한다. 속도가 중요한 이유는 도하 지점이 주의를 끌기 때문이다. 양쪽 강둑에 차량이 몰리고, 교량 자체가 뚜렷한 표적이 된다. 공병은 흔히 여러 후보 지점을 준비하고, 연막으로 작업을 가리며, 부대를 신중하게 시간을 맞춘 무리로 나누어 건너게 한다. 도하는 공병, 전투 부대, 방공 부대가 긴밀히 협조해야 하므로 지상군이 수행할 수 있는 가장 복잡한 작전 중 하나로 여겨진다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Floating bridges can be unfolded across any river in a matter of minutes.",
+      "River crossings are simple operations that engineers can finish alone.",
+      "Units waiting to cross a river may be especially exposed to attack.",
+      "Armies have used pontoon bridges to cross rivers since ancient times."
+    ],
+    "answer": 2,
+    "explain": "근거: \"vehicles bunch up on both banks, and the bridge itself becomes an obvious target\".\n(1) 세부 비틀기 — 몇 분 만에 펼치는 것은 트럭 탑재 교량, 그것도 짧은 간격에서만\n(2) 뒤집기 — 도하는 \"one of the most complex operations\"이며 긴밀한 협조가 필요\n(4) 지문에 없는 상식 — 고대 부교의 역사는 언급 없음"
+  },
+  {
+    "id": "rct_0048",
+    "topic": "technology",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Two Keys Instead of One",
+    "passage": "For most of history, sending a secret message required both parties to share the same key in advance, which created a problem: the key itself had to be delivered safely. Public-key cryptography, developed in the 1970s, solved this by giving each user a pair of mathematically related keys. The public key can be shared openly and is used to lock, or encrypt, a message. Only the matching private key, which its owner keeps secret, can unlock it. Anyone can therefore send a protected message to a person without first meeting to exchange a secret. The system's security rests on mathematical problems that are easy to perform in one direction but extremely hard to reverse with current computers.",
+    "passage_ko": "역사의 대부분 동안 비밀 메시지를 보내려면 양쪽이 미리 같은 키를 공유해야 했는데, 여기에는 문제가 있었다. 키 자체를 안전하게 전달해야 했던 것이다. 1970년대에 개발된 공개키 암호는 각 사용자에게 수학적으로 연관된 한 쌍의 키를 주어 이 문제를 해결했다. 공개키는 공개적으로 나눌 수 있으며 메시지를 잠그는 것, 즉 암호화하는 데 쓰인다. 소유자가 비밀로 간직하는 짝이 맞는 개인키만이 그것을 열 수 있다. 따라서 누구든 비밀을 교환하려고 먼저 만나지 않고도 어떤 사람에게 보호된 메시지를 보낼 수 있다. 이 체계의 보안은 한 방향으로는 계산하기 쉽지만 현재의 컴퓨터로는 거꾸로 풀기가 극히 어려운 수학 문제에 기반한다.",
+    "q": "According to the passage, a message encrypted with a person's public key can be unlocked only with",
+    "q_ko": "지문에 따르면, 어떤 사람의 공개키로 암호화한 메시지를 열 수 있는 유일한 것은?",
+    "options": [
+      "the private key that belongs to that person",
+      "the same public key that was used to lock it",
+      "any key that the sender has shared openly",
+      "a key exchanged at an earlier meeting in person"
+    ],
+    "answer": 0,
+    "explain": "근거: \"Only the matching private key, which its owner keeps secret, can unlock it\".\n(2) 세부 비틀기 — 공개키는 잠그는(encrypt) 데 쓰임\n(3) 과잉 일반화 — any, 공개된 키로는 풀 수 없음\n(4) 비교 혼동 — 미리 만나 키를 나누는 것은 공개키 이전의 방식"
+  },
+  {
+    "id": "rct_0049",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Short Life of the Pony Express",
+    "passage": "In April 1860, the Pony Express began carrying mail between Missouri and California, a distance of nearly 2,000 miles. Riders changed horses at stations spaced roughly 10 to 15 miles apart and handed the mail pouch to a fresh rider every 75 to 100 miles, cutting delivery time to about ten days, far faster than stagecoaches. The service captured the public imagination, but it was expensive to run and charged high rates, so it carried mainly urgent business and government mail rather than ordinary letters. In October 1861, the first transcontinental telegraph line was completed, allowing messages to cross the country almost instantly. The Pony Express closed within days, having operated for only about eighteen months.",
+    "passage_ko": "1860년 4월, 포니 익스프레스(Pony Express)는 미주리와 캘리포니아 사이 거의 2,000마일 거리에서 우편을 나르기 시작했다. 기수들은 대략 10~15마일 간격의 역참에서 말을 바꾸었고, 75~100마일마다 우편 행낭을 새 기수에게 넘겨 배달 기간을 약 열흘로 줄였는데, 이는 역마차보다 훨씬 빨랐다. 이 서비스는 대중의 상상력을 사로잡았지만, 운영비가 많이 들고 요금이 비쌌기 때문에 일반 편지보다는 주로 급한 사업용·정부용 우편을 날랐다. 1861년 10월, 최초의 대륙 횡단 전신선이 완공되어 메시지가 거의 즉시 대륙을 건널 수 있게 되었다. 포니 익스프레스는 불과 약 18개월 운영된 끝에 며칠 만에 문을 닫았다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The Pony Express was a financial success that continued for many years.",
+      "Each rider carried the mail pouch the entire distance from Missouri to California.",
+      "Buffalo Bill Cody claimed to have ridden for the Pony Express as a youth.",
+      "The completion of the telegraph line quickly made the Pony Express obsolete."
+    ],
+    "answer": 3,
+    "explain": "근거: \"the first transcontinental telegraph line was completed\" + \"The Pony Express closed within days\".\n(1) 뒤집기 — 운영비가 비쌌고 약 18개월만 운영됨\n(2) 세부 비틀기 — 75~100마일마다 새 기수에게 넘김\n(3) 지문에 없는 상식 — 버펄로 빌 이야기는 없음"
+  },
+  {
+    "id": "rct_0050",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Feedback That Works",
+    "passage": "Feedback helps people improve only if they can act on it. Comments such as 'good job' or 'needs work' feel natural to give but offer little guidance, because they do not say what to repeat or what to change. Effective feedback describes specific behavior and its effect: the report was late, so the team missed the deadline for requesting supplies. Timing matters as well. Feedback delivered soon after an event is easier to connect to what happened than feedback saved for a yearly evaluation. Many experienced leaders also distinguish between praise and correction, offering praise publicly when appropriate but correcting individuals in private, where people are less likely to become defensive and more likely to listen.",
+    "passage_ko": "피드백은 사람들이 그것을 바탕으로 행동할 수 있을 때에만 향상에 도움이 된다. '잘했어'나 '보완이 필요해' 같은 말은 하기에는 자연스럽지만, 무엇을 반복하고 무엇을 바꿔야 하는지 말해 주지 않기 때문에 지침이 거의 되지 않는다. 효과적인 피드백은 구체적인 행동과 그 결과를 설명한다. 예컨대 보고서가 늦어서 팀이 보급품 신청 마감을 놓쳤다는 식이다. 시기도 중요하다. 일이 있은 직후에 주는 피드백은 연례 평가 때까지 미뤄 둔 피드백보다 실제 일어난 일과 연결하기 쉽다. 경험 많은 지휘자들은 칭찬과 교정도 구분해서, 적절할 때는 칭찬을 공개적으로 하지만 교정은 개인적으로 한다. 그런 자리에서는 사람들이 방어적이 될 가능성이 적고 귀를 기울일 가능성이 크기 때문이다.",
+    "q": "With which of the following statements would the author most likely agree?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "Telling someone only that their work 'needs work' is unlikely to help much.",
+      "Feedback is most effective when it is saved for a yearly evaluation.",
+      "Leaders should always correct individuals in front of the whole team to set an example.",
+      "Receiving feedback can feel stressful even when it is delivered well."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Comments such as 'good job' or 'needs work' ... offer little guidance\".\n(2) 뒤집기 — 사건 직후의 피드백이 연례 평가까지 미룬 것보다 나음\n(3) 과잉 일반화 — always, 교정은 \"in private\" 하라고 함\n(4) 지문에 없는 상식 — 피드백의 스트레스는 언급 없음"
+  },
+  {
+    "id": "rct_0051",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "How Real Must a Simulator Be?",
+    "passage": "Flight simulators range from simple desktop programs to full-motion devices that reproduce a specific aircraft's cockpit in exact detail. It is tempting to assume that more realism always produces better training, but research suggests the relationship is more complicated. For learning procedures, such as checklists and radio calls, a basic device that shows the right switches in the right places can be nearly as effective as an expensive one. For tasks that depend on physical feel, such as recovering from certain upsets, higher fidelity may matter more, though even full-motion platforms cannot reproduce sustained forces like those of a real aircraft. Training managers therefore try to match the device to the skill being taught, reserving the costliest simulators for the tasks where their added realism makes a difference.",
+    "passage_ko": "비행 시뮬레이터는 간단한 데스크톱 프로그램부터 특정 항공기의 조종석을 세부까지 똑같이 재현하는 풀모션 장비까지 다양하다. 사실감이 클수록 언제나 더 나은 훈련이 된다고 생각하기 쉽지만, 연구에 따르면 그 관계는 더 복잡하다. 체크리스트나 무선 교신 같은 절차를 배우는 데는 올바른 스위치를 올바른 위치에 보여 주는 기본 장비가 값비싼 장비와 거의 비슷한 효과를 낼 수 있다. 특정 비정상 자세에서 회복하는 것처럼 신체 감각에 의존하는 과제에서는 높은 재현도가 더 중요할 수 있지만, 풀모션 플랫폼이라도 실제 항공기에서 느끼는 것 같은 지속적인 힘은 재현하지 못한다. 그래서 훈련 관리자들은 가르치는 기량에 장비를 맞추려 하며, 가장 비싼 시뮬레이터는 그 추가 사실감이 차이를 만드는 과제에 쓰도록 아껴 둔다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Full-motion platforms can reproduce the sustained forces of real flight.",
+      "Greater realism always produces better training, whatever the skill.",
+      "Spending more on realism does not guarantee a matching gain in training value.",
+      "Time in a simulator can count toward some of the flight hours required for a license."
+    ],
+    "answer": 2,
+    "explain": "근거: \"a basic device ... can be nearly as effective as an expensive one\" + \"match the device to the skill being taught\" → 비싼 사실감이 늘 그만큼의 훈련 효과로 이어지지는 않는다.\n(1) 세부 비틀기 — 풀모션도 \"cannot reproduce sustained forces\"\n(2) 과잉 일반화 — always, 지문은 \"more complicated\"라고 함\n(4) 지문에 없는 상식 — 면허 비행시간 인정은 언급 없음"
+  },
+  {
+    "id": "rct_0052",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Cost of Barnacles",
+    "passage": "A ship's hull does not stay clean for long. Within weeks in warm water, it can be colonized by slime, algae, and then barnacles and other shell-forming animals, a process called fouling. Even a thin layer of growth roughens the surface and increases drag, so a fouled ship must burn more fuel to hold the same speed, or accept a slower speed on the same fuel. Heavy fouling can raise fuel consumption substantially. Ships are therefore coated with antifouling paints that discourage organisms from attaching, and hulls are cleaned periodically, either in dry dock or by divers. Fouling also has an environmental side: organisms carried on hulls can be transported to distant ports, where some become invasive species.",
+    "passage_ko": "배의 선체는 오랫동안 깨끗하게 유지되지 않는다. 따뜻한 바다에서는 몇 주 안에 점액과 조류가, 이어서 따개비와 다른 껍데기를 만드는 동물들이 선체에 자리 잡을 수 있는데, 이 과정을 오손(fouling)이라 한다. 얇은 부착층만으로도 표면이 거칠어져 항력이 커지므로, 오손된 배는 같은 속력을 유지하려면 연료를 더 태우거나 같은 연료로 더 느린 속력을 감수해야 한다. 심한 오손은 연료 소모를 크게 늘릴 수 있다. 그래서 배에는 생물이 달라붙지 못하게 하는 방오 도료를 칠하고, 건선거에서 또는 잠수부가 주기적으로 선체를 청소한다. 오손에는 환경적인 측면도 있다. 선체에 붙어 이동한 생물이 먼 항구로 옮겨져 그중 일부가 침입종이 되기도 한다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Fouling makes a hull smoother and allows a ship to move more easily.",
+      "Two identical ships at the same speed may use different amounts of fuel.",
+      "Antifouling paints prevent all marine growth from attaching to a hull.",
+      "Some older antifouling paints contained toxic compounds that harmed other sea life."
+    ],
+    "answer": 1,
+    "explain": "근거: \"a fouled ship must burn more fuel to hold the same speed\" → 오손 정도가 다르면 같은 속력에서도 연료 소모가 다를 수 있다.\n(1) 인과 뒤집기 — 오손은 표면을 거칠게 해 항력을 늘림\n(3) 과잉 일반화 — all, 도료는 부착을 억제(discourage)할 뿐이라 주기적 청소가 필요\n(4) 지문에 없는 상식 — 옛 도료의 독성은 언급 없음"
+  },
+  {
+    "id": "rct_0053",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Deceiving the Observer",
+    "passage": "Military deception aims to make an opponent believe something false and act on it. Decoys are one of its oldest tools. Inflatable or collapsible replicas of tanks, aircraft, and radar sites can be set up in minutes and may draw attacks away from real equipment. Modern sensors, however, can see more than shape. Thermal imagers detect heat, and radar reveals metal, so the most convincing decoys now include heat sources and radar reflectors. Deception also depends on consistency. A replica tank that never moves, leaves no tracks, and produces no radio traffic may be exposed by an observer who notices what is missing. For this reason, effective deception plans coordinate many small details rather than relying on any single device.",
+    "passage_ko": "군사 기만은 상대가 거짓을 믿고 그에 따라 행동하게 만드는 것을 목표로 한다. 기만체(decoy)는 가장 오래된 기만 수단 가운데 하나다. 전차, 항공기, 레이더 기지를 본뜬 풍선형이나 접이식 모형은 몇 분 만에 설치할 수 있으며, 실제 장비로 향할 공격을 끌어낼 수 있다. 그러나 현대 센서는 모양 이상을 볼 수 있다. 열영상 장비는 열을 감지하고 레이더는 금속을 드러내므로, 오늘날 가장 그럴듯한 기만체에는 열원과 레이더 반사체가 들어간다. 기만은 일관성에도 달려 있다. 전혀 움직이지 않고, 궤도 자국도 남기지 않으며, 무선 교신도 없는 모형 전차는 무엇이 빠져 있는지 알아차린 관측자에게 정체가 드러날 수 있다. 이런 이유로 효과적인 기만 계획은 하나의 장치에 의존하기보다 많은 작은 세부를 조율한다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "decoys are no longer useful against armies that have modern sensors",
+      "a decoy that looks exactly like a tank will fool any kind of sensor",
+      "some armies used painted wooden guns to fool observers in past wars",
+      "a decoy's surroundings can reveal it as fake even if it looks real"
+    ],
+    "answer": 3,
+    "explain": "근거: \"A replica tank that never moves, leaves no tracks, and produces no radio traffic may be exposed\".\n(1) 뒤집기 — 열원·레이더 반사체를 더한 기만체는 여전히 설득력 있음\n(2) 과잉 일반화 — any kind of sensor, 현대 센서는 \"more than shape\"을 봄\n(3) 지문에 없는 상식 — 나무 대포 사례는 언급 없음"
+  },
+  {
+    "id": "rct_0054",
+    "topic": "space",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Surviving Reentry",
+    "passage": "A spacecraft returning from orbit hits the upper atmosphere at several kilometers per second, and the air in front of it is compressed and heated to thousands of degrees. Most of that heat must be kept from reaching the crew or cargo. Many capsules use an ablative heat shield, made of material designed to char, melt, and slowly wear away. As the outer layer burns off, it carries heat away with it and leaves a protective char behind. Because the material is consumed, such shields are generally used only once. Reusable vehicles instead rely on tiles or blankets that insulate the structure without wearing away, but these require careful inspection and repair between flights, since damage to even a small area can be dangerous.",
+    "passage_ko": "궤도에서 돌아오는 우주선은 초속 수 킬로미터로 상층 대기에 부딪치고, 그 앞의 공기는 압축되어 수천 도로 가열된다. 그 열의 대부분이 승무원이나 화물에 닿지 않도록 막아야 한다. 많은 캡슐은 삭마형(ablative) 열차폐를 쓰는데, 이는 그을리고 녹으며 천천히 닳아 없어지도록 설계된 재료로 만든다. 바깥층이 타서 떨어져 나가면서 열을 함께 가져가고, 뒤에는 보호용 탄화층을 남긴다. 재료가 소모되기 때문에 이런 차폐는 일반적으로 한 번만 사용된다. 반면 재사용 비행체는 닳지 않으면서 구조물을 단열하는 타일이나 담요형 단열재에 의존하지만, 작은 부분의 손상도 위험할 수 있으므로 비행 사이에 꼼꼼한 점검과 수리가 필요하다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "An ablative heat shield is normally used for only a single reentry.",
+      "Reusable heat protection needs no inspection between one flight and the next.",
+      "Ablative shields keep heat away mainly by reflecting it back into space.",
+      "The space shuttle's heat-resistant tiles were made largely of silica."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Because the material is consumed, such shields are generally used only once\".\n(2) 뒤집기 — 재사용 타일은 \"careful inspection and repair between flights\"가 필요\n(3) 세부 비틀기 — 반사가 아니라 바깥층이 타면서 열을 가지고 떨어져 나감\n(4) 지문에 없는 상식 — 셔틀 타일 재질은 언급 없음"
+  },
+  {
+    "id": "rct_0055",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Fighting Fire with Fire",
+    "passage": "In many forests and grasslands, fire is a natural and recurring event. Frequent low-intensity fires once cleared away dead branches, dry needles, and small shrubs without killing most mature trees. When people suppressed nearly every fire for decades, this fuel accumulated, and in some regions the result has been fewer but far more destructive fires that burn into the treetops and are hard to control. Land managers now use prescribed burns, fires set deliberately under carefully chosen conditions of wind, humidity, and temperature, to reduce the fuel load. Prescribed burns carry risks of their own, including smoke and the rare fire that escapes control, so they are planned in detail and are canceled when conditions fall outside safe limits.",
+    "passage_ko": "많은 숲과 초원에서 불은 자연스럽고 반복되는 현상이다. 예전에는 잦고 약한 불이 대부분의 다 자란 나무를 죽이지 않으면서 죽은 가지, 마른 솔잎, 작은 관목을 치워 주었다. 사람들이 수십 년 동안 거의 모든 불을 진압하자 이 연료가 쌓였고, 일부 지역에서는 그 결과 불의 횟수는 줄었지만 나무 꼭대기까지 타오르고 통제하기 어려운 훨씬 파괴적인 불이 생겼다. 오늘날 토지 관리자들은 계획 소각(prescribed burn), 즉 바람, 습도, 기온 조건을 신중히 골라 의도적으로 놓는 불을 이용해 연료량을 줄인다. 계획 소각에도 연기, 그리고 드물지만 통제를 벗어나는 불 같은 위험이 있으므로, 세밀하게 계획되며 조건이 안전 한계를 벗어나면 취소된다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Suppressing every fire is the most effective way to protect a forest.",
+      "Prescribed burns are carried out regardless of the weather conditions.",
+      "A policy meant to prevent fires may have made some fires more severe.",
+      "Some pine species need the heat of a fire to open their cones."
+    ],
+    "answer": 2,
+    "explain": "근거: \"When people suppressed nearly every fire for decades, this fuel accumulated\" → 그 결과 \"far more destructive fires\".\n(1) 인과 뒤집기 — 모든 불을 진압한 것이 오히려 연료를 쌓이게 함\n(2) 세부 비틀기 — 조건이 안전 한계를 벗어나면 \"canceled\"\n(4) 지문에 없는 상식 — 솔방울 이야기는 없음"
+  },
+  {
+    "id": "rct_0056",
+    "topic": "health",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Body's Clock",
+    "passage": "The human body runs on an internal clock that cycles roughly every 24 hours, influencing sleep, alertness, body temperature, and hormone levels. This circadian rhythm is reset each day mainly by light, especially morning light. When travelers cross several time zones quickly, their internal clock remains set to the old location for a while, producing the fatigue, poor sleep, and reduced concentration known as jet lag. The clock usually shifts by only about an hour per day, so recovery from a large time change can take several days. Many people find eastward travel harder than westward travel, because it requires the body to fall asleep earlier than it is ready to. Timed exposure to daylight at the destination can help the clock adjust faster.",
+    "passage_ko": "사람의 몸은 대략 24시간 주기로 도는 내부 시계에 따라 움직이며, 이 시계는 수면, 각성도, 체온, 호르몬 수치에 영향을 준다. 이 일주기 리듬은 주로 빛, 특히 아침 빛에 의해 날마다 재설정된다. 여행자가 여러 시간대를 빠르게 건너면 내부 시계가 한동안 이전 장소에 맞춰진 채 남아, 시차증(jet lag)이라 불리는 피로, 수면 부족, 집중력 저하가 생긴다. 내부 시계는 보통 하루에 약 한 시간씩만 이동하므로, 큰 시차에서 회복하는 데는 며칠이 걸릴 수 있다. 많은 사람이 서쪽보다 동쪽으로 가는 여행을 더 힘들어하는데, 몸이 준비되기 전에 더 일찍 잠들어야 하기 때문이다. 도착지에서 시간을 맞춰 햇빛을 쬐면 시계가 더 빨리 적응하는 데 도움이 될 수 있다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Jet lag occurs mainly when a traveler flies a long way north or south.",
+      "A traveler who crosses six time zones may need days to fully adjust.",
+      "Eastward travel is easier on the body than westward travel for everyone.",
+      "Melatonin supplements are sometimes used to reduce the effects of jet lag."
+    ],
+    "answer": 1,
+    "explain": "근거: \"The clock usually shifts by only about an hour per day, so recovery from a large time change can take several days\".\n(1) 세부 비틀기 — 원인은 여러 '시간대'를 빠르게 건너는 것(동서 이동)\n(3) 과잉 일반화 + 비교 뒤집기 — 많은 사람에게 동쪽 여행이 '더 힘듦'\n(4) 지문에 없는 상식 — 멜라토닌은 언급 없음"
+  },
+  {
+    "id": "rct_0057",
+    "topic": "economics",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Why Trade Helps Both Sides",
+    "passage": "Suppose one country can produce both grain and cloth more efficiently than its neighbor. It might seem that the more productive country has nothing to gain from trade. Economists, however, point to the principle of comparative advantage. What matters is not which country is better at producing a good in absolute terms, but which gives up less of other goods to produce it. If each country specializes in the product it makes at the lowest opportunity cost and trades for the other, both can end up with more of both goods than they could produce alone. The principle helps explain why trade occurs even between partners of very different productivity, though in practice transport costs, trade barriers, and other factors can reduce the gains.",
+    "passage_ko": "어떤 나라가 이웃 나라보다 곡물과 옷감을 모두 더 효율적으로 생산할 수 있다고 해 보자. 그러면 생산성이 더 높은 나라는 교역으로 얻을 것이 없어 보일 수 있다. 그러나 경제학자들은 비교우위(comparative advantage)의 원리를 지적한다. 중요한 것은 어느 나라가 절대적으로 그 재화를 더 잘 생산하느냐가 아니라, 그것을 생산하기 위해 다른 재화를 더 적게 포기하느냐이다. 각 나라가 가장 낮은 기회비용으로 만드는 제품에 특화하고 나머지는 교역으로 얻으면, 두 나라 모두 혼자 생산할 때보다 두 재화를 더 많이 가질 수 있다. 이 원리는 생산성이 크게 다른 상대끼리도 교역이 일어나는 이유를 설명하는 데 도움이 되지만, 실제로는 운송비, 무역 장벽, 그 밖의 요인이 이득을 줄일 수 있다.",
+    "q": "Which of the following best states the main idea of the passage?",
+    "q_ko": "다음 중 지문의 중심 내용을 가장 잘 나타낸 것은?",
+    "options": [
+      "A country that is less productive has nothing to gain from trade.",
+      "Transport costs can make international trade unprofitable for most nations.",
+      "The principle of comparative advantage was first set out by the economist David Ricardo.",
+      "Two countries can both gain from trade even if one is better at everything."
+    ],
+    "answer": 3,
+    "explain": "근거: \"both can end up with more of both goods than they could produce alone\" — 비교우위 원리가 지문의 중심이다.\n(1) 뒤집기 — 생산성이 달라도 양쪽 모두 이득을 볼 수 있음\n(2) 과잉 일반화 — 운송비 등은 이득을 \"reduce\"할 수 있을 뿐\n(3) 지문에 없는 상식 — 리카도는 언급 없음"
+  },
+  {
+    "id": "rct_0058",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Dating with Carbon",
+    "passage": "Living things constantly take in carbon, including a small, steady proportion of radioactive carbon-14. When an organism dies, it stops absorbing carbon, and the carbon-14 it contains begins to decay at a known rate, with half of it disappearing about every 5,700 years. By measuring how much carbon-14 remains in a sample of wood, bone, or cloth, scientists can estimate how long ago the organism died. The method has limits. After roughly 50,000 years, too little carbon-14 remains to measure reliably, so older materials must be dated in other ways. The technique also works only on material that was once alive; it cannot date a stone tool directly, although it can date charcoal or bone found in the same layer.",
+    "passage_ko": "생물은 탄소를 끊임없이 받아들이는데, 여기에는 적지만 일정한 비율의 방사성 탄소-14가 포함된다. 생물이 죽으면 탄소 흡수가 멈추고, 몸속의 탄소-14는 알려진 속도로 붕괴하기 시작해 약 5,700년마다 절반씩 사라진다. 과학자들은 나무, 뼈, 천 시료에 남아 있는 탄소-14의 양을 측정해 그 생물이 얼마나 오래전에 죽었는지 추정할 수 있다. 이 방법에는 한계가 있다. 약 5만 년이 지나면 남은 탄소-14가 너무 적어 믿을 만하게 측정할 수 없으므로, 더 오래된 물질은 다른 방법으로 연대를 측정해야 한다. 또한 이 기법은 한때 살아 있던 물질에만 쓸 수 있다. 석기의 연대를 직접 잴 수는 없지만, 같은 지층에서 발견된 숯이나 뼈의 연대는 측정할 수 있다.",
+    "q": "Which of the following is most strongly suggested by the passage?",
+    "q_ko": "다음 중 지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "Carbon-14 dating can directly determine the age of a stone arrowhead.",
+      "A sample with more carbon-14 left is likely older than one with less.",
+      "Carbon-14 dating would not be useful for a bone 200,000 years old.",
+      "Potassium-40 is used to date some rocks that are millions of years old."
+    ],
+    "answer": 2,
+    "explain": "근거: \"After roughly 50,000 years, too little carbon-14 remains to measure reliably\".\n(1) 세부 비틀기 — 석기는 \"cannot date a stone tool directly\"\n(2) 비교 뒤집기 — 탄소-14가 많이 남을수록 '더 최근'에 죽은 것\n(4) 지문에 없는 상식 — 칼륨-40 연대 측정은 언급 없음"
+  },
+  {
+    "id": "rct_0059",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Bending the Wingtip",
+    "passage": "As a wing produces lift, higher-pressure air beneath it tends to spill around the wingtip toward the lower-pressure air above, forming a swirling vortex. This flow creates induced drag, a penalty that is largest at low speeds and high angles of attack, such as during climb. Winglets, the upturned extensions seen on many airliners, reduce the strength of the tip vortex and thus the induced drag. The savings are modest on short flights but can reduce fuel use by a few percent on long-range cruise, which adds up to a large amount of fuel over an aircraft's service life. Winglets also add weight and can increase stress on the wing structure, so engineers must decide for each design whether the benefits outweigh the costs.",
+    "passage_ko": "날개가 양력을 만들 때, 날개 아래의 압력이 높은 공기는 날개 끝을 돌아 위쪽의 압력이 낮은 공기 쪽으로 넘어가려 하며 소용돌이치는 와류를 만든다. 이 흐름은 유도항력(induced drag)을 만드는데, 이 손실은 상승할 때처럼 저속이고 받음각이 클 때 가장 크다. 많은 여객기에서 볼 수 있는 위로 꺾인 날개 끝 연장부인 윙렛(winglet)은 날개 끝 와류의 세기를 줄여 유도항력을 줄인다. 절감 효과는 짧은 비행에서는 크지 않지만 장거리 순항에서는 연료 사용을 몇 퍼센트 줄일 수 있고, 이는 항공기의 운용 수명 동안 막대한 연료량이 된다. 윙렛은 무게를 더하고 날개 구조에 걸리는 응력을 늘릴 수도 있으므로, 기술자들은 설계마다 이점이 비용보다 큰지 판단해야 한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "winglets tend to be most worthwhile on aircraft that fly long distances",
+      "induced drag is greatest when an aircraft cruises at high speed",
+      "every new airliner design should include winglets to save fuel",
+      "some aircraft use raked wingtips instead of upturned winglets"
+    ],
+    "answer": 0,
+    "explain": "근거: \"The savings are modest on short flights but can reduce fuel use by a few percent on long-range cruise\".\n(2) 뒤집기 — 유도항력은 '저속·큰 받음각'에서 가장 큼\n(3) 과잉 일반화 — every, 무게·구조 부담 때문에 설계마다 따져야 함\n(4) 지문에 없는 상식 — 레이크드 윙팁은 언급 없음"
+  },
+  {
+    "id": "rct_0060",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Man Overboard",
+    "passage": "When a sailor falls overboard, the first actions aboard ship are to shout the alarm, throw a flotation device, and keep the person in sight, since a head in the water is easy to lose among the waves. The ship must then return along its own track. One common maneuver, the Williamson turn, begins with a hard turn toward the side the person fell from, which swings the stern and its propellers away. The ship then turns back through a wide arc until it is heading in the opposite direction on its original path. The maneuver takes more time than some alternatives, but it works even when the moment of the fall is uncertain or visibility is poor, because it brings the ship back along the water it has already crossed.",
+    "passage_ko": "선원이 바다에 빠지면 함정에서 가장 먼저 할 일은 경보를 외치고, 부유 장비를 던지고, 그 사람을 계속 시야에 두는 것이다. 물 위의 머리는 파도 사이에서 놓치기 쉽기 때문이다. 그런 다음 함정은 자기 항적을 따라 되돌아가야 한다. 흔히 쓰이는 기동 가운데 하나인 윌리엄슨 선회(Williamson turn)는 사람이 떨어진 쪽으로 급선회하는 것으로 시작하는데, 이렇게 하면 선미와 프로펠러가 그 사람에게서 멀어진다. 이후 함정은 넓은 호를 그리며 반대로 돌아 원래 항로 위에서 반대 방향을 향하게 된다. 이 기동은 다른 방법들보다 시간이 더 걸리지만, 추락 시점이 불확실하거나 시정이 나쁠 때도 효과가 있다. 이미 지나온 물길을 따라 함정을 되돌려 놓기 때문이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The Williamson turn is the fastest way to reach a person in the water.",
+      "A Williamson turn might be chosen when no one saw exactly when the sailor fell.",
+      "Turning toward the side of the fall swings the propellers closer to the person.",
+      "Ships also carry small rescue boats that can be launched quickly to recover a person."
+    ],
+    "answer": 1,
+    "explain": "근거: \"it works even when the moment of the fall is uncertain or visibility is poor\".\n(1) 비교 뒤집기 — 다른 방법보다 \"more time\"이 걸림\n(3) 세부 비틀기 — 떨어진 쪽으로 도는 것은 선미와 프로펠러를 '멀어지게' 함\n(4) 지문에 없는 상식 — 구조정 이야기는 없음"
+  },
+  {
+    "id": "rct_0061",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Staying Silent",
+    "passage": "Every radio transmission, radar pulse, and data link sends out energy that an adversary can detect, and even when the content of a message is encrypted, the signal itself can reveal that a unit is present, where it is, and sometimes what kind of equipment it carries. To avoid giving this information away, forces practice emission control, strictly limiting which systems may transmit and when. A ship under strict emission control may switch off its radars and rely on passive sensors, and units may communicate by messenger, prearranged signals, or brief transmissions. The practice reduces the chance of detection, but it also limits a unit's own awareness and coordination, so commanders tighten or relax it according to the threat.",
+    "passage_ko": "모든 무선 송신, 레이더 펄스, 데이터 링크는 상대가 탐지할 수 있는 에너지를 내보낸다. 메시지 내용이 암호화되어 있더라도, 신호 자체가 부대가 있다는 사실, 그 위치, 때로는 어떤 장비를 갖추었는지까지 드러낼 수 있다. 이런 정보를 내주지 않기 위해 군은 전자파 방사 통제(emission control)를 시행해, 어떤 장비가 언제 송신할 수 있는지를 엄격히 제한한다. 엄격한 방사 통제 아래의 함정은 레이더를 끄고 수동 센서에 의존할 수 있으며, 부대들은 전령, 사전에 약속한 신호, 또는 짧은 송신으로 소통할 수 있다. 이 방법은 탐지될 가능성을 줄이지만 부대 자신의 상황 인식과 협조도 제한하므로, 지휘관은 위협에 따라 통제를 강화하거나 완화한다.",
+    "q": "According to the passage, an encrypted radio message can still be dangerous because",
+    "q_ko": "지문에 따르면, 암호화된 무선 메시지도 위험할 수 있는 이유는?",
+    "options": [
+      "its content can easily be read by anyone with a receiver",
+      "every transmission is always decoded by the enemy in time",
+      "the signal itself may reveal where the sending unit is located",
+      "radio waves can sometimes travel far beyond the horizon"
+    ],
+    "answer": 2,
+    "explain": "근거: \"even when the content of a message is encrypted, the signal itself can reveal that a unit is present, where it is\".\n(1) 세부 비틀기 — 내용은 암호화되어 있음\n(2) 과잉 일반화 — every/always, 해독 이야기는 없음\n(4) 지문에 없는 상식 — 전파의 원거리 전파는 언급 없음"
+  },
+  {
+    "id": "rct_0062",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Printing Parts at Sea",
+    "passage": "Ships and remote bases have long faced a supply problem: a single broken part can sideline an important system for weeks while a replacement is shipped. Additive manufacturing, often called 3D printing, offers a partial solution. Using a digital design file, a printer builds an object layer by layer from plastic or metal, allowing some parts to be made on the spot. The approach works best for simple, low-stress items such as brackets, knobs, and covers. Parts that carry heavy loads or operate at high temperatures are harder to print reliably, and any printed replacement must be tested or certified before it can be trusted in a critical system. Even so, the ability to print a part in hours rather than wait for delivery can keep equipment working.",
+    "passage_ko": "함정과 외딴 기지는 오래전부터 보급 문제를 겪어 왔다. 부품 하나가 고장 나면 교체품이 배송될 때까지 몇 주 동안 중요한 체계가 멈출 수 있다. 흔히 3D 프린팅이라 불리는 적층 제조는 부분적인 해결책을 제공한다. 프린터는 디지털 설계 파일을 이용해 플라스틱이나 금속으로 물체를 한 층씩 쌓아 만들기 때문에, 일부 부품을 현장에서 만들 수 있다. 이 방법은 브래킷, 손잡이, 덮개처럼 단순하고 응력이 작은 품목에 가장 잘 맞는다. 큰 하중을 받거나 고온에서 작동하는 부품은 믿을 만하게 출력하기가 더 어렵고, 출력한 교체품은 중요한 체계에 믿고 쓰기 전에 반드시 시험하거나 인증을 받아야 한다. 그렇더라도 배송을 기다리는 대신 몇 시간 만에 부품을 출력할 수 있다면 장비를 계속 가동할 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The first commercial 3D printers were developed in the 1980s.",
+      "Printed parts may be installed in critical systems without testing.",
+      "Parts that run hot or carry heavy loads are the easiest ones to print.",
+      "A simple plastic knob is easier to print reliably than a heavily loaded part."
+    ],
+    "answer": 3,
+    "explain": "근거: \"works best for simple, low-stress items such as brackets, knobs, and covers\" vs \"Parts that carry heavy loads ... are harder to print reliably\".\n(1) 지문에 없는 상식 — 3D 프린터의 역사는 언급 없음\n(2) 세부 비틀기 — 핵심 계통에 쓰기 전 \"must be tested or certified\"\n(3) 비교 뒤집기 — 고온·고하중 부품은 '더 어렵다'"
+  },
+  {
+    "id": "rct_0063",
+    "topic": "history",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Learning from the Wind Tunnel",
+    "passage": "In 1901, after a season of glider tests that fell well short of their expectations, Wilbur and Orville Wright began to suspect that the published tables they had used to design their wings were wrong. Rather than abandon the project, they built a small wind tunnel in their bicycle shop and tested scores of miniature wing shapes, measuring lift and drag with balances they designed themselves. The data they gathered over a few months allowed them to design a far more efficient glider in 1902, which flew well and taught them to control an aircraft in all three axes. Historians often regard these months of patient measurement, rather than the famous flights that followed, as the true turning point in their work.",
+    "passage_ko": "1901년, 기대에 크게 못 미친 한 시즌의 글라이더 시험 뒤에 윌버와 오빌 라이트 형제는 날개 설계에 사용했던 공개된 표들이 틀렸다고 의심하기 시작했다. 그들은 계획을 포기하는 대신 자전거 가게에 작은 풍동을 만들고, 직접 설계한 저울로 양력과 항력을 재면서 수십 가지 소형 날개 형상을 시험했다. 몇 달 동안 모은 데이터 덕분에 그들은 1902년에 훨씬 더 효율적인 글라이더를 설계할 수 있었고, 이 글라이더는 잘 날았으며 그들에게 세 축 모두에서 항공기를 조종하는 법을 가르쳐 주었다. 역사가들은 흔히 뒤이은 유명한 비행들보다 이 몇 달간의 끈기 있는 측정을 그들의 작업에서 진정한 전환점으로 본다.",
+    "q": "The passage most strongly suggests that the Wrights' success with their 1902 glider depended partly on",
+    "q_ko": "지문이 가장 강하게 시사하는 바에 따르면, 라이트 형제의 1902년 글라이더 성공은 부분적으로 무엇에 달려 있었는가?",
+    "options": [
+      "their willingness to question data that others had published",
+      "their powered flight at Kitty Hawk in December 1903",
+      "their decision to keep trusting the earlier published tables",
+      "support from a large government research laboratory"
+    ],
+    "answer": 0,
+    "explain": "근거: \"began to suspect that the published tables ... were wrong\" → 직접 측정한 \"The data they gathered ... allowed them to design a far more efficient glider in 1902\".\n(2) 지문에 없는 상식 — 1903년 동력 비행은 사실이지만 1902년 성공의 원인이 될 수 없음\n(3) 뒤집기 — 기존 표를 의심하고 직접 측정함\n(4) 세부 비틀기 — 자기 자전거 가게에 직접 만든 풍동을 씀"
+  },
+  {
+    "id": "rct_0064",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "When Everyone Agrees",
+    "passage": "Groupthink occurs when members of a close-knit team value agreement so highly that they stop examining a decision critically. Warning signs include the belief that the group cannot fail, pressure on members who raise doubts, and a tendency to dismiss outside information that contradicts the plan. Groups that are cohesive and under time pressure, especially those led by a strong leader who states a preference early, are particularly vulnerable. Several techniques can help. A leader can hold back his or her own opinion until others have spoken, assign someone to argue against the proposed plan, or invite outside experts to review it. The aim is not to create conflict for its own sake but to make sure that serious objections are heard before a decision becomes final.",
+    "passage_ko": "집단사고(groupthink)는 결속력이 강한 팀의 구성원들이 합의를 너무 중시한 나머지 결정을 비판적으로 검토하지 않게 될 때 일어난다. 경고 신호로는 집단이 실패할 리 없다는 믿음, 의문을 제기하는 구성원에 대한 압박, 계획과 모순되는 외부 정보를 무시하는 경향 등이 있다. 결속력이 강하고 시간에 쫓기는 집단, 특히 강한 지도자가 일찍 자신의 선호를 밝히는 집단은 특히 취약하다. 도움이 되는 기법이 몇 가지 있다. 지도자는 다른 사람들이 발언할 때까지 자기 의견을 아껴 두거나, 누군가에게 제안된 계획에 반대하는 논리를 펴도록 맡기거나, 외부 전문가에게 검토를 요청할 수 있다. 목적은 갈등을 위한 갈등을 만드는 것이 아니라, 결정이 확정되기 전에 심각한 반대 의견이 반드시 들리게 하는 것이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Teams whose members get along well are usually protected from groupthink.",
+      "A leader who announces a preference first may discourage honest debate.",
+      "Groups should create as much conflict as possible to avoid poor decisions.",
+      "The term groupthink was popularized by a psychologist studying policy failures."
+    ],
+    "answer": 1,
+    "explain": "근거: \"especially those led by a strong leader who states a preference early, are particularly vulnerable\" + 해결책 \"hold back his or her own opinion\".\n(1) 뒤집기 — 결속력이 강한 집단이 오히려 취약\n(3) 과잉 일반화 — as much as possible, 목적은 \"not to create conflict for its own sake\"\n(4) 지문에 없는 상식 — 용어의 유래는 언급 없음"
+  },
+  {
+    "id": "rct_0065",
+    "topic": "culture",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Music for the Silent Screen",
+    "passage": "Although early films are called silent, audiences rarely watched them in silence. Before recorded sound became practical in the late 1920s, theaters provided live music, ranging from a single pianist in a small town to a full orchestra in a large city theater. Some films came with written scores, but many musicians improvised or assembled pieces from collections of mood music labeled for chases, love scenes, or storms. The quality of a screening could therefore vary greatly from one theater to the next, even for the same film. When sound films arrived, thousands of theater musicians lost their jobs within a few years. Today, silent films are often shown with newly composed scores or live accompaniment, reviving an experience that was once ordinary.",
+    "passage_ko": "초기 영화는 무성영화라고 불리지만, 관객이 그것을 조용히 본 경우는 드물었다. 1920년대 후반 녹음된 소리가 실용화되기 전까지 극장은 라이브 음악을 제공했는데, 작은 마을의 피아니스트 한 명부터 대도시 대형 극장의 오케스트라 전체까지 다양했다. 일부 영화에는 작곡된 악보가 함께 왔지만, 많은 연주자는 즉흥 연주를 하거나 추격 장면, 사랑 장면, 폭풍 장면 등으로 분류된 분위기 음악 모음집에서 곡을 골라 짜 맞췄다. 그래서 같은 영화라도 상영의 질은 극장마다 크게 다를 수 있었다. 유성영화가 등장하자 수천 명의 극장 연주자가 몇 년 안에 일자리를 잃었다. 오늘날 무성영화는 흔히 새로 작곡한 음악이나 라이브 반주와 함께 상영되어, 한때는 평범했던 경험을 되살린다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "every silent film was shown with a score written especially for it",
+      "sound films probably created many new jobs for theater musicians",
+      "Charlie Chaplin composed the music for several of his own films",
+      "two audiences seeing the same silent film might hear different music"
+    ],
+    "answer": 3,
+    "explain": "근거: \"The quality of a screening could therefore vary greatly from one theater to the next, even for the same film\" + 많은 연주자가 즉흥 연주를 함.\n(1) 과잉 일반화 — every, 많은 연주자가 즉흥 연주하거나 곡을 짜깁기함\n(2) 인과 뒤집기 — 유성영화로 수천 명의 극장 연주자가 일자리를 잃음\n(3) 지문에 없는 상식 — 채플린 이야기는 없음"
+  },
+  {
+    "id": "rct_0066",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Nose Wheel or Tail Wheel",
+    "passage": "Most modern light airplanes have tricycle landing gear, with a wheel under the nose and two main wheels behind the center of gravity. Older designs often used a tailwheel instead, placing the main wheels ahead of the center of gravity and a small wheel at the tail. The difference has important effects on the ground. With the center of gravity behind the main wheels, a tailwheel airplane that begins to swerve tends to swerve further, and if the pilot does not correct promptly, it can spin around in a ground loop. Tricycle-gear airplanes tend to straighten themselves instead, which makes them easier to handle during takeoff and landing. Tailwheel airplanes remain popular for rough fields, however, because they sit nose-high and keep the propeller farther from the ground.",
+    "passage_ko": "대부분의 현대 경비행기는 기수 아래에 바퀴 하나, 무게중심 뒤에 주바퀴 두 개가 있는 앞바퀴식(tricycle) 착륙장치를 갖추고 있다. 옛 설계는 흔히 꼬리바퀴(tailwheel)를 썼는데, 주바퀴를 무게중심 앞에 두고 꼬리에 작은 바퀴를 달았다. 이 차이는 지상에서 중요한 영향을 미친다. 무게중심이 주바퀴 뒤에 있으면, 꼬리바퀴식 비행기는 방향이 틀어지기 시작할 때 더 틀어지는 경향이 있고, 조종사가 즉시 바로잡지 않으면 빙글 도는 그라운드 루프(ground loop)가 일어날 수 있다. 앞바퀴식 비행기는 반대로 스스로 곧게 펴지는 경향이 있어 이착륙 중 다루기가 더 쉽다. 그러나 꼬리바퀴식 비행기는 기수를 높이 든 자세로 앉아 프로펠러를 지면에서 더 멀리 두기 때문에, 거친 비행장용으로 여전히 인기가 있다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "A tailwheel airplane demands closer attention to direction on the runway.",
+      "Tricycle-gear airplanes are more likely to ground loop than tailwheel types.",
+      "Tailwheel airplanes cannot be operated from rough or unpaved airstrips.",
+      "U.S. pilots need a special endorsement before flying tailwheel airplanes."
+    ],
+    "answer": 0,
+    "explain": "근거: \"a tailwheel airplane that begins to swerve tends to swerve further, and if the pilot does not correct promptly, it can spin around\".\n(2) 비교 뒤집기 — 스스로 곧게 펴지는 쪽이 앞바퀴식\n(3) 세부 비틀기 — 꼬리바퀴식은 오히려 거친 비행장용으로 인기\n(4) 지문에 없는 상식 — 별도 자격(endorsement)은 언급 없음"
+  },
+  {
+    "id": "rct_0067",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "How Much Chain to Let Out",
+    "passage": "An anchor holds a ship not by weight alone but by digging into the seabed, and it digs in best when the pull on it is nearly horizontal. For that reason, the length of chain let out, called the scope, matters as much as the anchor itself. Scope is usually expressed as a ratio of chain length to water depth. A short scope angles the chain upward and tends to lift the anchor out of the bottom, while a longer scope lets the heavy chain lie along the seabed and absorb sudden loads as the ship pitches. More scope is generally needed in strong winds or currents. The trade-off is that a long scope lets the ship swing in a wider circle, which can be a problem in a crowded anchorage.",
+    "passage_ko": "닻은 무게만으로 배를 붙잡는 것이 아니라 해저에 파고들어 붙잡으며, 닻을 당기는 힘이 거의 수평일 때 가장 잘 박힌다. 그래서 풀어낸 체인의 길이, 즉 스코프(scope)는 닻 자체만큼 중요하다. 스코프는 보통 수심에 대한 체인 길이의 비율로 나타낸다. 스코프가 짧으면 체인이 위쪽으로 기울어져 닻을 바닥에서 들어 올리는 경향이 있고, 스코프가 길면 무거운 체인이 해저를 따라 놓여 배가 앞뒤로 요동칠 때의 갑작스러운 하중을 흡수한다. 바람이나 조류가 강할 때는 대체로 더 긴 스코프가 필요하다. 그 대가로, 스코프가 길면 배가 더 넓은 원을 그리며 돌게 되어 붐비는 정박지에서는 문제가 될 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "An anchor holds best when the chain pulls upward on it at a steep angle.",
+      "Using a heavier anchor makes the length of chain let out unimportant.",
+      "A captain may have to trade holding power for swinging room in a busy harbor.",
+      "Many ships carry two bow anchors so that one of them can always serve as a spare."
+    ],
+    "answer": 2,
+    "explain": "근거: \"The trade-off is that a long scope lets the ship swing in a wider circle, which can be a problem in a crowded anchorage\" — 체인을 길게 낼수록 잘 붙잡지만 회전 반경이 커진다.\n(1) 뒤집기 — 끌림이 거의 '수평'일 때 가장 잘 박힘\n(2) 과잉 일반화 — 스코프는 \"matters as much as the anchor itself\"\n(4) 지문에 없는 상식 — 예비 닻 이야기는 없음"
+  },
+  {
+    "id": "rct_0068",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Two Ways to Jump",
+    "passage": "Military parachutists use two basic methods. In a static-line jump, the parachute is attached to a cable inside the aircraft and opens automatically moments after the jumper leaves the door. This method allows large numbers of troops to be delivered quickly from low altitude, with relatively short training. In a military freefall jump, the parachutist exits at a much higher altitude, falls for some time, and opens the parachute manually. Freefall requires far more training and specialized equipment, including oxygen at the highest altitudes, but it lets small teams exit the aircraft many miles from their target and glide toward it, making them harder to detect. Each method therefore suits a different kind of mission.",
+    "passage_ko": "군 강하병은 두 가지 기본 방식을 쓴다. 자동 개방(static-line) 강하에서는 낙하산이 항공기 안의 케이블에 연결되어 있어, 강하자가 문을 나선 직후 자동으로 펼쳐진다. 이 방식은 비교적 짧은 훈련으로 많은 병력을 낮은 고도에서 빠르게 투입할 수 있게 해 준다. 군사 자유강하(freefall)에서는 강하자가 훨씬 높은 고도에서 뛰어내려 한동안 낙하한 뒤 낙하산을 손으로 펼친다. 자유강하는 훨씬 많은 훈련과, 가장 높은 고도에서 쓰는 산소를 포함한 특수 장비가 필요하지만, 소규모 팀이 목표에서 수 마일 떨어진 곳에서 항공기를 떠나 목표 쪽으로 활공할 수 있게 해 주어 탐지되기 어렵게 만든다. 따라서 각 방식은 서로 다른 종류의 임무에 맞는다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "freefall jumps require oxygen equipment at every altitude",
+      "static-line and freefall jumps each suit different kinds of missions",
+      "static-line jumps are harder to detect than freefall jumps in all cases",
+      "paratroopers were first used on a large scale during World War II"
+    ],
+    "answer": 1,
+    "explain": "근거: \"Each method therefore suits a different kind of mission\" — 두 방식의 장단점을 비교하는 것이 요지.\n(1) 과잉 일반화 — every altitude, 산소는 '가장 높은 고도'에서만\n(3) 비교 뒤집기 + 과잉 일반화 — 탐지가 어려운 것은 오히려 자유강하\n(4) 지문에 없는 상식 — 2차 대전 공수부대 이야기는 없음"
+  },
+  {
+    "id": "rct_0069",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Hunting by Echo",
+    "passage": "Many bats find their way and catch insects in complete darkness by echolocation. They emit rapid, high-pitched calls, most of them too high for human ears, and listen for the echoes that bounce back from objects around them. By comparing the timing and strength of the echoes, a bat can judge the distance, size, and even texture of its target. As it closes in on an insect, the bat calls faster and faster, updating its information many times per second. Some insects have evolved defenses. Certain moths can hear bat calls and respond by diving or flying erratically, and a few produce clicking sounds of their own that appear to warn bats or interfere with their echolocation.",
+    "passage_ko": "많은 박쥐는 완전한 어둠 속에서 반향정위(echolocation)로 길을 찾고 곤충을 잡는다. 박쥐는 대부분 사람의 귀로 듣기에는 너무 높은, 빠르고 높은 소리를 내고 주변 물체에서 튕겨 돌아오는 메아리를 듣는다. 메아리의 시간과 세기를 비교해 박쥐는 표적의 거리, 크기, 심지어 질감까지 판단할 수 있다. 곤충에게 다가갈수록 박쥐는 점점 더 빠르게 소리를 내며 1초에 여러 번 정보를 갱신한다. 일부 곤충은 방어 수단을 진화시켰다. 어떤 나방은 박쥐의 소리를 들을 수 있어서 급강하하거나 불규칙하게 날아 대응하고, 몇몇 나방은 스스로 딸깍거리는 소리를 내는데, 이 소리는 박쥐에게 경고하거나 반향정위를 방해하는 것으로 보인다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "bats depend entirely on their eyesight to catch insects at night",
+      "all moths are able to hear the calls that hunting bats make",
+      "some bats catch fish by detecting ripples on the water's surface",
+      "a moth that hears an approaching bat may improve its chance of escape"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Certain moths can hear bat calls and respond by diving or flying erratically\".\n(1) 뒤집기 — 박쥐는 어둠 속에서 반향정위를 사용\n(2) 과잉 일반화 — all, 지문은 \"Certain moths\"\n(3) 지문에 없는 상식 — 물고기 잡는 박쥐는 언급 없음"
+  },
+  {
+    "id": "rct_0070",
+    "topic": "space",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "A Conversation with Mars",
+    "passage": "Radio signals travel at the speed of light, but the distance between Earth and Mars is so great that a one-way message takes between about 3 and 22 minutes, depending on where the two planets are in their orbits. A controller on Earth therefore cannot steer a Mars rover in real time. If a rover began to slide toward a rock, it could be damaged long before anyone on Earth saw the problem, let alone sent a command to stop. For this reason, rovers are given considerable autonomy. Engineers send a plan for the day, and the rover uses its own cameras and software to avoid hazards along the way, stopping and waiting for instructions if it encounters something it cannot handle.",
+    "passage_ko": "전파는 빛의 속도로 이동하지만, 지구와 화성 사이의 거리가 워낙 멀어서 한쪽 방향 메시지가 두 행성의 궤도상 위치에 따라 약 3분에서 22분까지 걸린다. 그래서 지구의 관제사는 화성 탐사 로버를 실시간으로 조종할 수 없다. 로버가 바위 쪽으로 미끄러지기 시작하면, 지구에서 누군가 문제를 보기는커녕 멈추라는 명령을 보내기도 훨씬 전에 손상될 수 있다. 이런 이유로 로버에는 상당한 자율성이 주어진다. 기술자들이 그날의 계획을 보내면, 로버는 자체 카메라와 소프트웨어로 도중의 위험을 피하고, 스스로 처리할 수 없는 것을 만나면 멈춰서 지시를 기다린다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Radio signals usually travel through space more slowly than light does.",
+      "A message between Earth and Mars always takes exactly 22 minutes.",
+      "A rover must be able to react to some dangers without waiting for Earth.",
+      "Mars rovers have been powered by solar panels or nuclear power sources."
+    ],
+    "answer": 2,
+    "explain": "근거: \"rovers are given considerable autonomy\" + 자체 카메라와 소프트웨어로 \"avoid hazards along the way\".\n(1) 세부 비틀기 — 전파는 빛의 속도로 이동함\n(2) 과잉 일반화 — always exactly, 지연은 약 3~22분으로 달라짐\n(4) 지문에 없는 상식 — 동력원은 언급 없음"
+  },
+  {
+    "id": "rct_0071",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Cities That Hold the Heat",
+    "passage": "Cities are often several degrees warmer than the surrounding countryside, an effect known as the urban heat island. Pavement, roofs, and buildings absorb sunlight during the day and release the stored heat slowly after sunset, so the difference is often greatest at night. Cities also have fewer trees and less exposed soil, which in rural areas cool the air as water evaporates from leaves and ground. Heat from vehicles, air conditioners, and industry adds to the warming. The effect is more than a matter of comfort: during heat waves, higher nighttime temperatures give residents little relief and can raise the risk of heat-related illness. Planting trees, installing reflective roofs, and adding green spaces have been shown to reduce local temperatures.",
+    "passage_ko": "도시는 흔히 주변 시골보다 몇 도 더 따뜻한데, 이 현상을 도시 열섬(urban heat island)이라 한다. 포장도로, 지붕, 건물은 낮 동안 햇빛을 흡수했다가 해가 진 뒤 저장한 열을 천천히 내놓기 때문에, 그 차이는 흔히 밤에 가장 크다. 도시에는 나무와 드러난 흙도 적은데, 시골에서는 잎과 땅에서 물이 증발하면서 공기를 식혀 준다. 자동차, 에어컨, 산업에서 나오는 열도 온난화를 더한다. 이 현상은 단순한 쾌적함의 문제가 아니다. 폭염 동안 높은 야간 기온은 주민들에게 거의 휴식을 주지 못하고 온열 질환의 위험을 높일 수 있다. 나무 심기, 반사 지붕 설치, 녹지 확충은 지역 기온을 낮추는 것으로 확인되었다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "the gap between city and rural temperatures is often largest after dark",
+      "air conditioners can cool a city overall by removing heat from buildings",
+      "every city is warmer than its surroundings at all hours of the day",
+      "hot summer weather raises the demand for electricity in large cities"
+    ],
+    "answer": 0,
+    "explain": "근거: \"release the stored heat slowly after sunset, so the difference is often greatest at night\".\n(2) 인과 뒤집기 — 에어컨 등에서 나오는 열은 도시를 '더 덥게' 함\n(3) 과잉 일반화 — every/at all hours, 지문은 \"often\"이라고만 함\n(4) 지문에 없는 상식 — 전력 수요는 언급 없음"
+  },
+  {
+    "id": "rct_0072",
+    "topic": "health",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Protecting Hearing",
+    "passage": "Exposure to loud noise can permanently damage the tiny hair cells of the inner ear, which do not grow back once they are destroyed. The risk depends on both how loud a sound is and how long it lasts. Because the decibel scale is logarithmic, a small increase in decibels represents a large increase in sound energy, so the safe exposure time shrinks quickly as noise grows louder. Hearing loss from noise usually develops gradually and without pain, which is why many people do not notice it until it is well advanced. Flight lines, engine rooms, and firing ranges are among the noisiest workplaces, and personnel there are required to wear earplugs, earmuffs, or both, often combined for the loudest environments.",
+    "passage_ko": "큰 소음에 노출되면 내이의 작은 유모세포가 영구적으로 손상될 수 있으며, 이 세포는 한번 파괴되면 다시 자라지 않는다. 위험은 소리가 얼마나 큰지와 얼마나 오래 지속되는지 둘 다에 달려 있다. 데시벨 척도는 로그 척도이기 때문에 데시벨이 조금만 늘어도 소리 에너지는 크게 늘어나며, 그래서 소음이 커질수록 안전한 노출 시간은 빠르게 줄어든다. 소음성 난청은 대개 서서히, 통증 없이 진행되므로 많은 사람이 상당히 진행될 때까지 알아차리지 못한다. 비행 라인, 기관실, 사격장은 가장 시끄러운 작업장에 속하며, 그곳의 인원은 귀마개나 귀덮개, 또는 둘 다를 착용해야 하고, 가장 시끄러운 환경에서는 흔히 둘을 함께 쓴다.",
+    "q": "According to the passage, many people fail to notice noise-induced hearing loss early because it",
+    "q_ko": "지문에 따르면, 많은 사람이 소음성 난청을 일찍 알아차리지 못하는 이유는?",
+    "options": [
+      "occurs only among people who work on flight lines",
+      "usually heals completely within a few days",
+      "is caused mostly by quiet sounds heard for long periods",
+      "develops gradually and does not cause pain"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Hearing loss from noise usually develops gradually and without pain\".\n(1) 과잉 일반화 — only, 비행 라인은 시끄러운 작업장의 한 예\n(2) 뒤집기 — 유모세포는 \"do not grow back\" — 영구 손상\n(3) 세부 비틀기 — 위험은 소리의 '크기'와 지속 시간에 달림"
+  },
+  {
+    "id": "rct_0073",
+    "topic": "economics",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Bigger Is Cheaper, Up to a Point",
+    "passage": "Economies of scale occur when the average cost of producing each unit falls as output rises. A factory that makes ten thousand units can spread the cost of its machines, buildings, and design work across all of them, so each unit costs less than it would if only a hundred were made. Large producers may also buy materials in bulk at lower prices. The advantage does not continue forever. Beyond a certain size, an organization can become harder to coordinate, communication can slow, and costs per unit may begin to rise again, a condition called diseconomies of scale. For this reason, the most efficient size for a business varies by industry, and bigger is not automatically better.",
+    "passage_ko": "규모의 경제(economies of scale)는 생산량이 늘수록 단위당 평균 생산비가 떨어질 때 나타난다. 1만 개를 만드는 공장은 기계, 건물, 설계 작업의 비용을 그 전부에 나누어 부담시킬 수 있으므로, 100개만 만들 때보다 개당 비용이 적게 든다. 대규모 생산자는 재료를 대량으로 더 싸게 살 수도 있다. 이 이점은 끝없이 이어지지 않는다. 일정 규모를 넘어서면 조직을 조정하기 어려워지고 소통이 느려지며, 단위당 비용이 다시 오르기 시작할 수 있는데, 이를 규모의 비경제(diseconomies of scale)라 한다. 이런 이유로 기업에 가장 효율적인 규모는 산업마다 다르며, 크다고 자동으로 더 나은 것은 아니다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Raising output lowers the cost of each unit no matter how large a firm becomes.",
+      "A firm could grow so large that each unit becomes more costly to produce.",
+      "Diseconomies of scale usually occur when a firm is too small to buy in bulk.",
+      "The most efficient size for a business is about the same in every industry."
+    ],
+    "answer": 1,
+    "explain": "근거: \"costs per unit may begin to rise again, a condition called diseconomies of scale\".\n(1) 과잉 일반화 — no matter how large, 지문은 \"does not continue forever\"\n(3) 세부 비틀기 — 규모의 비경제는 너무 '커서' 조정이 어려워질 때 생김\n(4) 뒤집기 — 가장 효율적인 규모는 \"varies by industry\""
+  },
+  {
+    "id": "rct_0074",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Why Touchscreens Ignore Gloves",
+    "passage": "Most smartphones use capacitive touchscreens, which work because a human finger conducts electricity. The screen maintains a weak electric field across the glass, and when a fingertip touches it, the finger disturbs the field at that point, allowing the device to calculate the location of the touch. Because the screen responds to this electrical property rather than to pressure, an ordinary glove or a plastic stylus usually has no effect. Special gloves with conductive threads in the fingertips solve the problem. Older resistive screens, still found on some industrial and military equipment, work differently: they register pressure that pushes two layers together, so they respond to a gloved finger or any stylus, though they are generally less sharp and less responsive to light touches.",
+    "passage_ko": "대부분의 스마트폰은 정전식(capacitive) 터치스크린을 쓰는데, 이 방식은 사람 손가락에 전기가 통한다는 점을 이용한다. 화면은 유리 전체에 약한 전기장을 유지하고, 손끝이 닿으면 손가락이 그 지점의 전기장을 흐트러뜨려 기기가 터치 위치를 계산할 수 있게 된다. 화면이 압력이 아니라 이 전기적 성질에 반응하기 때문에, 보통 장갑이나 플라스틱 스타일러스로는 대개 아무 반응이 없다. 손가락 끝에 전도성 실을 넣은 특수 장갑이 이 문제를 해결한다. 일부 산업·군용 장비에 아직 쓰이는 옛 감압식(resistive) 화면은 다르게 작동한다. 두 층을 맞닿게 누르는 압력을 감지하므로 장갑 낀 손가락이나 어떤 스타일러스에도 반응하지만, 대체로 선명도가 떨어지고 가벼운 터치에 덜 민감하다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Capacitive screens will never respond to any kind of glove.",
+      "Resistive screens are generally sharper and more sensitive than capacitive ones.",
+      "A resistive screen may suit a job where workers wear thick gloves.",
+      "Touchscreen phones became widespread among consumers in the 2000s."
+    ],
+    "answer": 2,
+    "explain": "근거: 감압식 화면은 \"respond to a gloved finger or any stylus\" + 산업·군용 장비에 여전히 쓰임.\n(1) 과잉 일반화 — never/any, 전도성 실을 넣은 특수 장갑은 작동함\n(2) 비교 뒤집기 — 감압식이 대체로 \"less sharp and less responsive\"\n(4) 지문에 없는 상식 — 보급 시기는 언급 없음"
+  },
+  {
+    "id": "rct_0075",
+    "topic": "history",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "A Code Built on a Language",
+    "passage": "During the Second World War, the U.S. Marine Corps recruited Navajo speakers to transmit messages in the Pacific. Their code was based on the Navajo language, which had no written alphabet in common use at the time and was spoken by very few people outside the Navajo Nation. Code talkers created Navajo words for military terms that had no equivalent, such as calling a submarine an 'iron fish.' Messages that might take a machine cipher much longer to encode and decode could be sent and understood in a fraction of the time. The code was never broken during the war. Because the program remained classified for years afterward, the code talkers received little public recognition until decades later.",
+    "passage_ko": "제2차 세계대전 중 미 해병대는 태평양에서 메시지를 전송하기 위해 나바호어 사용자를 모집했다. 그들의 암호는 나바호어에 기반했는데, 당시 이 언어에는 흔히 쓰이는 문자 체계가 없었고 나바호 부족 밖에서는 이 언어를 쓰는 사람이 극히 적었다. 코드 토커(code talker)들은 잠수함을 '쇠 물고기(iron fish)'라고 부르는 식으로, 대응하는 말이 없는 군사 용어에 대해 나바호어 단어를 만들었다. 기계식 암호로는 암호화하고 해독하는 데 훨씬 오래 걸렸을 메시지를 그 몇 분의 일의 시간에 보내고 이해할 수 있었다. 이 암호는 전쟁 동안 한 번도 해독되지 않았다. 이 계획은 전쟁 후에도 수년간 기밀로 유지되었기 때문에, 코드 토커들은 수십 년이 지나서야 대중의 인정을 받았다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "a code built on a little-known language gave the Marines fast, secure communication",
+      "the Navajo code talkers received wide public honors soon after the war ended",
+      "every message in the Pacific war was sent by Navajo code talkers",
+      "code talkers from other Native American nations also served in World War I"
+    ],
+    "answer": 0,
+    "explain": "근거: \"sent and understood in a fraction of the time\" + \"The code was never broken during the war\" — 빠르고 안전한 통신이 요지.\n(2) 뒤집기 — 기밀 유지 때문에 \"until decades later\" 인정받지 못함\n(3) 과잉 일반화 — every, 그런 말은 없음\n(4) 지문에 없는 상식 — 1차 대전의 다른 부족 코드 토커는 언급 없음"
+  },
+  {
+    "id": "rct_0076",
+    "topic": "leadership",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Bottom Line Up Front",
+    "passage": "Military writing and briefings often follow a principle known as BLUF, or bottom line up front. Instead of building toward a conclusion, the writer states the main point, request, or recommendation at the start, then provides the supporting details. The approach respects the reader's time: a busy commander who reads only the first few lines still learns what is being asked and why it matters. It also forces the writer to decide what the bottom line actually is, which can expose muddled thinking before it reaches the reader. BLUF is not a license to leave out necessary context, however. A recommendation stated up front must still be supported by facts, and the reader should be able to find them quickly if needed.",
+    "passage_ko": "군의 문서와 브리핑은 흔히 BLUF, 즉 '결론 먼저(bottom line up front)'라는 원칙을 따른다. 결론을 향해 차근차근 쌓아 가는 대신, 작성자는 요점, 요청 사항, 권고안을 처음에 밝히고 그다음에 뒷받침하는 세부 내용을 제시한다. 이 방식은 읽는 사람의 시간을 존중한다. 처음 몇 줄만 읽는 바쁜 지휘관도 무엇을 요청받는지, 그것이 왜 중요한지 알 수 있다. 또한 작성자가 핵심 결론이 실제로 무엇인지 스스로 정하도록 만들기 때문에, 뒤죽박죽인 생각이 독자에게 닿기 전에 드러날 수 있다. 그러나 BLUF가 필요한 배경 설명을 빼도 된다는 허가는 아니다. 앞에 내세운 권고안도 여전히 사실로 뒷받침되어야 하고, 독자는 필요하면 그 사실을 빨리 찾을 수 있어야 한다.",
+    "q": "The author would most likely agree with which of the following statements?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "Under BLUF, supporting facts should be cut to keep every report short.",
+      "A briefing that saves its main request for the very end can fit BLUF well.",
+      "Many civilian businesses have also adopted BLUF for their e-mail writing.",
+      "A writer unable to state a bottom line may not yet have thought the issue through."
+    ],
+    "answer": 3,
+    "explain": "근거: \"forces the writer to decide what the bottom line actually is, which can expose muddled thinking\".\n(1) 세부 비틀기 — BLUF는 \"not a license to leave out necessary context\"\n(2) 뒤집기 — BLUF는 요점을 '처음에' 말함\n(3) 지문에 없는 상식 — 민간 기업 이메일 사례는 없음"
+  },
+  {
+    "id": "rct_0077",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Before the Ice Returns",
+    "passage": "Even a thin layer of frost or ice on a wing can disrupt the smooth flow of air over its surface, reducing lift and increasing drag enough to make a takeoff dangerous. When aircraft must depart in freezing precipitation, ground crews spray them with heated de-icing fluid to remove existing ice, often followed by a thicker anti-icing fluid that prevents new ice from forming for a limited period. That period, called the holdover time, depends on the type of fluid, the temperature, and the kind and intensity of precipitation. Heavy snow shortens it considerably. If a departure is delayed beyond the holdover time, the aircraft may need to return for another treatment, since the protective fluid can no longer be relied upon.",
+    "passage_ko": "날개 위의 얇은 서리나 얼음층만으로도 표면 위의 매끄러운 공기 흐름이 흐트러져, 이륙을 위험하게 만들 만큼 양력이 줄고 항력이 늘 수 있다. 항공기가 어는 강수 속에서 출발해야 할 때, 지상 요원은 가열한 제빙액(de-icing fluid)을 뿌려 이미 붙은 얼음을 없애고, 흔히 이어서 더 걸쭉한 방빙액(anti-icing fluid)을 뿌려 제한된 시간 동안 새 얼음이 생기지 않게 한다. 그 시간을 홀드오버 타임(holdover time)이라 하며, 이는 방빙액의 종류, 기온, 강수의 종류와 강도에 따라 달라진다. 폭설은 이 시간을 크게 줄인다. 출발이 홀드오버 타임을 넘겨 지연되면, 보호용 방빙액을 더 이상 믿을 수 없으므로 항공기는 다시 처리를 받으러 돌아가야 할 수 있다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "anti-icing fluid protects an aircraft for an unlimited time once applied",
+      "a long wait for takeoff in heavy snow could force a second treatment",
+      "light frost has no effect on a wing's lift or drag during takeoff",
+      "some airports use infrared heating hangars to remove ice from aircraft"
+    ],
+    "answer": 1,
+    "explain": "근거: \"Heavy snow shortens it considerably\" + \"If a departure is delayed beyond the holdover time, the aircraft may need to return for another treatment\".\n(1) 과잉 일반화 — unlimited, 방빙 효과는 \"a limited period\"만 지속\n(3) 뒤집기 — 얇은 서리도 양력을 줄이고 항력을 늘림\n(4) 지문에 없는 상식 — 적외선 제빙 격납고는 언급 없음"
+  },
+  {
+    "id": "rct_0078",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Erasing a Ship's Magnetism",
+    "passage": "A steel ship is a large magnetic object. As it is built and as it sails, it picks up magnetism from the earth's magnetic field, and this magnetism slightly distorts the field around the ship. Some naval mines are designed to detect such distortions and explode when a ship passes overhead. To reduce the danger, navies developed degaussing, which uses electrical cables installed around the hull to create an opposing magnetic field that cancels much of the ship's own. Ships may also pass through special ranges where their magnetic signatures are measured and adjusted. Degaussing lowers the risk from magnetic mines but does not remove it, and it offers no protection against mines triggered by sound or pressure.",
+    "passage_ko": "강철로 만든 배는 커다란 자성체다. 배는 건조되는 동안, 그리고 항해하면서 지구 자기장으로부터 자성을 띠게 되고, 이 자성은 배 주변의 자기장을 약간 왜곡한다. 일부 해군 기뢰는 이런 왜곡을 감지해 배가 위를 지나갈 때 폭발하도록 설계되어 있다. 이 위험을 줄이기 위해 해군은 소자(degaussing)를 개발했는데, 이는 선체 둘레에 설치한 전기 케이블로 반대 방향의 자기장을 만들어 배 자체의 자기장을 상당 부분 상쇄하는 방법이다. 배는 자기 신호를 측정하고 조정하는 특수 시설을 통과하기도 한다. 소자는 자기 기뢰의 위험을 줄이지만 없애지는 못하며, 소리나 수압으로 작동하는 기뢰에 대해서는 아무런 보호도 되지 않는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Degaussing fully protects a ship from naval mines of every possible type.",
+      "A ship's magnetism comes mainly from the cargo that it carries.",
+      "A degaussed ship could still be endangered by a pressure-triggered mine.",
+      "Some minesweepers have been built with wooden hulls to lower their magnetism."
+    ],
+    "answer": 2,
+    "explain": "근거: \"it offers no protection against mines triggered by sound or pressure\".\n(1) 과잉 일반화 — every type, 음향·수압 기뢰는 막지 못함\n(2) 세부 비틀기 — 자성은 지구 자기장에서 얻음\n(4) 지문에 없는 상식 — 목재 소해정은 언급 없음"
+  },
+  {
+    "id": "rct_0079",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Dressing for the Cold",
+    "passage": "In cold-weather operations, sweat can be as dangerous as the cold itself. Moisture trapped in clothing conducts heat away from the body far faster than dry fabric does, so a soldier who works hard in heavy clothing and then stops to rest may chill rapidly. For this reason, cold-weather clothing is worn in layers: a thin inner layer that moves moisture away from the skin, an insulating middle layer, and an outer shell that blocks wind and precipitation. Soldiers are taught to remove layers before heavy exertion and to add them back when they stop, keeping themselves cool rather than warm while working. The approach requires discipline, since a person who is comfortably warm at the start of a march often begins sweating soon after.",
+    "passage_ko": "혹한기 작전에서는 땀이 추위 그 자체만큼 위험할 수 있다. 옷에 갇힌 습기는 마른 천보다 훨씬 빠르게 몸의 열을 빼앗기 때문에, 두꺼운 옷을 입고 힘들게 일하다가 멈춰서 쉬는 병사는 급격히 체온을 잃을 수 있다. 이런 이유로 방한복은 여러 겹으로 입는다. 피부에서 습기를 밀어내는 얇은 안쪽 층, 보온용 중간층, 바람과 눈비를 막는 바깥 겉옷이다. 병사들은 힘든 활동 전에 옷을 벗고 멈추면 다시 입도록 교육받으며, 일하는 동안에는 따뜻하기보다 서늘하게 유지한다. 이 방법에는 절제가 필요하다. 행군을 시작할 때 기분 좋게 따뜻한 사람은 곧 땀을 흘리기 시작하는 경우가 많기 때문이다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "A soldier who starts a march feeling slightly cool may be dressed correctly.",
+      "Wearing the heaviest clothing at all times is the safest approach in the cold.",
+      "Wet clothing tends to hold in body heat better than dry clothing of the same kind.",
+      "Wool continues to insulate fairly well even after it becomes damp."
+    ],
+    "answer": 0,
+    "explain": "근거: \"keeping themselves cool rather than warm while working\" + \"a person who is comfortably warm at the start of a march often begins sweating soon after\".\n(2) 과잉 일반화 — at all times, 힘든 활동 전에는 옷을 벗으라고 함\n(3) 인과 뒤집기 — 젖은 옷은 열을 '훨씬 빨리' 빼앗음\n(4) 지문에 없는 상식 — 양모의 성질은 언급 없음"
+  },
+  {
+    "id": "rct_0080",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Masters of Disguise",
+    "passage": "Octopuses and their relatives can change the color, pattern, and even texture of their skin in a fraction of a second. The skin contains thousands of elastic pigment sacs, each ringed by tiny muscles that pull the sac open to display its color; when the muscles relax, the sac shrinks back and the color fades from view. Other cells reflect light to produce shimmering or white effects, and muscles can raise small bumps that mimic rock or seaweed. Remarkably, most of these animals are thought to lack color vision, so researchers are still investigating how they match their surroundings so well. One possibility is that light-sensitive proteins in the skin itself help detect the colors nearby, though this idea has not been fully confirmed.",
+    "passage_ko": "문어와 그 친척들은 순식간에 피부의 색, 무늬, 심지어 질감까지 바꿀 수 있다. 피부에는 탄력 있는 색소 주머니가 수천 개 있고, 각 주머니를 둘러싼 작은 근육이 주머니를 당겨 펼치면 색이 드러나며, 근육이 이완하면 주머니가 다시 오그라들어 색이 보이지 않게 된다. 다른 세포들은 빛을 반사해 반짝이거나 흰 효과를 내고, 근육은 작은 돌기를 세워 바위나 해조류를 흉내 낼 수 있다. 놀랍게도 이 동물들 대부분은 색각이 없는 것으로 여겨지기 때문에, 연구자들은 그들이 어떻게 주변과 그렇게 잘 맞추는지 아직 연구하고 있다. 한 가지 가능성은 피부 자체에 있는 빛을 감지하는 단백질이 주변의 색을 감지하는 데 도움을 준다는 것이지만, 이 생각은 아직 완전히 확인되지 않았다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Octopuses match their background by seeing its colors with their eyes.",
+      "Scientists have not yet fully explained how octopuses match nearby colors.",
+      "Every octopus color change is produced by pigment sacs working alone.",
+      "Octopuses have three hearts and blood that uses copper to carry oxygen."
+    ],
+    "answer": 1,
+    "explain": "근거: \"researchers are still investigating how they match their surroundings\" + 피부 단백질 가설은 \"has not been fully confirmed\".\n(1) 뒤집기 — 대부분 색각이 없는 것으로 여겨짐\n(3) 과잉 일반화 — every/alone, 빛을 반사하는 세포와 근육도 작용\n(4) 지문에 없는 상식 — 심장·혈액 이야기는 없음"
+  }
+]

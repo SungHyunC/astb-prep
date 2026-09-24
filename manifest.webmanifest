@@ -1,0 +1,15 @@
+{
+  "name": "ASTB-E Prep",
+  "short_name": "ASTB-E",
+  "description": "ASTB-E(미 해군·해병대 항공 선발 시험) 대비 — MST·RCT·MCT·ANIT 연습과 실전 모의고사",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0e7490",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

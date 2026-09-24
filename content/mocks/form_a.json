@@ -1,0 +1,2002 @@
+{
+ "id": "form_a",
+ "name": "ASTB-E Practice Form A",
+ "name_ko": "실전 모의고사 A",
+ "sections": [
+  {
+   "code": "MST",
+   "secs": 2400,
+   "items": [
+    {
+     "id": "fa_mst_01",
+     "topic": "arithmetic",
+     "diff": 1,
+     "q": "What is the value of 48 ÷ 4 × 3 - 2^3 + 6?",
+     "q_ko": "48 ÷ 4 × 3 - 2^3 + 6의 값은?",
+     "options": [
+      "-10",
+      "2",
+      "22",
+      "34"
+     ],
+     "answer": 3,
+     "explain": "풀이: 지수 먼저 2^3 = 8. 곱셈·나눗셈은 왼쪽부터: 48 ÷ 4 = 12, 12 × 3 = 36. 이어서 36 - 8 + 6 = 34. ⚠️ 함정: 4 × 3을 먼저 하면 48 ÷ 12 = 4가 되어 2가 나오고, 8 + 6을 먼저 묶으면 36 - 14 = 22가 된다."
+    },
+    {
+     "id": "fa_mst_02",
+     "topic": "unit_conversion",
+     "diff": 1,
+     "q": "A search-and-rescue helicopter from a naval air station cruises at 120 knots. About how fast is this in statute miles per hour? (1 nautical mile ≈ 1.15 statute miles)",
+     "q_ko": "해군 항공기지의 수색구조 헬리콥터가 120노트로 순항한다. 이는 대략 시속 몇 법정마일(mph)인가? (1해리 ≈ 1.15법정마일)",
+     "options": [
+      "about 104 mph",
+      "about 120 mph",
+      "about 138 mph",
+      "about 222 mph"
+     ],
+     "answer": 2,
+     "explain": "풀이: 1노트 = 1해리/시. 120 × 1.15 = 138이므로 약 138 mph. ⚠️ 함정: 해리가 법정마일보다 길어서 mph 숫자가 더 커야 한다. 1.15로 나누면 104가 되어 틀리고, 222는 km/h(× 1.852)로 바꾼 값이다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_mst_03",
+     "topic": "algebra_linear",
+     "diff": 1,
+     "q": "If 5x - 7 = 3x + 11, what is the value of x?",
+     "q_ko": "5x - 7 = 3x + 11일 때 x의 값은?",
+     "options": [
+      "2",
+      "2.25",
+      "4.5",
+      "9"
+     ],
+     "answer": 3,
+     "explain": "풀이: 양변에서 3x를 빼면 2x - 7 = 11, 7을 더하면 2x = 18, x = 9. 검산: 5(9) - 7 = 38, 3(9) + 11 = 38. ⚠️ 함정: 3x를 옮기며 부호를 바꾸지 않으면 8x = 18(→ 2.25), -7을 옮기며 부호를 잘못 처리하면 2x = 4(→ 2)가 나온다."
+    },
+    {
+     "id": "fa_mst_04",
+     "topic": "fractions_decimals_percent",
+     "diff": 1,
+     "q": "The ground school syllabus at a training squadron totals 72 hours. A student has completed 3/8 of it. How many hours of ground school remain?",
+     "q_ko": "어느 훈련비행대대의 지상학 교육과정은 총 72시간이다. 한 학생이 그중 3/8을 마쳤다. 남은 지상학 시간은 몇 시간인가?",
+     "options": [
+      "24 hours",
+      "27 hours",
+      "36 hours",
+      "45 hours"
+     ],
+     "answer": 3,
+     "explain": "풀이: 남은 비율 = 1 - 3/8 = 5/8. 72 × 5/8 = 9 × 5 = 45시간. ⚠️ 함정: 72 × 3/8 = 27은 이미 마친 시간이다. 묻는 것이 '남은' 시간인지 확인하자."
+    },
+    {
+     "id": "fa_mst_05",
+     "topic": "geometry_measure",
+     "diff": 2,
+     "q": "A cylindrical fuel storage tank at an air station has an inside diameter of 6 feet and a length of 14 feet. What is its volume? (Use π ≈ 22/7.)",
+     "q_ko": "항공기지의 원기둥 모양 연료 저장 탱크는 안지름이 6피트, 길이가 14피트이다. 부피는 얼마인가? (π ≈ 22/7 사용)",
+     "options": [
+      "132 cubic feet",
+      "264 cubic feet",
+      "396 cubic feet",
+      "1,584 cubic feet"
+     ],
+     "answer": 2,
+     "explain": "풀이: 반지름 r = 6 ÷ 2 = 3피트. V = πr²h = 22/7 × 9 × 14 = 22 × 9 × 2 = 396 ft³. ⚠️ 함정: 지름 6을 그대로 넣으면 22/7 × 36 × 14 = 1,584, r을 제곱하지 않으면 132, 옆넓이(2πrh)를 구하면 264가 나온다."
+    },
+    {
+     "id": "fa_mst_06",
+     "topic": "word_problems",
+     "diff": 2,
+     "q": "An ensign deposits $4,000 in an account that pays 3.5% simple interest per year. How much interest will the account earn in 30 months?",
+     "q_ko": "한 소위(Ensign)가 연 3.5% 단리를 주는 계좌에 4,000달러를 예금했다. 30개월 동안 받는 이자는 얼마인가?",
+     "options": [
+      "$140",
+      "$350",
+      "$420",
+      "$4,200"
+     ],
+     "answer": 1,
+     "explain": "풀이: 단리 I = P × r × t, 30개월 = 2.5년. 1년 이자 4,000 × 0.035 = 140달러, 140 × 2.5 = 350달러. ⚠️ 함정: 30개월을 3년으로 보면 420, 기간에 30을 그대로 넣으면 4,200이 된다. 이율이 '연' 단위면 기간도 '년'으로 바꾼다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_mst_07",
+     "topic": "ratios_proportions",
+     "diff": 1,
+     "q": "On a flight-planning map, 1 inch represents 8 nautical miles. Two outlying fields are 5.25 inches apart on the map. What is the actual distance between them?",
+     "q_ko": "비행계획용 지도에서 1인치는 8해리를 나타낸다. 두 보조비행장(outlying field)이 지도에서 5.25인치 떨어져 있다. 실제 거리는?",
+     "options": [
+      "40 nautical miles",
+      "42 nautical miles",
+      "44 nautical miles",
+      "48 nautical miles"
+     ],
+     "answer": 1,
+     "explain": "풀이: 5.25 × 8 = 5 × 8 + 0.25 × 8 = 40 + 2 = 42해리. ⚠️ 함정: 0.25인치(= 2해리)를 빠뜨리면 40, 5.25를 5.5로 잘못 읽으면 44가 된다."
+    },
+    {
+     "id": "fa_mst_08",
+     "topic": "rate_time_distance",
+     "diff": 2,
+     "q": "One hangar crew can prepare an aircraft for a phase inspection in 4 hours. A second crew can do the same job in 6 hours. If both crews work together at these rates, how long will the job take?",
+     "q_ko": "한 격납고 정비반은 항공기 정기점검(phase inspection) 준비를 4시간에 끝낸다. 다른 정비반은 같은 일을 6시간에 끝낸다. 두 반이 이 속도로 함께 일하면 얼마나 걸리는가?",
+     "options": [
+      "2 h 24 min",
+      "2 h 40 min",
+      "5 h 00 min",
+      "10 h 00 min"
+     ],
+     "answer": 0,
+     "explain": "풀이: 1시간 작업량 = 1/4 + 1/6 = 3/12 + 2/12 = 5/12. 걸리는 시간 = 12/5 = 2.4시간 = 2시간 + 0.4 × 60분 = 2시간 24분. ⚠️ 함정: 2.4시간을 '2시간 40분'으로 읽으면 틀린다. 두 시간의 평균(5시간)이나 합(10시간)은 함께 일한 시간이 아니다."
+    },
+    {
+     "id": "fa_mst_09",
+     "topic": "geometry_angles",
+     "diff": 1,
+     "q": "The vertex angle of an isosceles triangle measures 44°. What is the measure of each base angle?",
+     "q_ko": "이등변삼각형의 꼭지각이 44°이다. 각 밑각의 크기는?",
+     "options": [
+      "22°",
+      "44°",
+      "46°",
+      "68°"
+     ],
+     "answer": 3,
+     "explain": "풀이: 삼각형 내각의 합은 180°. 두 밑각의 합 = 180 - 44 = 136°, 밑각 하나 = 136 ÷ 2 = 68°. ⚠️ 함정: 44를 반으로 나누거나(22°) 90 - 44 = 46°(여각)로 계산하면 틀린다."
+    },
+    {
+     "id": "fa_mst_10",
+     "topic": "algebra_quadratic",
+     "diff": 2,
+     "q": "A rectangular aircraft parking apron has an area of 1,200 square yards. Its length is 10 yards greater than its width. What is its width?",
+     "q_ko": "직사각형 항공기 주기장(apron)의 넓이는 1,200제곱야드이다. 길이는 폭보다 10야드 길다. 폭은?",
+     "options": [
+      "30 yards",
+      "35 yards",
+      "40 yards",
+      "120 yards"
+     ],
+     "answer": 0,
+     "explain": "풀이: 폭을 w라 하면 w(w + 10) = 1,200 → w² + 10w - 1,200 = 0 → (w + 40)(w - 30) = 0. 길이는 양수이므로 w = 30야드(길이 40야드, 30 × 40 = 1,200 확인). ⚠️ 함정: 40은 길이다. √1,200 ≈ 35는 정사각형일 때의 한 변이다."
+    },
+    {
+     "id": "fa_mst_11",
+     "topic": "probability_stats",
+     "diff": 1,
+     "q": "A student's scores on five ground-school exams were 84, 91, 78, 88, and one more score. If the mean of the five scores is 86, what was the missing score?",
+     "q_ko": "한 학생의 지상학 시험 5회 점수는 84, 91, 78, 88, 그리고 한 번의 점수가 더 있다. 다섯 점수의 평균이 86이면 빠진 점수는?",
+     "options": [
+      "85",
+      "86",
+      "87",
+      "89"
+     ],
+     "answer": 3,
+     "explain": "풀이: 총점 = 평균 × 개수 = 86 × 5 = 430. 알려진 네 점수의 합 = 84 + 91 + 78 + 88 = 341. 빠진 점수 = 430 - 341 = 89. ⚠️ 함정: 평균 86을 그대로 고르거나 네 점수의 평균(약 85)을 답으로 쓰면 틀린다."
+    },
+    {
+     "id": "fa_mst_12",
+     "topic": "exponents_roots_logs",
+     "diff": 2,
+     "q": "Which of the following is equal to sqrt(72) - sqrt(8)?",
+     "q_ko": "sqrt(72) - sqrt(8)과 같은 값은?",
+     "options": [
+      "4√2",
+      "8",
+      "6√2",
+      "8√2"
+     ],
+     "answer": 0,
+     "explain": "풀이: √72 = √(36 × 2) = 6√2, √8 = √(4 × 2) = 2√2. 6√2 - 2√2 = 4√2. ⚠️ 함정: 근호 안끼리 빼서 √(72 - 8) = √64 = 8로 하면 틀린다. √a - √b ≠ √(a - b). 8√2는 두 값을 더한 것이다."
+    },
+    {
+     "id": "fa_mst_13",
+     "topic": "unit_conversion",
+     "diff": 2,
+     "q": "Before a winter training flight, the outside air temperature is -13°F. What is this temperature in degrees Celsius?",
+     "q_ko": "겨울철 훈련 비행 전 외기 온도가 -13°F이다. 섭씨로는 몇 도인가?",
+     "options": [
+      "-45°C",
+      "-25°C",
+      "-7°C",
+      "11°C"
+     ],
+     "answer": 1,
+     "explain": "풀이: °C = (°F - 32) × 5/9 = (-13 - 32) × 5/9 = -45 × 5/9 = -25°C. ⚠️ 함정: -45는 5/9를 곱하지 않은 값이다. 32를 빼기 전에 5/9를 곱하면 약 -7, 부호를 잘못 처리해 (-13 + 32)로 하면 약 11이 나온다."
+    },
+    {
+     "id": "fa_mst_14",
+     "topic": "algebra_systems",
+     "diff": 2,
+     "q": "A training squadron sold 40 tickets to its annual dinner. Member tickets cost $95 and guest tickets cost $60. If ticket sales totaled $3,030, how many member tickets were sold?",
+     "q_ko": "한 훈련비행대대가 연례 만찬 티켓 40장을 팔았다. 대원 티켓은 95달러, 손님 티켓은 60달러이다. 티켓 매출이 총 3,030달러였다면 대원 티켓은 몇 장 팔렸는가?",
+     "options": [
+      "16",
+      "18",
+      "20",
+      "22"
+     ],
+     "answer": 1,
+     "explain": "풀이: 대원 m장, 손님 g장. m + g = 40, 95m + 60g = 3,030. g = 40 - m을 대입하면 95m + 2,400 - 60m = 3,030 → 35m = 630 → m = 18. 검산: 18 × 95 + 22 × 60 = 1,710 + 1,320 = 3,030. ⚠️ 함정: 22는 손님 티켓 수다."
+    },
+    {
+     "id": "fa_mst_15",
+     "topic": "geometry_measure",
+     "diff": 2,
+     "q": "A cylindrical fuel tank is 10 feet long and has a diameter of 8 feet. What is its volume? (Leave the answer in terms of π.)",
+     "q_ko": "원기둥 모양 연료 탱크의 길이가 10피트, 지름이 8피트이다. 부피는? (답은 π를 남겨 두시오.)",
+     "options": [
+      "40π cubic feet",
+      "80π cubic feet",
+      "640π cubic feet",
+      "160π cubic feet"
+     ],
+     "answer": 3,
+     "explain": "풀이: 반지름 r = 8 ÷ 2 = 4피트. V = πr²h = π × 4² × 10 = 160π 세제곱피트. ⚠️ 함정: 지름 8을 반지름으로 쓰면 640π, 옆넓이 공식 2πrh를 쓰면 80π가 나온다."
+    },
+    {
+     "id": "fa_mst_16",
+     "topic": "fractions_decimals_percent",
+     "diff": 2,
+     "q": "A squadron's aircraft availability rate rose from 60% to 75%. By what percent did the availability rate increase?",
+     "q_ko": "한 비행대대의 항공기 가동률이 60%에서 75%로 올랐다. 가동률은 몇 퍼센트 증가했는가?",
+     "options": [
+      "15%",
+      "20%",
+      "25%",
+      "125%"
+     ],
+     "answer": 2,
+     "explain": "풀이: 증가율 = (새 값 - 원래 값) ÷ 원래 값 = (75 - 60) ÷ 60 = 15/60 = 0.25 = 25%. ⚠️ 함정: 15는 '퍼센트포인트' 차이일 뿐이다. 15 ÷ 75 = 20%처럼 새 값으로 나누면 틀리고, 125%는 75 ÷ 60(원래 값 대비 비율) 자체다."
+    },
+    {
+     "id": "fa_mst_17",
+     "topic": "arithmetic",
+     "diff": 2,
+     "q": "Two training aircraft flying separate practice patterns pass over the same field together at 0800. One passes over the field every 18 minutes, and the other every 24 minutes. At what time will they next pass over the field together?",
+     "q_ko": "서로 다른 연습 경로를 도는 훈련기 두 대가 0800에 같은 비행장 상공을 함께 지난다. 한 대는 18분마다, 다른 한 대는 24분마다 비행장 상공을 지난다. 다음에 두 대가 함께 지나는 시각은?",
+     "options": [
+      "0842",
+      "0912",
+      "1024",
+      "1512"
+     ],
+     "answer": 1,
+     "explain": "풀이: 최소공배수를 구한다. 18 = 2 × 3², 24 = 2³ × 3 → LCM = 2³ × 3² = 72분 = 1시간 12분. 0800 + 1:12 = 0912. ⚠️ 함정: 18 + 24 = 42분(0842)이나 18 × 24 = 432분(1512)은 최소공배수가 아니다. 1024는 그다음(144분 뒤) 만나는 시각이다."
+    },
+    {
+     "id": "fa_mst_18",
+     "topic": "algebra_linear",
+     "diff": 2,
+     "q": "A flying club near an air station charges $165 per hour to rent a trainer, plus a one-time checkout fee of $200. A student has $1,900 to spend. What is the greatest whole number of hours she can rent?",
+     "q_ko": "항공기지 인근의 한 비행 클럽은 훈련기 대여료로 시간당 165달러와 1회성 점검 비행(checkout) 비용 200달러를 받는다. 한 학생이 1,900달러를 쓸 수 있다. 빌릴 수 있는 최대 정수 시간은?",
+     "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "answer": 1,
+     "explain": "풀이: 200 + 165h ≤ 1,900 → 165h ≤ 1,700 → h ≤ 10.3… 정수이므로 최대 10시간(200 + 1,650 = 1,850달러). 11시간이면 200 + 1,815 = 2,015달러로 초과. ⚠️ 함정: 고정비 200달러를 빼지 않고 1,900 ÷ 165 ≈ 11.5로 계산하면 11이 나온다."
+    },
+    {
+     "id": "fa_mst_19",
+     "topic": "geometry_angles",
+     "diff": 2,
+     "q": "A patrol aircraft flies 16 nautical miles due east and then 30 nautical miles due north. What is the straight-line distance from its starting point?",
+     "q_ko": "한 초계기가 정동쪽으로 16해리, 이어서 정북쪽으로 30해리 비행했다. 출발점까지의 직선거리는?",
+     "options": [
+      "23 nautical miles",
+      "25 nautical miles",
+      "34 nautical miles",
+      "46 nautical miles"
+     ],
+     "answer": 2,
+     "explain": "풀이: 동쪽과 북쪽은 직각이므로 피타고라스 정리. d² = 16² + 30² = 256 + 900 = 1,156 → d = 34해리(8-15-17 직각삼각형의 2배). ⚠️ 함정: 46해리는 실제로 날아간 경로 길이일 뿐이고, 30² - 16²을 쓰면 약 25가 나온다."
+    },
+    {
+     "id": "fa_mst_20",
+     "topic": "geometry_measure",
+     "diff": 2,
+     "q": "Sand for winter runway maintenance is stored in a cone-shaped pile with a base diameter of 12 feet and a height of 5 feet. What is the volume of the pile? (Leave the answer in terms of π.)",
+     "q_ko": "겨울철 활주로 관리용 모래가 밑면 지름 12피트, 높이 5피트인 원뿔 모양 더미로 쌓여 있다. 더미의 부피는? (π를 남겨 두고 답하라.)",
+     "options": [
+      "60π cubic feet",
+      "180π cubic feet",
+      "240π cubic feet",
+      "720π cubic feet"
+     ],
+     "answer": 0,
+     "explain": "풀이: r = 12 ÷ 2 = 6. 원뿔 V = (1/3)πr²h = (1/3) × π × 36 × 5 = 60π ft³. ⚠️ 함정: 1/3을 빠뜨리면 180π(같은 크기 원기둥의 부피), 지름 12를 반지름으로 쓰면 240π, 두 실수를 모두 하면 720π가 된다."
+    },
+    {
+     "id": "fa_mst_21",
+     "topic": "word_problems",
+     "diff": 2,
+     "q": "A ground crew has 10 gallons of a de-icing solution that is 10% glycol. How many gallons of a 40% glycol solution must be added to produce a mixture that is 20% glycol?",
+     "q_ko": "지상 정비원이 글리콜 10%인 제빙액 10갤런을 가지고 있다. 글리콜 20% 혼합액을 만들려면 글리콜 40% 용액을 몇 갤런 더해야 하는가?",
+     "options": [
+      "2 gallons",
+      "2.5 gallons",
+      "4 gallons",
+      "5 gallons"
+     ],
+     "answer": 3,
+     "explain": "풀이: 더할 양을 x라 하면 글리콜 양: 0.10 × 10 + 0.40x = 0.20(10 + x) → 1 + 0.4x = 2 + 0.2x → 0.2x = 1 → x = 5갤런. 검산: 글리콜 1 + 2 = 3갤런 ÷ 전체 15갤런 = 20%. ⚠️ 함정: 전체 양이 늘어나는 것을 잊고 1 + 0.4x = 2로 풀면 2.5가 나온다."
+    },
+    {
+     "id": "fa_mst_22",
+     "topic": "ratios_proportions",
+     "diff": 3,
+     "q": "At a training squadron, the ratio of instructors to students is 2 : 7, and there are 108 instructors and students in all. If 6 more instructors report aboard and no students leave, what is the new ratio of instructors to students?",
+     "q_ko": "어느 훈련비행대대의 교관 대 학생 비율은 2 : 7이고, 교관과 학생은 모두 108명이다. 교관 6명이 새로 부임하고 학생 수는 변하지 않으면, 새 교관 대 학생 비율은?",
+     "options": [
+      "5 : 18",
+      "5 : 14",
+      "5 : 13",
+      "8 : 7"
+     ],
+     "answer": 1,
+     "explain": "풀이: 108 ÷ (2 + 7) = 12 → 교관 24명, 학생 84명. 교관 24 + 6 = 30명 → 30 : 84 = 5 : 14(6으로 약분). ⚠️ 함정: 비율 숫자에 6을 바로 더하면 8 : 7, 30을 108과 비교하면 5 : 18, 학생에서 6을 빼면 30 : 78 = 5 : 13이 된다."
+    },
+    {
+     "id": "fa_mst_23",
+     "topic": "rate_time_distance",
+     "diff": 3,
+     "q": "A destroyer leaves port at 0600 and steams at 16 knots. At 0800, a helicopter departs the same port and flies the same course at 96 knots. At what time will the helicopter overtake the destroyer?",
+     "q_ko": "구축함 한 척이 0600에 항구를 떠나 16노트로 항해한다. 0800에 헬리콥터가 같은 항구에서 이륙해 같은 항로를 96노트로 비행한다. 헬리콥터가 구축함을 따라잡는 시각은?",
+     "options": [
+      "0812",
+      "0820",
+      "0824",
+      "0840"
+     ],
+     "answer": 2,
+     "explain": "풀이: 0800까지 구축함이 간 거리 = 16 × 2 = 32해리. 좁혀지는 속력 = 96 - 16 = 80노트. 시간 = 32 ÷ 80 = 0.4시간 = 24분 → 0824. ⚠️ 함정: 32 ÷ 96 = 20분(0820)은 그동안 구축함도 계속 움직인다는 점을 놓친 계산이다. 따라잡기 문제는 두 속력의 '차'로 나눈다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_mst_24",
+     "topic": "exponents_roots_logs",
+     "diff": 3,
+     "q": "If log_10 x = 3 and log_10 y = -1, what is the value of xy?",
+     "q_ko": "log_10 x = 3이고 log_10 y = -1일 때 xy의 값은?",
+     "options": [
+      "-3",
+      "2",
+      "100",
+      "10,000"
+     ],
+     "answer": 2,
+     "explain": "풀이: x = 10^3 = 1,000, y = 10^(-1) = 0.1 → xy = 1,000 × 0.1 = 100. (또는 log_10(xy) = 3 + (-1) = 2 → xy = 10^2 = 100.) ⚠️ 함정: 2는 log_10(xy)의 값이지 xy가 아니다. 음의 지수를 무시해 y = 10으로 보면 10,000이 된다."
+    },
+    {
+     "id": "fa_mst_25",
+     "topic": "algebra_quadratic",
+     "diff": 3,
+     "q": "If x - 1/x = 3, what is the value of x^2 + 1/x^2?",
+     "q_ko": "x - 1/x = 3일 때, x² + 1/x²의 값은?",
+     "options": [
+      "7",
+      "11",
+      "9",
+      "13"
+     ],
+     "answer": 1,
+     "explain": "풀이: 양변을 제곱한다. (x - 1/x)² = x² - 2 + 1/x² = 9 → x² + 1/x² = 9 + 2 = 11. ⚠️ 함정: 3² = 9를 그대로 고르거나, 2를 빼서 7로 만들면 틀린다. (x - 1/x)²의 가운데 항은 -2이므로 옮기면 +2가 된다."
+    },
+    {
+     "id": "fa_mst_26",
+     "topic": "probability_stats",
+     "diff": 3,
+     "q": "Twelve student pilots are on a weekend duty roster: 5 Marines and 7 Navy. If 2 of them are chosen at random for a special assignment, what is the probability that both are Marines?",
+     "q_ko": "주말 당직 명단에 학생 조종사 12명(해병대 5명, 해군 7명)이 있다. 이 중 2명을 무작위로 뽑아 특별 임무를 맡길 때 두 명 모두 해병대일 확률은?",
+     "options": [
+      "5/33",
+      "25/144",
+      "25/132",
+      "10/33"
+     ],
+     "answer": 0,
+     "explain": "풀이: 같은 사람을 두 번 뽑을 수 없으므로 비복원 추출. 첫 번째 해병대일 확률 5/12, 두 번째 4/11. 5/12 × 4/11 = 20/132 = 5/33. ⚠️ 함정: 5/12 × 5/12 = 25/144(복원 추출)나 분자를 줄이지 않은 5/12 × 5/11 = 25/132는 틀리다."
+    },
+    {
+     "id": "fa_mst_27",
+     "topic": "unit_conversion",
+     "diff": 3,
+     "q": "A concrete pad for a new engine run-up area will be 27 feet long, 12 feet wide, and 6 inches thick. How many cubic yards of concrete are needed?",
+     "q_ko": "새 엔진 시운전 구역에 길이 27피트, 폭 12피트, 두께 6인치의 콘크리트 패드를 만든다. 콘크리트는 몇 세제곱야드 필요한가?",
+     "options": [
+      "6 cubic yards",
+      "18 cubic yards",
+      "54 cubic yards",
+      "72 cubic yards"
+     ],
+     "answer": 0,
+     "explain": "풀이: 6인치 = 0.5피트. 부피 = 27 × 12 × 0.5 = 162 ft³. 1 yd³ = 3 × 3 × 3 = 27 ft³이므로 162 ÷ 27 = 6 yd³. ⚠️ 함정: 27 대신 9(→ 18)나 3(→ 54)으로 나누거나, 두께 6인치를 6피트로 계산하면(→ 72) 틀린다."
+    },
+    {
+     "id": "fa_mst_28",
+     "topic": "algebra_systems",
+     "diff": 3,
+     "q": "Flying with a steady tailwind, a patrol aircraft covers 780 nautical miles in 3 hours. On the return trip against the same wind, the 780 nautical miles take 3 hours 15 minutes. What is the aircraft's airspeed in still air?",
+     "q_ko": "일정한 뒷바람을 받으며 초계기가 780해리를 3시간에 비행했다. 같은 바람을 안고 돌아오는 780해리는 3시간 15분이 걸렸다. 바람이 없을 때의 항공기 속도(대기속도)는?",
+     "options": [
+      "240 knots",
+      "245 knots",
+      "250 knots",
+      "260 knots"
+     ],
+     "answer": 2,
+     "explain": "풀이: 대기속도 a, 풍속 w. a + w = 780 ÷ 3 = 260, a - w = 780 ÷ 3.25 = 240. 두 식을 더하면 2a = 500 → a = 250노트(풍속 10노트). ⚠️ 함정: 260과 240은 각각 가는 길·오는 길의 대지속도다. 3시간 15분은 3.15가 아니라 3.25시간이다(3.15로 나누면 약 248)."
+    },
+    {
+     "id": "fa_mst_29",
+     "topic": "geometry_measure",
+     "diff": 3,
+     "q": "A solid aluminum cube with 4-inch edges is melted down and recast, with no loss of metal, into a solid cylinder with a radius of 3 inches. About how tall is the cylinder?",
+     "q_ko": "모서리가 4인치인 알루미늄 정육면체를 녹여 금속 손실 없이 반지름 3인치의 원기둥으로 다시 주조했다. 원기둥의 높이는 약 얼마인가?",
+     "options": [
+      "about 2.3 inches",
+      "about 3.4 inches",
+      "about 7.1 inches",
+      "about 9.1 inches"
+     ],
+     "answer": 0,
+     "explain": "풀이: 부피는 그대로다. 정육면체 4³ = 64 in³. 원기둥 πr²h = 9πh = 64 → h = 64 ÷ 9π ≈ 64 ÷ 28.3 ≈ 2.3인치. ⚠️ 함정: π를 빠뜨리면 64 ÷ 9 ≈ 7.1, r² 대신 2r(= 6)을 쓰면 약 3.4, 3을 지름으로 보면 약 9.1이 된다."
+    },
+    {
+     "id": "fa_mst_30",
+     "topic": "word_problems",
+     "diff": 3,
+     "q": "A lieutenant invests $10,000 at 5% interest compounded annually. What will the investment be worth at the end of 3 years?",
+     "q_ko": "한 대위(Lieutenant)가 연 5% 복리(1년마다 복리 계산)로 10,000달러를 투자했다. 3년 후 금액은?",
+     "options": [
+      "$11,025.00",
+      "$11,500.00",
+      "$11,576.25",
+      "$12,155.06"
+     ],
+     "answer": 2,
+     "explain": "풀이: A = P(1 + r)^t = 10,000 × 1.05³. 1.05² = 1.1025, 1.1025 × 1.05 = 1.157625 → 11,576.25달러. ⚠️ 함정: 단리로 계산하면 10,000 × (1 + 0.05 × 3) = 11,500달러. 11,025는 2년 뒤, 12,155.06은 4년 뒤 금액이다.",
+     "tags": [
+      "navy"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RCT",
+   "secs": 1800,
+   "items": [
+    {
+     "id": "fa_rct_01",
+     "topic": "aviation",
+     "diff": 1,
+     "qtype": "inference",
+     "title": "When the Inner Ear Misleads",
+     "passage": "Pilots flying in clouds cannot see the horizon, so they must rely on their instruments rather than on what their bodies tell them. The balance organs of the inner ear detect changes in motion, but they are easily fooled. If an aircraft enters a gentle turn and holds it steadily for a while, the fluid in the inner ear settles into the new motion, and the pilot may begin to feel as if the wings are level again. When the pilot later rolls out of the turn, the body may signal a turn in the opposite direction. Pilots who trust these false sensations can unknowingly let the aircraft slip into a steepening, descending spiral. For this reason, instrument training repeats one message above all others: believe the instruments, not your feelings.",
+     "passage_ko": "구름 속을 비행하는 조종사는 수평선을 볼 수 없으므로 몸이 알려 주는 것보다 계기에 의존해야 한다. 내이(속귀)의 평형기관은 운동의 변화를 감지하지만 쉽게 속는다. 항공기가 완만한 선회에 들어가 그 상태를 한동안 꾸준히 유지하면 내이의 액체가 새로운 운동에 맞춰 안정되고, 조종사는 날개가 다시 수평이 된 것처럼 느끼기 시작할 수 있다. 나중에 조종사가 선회에서 빠져나오면 몸은 반대 방향으로 선회한다는 신호를 보낼 수 있다. 이런 잘못된 감각을 믿는 조종사는 자신도 모르게 항공기를 점점 가팔라지며 내려가는 나선 비행에 빠뜨릴 수 있다. 이 때문에 계기 비행 훈련은 무엇보다 한 가지 메시지를 되풀이한다. 느낌이 아니라 계기를 믿으라.",
+     "q": "Which of the following statements is best supported by the passage?",
+     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+     "options": [
+      "Most pilots who fly in clouds suffer from motion sickness.",
+      "The inner ear gives false signals whenever an aircraft turns.",
+      "A pilot in a steady turn may feel the wings are level.",
+      "Rolling out of a turn makes the aircraft turn the opposite way."
+     ],
+     "answer": 2,
+     "explain": "근거: \"the pilot may begin to feel as if the wings are level again\" — 선회를 꾸준히 유지하면 수평 비행처럼 느낄 수 있다. (1) 멀미는 지문에 나오지 않는다(상식이지만 근거 없음). (2) '선회할 때마다'는 과잉 일반화 — 지문은 완만한 선회를 한동안 유지할 때를 말한다. (4) 반대로 도는 것은 몸의 '느낌'이지 항공기 자체가 아니다(세부 비틀기)."
+    },
+    {
+     "id": "fa_rct_02",
+     "topic": "naval",
+     "diff": 1,
+     "qtype": "inference",
+     "title": "Every Sailor a Firefighter",
+     "passage": "On land, a building fire is usually handled by a professional fire department that arrives within minutes. A ship at sea has no such option. If a fire breaks out or a compartment begins to flood hundreds of miles from shore, the crew must control the damage themselves. For this reason, the Navy trains every sailor, regardless of job specialty, in basic damage control. Cooks, radar technicians, and aviation mechanics alike learn how to fight fires, patch leaking pipes, and set watertight boundaries. Larger ships also have dedicated repair teams, but those teams cannot be everywhere at once, and the first few minutes of an emergency often decide the outcome. A sailor who happens to be nearby is expected to sound the alarm and begin the response immediately.",
+     "passage_ko": "육지에서는 건물 화재를 보통 몇 분 안에 도착하는 전문 소방서가 처리한다. 바다 위의 함정에는 그런 선택지가 없다. 해안에서 수백 마일 떨어진 곳에서 불이 나거나 구획에 물이 차기 시작하면 승조원이 스스로 피해를 통제해야 한다. 이런 이유로 해군은 직별(전문 분야)과 관계없이 모든 수병에게 기본 손상통제(damage control) 훈련을 시킨다. 조리병, 레이더 기술병, 항공 정비병 모두 불을 끄고, 새는 배관을 막고, 수밀 경계를 설정하는 법을 배운다. 큰 함정에는 전담 수리팀도 있지만 그 팀이 모든 곳에 동시에 있을 수는 없고, 비상 상황의 처음 몇 분이 결과를 좌우하는 경우가 많다. 마침 근처에 있던 수병은 즉시 경보를 울리고 대응을 시작해야 한다.",
+     "q": "The passage most strongly suggests that the Navy trains every sailor in damage control mainly because",
+     "q_ko": "지문이 가장 강하게 시사하는 바에 따르면, 해군이 모든 수병에게 손상통제 훈련을 시키는 주된 이유는?",
+     "options": [
+      "a crew at sea cannot count on outside help arriving quickly.",
+      "most shipboard fires are started by sailors who lack training.",
+      "larger ships do not carry any dedicated repair teams.",
+      "fires at sea are always far deadlier than fires on land."
+     ],
+     "answer": 0,
+     "explain": "근거: \"A ship at sea has no such option... the crew must control the damage themselves.\" — 외부 도움이 곧 오지 않으므로 모두가 대응할 수 있어야 한다. (2) 화재 원인이 훈련받지 않은 수병이라는 말은 없다(인과 날조). (3) 지문은 큰 함정에 전담 수리팀이 '있다'고 했다(세부 비틀기). (4) '항상 더 치명적'은 과잉 일반화다."
+    },
+    {
+     "id": "fa_rct_03",
+     "topic": "science",
+     "diff": 1,
+     "qtype": "detail",
+     "title": "Why the Daytime Sky Is Blue",
+     "passage": "Sunlight looks white, but it is actually a mixture of all the colors of the visible spectrum. As this light passes through the atmosphere, it strikes gas molecules far smaller than its wavelengths. These molecules scatter short wavelengths, such as blue and violet, much more strongly than long wavelengths, such as red and orange. The scattered blue light reaches our eyes from every direction, so the whole sky appears blue. Violet light is scattered even more than blue, yet the sky does not look violet, partly because sunlight contains less violet light and partly because human eyes are less sensitive to it. At sunrise and sunset, sunlight travels through much more air before reaching an observer. By then, most of the blue has been scattered away, leaving the reds and oranges.",
+     "passage_ko": "햇빛은 흰색으로 보이지만 실제로는 가시광선의 모든 색이 섞인 것이다. 이 빛이 대기를 지나면서 빛의 파장보다 훨씬 작은 기체 분자들에 부딪힌다. 이 분자들은 파랑·보라 같은 짧은 파장을 빨강·주황 같은 긴 파장보다 훨씬 강하게 산란시킨다. 산란된 파란빛이 사방에서 우리 눈에 들어오므로 하늘 전체가 파랗게 보인다. 보랏빛은 파란빛보다도 더 많이 산란되지만 하늘이 보라색으로 보이지 않는데, 햇빛에 보랏빛이 적게 들어 있고 사람의 눈이 보라색에 덜 민감하기 때문이다. 해 뜰 무렵과 해 질 무렵에는 햇빛이 관찰자에게 닿기 전에 훨씬 많은 공기를 통과한다. 그때쯤이면 파란빛은 대부분 산란되어 사라지고 빨강과 주황이 남는다.",
+     "q": "According to the passage, the sky near sunset often looks red or orange because",
+     "q_ko": "지문에 따르면 해 질 무렵 하늘이 흔히 빨갛거나 주황색으로 보이는 이유는?",
+     "options": [
+      "the sun gives off more red light late in the day.",
+      "gas molecules scatter red light more strongly than blue light.",
+      "human eyes grow more sensitive to red light at dusk.",
+      "much of the blue is scattered away along the longer path."
+     ],
+     "answer": 3,
+     "explain": "근거: \"sunlight travels through much more air... most of the blue has been scattered away, leaving the reds and oranges.\" (1) 태양이 저녁에 붉은빛을 더 낸다는 말은 없다. (2) 지문은 짧은 파장(파랑)이 더 강하게 산란된다고 했다(관계 뒤집기). (3) 눈의 민감도는 보라색에 대한 설명이었고 해 질 녘의 변화와는 관계없다(세부 비틀기)."
+    },
+    {
+     "id": "fa_rct_04",
+     "topic": "military",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Learning After the Exercise",
+     "passage": "Many military units end a training exercise with an after-action review. Participants gather, often within hours, and work through four questions: What was supposed to happen? What actually happened? Why was there a difference? What should we sustain or change next time? A facilitator keeps the discussion focused on events rather than on personalities, and junior members are encouraged to speak as freely as senior leaders. The value of the review depends heavily on honesty. If participants fear that admitting a mistake will damage their careers, they tend to describe events vaguely or stay silent, and the unit loses the very information it needs to improve. For this reason, units that use reviews well treat them as tools for learning, not as hearings for assigning blame.",
+     "passage_ko": "많은 군 부대는 훈련을 사후강평(after-action review)으로 마무리한다. 참가자들은 대개 몇 시간 안에 모여 네 가지 질문을 차례로 다룬다. 무엇이 일어나기로 되어 있었나? 실제로는 무엇이 일어났나? 왜 차이가 생겼나? 다음에는 무엇을 유지하고 무엇을 바꿀 것인가? 진행자는 논의가 사람의 성격이 아니라 사건에 집중되도록 이끌고, 하급자도 상급 지휘관만큼 자유롭게 말하도록 권장된다. 강평의 가치는 정직성에 크게 달려 있다. 실수를 인정하면 경력에 해가 될까 두려워하면 참가자들은 사건을 모호하게 설명하거나 침묵하는 경향이 있고, 부대는 개선에 꼭 필요한 바로 그 정보를 잃는다. 그래서 강평을 잘 활용하는 부대는 강평을 책임을 따지는 청문회가 아니라 배움의 도구로 다룬다.",
+     "q": "Which of the following statements is best supported by the passage?",
+     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+     "options": [
+      "After-action reviews are required by law after every exercise.",
+      "A review may reveal less if participants expect punishment for errors.",
+      "Senior leaders usually learn more from reviews than junior members do.",
+      "Reviews work best when they focus on the participants' personalities."
+     ],
+     "answer": 1,
+     "explain": "근거: \"If participants fear that admitting a mistake will damage their careers, they tend to describe events vaguely or stay silent\" — 처벌을 예상하면 드러나는 정보가 줄어든다. (1) 법으로 의무화됐다는 말은 없다(과잉 일반화). (3) 누가 더 많이 배우는지는 지문에 없다. (4) 지문은 사람이 아니라 사건에 초점을 둔다고 했다(관계 뒤집기)."
+    },
+    {
+     "id": "fa_rct_05",
+     "topic": "health",
+     "diff": 1,
+     "qtype": "inference",
+     "title": "Thirst Is a Late Signal",
+     "passage": "During hot-weather training, people often wait until they feel thirsty before drinking water. Unfortunately, thirst is a delayed signal. By the time the sensation becomes strong, the body may already have lost enough fluid to reduce physical endurance and slow mental performance. Heavy sweating removes salt as well as water, which is why long periods of exertion in the heat sometimes call for drinks that replace electrolytes. A simple field check is the color of urine: pale yellow generally indicates adequate hydration, while dark yellow suggests a need for more fluid. Drinking modest amounts at regular intervals is usually more effective than drinking a large volume all at once, because the body absorbs fluid gradually.",
+     "passage_ko": "더운 날씨에 훈련할 때 사람들은 흔히 목이 마를 때까지 기다렸다가 물을 마신다. 안타깝게도 갈증은 늦게 오는 신호다. 갈증이 강해질 무렵이면 몸은 이미 지구력을 떨어뜨리고 정신적 수행을 느리게 할 만큼의 수분을 잃었을 수 있다. 땀을 많이 흘리면 물뿐 아니라 염분도 빠져나가므로, 더위 속에서 오래 힘을 쓸 때는 전해질을 보충하는 음료가 필요하기도 하다. 간단한 현장 점검법은 소변 색이다. 옅은 노란색은 대체로 수분이 충분하다는 뜻이고, 진한 노란색은 수분이 더 필요하다는 뜻이다. 몸은 수분을 서서히 흡수하므로, 한꺼번에 많이 마시기보다 일정한 간격으로 적당량씩 마시는 편이 대개 더 효과적이다.",
+     "q": "It can be inferred from the passage that a person training in hot weather",
+     "q_ko": "지문으로부터 추론할 수 있는, 더운 날씨에 훈련하는 사람에 대한 설명은?",
+     "options": [
+      "should drink water only after thirst becomes strong.",
+      "never needs any drink other than plain water.",
+      "will perform best by drinking a large amount at once.",
+      "may be short of fluid before feeling strongly thirsty."
+     ],
+     "answer": 3,
+     "explain": "근거: \"thirst is a delayed signal. By the time the sensation becomes strong, the body may already have lost enough fluid...\" — 강한 갈증 전에 이미 수분이 부족할 수 있다. (1) 지문의 요지와 정반대다(관계 뒤집기). (2) 장시간 운동 시 전해질 음료가 필요할 수 있다고 했으므로 'never'는 과잉 일반화다. (3) 지문은 한 번에 많이 마시기보다 조금씩 자주 마시는 편이 낫다고 했다(세부 비틀기)."
+    },
+    {
+     "id": "fa_rct_06",
+     "topic": "aviation",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Hot, High, and Humid",
+     "passage": "Pilots use the term density altitude to describe how thick the air feels to an aircraft. Air becomes less dense as altitude increases, but temperature and humidity matter too. On a hot day, air molecules spread farther apart, and moist air is actually lighter than dry air because water vapor weighs less than the nitrogen and oxygen it displaces. When the air is thin, wings produce less lift at a given speed, propellers take a smaller bite of air, and engines that breathe outside air produce less power. As a result, an aircraft departing a high-elevation airfield on a hot, humid afternoon may need a much longer takeoff roll and climb more slowly than it would from the same field on a cool morning.",
+     "passage_ko": "조종사들은 항공기가 느끼는 공기의 '진하기'를 나타낼 때 밀도고도(density altitude)라는 용어를 쓴다. 공기는 고도가 높아질수록 밀도가 낮아지지만 기온과 습도도 영향을 준다. 더운 날에는 공기 분자들이 더 멀리 퍼지고, 습한 공기는 수증기가 자리를 대신 차지한 질소·산소보다 가볍기 때문에 오히려 건조한 공기보다 가볍다. 공기가 희박하면 같은 속도에서 날개가 만드는 양력이 줄고, 프로펠러가 붙잡는 공기가 적어지며, 바깥 공기를 들이마시는 엔진의 출력도 떨어진다. 그 결과 덥고 습한 오후에 고지대 비행장에서 이륙하는 항공기는 서늘한 아침에 같은 비행장에서 이륙할 때보다 훨씬 긴 이륙 활주 거리가 필요하고 상승도 더 느릴 수 있다.",
+     "q": "Based on the passage, under which conditions would a given aircraft most likely need the longest takeoff roll?",
+     "q_ko": "지문에 근거할 때, 같은 항공기가 가장 긴 이륙 활주 거리를 필요로 할 가능성이 가장 큰 조건은?",
+     "options": [
+      "At a high-elevation field on a hot, humid afternoon",
+      "At a high-elevation field on a cool, dry morning",
+      "At a sea-level field on a hot, humid afternoon",
+      "At a sea-level field on a cool, dry morning"
+     ],
+     "answer": 0,
+     "explain": "근거: \"an aircraft departing a high-elevation airfield on a hot, humid afternoon may need a much longer takeoff roll\" — 높은 표고·높은 기온·높은 습도가 모두 공기 밀도를 낮춘다. (2) 고지대지만 서늘하고 건조해 밀도가 상대적으로 높다. (3) 덥고 습하지만 해발고도가 낮다. (4) 세 요소가 모두 유리해 이륙 활주가 가장 짧을 조건이다."
+    },
+    {
+     "id": "fa_rct_07",
+     "topic": "history",
+     "diff": 2,
+     "qtype": "main_idea",
+     "title": "A Lighter Lens for Lighthouses",
+     "passage": "Before the 1820s, many lighthouses relied on lamps backed by polished metal reflectors, and much of their light was wasted or absorbed. The French physicist Augustin-Jean Fresnel proposed a different approach. Instead of a single thick lens, which would have been enormously heavy, he arranged many thin rings of glass around a central lens. Each ring was shaped to bend light in the same direction, so the whole assembly acted like one powerful lens while using far less glass. Prisms placed above and below the rings captured light that would otherwise have escaped upward or downward. Lighthouses fitted with these lenses could send a concentrated beam much farther out to sea, and versions of the design remained in service for well over a century.",
+     "passage_ko": "1820년대 이전에는 많은 등대가 윤을 낸 금속 반사경을 뒤에 댄 등불에 의존했고, 그 빛의 상당 부분은 낭비되거나 흡수되었다. 프랑스의 물리학자 오귀스탱장 프레넬은 다른 방법을 제안했다. 엄청나게 무거웠을 두꺼운 렌즈 하나 대신, 그는 중앙 렌즈 둘레에 얇은 유리 고리를 여러 개 배치했다. 각 고리는 빛을 같은 방향으로 꺾도록 모양이 잡혀 있어서, 전체 장치가 훨씬 적은 유리로도 하나의 강력한 렌즈처럼 작동했다. 고리 위아래에 놓인 프리즘은 위나 아래로 빠져나갔을 빛까지 붙잡았다. 이 렌즈를 단 등대는 집중된 빛줄기를 바다 훨씬 멀리까지 보낼 수 있었고, 이 설계를 변형한 렌즈들은 한 세기가 훨씬 넘도록 쓰였다.",
+     "q": "Which of the following best states the main idea of the passage?",
+     "q_ko": "지문의 요지를 가장 잘 나타낸 것은?",
+     "options": [
+      "Metal reflectors were the most efficient lighthouse technology of the 1800s.",
+      "Fresnel's lenses stayed in lighthouse service for exactly one hundred years.",
+      "Fresnel's ring design gave stronger beams without a solid lens's weight.",
+      "Lighthouses became unnecessary once ships began carrying better charts."
+     ],
+     "answer": 2,
+     "explain": "근거: \"the whole assembly acted like one powerful lens while using far less glass\"와 \"send a concentrated beam much farther out to sea\" — 요지는 가볍고 강한 렌즈다. (1) 지문은 반사경 방식에서 빛이 낭비됐다고 했다(관계 뒤집기). (2) 지문은 '한 세기가 훨씬 넘게'라고 했다(세부 비틀기이자 지엽적 내용). (4) 해도 이야기는 지문에 없다."
+    },
+    {
+     "id": "fa_rct_08",
+     "topic": "naval",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Keeping a Plot by Hand",
+     "passage": "Modern warships receive precise positions from satellite navigation, yet navigators still maintain a dead-reckoning plot. Dead reckoning estimates a ship's position from its last known fix, its course, its speed, and the time elapsed. The method needs no outside signal, so it keeps working if satellite reception is lost, jammed, or deliberately falsified. Its weakness is that small errors grow. An unnoticed current, a slightly inaccurate speed log, or a helmsman who steers a degree or two off course will push the true position steadily away from the plotted one. For that reason, navigators compare the plot with every fix they can obtain, whether from satellites, radar ranges to land, or star sights, and they restart the estimate from each new fix.",
+     "passage_ko": "현대 전투함은 위성항법으로 정밀한 위치를 받지만, 항해사들은 여전히 추측항법(dead reckoning) 작도를 유지한다. 추측항법은 마지막으로 확인된 위치(fix), 침로, 속력, 경과 시간으로 함정의 위치를 추정한다. 이 방법은 외부 신호가 필요 없으므로 위성 수신이 끊기거나, 전파 방해를 받거나, 고의로 조작되어도 계속 작동한다. 약점은 작은 오차가 커진다는 것이다. 알아채지 못한 해류, 약간 부정확한 속력계, 1~2도 어긋나게 조타하는 조타수 때문에 실제 위치는 작도된 위치에서 꾸준히 멀어진다. 그래서 항해사들은 위성이든, 육지까지의 레이더 거리든, 천측이든 얻을 수 있는 모든 위치 확인 결과와 작도를 비교하고, 새 위치가 확인될 때마다 추정을 다시 시작한다.",
+     "q": "The passage most strongly suggests that a dead-reckoning position",
+     "q_ko": "지문이 가장 강하게 시사하는, 추측항법 위치에 대한 설명은?",
+     "options": [
+      "is more accurate than a satellite position in all conditions.",
+      "grows less reliable the longer it goes without a new fix.",
+      "cannot be calculated at all unless satellite signals are available.",
+      "is kept mainly because satellite receivers are too expensive to maintain."
+     ],
+     "answer": 1,
+     "explain": "근거: \"Its weakness is that small errors grow... they restart the estimate from each new fix.\" — 새 위치 확인 없이 오래 갈수록 오차가 쌓인다. (1) '모든 조건에서 더 정확'은 과잉 일반화이며 지문 내용과 다르다. (3) 지문은 외부 신호가 필요 없다고 했다(관계 뒤집기). (4) 장비 비용 이야기는 지문에 없다."
+    },
+    {
+     "id": "fa_rct_09",
+     "topic": "economics",
+     "diff": 1,
+     "qtype": "main_idea",
+     "title": "The Trade-off of Just-in-Time",
+     "passage": "Many manufacturers use a just-in-time system, in which parts arrive from suppliers shortly before they are needed on the assembly line. Because the factory keeps little inventory on hand, it spends less on warehouse space, ties up less money in unused stock, and is less likely to be left with parts that become outdated. The approach, however, depends on every supplier delivering on schedule. When a storm closes a port, a key supplier suffers a fire, or a shipping route is blocked, a factory with only a few days of parts may be forced to stop production. Some companies have responded by keeping larger reserves of their most critical components, accepting higher storage costs in exchange for greater protection against disruption.",
+     "passage_ko": "많은 제조업체가 적시생산(just-in-time) 방식을 쓴다. 이 방식에서는 부품이 조립 라인에 필요해지기 직전에 공급업체로부터 도착한다. 공장이 보유 재고를 적게 두므로 창고 공간에 드는 비용이 줄고, 쓰지 않는 재고에 묶이는 돈이 적으며, 구식이 되어 버린 부품이 남을 가능성도 낮다. 그러나 이 방식은 모든 공급업체가 일정대로 납품하는 데 달려 있다. 폭풍으로 항구가 폐쇄되거나, 핵심 공급업체에 화재가 나거나, 해상 운송로가 막히면 며칠 치 부품만 가진 공장은 생산을 멈춰야 할 수도 있다. 일부 기업은 가장 중요한 부품의 비축량을 늘리는 것으로 대응해 왔다. 더 높은 보관 비용을 감수하는 대신 공급 차질에 대한 보호를 강화한 것이다.",
+     "q": "What is the main point of the passage?",
+     "q_ko": "지문의 요점은 무엇인가?",
+     "options": [
+      "Low inventories save money but leave factories exposed to supply disruptions.",
+      "Most manufacturers have now abandoned just-in-time systems entirely.",
+      "Warehouse space is the largest single expense for most factories.",
+      "Larger reserves of parts lower storage costs and speed up production."
+     ],
+     "answer": 0,
+     "explain": "근거: 지문은 재고를 적게 두는 장점(비용 절감)과 \"depends on every supplier delivering on schedule\"라는 약점을 함께 설명한다. (2) 대부분이 완전히 포기했다는 말은 없다(과잉 일반화). (3) 창고 비용이 최대 지출이라는 말은 없다. (4) 지문은 비축을 늘리면 보관 비용이 '높아진다'고 했다(관계 뒤집기)."
+    },
+    {
+     "id": "fa_rct_10",
+     "topic": "aviation",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Why Experts Still Read the List",
+     "passage": "Airline captains with thousands of flight hours still read printed checklists before engine start, before takeoff, and before landing. To an outsider this can look unnecessary, since experienced pilots know every step by heart. The problem is not knowledge but memory under pressure. Routine tasks are especially easy to skip when a pilot is interrupted by a radio call, a question from the cabin, or an unexpected warning light. After an interruption, a person may resume a task at the wrong point and feel certain that the missed step was completed. A checklist moves the sequence out of the pilot's head and onto paper or a screen, where it does not depend on attention. In many crews, one pilot reads each item aloud while the other confirms it.",
+     "passage_ko": "수천 시간의 비행 경력을 가진 여객기 기장들도 엔진 시동 전, 이륙 전, 착륙 전에 인쇄된 점검표(checklist)를 읽는다. 외부인에게는 불필요해 보일 수 있다. 경험 많은 조종사는 모든 단계를 외우고 있기 때문이다. 문제는 지식이 아니라 압박 속의 기억이다. 무전 호출, 객실에서 온 질문, 예상치 못한 경고등으로 방해를 받을 때 일상적인 작업은 특히 건너뛰기 쉽다. 방해를 받은 뒤 사람은 작업을 엉뚱한 지점에서 다시 시작하면서도 빠뜨린 단계를 이미 했다고 확신할 수 있다. 점검표는 순서를 조종사의 머릿속에서 꺼내 종이나 화면으로 옮겨, 주의력에 의존하지 않게 한다. 많은 승무원 팀에서는 한 조종사가 각 항목을 소리 내어 읽고 다른 조종사가 확인한다.",
+     "q": "The passage suggests that checklists are most useful for preventing errors that",
+     "q_ko": "지문에 따르면 점검표가 가장 유용하게 막아 주는 오류는 어떤 오류인가?",
+     "options": [
+      "result from pilots not understanding how their aircraft work.",
+      "occur only among pilots who have recently finished training.",
+      "are caused by poorly designed warning lights in the cockpit.",
+      "happen when a pilot is interrupted during a familiar routine."
+     ],
+     "answer": 3,
+     "explain": "근거: \"The problem is not knowledge but memory under pressure... After an interruption, a person may resume a task at the wrong point\" (1) 지문은 문제가 지식이 아니라고 명시했다(관계 뒤집기). (2) 수천 시간 경력의 기장도 쓴다고 했으므로 '신참에게만'은 틀리다(과잉 일반화). (3) 경고등은 방해 요인의 예일 뿐 설계 결함 이야기는 없다(세부 비틀기)."
+    },
+    {
+     "id": "fa_rct_11",
+     "topic": "technology",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Batteries That Feed Their Own Fires",
+     "passage": "Lithium-ion batteries store a large amount of energy in a small package, which is why they power phones, laptops, and power tools. That same energy density creates a hazard. If a cell is punctured, overcharged, or manufactured with a flaw, it can overheat internally. The heat can trigger chemical reactions that release still more heat, a chain process called thermal runaway. A cell in runaway can ignite its neighbors, and because the reactions produce their own heat and flammable gases, such fires may flare up again after they appear to be out. For this reason, aviation rules generally require spare lithium batteries to be carried in the cabin rather than in checked baggage, where a fire might go unnoticed.",
+     "passage_ko": "리튬이온 배터리는 작은 크기에 많은 에너지를 저장하기 때문에 휴대폰, 노트북, 전동 공구에 쓰인다. 바로 그 높은 에너지 밀도가 위험을 만든다. 셀이 뚫리거나, 과충전되거나, 결함을 안고 제조되면 내부에서 과열될 수 있다. 그 열은 더 많은 열을 내는 화학 반응을 일으킬 수 있는데, 이 연쇄 과정을 열폭주(thermal runaway)라고 한다. 열폭주 상태의 셀은 이웃 셀에 불을 옮길 수 있고, 반응이 스스로 열과 가연성 가스를 만들어 내기 때문에 이런 화재는 꺼진 것처럼 보인 뒤에도 다시 타오를 수 있다. 이런 이유로 항공 규정은 일반적으로 예비 리튬 배터리를, 불이 나도 눈에 띄지 않을 수 있는 위탁 수하물이 아니라 객실에 가지고 타도록 요구한다.",
+     "q": "Which of the following statements is best supported by the passage?",
+     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+     "options": [
+      "Lithium-ion batteries are more dangerous than any other energy source.",
+      "Thermal runaway can begin only when a battery touches an outside flame.",
+      "A cabin battery fire is more likely to be noticed quickly.",
+      "Cooling a damaged cell causes thermal runaway to spread faster."
+     ],
+     "answer": 2,
+     "explain": "근거: \"in the cabin rather than in checked baggage, where a fire might go unnoticed\" — 객실에서는 화재를 더 빨리 발견할 수 있다는 뜻이다. (1) '다른 모든 에너지원보다 위험'은 과잉 일반화다. (2) 지문은 관통·과충전·제조 결함으로도 시작된다고 했다(세부 비틀기). (4) 냉각이 확산을 빠르게 한다는 말은 없고, 열이 연쇄 반응을 키운다는 설명과 반대다(관계 뒤집기)."
+    },
+    {
+     "id": "fa_rct_12",
+     "topic": "military",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "The Weight of Supply",
+     "passage": "A modern military force consumes supplies at an enormous rate. Aircraft need fuel and spare parts, vehicles need tires and lubricants, and people need food, water, and medical care. Each item must be purchased, moved across oceans, stored, and delivered to the right unit at the right time. Planners often find that the distance between a force and its supply sources shapes an operation as much as the enemy does. A unit operating far from ports and airfields may have to limit its activity simply because it cannot be resupplied quickly enough. For this reason, commanders study roads, harbors, and runways as closely as they study opposing forces, and a plan that looks brilliant on a map may prove impossible to sustain.",
+     "passage_ko": "현대 군은 엄청난 속도로 보급품을 소모한다. 항공기에는 연료와 예비 부품이, 차량에는 타이어와 윤활유가, 사람에게는 식량·물·의료가 필요하다. 각 품목은 구매되고, 바다를 건너 운송되고, 저장되고, 알맞은 때에 알맞은 부대로 전달되어야 한다. 계획 담당자들은 부대와 보급원 사이의 거리가 적만큼이나 작전의 모양을 좌우한다는 사실을 자주 깨닫는다. 항구와 비행장에서 멀리 떨어져 작전하는 부대는 단지 충분히 빨리 재보급을 받을 수 없다는 이유만으로 활동을 제한해야 할 수도 있다. 이 때문에 지휘관들은 적 부대만큼이나 도로·항만·활주로를 면밀히 연구하며, 지도 위에서는 훌륭해 보이는 계획도 유지할 수 없는 것으로 드러날 수 있다.",
+     "q": "The passage most strongly suggests that",
+     "q_ko": "지문이 가장 강하게 시사하는 것은?",
+     "options": [
+      "supply problems matter only when an enemy attacks supply lines.",
+      "a sound plan must account for how forces will be resupplied.",
+      "units far from ports can operate more freely than units nearby.",
+      "most military supplies today are delivered by transport aircraft."
+     ],
+     "answer": 1,
+     "explain": "근거: \"a plan that looks brilliant on a map may prove impossible to sustain\" — 재보급 방법을 고려하지 않은 계획은 실행할 수 없다. (1) 지문은 적이 없어도 거리 자체가 작전을 제약한다고 했다('only'는 과잉 일반화). (3) 항구·비행장에서 멀면 활동을 줄여야 할 수 있다고 했다(관계 뒤집기). (4) 운송 수단의 비율은 지문에 없다."
+    },
+    {
+     "id": "fa_rct_13",
+     "topic": "naval",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Refueling Without Stopping",
+     "passage": "Warships can remain at sea far longer than their fuel tanks alone would allow because of underway replenishment. In this procedure, a supply ship and a receiving ship steam side by side on parallel courses at the same speed, separated by a relatively short stretch of open water. Crews pass lines between the ships, rig hoses for fuel, and send pallets of food, parts, and ammunition across on cables. Because the two hulls are so close, careful shiphandling is essential: water flowing between the ships can pull them toward each other, and a small steering error can quickly become dangerous. Helicopters can speed the process by carrying loads between ships at the same time. The ability to resupply without returning to port gives a fleet much greater endurance and flexibility.",
+     "passage_ko": "전투함이 연료탱크만으로 가능한 것보다 훨씬 오래 바다에 머물 수 있는 것은 해상보급(underway replenishment) 덕분이다. 이 절차에서 보급함과 수급함은 비교적 짧은 간격을 두고 같은 속력으로 평행 침로를 따라 나란히 항해한다. 승조원들은 두 함정 사이에 줄을 건네고, 연료 호스를 설치하고, 식량·부품·탄약 팔레트를 케이블에 실어 건너보낸다. 두 선체가 매우 가깝기 때문에 세심한 조함이 필수적이다. 두 함정 사이로 흐르는 물이 함정들을 서로 끌어당길 수 있고, 작은 조타 실수도 금세 위험해질 수 있다. 헬리콥터가 동시에 함정 사이로 화물을 날라 과정을 빠르게 할 수도 있다. 항구로 돌아가지 않고 재보급받는 능력은 함대에 훨씬 큰 지속력과 유연성을 준다.",
+     "q": "It can be inferred from the passage that underway replenishment",
+     "q_ko": "지문으로부터 추론할 수 있는, 해상보급에 대한 설명은?",
+     "options": [
+      "lets ships stay on a mission longer between port visits.",
+      "is safest when the two ships steer on converging courses.",
+      "has made helicopters unnecessary for moving supplies at sea.",
+      "is used only for transferring fuel and never for cargo."
+     ],
+     "answer": 0,
+     "explain": "근거: \"The ability to resupply without returning to port gives a fleet much greater endurance\" — 항구에 돌아가지 않아도 되므로 임무를 끊는 일이 줄어든다. (2) 지문은 평행 침로라고 했다(세부 비틀기). (3) 헬리콥터는 과정을 빠르게 한다고 했다(관계 뒤집기). (4) 식량·부품·탄약도 옮긴다고 했으므로 '연료만'은 틀리다(과잉 일반화)."
+    },
+    {
+     "id": "fa_rct_14",
+     "topic": "space",
+     "diff": 2,
+     "qtype": "inference",
+     "title": "Bones Without Gravity",
+     "passage": "On Earth, the skeleton is constantly loaded by body weight, and that load signals bone tissue to maintain its strength. In orbit, the signal largely disappears. Astronauts on long missions lose bone mass, especially in the hips, spine, and legs, and some of that loss may not be fully regained even long after they return. To slow the decline, crews aboard the International Space Station exercise for roughly two hours a day, using a treadmill with harnesses that pull them toward the running surface and a resistance machine that simulates weightlifting. Researchers are also studying medications and diet. Because a trip to Mars could last far longer than a typical station mission, protecting the skeleton is considered one of the key medical challenges of deep-space travel.",
+     "passage_ko": "지구에서는 체중이 끊임없이 골격에 하중을 주고, 그 하중이 뼈 조직에 강도를 유지하라는 신호를 보낸다. 궤도에서는 그 신호가 대부분 사라진다. 장기 임무에 나선 우주비행사는 특히 엉덩이, 척추, 다리에서 골량을 잃고, 그 손실의 일부는 귀환 후 오랜 시간이 지나도 완전히 회복되지 않을 수 있다. 감소를 늦추기 위해 국제우주정거장의 승무원들은 하루 약 두 시간씩 운동한다. 몸을 달리기 면 쪽으로 당겨 주는 하네스가 달린 러닝머신과, 웨이트 트레이닝을 흉내 내는 저항 운동 기구를 쓴다. 연구자들은 약물과 식단도 연구하고 있다. 화성 여행은 일반적인 정거장 임무보다 훨씬 오래 걸릴 수 있으므로, 골격 보호는 심우주 여행의 핵심 의학 과제 중 하나로 꼽힌다.",
+     "q": "Which of the following statements is best supported by the passage?",
+     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+     "options": [
+      "Daily exercise in orbit completely prevents astronauts from losing bone.",
+      "Bones in the arms are affected more than bones in the legs.",
+      "Astronauts on the station exercise mainly to avoid gaining weight.",
+      "Bone loss would be a greater concern on a long Mars mission."
+     ],
+     "answer": 3,
+     "explain": "근거: \"Because a trip to Mars could last far longer than a typical station mission, protecting the skeleton is considered one of the key medical challenges\" (1) 운동은 감소를 '늦출' 뿐이다('completely'는 과잉 일반화). (2) 지문은 엉덩이·척추·다리가 특히 영향을 받는다고 했다(세부 비틀기). (3) 체중 증가 이야기는 지문에 없다(그럴듯하지만 근거 없음)."
+    },
+    {
+     "id": "fa_rct_15",
+     "topic": "environment",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "Forests at the Water's Edge",
+     "passage": "Mangroves are salt-tolerant trees that grow along sheltered tropical coastlines. Their tangled roots, many of which arch above the mud, slow moving water and trap sediment, gradually building up the shoreline. During storms, a wide belt of mangroves can absorb part of the energy of incoming waves, reducing the damage that reaches communities behind it. The roots also shelter young fish and shellfish, so many fisheries depend on healthy mangrove areas even when the catch is taken far offshore. In recent decades, large areas of mangrove forest have been cleared for shrimp ponds, farmland, and coastal construction. Where that has happened, some communities have later found themselves building expensive seawalls to provide protection the trees had once supplied for free.",
+     "passage_ko": "맹그로브는 바람과 파도를 피할 수 있는 열대 해안을 따라 자라는, 염분에 강한 나무다. 상당수가 진흙 위로 아치를 이루며 솟아 있는 얽힌 뿌리는 흐르는 물을 느리게 하고 퇴적물을 붙잡아 해안선을 서서히 쌓아 올린다. 폭풍이 올 때 넓은 맹그로브 띠는 밀려오는 파도 에너지의 일부를 흡수해 그 뒤의 마을에 미치는 피해를 줄일 수 있다. 뿌리는 어린 물고기와 조개류의 은신처도 되므로, 어획이 먼 바다에서 이루어지더라도 많은 어업이 건강한 맹그로브 지역에 의존한다. 최근 수십 년 동안 넓은 맹그로브 숲이 새우 양식장, 농지, 해안 건설을 위해 개간되었다. 그런 곳에서는 나무가 한때 공짜로 제공하던 보호를 대신하려고 나중에 값비싼 방파제를 쌓게 된 마을도 있다.",
+     "q": "The passage most strongly suggests that clearing mangrove forests",
+     "q_ko": "지문이 가장 강하게 시사하는, 맹그로브 숲 개간에 대한 설명은?",
+     "options": [
+      "improves offshore fishing by opening up more coastal water.",
+      "can lead to costs that were not obvious at first.",
+      "is the main cause of the storms that strike tropical coasts.",
+      "has been banned in every country that has tropical coastlines."
+     ],
+     "answer": 1,
+     "explain": "근거: \"some communities have later found themselves building expensive seawalls to provide protection the trees had once supplied for free\" — 개간 당시에는 보이지 않던 비용이 나중에 생긴다. (1) 지문은 맹그로브가 어린 물고기를 보호해 어업을 떠받친다고 했다(관계 뒤집기). (3) 개간이 폭풍을 '일으킨다'는 말은 없다(인과 날조). (4) 금지 여부는 지문에 없고 '모든 나라'는 과잉 일반화다."
+    },
+    {
+     "id": "fa_rct_16",
+     "topic": "aviation",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "The Invisible Wake",
+     "passage": "Every airplane that produces lift also produces a pair of rotating air masses, called wingtip vortices, that trail behind the wings. The vortices are strongest when the generating aircraft is heavy, flying slowly, and in a clean configuration with flaps and landing gear retracted, because these conditions require the wing to work hardest. Once formed, the vortices sink gradually below the aircraft's flight path and drift with the wind. A light aircraft that flies into them can be rolled more sharply than its controls can counter. Air traffic controllers therefore apply extra spacing behind large aircraft, and pilots are taught to stay at or above the larger aircraft's flight path and to land beyond the point where it touched down.",
+     "passage_ko": "양력을 만드는 모든 비행기는 날개 뒤로 끌려가는 한 쌍의 회전하는 공기 덩어리, 즉 익단와류(wingtip vortices)도 만든다. 와류는 그것을 만드는 항공기가 무겁고, 느리게 날며, 플랩과 착륙장치를 올린 클린(clean) 형상일 때 가장 강하다. 이런 조건에서 날개가 가장 힘들게 일해야 하기 때문이다. 일단 생긴 와류는 항공기의 비행경로 아래로 서서히 가라앉으며 바람을 따라 흘러간다. 소형 항공기가 그 속으로 들어가면 조종면으로 막아 낼 수 있는 것보다 더 급격하게 옆으로 굴려질 수 있다. 그래서 관제사들은 대형 항공기 뒤에 추가 간격을 두며, 조종사들은 더 큰 항공기의 비행경로와 같거나 그보다 높게 머물고 그 항공기가 접지한 지점 너머에 착륙하도록 배운다.",
+     "q": "Based on the passage, a small aircraft landing behind a large jet on the same runway would be safest if it",
+     "q_ko": "지문에 근거할 때, 대형 제트기 뒤에서 같은 활주로에 착륙하는 소형 항공기는 어떻게 하는 것이 가장 안전한가?",
+     "options": [
+      "flew slightly below the jet's approach path to avoid its wake.",
+      "touched down well before the point where the jet touched down.",
+      "stayed above the jet's path and landed past its touchdown point.",
+      "landed at once, since vortices always vanish within seconds."
+     ],
+     "answer": 2,
+     "explain": "근거: \"pilots are taught to stay at or above the larger aircraft's flight path and to land beyond the point where it touched down\" — 와류는 비행경로 아래로 가라앉기 때문이다. (1) 경로 아래는 와류가 가라앉는 곳이다(관계 뒤집기). (2) 접지점 '앞'이 아니라 '너머'에 착륙해야 한다(세부 비틀기). (4) 와류가 몇 초 만에 '항상' 사라진다는 말은 없다(과잉 일반화)."
+    },
+    {
+     "id": "fa_rct_17",
+     "topic": "leadership",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "The Question That Opens the Door",
+     "passage": "In many organizations, the people closest to a problem are the most junior members of the team. A mechanic may notice an unusual vibration before any report reaches the maintenance officer, and a new crew member may spot a gap in a procedure that experienced members no longer see. Whether that information travels upward often depends on the leader's habits. Leaders who routinely ask, 'What am I missing?' and who thank people for raising concerns, even concerns that turn out to be unfounded, tend to hear about problems early. Leaders who react to bad news with irritation may continue to receive reports, but those reports gradually become shorter, later, and more cheerful than the facts justify. Over time, such a leader can be the last to know.",
+     "passage_ko": "많은 조직에서 문제에 가장 가까이 있는 사람은 팀의 가장 하급자들이다. 정비사는 어떤 보고가 정비장교에게 올라가기 전에 이상한 진동을 알아챌 수 있고, 새로 온 승무원은 경험 많은 구성원들이 더는 보지 못하는 절차상의 빈틈을 발견할 수 있다. 그 정보가 위로 전달되는지는 흔히 리더의 습관에 달려 있다. '내가 무엇을 놓치고 있나?'라고 늘 묻고, 결국 근거 없는 것으로 드러난 우려라도 제기해 준 사람에게 고마워하는 리더는 문제를 일찍 듣는 경향이 있다. 나쁜 소식에 짜증으로 반응하는 리더도 보고는 계속 받을 수 있지만, 그 보고는 점점 짧아지고, 늦어지고, 사실이 정당화하는 것보다 더 낙관적으로 변한다. 시간이 지나면 그런 리더는 가장 마지막에 아는 사람이 될 수 있다.",
+     "q": "The passage most strongly suggests that a leader who reacts to bad news with irritation",
+     "q_ko": "지문이 가장 강하게 시사하는, 나쁜 소식에 짜증으로 반응하는 리더에 대한 설명은?",
+     "options": [
+      "may end up making decisions based on incomplete information.",
+      "will soon stop receiving any reports from the team at all.",
+      "usually has more experience than leaders who ask questions.",
+      "encourages junior members to raise their concerns sooner."
+     ],
+     "answer": 0,
+     "explain": "근거: \"those reports gradually become shorter, later, and more cheerful than the facts justify... such a leader can be the last to know\" — 결국 불완전한 정보로 판단하게 된다. (2) 지문은 보고를 '계속 받을 수는' 있다고 했다(세부 비틀기). (3) 경험의 많고 적음은 지문에 없다. (4) 짜증은 문제 제기를 늦춘다(관계 뒤집기)."
+    },
+    {
+     "id": "fa_rct_18",
+     "topic": "naval",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "Seeing in the Dark on the Bridge",
+     "passage": "A lookout who steps from a brightly lit compartment onto a dark deck is nearly blind at first. The eye's most light-sensitive cells need roughly thirty minutes in darkness to reach full sensitivity, and a single glance at a bright light can undo much of that adjustment in seconds. For this reason, ships at night have traditionally used dim red lighting in spaces such as the bridge. The light-sensitive cells used for night vision respond weakly to deep red light, so crew members can read charts and instruments while their night vision is largely preserved. Red light has a cost, however: markings printed in red on a chart can become hard to see under red illumination. Lookouts are also taught to scan slightly to the side of a faint object rather than stare directly at it.",
+     "passage_ko": "밝게 불을 켠 구획에서 어두운 갑판으로 나온 견시(lookout)는 처음에는 거의 앞을 보지 못한다. 눈에서 빛에 가장 민감한 세포가 최대 민감도에 이르려면 어둠 속에서 약 30분이 필요하고, 밝은 빛을 한 번만 흘끗 봐도 그 적응의 상당 부분이 몇 초 만에 사라질 수 있다. 이런 이유로 함정은 전통적으로 밤에 함교 같은 공간에서 희미한 적색 조명을 써 왔다. 야간 시력에 쓰이는 빛 감지 세포는 짙은 붉은빛에 약하게 반응하므로, 승조원은 야간 시력을 대부분 유지한 채 해도와 계기를 읽을 수 있다. 그러나 적색광에는 대가가 있다. 해도에 빨간색으로 인쇄된 표기는 적색 조명 아래에서 보기 어려워질 수 있다. 견시는 또한 희미한 물체를 똑바로 쳐다보기보다 그 약간 옆을 훑어보도록 배운다.",
+     "q": "It can be inferred from the passage that a lookout whose eyes have adjusted to the dark",
+     "q_ko": "지문으로부터 추론할 수 있는, 눈이 어둠에 적응한 견시에 대한 설명은?",
+     "options": [
+      "needs thirty minutes to recover after any glance at red light.",
+      "will see faint objects best by staring straight at them.",
+      "should always use white light when reading red chart markings.",
+      "could lose much of that adjustment by glancing at bright light."
+     ],
+     "answer": 3,
+     "explain": "근거: \"a single glance at a bright light can undo much of that adjustment in seconds\" — 밝은 손전등을 흘끗 보기만 해도 적응이 크게 사라진다. (1) 적색광은 오히려 야간 시력을 보존한다고 했다(세부 비틀기). (2) 지문은 희미한 물체를 정면이 아니라 약간 옆으로 보라고 했다(관계 뒤집기). (3) 적색 표기가 보기 어렵다고만 했을 뿐 백색광을 '항상' 쓰라는 말은 없고, 밝은 빛은 야간 적응을 해친다(과잉 일반화)."
+    },
+    {
+     "id": "fa_rct_19",
+     "topic": "military",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "Camouflage That Did Not Hide",
+     "passage": "During the First World War, many Allied merchant ships and warships were painted in bold, clashing patterns of stripes and angular shapes. This dazzle camouflage looked like the opposite of concealment, and in a sense it was. At sea, a ship is difficult to hide against a changing sky and ocean. The patterns were intended instead to confuse a submarine commander peering through a periscope. To aim a torpedo, he had to estimate the target's course and speed, and the broken lines made it harder to judge which way the ship was heading and how fast. Because many factors influenced whether ships were attacked, historians still debate how much the paint schemes actually reduced losses.",
+     "passage_ko": "제1차 세계대전 동안 연합국의 많은 상선과 군함이 줄무늬와 각진 도형이 서로 부딪치는 대담한 무늬로 칠해졌다. 이 다즐 위장(dazzle camouflage)은 은폐의 정반대처럼 보였고, 어떤 의미에서는 실제로 그랬다. 바다에서는 끊임없이 변하는 하늘과 바다를 배경으로 배를 숨기기 어렵다. 대신 이 무늬는 잠망경을 들여다보는 잠수함 함장을 혼란스럽게 하려는 것이었다. 어뢰를 겨누려면 함장은 목표의 침로와 속력을 추정해야 했는데, 끊어진 선들 때문에 배가 어느 쪽으로 얼마나 빨리 가는지 판단하기가 더 어려웠다. 선박이 공격받는지에는 여러 요인이 영향을 미쳤기 때문에, 역사가들은 이 도색이 실제로 손실을 얼마나 줄였는지 지금도 논쟁한다.",
+     "q": "Which of the following statements is best supported by the passage?",
+     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+     "options": [
+      "Dazzle paint made ships nearly invisible to submarine crews.",
+      "The patterns aimed to mislead observers rather than to hide ships.",
+      "Historians agree that dazzle paint greatly reduced shipping losses.",
+      "Dazzle patterns were applied to every Allied ship during the war."
+     ],
+     "answer": 1,
+     "explain": "근거: \"a ship is difficult to hide... The patterns were intended instead to confuse a submarine commander\" — 숨기는 것이 아니라 침로·속력을 오판하게 하려는 것이었다. (1) 지문은 은폐의 정반대처럼 보였다고 했다(관계 뒤집기). (3) 역사가들은 여전히 논쟁 중이라고 했다(세부 비틀기). (4) 지문은 '많은' 선박이라고 했지 '모든' 선박이 아니다(과잉 일반화)."
+    },
+    {
+     "id": "fa_rct_20",
+     "topic": "culture",
+     "diff": 3,
+     "qtype": "inference",
+     "title": "Songs for Hauling",
+     "passage": "On large sailing ships of the nineteenth century, many heavy tasks required a group of sailors to pull or push in unison, whether hauling up a sail or turning the capstan to raise the anchor. Work songs known as shanties helped coordinate that effort. A lead singer, the shantyman, sang a line, and the crew answered with a chorus, often pulling hard on particular beats. Different songs suited different jobs: short, sharp rhythms fit quick hauls, while longer, steadier songs matched the slow walk around a capstan. As steam engines and powered winches replaced much of this muscle work, shanties largely disappeared from working ships, surviving instead in collections, performances, and the memories of former sailors.",
+     "passage_ko": "19세기 대형 범선에서는 돛을 끌어 올리거나 닻을 올리려고 캡스턴(capstan, 닻 감는 장치)을 돌리는 일처럼 여러 선원이 한꺼번에 당기거나 밀어야 하는 무거운 작업이 많았다. 샨티(shanty)라고 불린 노동요가 그 힘을 맞추는 데 도움을 주었다. 선창자인 샨티맨이 한 소절을 부르면 선원들이 후렴으로 답했고, 흔히 특정 박자에 맞춰 힘껏 당겼다. 작업마다 어울리는 노래가 달랐다. 짧고 날카로운 리듬은 빠르게 당기는 일에, 길고 일정한 노래는 캡스턴 둘레를 천천히 도는 걸음에 맞았다. 증기기관과 동력 윈치가 이런 근육 노동의 상당 부분을 대신하면서 샨티는 실제 작업하는 배에서 거의 사라졌고, 대신 노래 모음집과 공연, 옛 선원들의 기억 속에 살아남았다.",
+     "q": "The passage most strongly suggests that shanties faded from working ships mainly because",
+     "q_ko": "지문이 가장 강하게 시사하는, 샨티가 실제 작업선에서 사라진 주된 이유는?",
+     "options": [
+      "sailors came to prefer the songs performed in concert halls.",
+      "shantymen were no longer permitted to sail aboard merchant ships.",
+      "machines took over the group labor that the songs had helped organize.",
+      "every shanty was too slow to match the pace of work on steamships."
+     ],
+     "answer": 2,
+     "explain": "근거: \"As steam engines and powered winches replaced much of this muscle work, shanties largely disappeared from working ships\" — 노래가 조율하던 집단 노동을 기계가 대신했다. (1) 공연장 음악 선호는 지문에 없다(근거 없음). (2) 샨티맨이 금지되었다는 말은 없다. (4) 빠른 리듬의 노래도 있었다고 했으므로 '모든 샨티가 느렸다'는 과잉 일반화이자 세부 왜곡이다."
+    }
+   ]
+  },
+  {
+   "code": "MCT",
+   "secs": 900,
+   "items": [
+    {
+     "id": "fa_mct_01",
+     "topic": "levers",
+     "diff": 1,
+     "q": "A mechanic uses a 10-ft steel bar as a lever. The fulcrum is 2 ft from the left end, and a 150-lb load acts at the left end. What downward force at the right end of the bar will balance the load?",
+     "q_ko": "정비사가 길이 10 ft의 강철 막대를 지레로 쓴다. 받침점은 왼쪽 끝에서 2 ft 떨어져 있고, 150 lb의 하중이 왼쪽 끝에 걸려 있다. 막대 오른쪽 끝에 아래로 얼마의 힘을 주어야 균형을 이루는가?",
+     "options": [
+      "30 lb",
+      "37.5 lb",
+      "75 lb",
+      "600 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 1종 지레 — 받침점 양쪽의 모멘트(힘 × 받침점까지 거리)가 같으면 평형. 하중 팔 = 2 ft, 힘 팔 = 10 - 2 = 8 ft. 150 × 2 = F × 8 → F = 300 ÷ 8 = 37.5 lb. ⚠️ 함정: 막대 전체 길이 10 ft를 힘 팔로 쓰면 30 lb, 비를 뒤집으면 600 lb가 된다.",
+     "fig": {
+      "type": "lever",
+      "length": 10,
+      "fulcrum": 2,
+      "unit": "ft",
+      "items": [
+       {
+        "x": 0,
+        "label": "150 lb",
+        "kind": "weight"
+       },
+       {
+        "x": 10,
+        "label": "F = ?",
+        "kind": "force",
+        "dir": "down"
+       }
+      ]
+     }
+    },
+    {
+     "id": "fa_mct_02",
+     "topic": "levers",
+     "diff": 2,
+     "q": "A wheelbarrow carries 180 lb of sandbags whose combined center of gravity is 1.5 ft from the wheel axle. The handles are gripped 5 ft from the axle. What upward force at the handles will hold the load level?",
+     "q_ko": "외바퀴 손수레에 모래주머니 180 lb가 실려 있고, 그 무게중심은 바퀴 축에서 1.5 ft 떨어져 있다. 손잡이는 축에서 5 ft 떨어진 곳을 잡는다. 짐을 수평으로 들고 있으려면 손잡이에 위로 얼마의 힘이 필요한가?",
+     "options": [
+      "36 lb",
+      "54 lb",
+      "77 lb",
+      "600 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 2종 지레 — 받침점(바퀴 축)이 한쪽 끝, 하중이 가운데, 힘이 반대쪽 끝에 있다. 180 × 1.5 = F × 5 → F = 270 ÷ 5 = 54 lb. ⚠️ 함정: 힘 팔은 하중에서 손잡이까지(3.5 ft → 약 77 lb)가 아니라 받침점에서 손잡이까지(5 ft)다.",
+     "fig": {
+      "type": "lever",
+      "length": 5,
+      "fulcrum": 0,
+      "unit": "ft",
+      "items": [
+       {
+        "x": 1.5,
+        "label": "180 lb",
+        "kind": "weight"
+       },
+       {
+        "x": 5,
+        "label": "F = ?",
+        "kind": "force",
+        "dir": "up"
+       }
+      ]
+     }
+    },
+    {
+     "id": "fa_mct_03",
+     "topic": "levers",
+     "diff": 2,
+     "q": "Which statement about a third-class lever, such as a pair of tweezers, is true?",
+     "q_ko": "핀셋과 같은 3종 지레에 대한 설명으로 옳은 것은?",
+     "options": [
+      "The fulcrum lies between the effort and the load.",
+      "The load lies between the fulcrum and the effort.",
+      "Its ideal mechanical advantage is always less than 1.",
+      "It always needs less effort than the load it moves."
+     ],
+     "answer": 2,
+     "explain": "원리: 3종 지레 — 힘(effort)이 받침점과 하중 사이에 있다. 힘 팔이 하중 팔보다 항상 짧으므로 이상적 기계적 이득(MA)은 1보다 작다. 대신 하중 쪽 끝이 더 멀리·빠르게 움직인다. (1)은 1종, (2)는 2종 지레의 설명이고, (4)는 MA < 1과 정반대다."
+    },
+    {
+     "id": "fa_mct_04",
+     "topic": "pulleys",
+     "diff": 1,
+     "q": "A 360-lb load hangs from a movable block that is supported by 3 strands of rope. Ignoring friction and the weight of the block, what effort is needed to hold the load?",
+     "q_ko": "360 lb의 하중이 3가닥의 줄로 받쳐진 움직도르래 블록에 매달려 있다. 마찰과 블록의 무게를 무시할 때 하중을 붙잡고 있는 데 필요한 힘은?",
+     "options": [
+      "90 lb",
+      "120 lb",
+      "180 lb",
+      "360 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 도르래 — 움직도르래를 받치는 줄 가닥 수가 기계적 이득(MA)이다. MA = 3이므로 F = 360 ÷ 3 = 120 lb. ⚠️ 함정: 가닥 수를 2나 4로 잘못 세면 180 lb나 90 lb가 된다.",
+     "fig": {
+      "type": "pulley",
+      "strands": 3,
+      "load": "360 lb",
+      "effort": "F = ?"
+     }
+    },
+    {
+     "id": "fa_mct_05",
+     "topic": "pulleys",
+     "diff": 3,
+     "q": "A 600-lb engine is raised with a block and tackle in which 4 strands support the movable block. Friction makes the system only 75% efficient. What effort is needed to lift the engine?",
+     "q_ko": "움직도르래 블록을 4가닥의 줄이 받치는 도르래 장치로 600 lb 엔진을 들어 올린다. 마찰 때문에 장치의 효율은 75%에 불과하다. 엔진을 들어 올리는 데 필요한 힘은?",
+     "options": [
+      "112.5 lb",
+      "150 lb",
+      "187.5 lb",
+      "200 lb"
+     ],
+     "answer": 3,
+     "explain": "원리: 도르래와 효율 — 실제 힘 = 이상적인 힘 ÷ 효율. 이상적 힘 = 600 ÷ 4 = 150 lb, 효율 75%이므로 150 ÷ 0.75 = 200 lb. ⚠️ 함정: 효율을 곱하면(150 × 0.75 = 112.5) 마찰이 있는데 힘이 줄어드는 모순이 생긴다. 150 × 1.25 = 187.5도 틀린 계산이다.",
+     "fig": {
+      "type": "pulley",
+      "strands": 4,
+      "load": "600 lb",
+      "effort": "F = ?"
+     }
+    },
+    {
+     "id": "fa_mct_06",
+     "topic": "gears_belts",
+     "diff": 2,
+     "q": "Gear A (40 teeth) meshes with gear B (20 teeth), and gear B meshes with gear C (10 teeth). If gear A turns clockwise at 30 rpm, how does gear C turn?",
+     "q_ko": "기어 A(잇수 40)가 기어 B(잇수 20)와 맞물리고, 기어 B는 기어 C(잇수 10)와 맞물린다. 기어 A가 시계 방향으로 30 rpm으로 돌면 기어 C는 어떻게 도는가?",
+     "options": [
+      "60 rpm counterclockwise",
+      "60 rpm clockwise",
+      "120 rpm counterclockwise",
+      "120 rpm clockwise"
+     ],
+     "answer": 3,
+     "explain": "원리: 기어열 — 맞물린 기어는 방향이 번갈아 바뀌고, 가운데 아이들 기어(B)는 속도비에 영향을 주지 않는다. 속도: 30 × 40 ÷ 10 = 120 rpm. 방향: A 시계 → B 반시계 → C 시계. ⚠️ 함정: 60 rpm은 B의 속도(30 × 40 ÷ 20)이고, B는 반시계로 돈다.",
+     "fig": {
+      "type": "gears",
+      "gears": [
+       {
+        "teeth": 40,
+        "label": "A"
+       },
+       {
+        "teeth": 20,
+        "label": "B"
+       },
+       {
+        "teeth": 10,
+        "label": "C"
+       }
+      ],
+      "driver": "A",
+      "dir": "cw",
+      "ask": "C"
+     }
+    },
+    {
+     "id": "fa_mct_07",
+     "topic": "gears_belts",
+     "diff": 3,
+     "q": "Four gears mesh in a row: A (12 teeth), B (36 teeth), C (24 teeth), and D (18 teeth). Gear A is the driver and turns counterclockwise at 180 rpm. What are the speed and direction of gear D?",
+     "q_ko": "기어 4개가 일렬로 맞물려 있다: A(잇수 12), B(36), C(24), D(18). 구동 기어 A가 반시계 방향으로 180 rpm으로 돈다. 기어 D의 속도와 방향은?",
+     "options": [
+      "120 rpm clockwise",
+      "120 rpm counterclockwise",
+      "270 rpm clockwise",
+      "270 rpm counterclockwise"
+     ],
+     "answer": 0,
+     "explain": "원리: 일렬 기어열의 속도비는 첫 기어와 마지막 기어의 잇수만으로 정해진다(중간 기어는 방향만 바꿈). D = 180 × 12 ÷ 18 = 120 rpm. 방향: A 반시계 → B 시계 → C 반시계 → D 시계(짝수 번째 기어는 구동 기어와 반대). ⚠️ 함정: 18 ÷ 12로 뒤집어 곱하면 270 rpm이 된다.",
+     "fig": {
+      "type": "gears",
+      "gears": [
+       {
+        "teeth": 12,
+        "label": "A"
+       },
+       {
+        "teeth": 36,
+        "label": "B"
+       },
+       {
+        "teeth": 24,
+        "label": "C"
+       },
+       {
+        "teeth": 18,
+        "label": "D"
+       }
+      ],
+      "driver": "A",
+      "dir": "ccw",
+      "ask": "D"
+     }
+    },
+    {
+     "id": "fa_mct_08",
+     "topic": "gears_belts",
+     "diff": 2,
+     "q": "A 4-inch pulley A on a motor turns clockwise at 1,800 rpm. It drives a 12-inch pulley B through a crossed belt. What are the speed and direction of pulley B?",
+     "q_ko": "모터에 달린 지름 4인치 풀리 A가 시계 방향으로 1,800 rpm으로 돈다. A는 교차(crossed) 벨트로 지름 12인치 풀리 B를 돌린다. 풀리 B의 속도와 방향은?",
+     "options": [
+      "200 rpm clockwise",
+      "200 rpm counterclockwise",
+      "600 rpm clockwise",
+      "600 rpm counterclockwise"
+     ],
+     "answer": 3,
+     "explain": "원리: 벨트 구동 — 회전 속도는 지름에 반비례하고, 교차 벨트는 회전 방향을 반대로 만든다. B = 1,800 × 4 ÷ 12 = 600 rpm, 반시계 방향. ⚠️ 함정: 지름 비를 제곱하면 200 rpm(넓이 비와 혼동), 벨트가 X자로 꼬인 것을 놓치면 시계 방향으로 착각한다.",
+     "fig": {
+      "type": "belt",
+      "pulleys": [
+       {
+        "d": 4,
+        "label": "A"
+       },
+       {
+        "d": 12,
+        "label": "B"
+       }
+      ],
+      "unit": "in",
+      "crossed": true,
+      "driver": "A",
+      "dir": "cw",
+      "ask": "B"
+     }
+    },
+    {
+     "id": "fa_mct_09",
+     "topic": "fluids_pressure",
+     "diff": 2,
+     "q": "In a hangar's hydraulic aircraft jack, the small piston has an area of 1.5 square inches and the large piston has an area of 45 square inches. If a 40-lb force is applied to the small piston, what load can the large piston support? (Ignore friction.)",
+     "q_ko": "격납고의 유압식 항공기 잭에서 작은 피스톤의 넓이는 1.5제곱인치, 큰 피스톤의 넓이는 45제곱인치이다. 작은 피스톤에 40 lb의 힘을 가하면 큰 피스톤은 얼마의 하중을 떠받칠 수 있는가? (마찰 무시)",
+     "options": [
+      "27 lb",
+      "1,200 lb",
+      "1,800 lb",
+      "2,700 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 파스칼의 원리 — 밀폐된 유체에 가한 압력은 모든 곳에 똑같이 전달된다. 압력 = 40 ÷ 1.5 ≈ 26.7 psi. 큰 피스톤의 힘 = 압력 × 넓이 = 40 × (45 ÷ 1.5) = 40 × 30 = 1,200 lb. ⚠️ 함정: 약 27은 압력(psi)이지 힘이 아니며, 작은 피스톤 넓이로 나누지 않으면 1,800 lb가 된다.",
+     "fig": {
+      "type": "hydraulic",
+      "small": {
+       "area": "1.5 in²",
+       "force": "40 lb"
+      },
+      "large": {
+       "area": "45 in²",
+       "force": "?"
+      }
+     }
+    },
+    {
+     "id": "fa_mct_10",
+     "topic": "fluids_pressure",
+     "diff": 2,
+     "q": "Three open tanks have different shapes: one is narrow, one is wide, and one widens toward the top. All three are filled with fresh water to the same depth. How do the water pressures at the bottoms of the tanks compare?",
+     "q_ko": "모양이 다른 뚜껑 없는 탱크 세 개가 있다. 하나는 좁고, 하나는 넓고, 하나는 위로 갈수록 넓어진다. 세 탱크 모두 같은 깊이까지 민물을 채웠다. 탱크 바닥의 수압은 어떻게 비교되는가?",
+     "options": [
+      "The pressure is greatest in the wide tank.",
+      "The pressure is greatest in the narrow tank.",
+      "The pressure is least in the widening tank.",
+      "The pressure is the same in all three tanks."
+     ],
+     "answer": 3,
+     "explain": "원리: 정수압 — 액체 속 압력은 깊이와 액체의 밀도로만 정해진다(P = 밀도 × g × 깊이). 용기의 모양이나 담긴 물의 총량과는 관계없다. 세 탱크는 깊이와 액체가 같으므로 바닥 압력도 같다. ⚠️ 함정: 물이 더 많은 넓은 탱크는 바닥이 받는 '총 힘'이 클 뿐, 단위 넓이당 압력은 같다."
+    },
+    {
+     "id": "fa_mct_11",
+     "topic": "newton_forces",
+     "diff": 1,
+     "q": "A jet engine forces exhaust gases rearward at high speed, and the aircraft is pushed forward. Which principle best explains the forward push?",
+     "q_ko": "제트 엔진이 배기가스를 고속으로 뒤로 밀어내면 항공기는 앞으로 밀린다. 이 전진하는 힘을 가장 잘 설명하는 원리는?",
+     "options": [
+      "An object at rest stays at rest unless a force acts on it.",
+      "For every action there is an equal and opposite reaction.",
+      "Pressure applied to a confined fluid is transmitted equally.",
+      "Faster-moving air exerts less pressure than slower air."
+     ],
+     "answer": 1,
+     "explain": "원리: 뉴턴 제3법칙(작용·반작용) — 엔진이 배기가스를 뒤로 밀면(작용), 가스는 같은 크기의 힘으로 엔진을 앞으로 민다(반작용). (1)은 관성의 법칙(제1법칙), (3)은 파스칼의 원리, (4)는 베르누이 원리로, 이 현상의 핵심 설명이 아니다."
+    },
+    {
+     "id": "fa_mct_12",
+     "topic": "newton_forces",
+     "diff": 2,
+     "q": "A 200-lb crate is pushed across a level hangar floor with a horizontal force of 90 lb. The coefficient of kinetic friction between the crate and the floor is 0.30. What is the net horizontal force on the crate?",
+     "q_ko": "200 lb 상자를 평평한 격납고 바닥에서 90 lb의 수평 힘으로 민다. 상자와 바닥 사이의 운동 마찰계수는 0.30이다. 상자에 작용하는 수평 방향 알짜힘은?",
+     "options": [
+      "30 lb",
+      "60 lb",
+      "90 lb",
+      "150 lb"
+     ],
+     "answer": 0,
+     "explain": "원리: 마찰력 = 마찰계수 × 수직항력. 평평한 바닥에서 수직항력 = 무게 200 lb → 마찰력 = 0.30 × 200 = 60 lb(미는 방향의 반대). 알짜힘 = 90 - 60 = 30 lb. ⚠️ 함정: 60 lb는 마찰력 자체, 90 lb는 마찰을 무시한 값, 150 lb는 마찰력을 더해 버린 값이다."
+    },
+    {
+     "id": "fa_mct_13",
+     "topic": "kinematics",
+     "diff": 2,
+     "q": "Starting from rest, a jet accelerates uniformly down a runway at 3 m/s². How far does it travel in the first 20 seconds?",
+     "q_ko": "정지 상태에서 출발한 제트기가 활주로에서 3 m/s²로 등가속한다. 처음 20초 동안 이동한 거리는?",
+     "options": [
+      "30 m",
+      "60 m",
+      "600 m",
+      "1,200 m"
+     ],
+     "answer": 2,
+     "explain": "원리: 등가속도 운동 — 정지 상태에서 출발하면 d = ½at². d = ½ × 3 × 20² = ½ × 3 × 400 = 600 m. ⚠️ 함정: 20초 뒤의 속력(3 × 20 = 60 m/s)에 시간을 곱한 1,200 m는 처음부터 그 속력이었다고 가정한 값이다. 평균 속력은 (0 + 60) ÷ 2 = 30 m/s이고, 30 × 20 = 600 m로도 확인된다."
+    },
+    {
+     "id": "fa_mct_14",
+     "topic": "kinematics",
+     "diff": 3,
+     "q": "An aircraft flying level at 80 m/s at an altitude of 180 m releases a supply canister. Ignoring air resistance and using g = 10 m/s², how far forward does the canister travel before it hits the ground?",
+     "q_ko": "고도 180 m에서 80 m/s로 수평 비행하던 항공기가 보급 용기를 떨어뜨린다. 공기저항을 무시하고 g = 10 m/s²를 쓸 때, 용기가 땅에 닿기 전까지 앞으로 이동하는 거리는?",
+     "options": [
+      "240 m",
+      "340 m",
+      "480 m",
+      "1,440 m"
+     ],
+     "answer": 2,
+     "explain": "원리: 수평 투사 — 수평 속도는 그대로 유지되고(공기저항 무시), 수직으로는 자유낙하한다. h = ½gt² → 180 = 5t² → t² = 36 → t = 6 s. 수평 거리 = 80 × 6 = 480 m. ⚠️ 함정: ½을 빠뜨려 t² = 18(→ 약 340 m)로 하거나, t = 180 ÷ 10 = 18 s(→ 1,440 m)로 계산하면 틀린다."
+    },
+    {
+     "id": "fa_mct_15",
+     "topic": "inclined_screw_wedge",
+     "diff": 2,
+     "q": "A 300-lb crate is pushed up a ramp 15 ft long onto a loading dock 3 ft high. Ignoring friction, what force parallel to the ramp is needed?",
+     "q_ko": "300 lb 상자를 길이 15 ft의 경사로를 따라 높이 3 ft의 하역장으로 밀어 올린다. 마찰을 무시할 때 경사로와 평행하게 필요한 힘은?",
+     "options": [
+      "20 lb",
+      "60 lb",
+      "100 lb",
+      "1,500 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 경사면 — 마찰이 없으면 한 일은 같다. F × 빗면 길이 = 무게 × 높이 → F × 15 = 300 × 3 → F = 60 lb(기계적 이득 = 15 ÷ 3 = 5). ⚠️ 함정: 비를 뒤집으면 1,500 lb처럼 무게보다 큰 값이 나온다. 경사면은 거리를 늘리는 대신 힘을 줄여 준다.",
+     "fig": {
+      "type": "incline",
+      "length": "15 ft",
+      "height": "3 ft",
+      "load": "300 lb",
+      "force": "F = ?"
+     }
+    },
+    {
+     "id": "fa_mct_16",
+     "topic": "inclined_screw_wedge",
+     "diff": 3,
+     "q": "A worker must roll a 600-lb drum up a ramp onto a platform 3 ft high. He can push with at most 150 lb, and friction along the ramp adds a steady 30 lb of resistance. What is the shortest ramp he can use?",
+     "q_ko": "작업자가 600파운드 드럼을 경사로로 높이 3피트 단 위에 굴려 올려야 한다. 밀 수 있는 힘은 최대 150파운드이고, 경사로를 따라 마찰이 30파운드의 저항을 계속 더한다. 쓸 수 있는 가장 짧은 경사로 길이는?",
+     "options": [
+      "15 ft",
+      "12 ft",
+      "10 ft",
+      "20 ft"
+     ],
+     "answer": 0,
+     "explain": "원리: 경사면 — (들어 올리는 데 쓰이는 힘) × 경사로 길이 = 무게 × 높이. 150 lb 중 30 lb는 마찰을 이기는 데 쓰이므로 들어 올리는 데 120 lb. 120 × L = 600 × 3 → L = 15 ft. ⚠️ 함정: 마찰을 무시하면 12 ft, 마찰을 더해 180 lb로 계산하면 10 ft."
+    },
+    {
+     "id": "fa_mct_17",
+     "topic": "bernoulli_buoyancy",
+     "diff": 3,
+     "q": "Water flows steadily through a pipe from section A, 6 inches in diameter, into section B, 2 inches in diameter. Compared with section A, how do the water speed and pressure in section B compare?",
+     "q_ko": "물이 지름 6인치인 구간 A에서 지름 2인치인 구간 B로 일정하게 흐른다. 구간 A와 비교할 때 구간 B의 유속과 압력은 어떠한가?",
+     "options": [
+      "3 times as fast, with higher pressure",
+      "3 times as fast, with lower pressure",
+      "9 times as fast, with higher pressure",
+      "9 times as fast, with lower pressure"
+     ],
+     "answer": 3,
+     "explain": "원리: 연속 방정식 + 베르누이 원리 — 같은 양의 물이 흐르므로 유속은 단면적에 반비례하고, 단면적은 지름의 제곱에 비례한다. (6 ÷ 2)² = 9 → B에서 9배 빠르다. 유속이 빠른 곳은 압력이 낮다. ⚠️ 함정: 지름 비(3배)만 쓰거나, 좁은 곳에서 압력이 커진다고 착각하기 쉽다.",
+     "fig": {
+      "type": "pipe",
+      "sections": [
+       {
+        "d": 6,
+        "label": "A"
+       },
+       {
+        "d": 2,
+        "label": "B"
+       }
+      ],
+      "unit": "in",
+      "flow": "right"
+     }
+    },
+    {
+     "id": "fa_mct_18",
+     "topic": "bernoulli_buoyancy",
+     "diff": 2,
+     "q": "A cargo ship sails from a freshwater river into the ocean without changing its load. Compared with how it floated in the river, how does the ship float in seawater?",
+     "q_ko": "화물선이 짐을 바꾸지 않은 채 민물 강에서 바다로 나간다. 강에서 떠 있던 것과 비교하면 바닷물에서는 어떻게 뜨는가?",
+     "options": [
+      "It floats lower because salt water is heavier.",
+      "It floats at exactly the same level.",
+      "It floats higher because salt water is denser.",
+      "It floats lower because waves add weight."
+     ],
+     "answer": 2,
+     "explain": "원리: 부력(아르키메데스의 원리) — 떠 있는 물체는 자기 무게와 같은 무게의 물을 밀어낸다. 바닷물은 민물보다 밀도가 커서 같은 무게를 받치는 데 필요한 잠긴 부피가 작다. 따라서 배는 조금 더 떠오른다(흘수가 줄어든다). ⚠️ 함정: '바닷물이 더 무겁다'를 '더 가라앉는다'로 연결하면 거꾸로다."
+    },
+    {
+     "id": "fa_mct_19",
+     "topic": "gases_heat",
+     "diff": 1,
+     "q": "A sealed bag of snacks is loaded into an unpressurized aircraft at sea level. During the climb to high altitude, the bag puffs up. What best explains this?",
+     "q_ko": "밀봉된 과자 봉지를 해수면 고도에서 여압이 안 되는 항공기에 실었다. 높은 고도로 상승하는 동안 봉지가 부풀어 오른다. 이를 가장 잘 설명하는 것은?",
+     "options": [
+      "The air inside the bag heats up during the climb.",
+      "The bag absorbs moisture from the surrounding air.",
+      "The outside air pressure drops, so the gas inside expands.",
+      "Gravity is weaker at altitude, so the bag weighs less."
+     ],
+     "answer": 2,
+     "explain": "원리: 보일의 법칙 — 온도가 일정하면 기체의 압력과 부피는 반비례한다(P₁V₁ = P₂V₂). 고도가 높아지면 바깥 기압이 낮아지므로 봉지 안의 기체가 팽창해 봉지가 부푼다. (1) 고도가 오르면 기온은 보통 오히려 내려간다. (4) 중력 변화는 무시할 만큼 작고 부피와도 관계없다."
+    },
+    {
+     "id": "fa_mct_20",
+     "topic": "gases_heat",
+     "diff": 3,
+     "q": "A sealed, rigid tank of nitrogen has an absolute pressure of 150 psi at 27°C. If the tank is heated to 87°C, what is the new absolute pressure? (The volume stays constant.)",
+     "q_ko": "밀폐된 단단한 질소 탱크의 절대압력이 27°C에서 150 psi이다. 탱크를 87°C로 가열하면 새 절대압력은? (부피는 일정)",
+     "options": [
+      "125 psi",
+      "150 psi",
+      "180 psi",
+      "483 psi"
+     ],
+     "answer": 2,
+     "explain": "원리: 압력-온도 법칙(게이뤼삭) — 부피가 일정하면 절대압력은 절대온도(K)에 비례한다. 27°C = 300 K, 87°C = 360 K → P₂ = 150 × 360 ÷ 300 = 180 psi. ⚠️ 함정: 섭씨를 그대로 쓰면 150 × 87 ÷ 27 ≈ 483 psi라는 터무니없는 값이 나온다. 기체 법칙에는 반드시 켈빈 온도를 쓴다."
+    },
+    {
+     "id": "fa_mct_21",
+     "topic": "work_energy_power",
+     "diff": 3,
+     "q": "An engine hoist lifts a 660-lb engine 10 ft in 8 seconds. If the hoist motor is 75% efficient, how much power must be supplied to the motor? (1 hp = 550 ft·lb/s)",
+     "q_ko": "엔진 호이스트가 660 lb 엔진을 8초 동안 10 ft 들어 올린다. 호이스트 모터의 효율이 75%라면 모터에 공급해야 하는 동력은? (1 hp = 550 ft·lb/s)",
+     "options": [
+      "1.1 hp",
+      "1.5 hp",
+      "2.0 hp",
+      "12 hp"
+     ],
+     "answer": 2,
+     "explain": "원리: 일률 = 일 ÷ 시간, 효율 = 출력 ÷ 입력. 일 = 660 × 10 = 6,600 ft·lb, 출력 = 6,600 ÷ 8 = 825 ft·lb/s = 825 ÷ 550 = 1.5 hp. 입력 = 1.5 ÷ 0.75 = 2.0 hp. ⚠️ 함정: 효율을 곱하면 약 1.1 hp로 오히려 줄고, 시간을 빼먹으면 6,600 ÷ 550 = 12가 된다."
+    },
+    {
+     "id": "fa_mct_22",
+     "topic": "engines",
+     "diff": 2,
+     "q": "In a turbojet engine, what drives the compressor at the front of the engine during normal operation?",
+     "q_ko": "터보제트 엔진이 정상 작동할 때, 엔진 앞쪽의 압축기를 돌리는 것은 무엇인가?",
+     "options": [
+      "An electric motor mounted beside the engine",
+      "Ram air entering the inlet at high speed",
+      "A turbine spun by hot gases leaving the combustor",
+      "The exhaust nozzle pushing on the outside air"
+     ],
+     "answer": 2,
+     "explain": "원리: 터보제트의 흐름 — 흡입구 → 압축기 → 연소실 → 터빈 → 배기 노즐. 연소실을 나온 뜨거운 가스가 터빈을 돌리고, 터빈은 같은 축으로 연결된 앞쪽 압축기를 돌린다. 시동 때만 스타터가 처음 회전을 걸어 준다. 💡 suck(흡입)-squeeze(압축)-bang(연소)-blow(배기)."
+    },
+    {
+     "id": "fa_mct_23",
+     "topic": "electricity_circuits",
+     "diff": 2,
+     "q": "A 24-volt battery is connected to a 4-ohm resistor and a 12-ohm resistor wired in parallel. What total current does the battery supply?",
+     "q_ko": "24 V 배터리에 4 Ω 저항과 12 Ω 저항이 병렬로 연결되어 있다. 배터리가 공급하는 전체 전류는?",
+     "options": [
+      "1.5 A",
+      "2 A",
+      "6 A",
+      "8 A"
+     ],
+     "answer": 3,
+     "explain": "원리: 병렬 회로 — 각 가지에 같은 전압(24 V)이 걸린다(옴의 법칙 I = V ÷ R). 4 Ω: 24 ÷ 4 = 6 A, 12 Ω: 24 ÷ 12 = 2 A → 합계 8 A. 합성저항 4 × 12 ÷ (4 + 12) = 3 Ω, 24 ÷ 3 = 8 A로도 확인된다. ⚠️ 함정: 직렬처럼 더해 16 Ω으로 계산하면 1.5 A가 된다.",
+     "fig": {
+      "type": "circuit",
+      "mode": "parallel",
+      "source": "24 V",
+      "resistors": [
+       "4 Ω",
+       "12 Ω"
+      ]
+     }
+    },
+    {
+     "id": "fa_mct_24",
+     "topic": "electricity_circuits",
+     "diff": 1,
+     "q": "Three identical lamps are connected in series to a battery. If one lamp burns out, what happens to the other two lamps?",
+     "q_ko": "똑같은 전구 세 개가 배터리에 직렬로 연결되어 있다. 전구 하나가 끊어지면 나머지 두 전구는 어떻게 되는가?",
+     "options": [
+      "They go out because the circuit is broken.",
+      "They glow brighter because resistance drops.",
+      "They keep glowing at the same brightness.",
+      "One stays lit while the other goes out."
+     ],
+     "answer": 0,
+     "explain": "원리: 직렬 회로 — 전류가 흐르는 길이 하나뿐이다. 전구 하나의 필라멘트가 끊어지면 회로 전체가 열려 전류가 흐르지 못하므로 나머지 전구도 모두 꺼진다. 병렬 회로였다면 나머지 전구는 계속 켜져 있다."
+    },
+    {
+     "id": "fa_mct_25",
+     "topic": "magnetism",
+     "diff": 1,
+     "q": "Which change would make an electromagnet stronger?",
+     "q_ko": "전자석을 더 강하게 만드는 변화는?",
+     "options": [
+      "Winding more turns of wire around the core",
+      "Reducing the current through the coil",
+      "Replacing the iron core with a wooden one",
+      "Spreading the coil turns farther apart"
+     ],
+     "answer": 0,
+     "explain": "원리: 전자석의 세기는 코일의 감은 수와 전류가 클수록 강해지고, 철심은 자기장을 크게 강화한다. 따라서 감은 수를 늘리면 강해진다. 전류를 줄이거나, 철심을 나무로 바꾸거나, 코일을 성기게 감으면 오히려 약해진다."
+    },
+    {
+     "id": "fa_mct_26",
+     "topic": "center_of_gravity",
+     "diff": 3,
+     "q": "A uniform 16-ft beam weighing 80 lb rests on a pivot 6 ft from its left end. A 200-lb load hangs 2 ft from the left end. What weight must hang at the right end to keep the beam level? (The beam's own weight acts at its center.)",
+     "q_ko": "무게 80 lb인 균일한 16 ft 보가 왼쪽 끝에서 6 ft 떨어진 받침점 위에 놓여 있다. 왼쪽 끝에서 2 ft 지점에 200 lb 하중이 매달려 있다. 보를 수평으로 유지하려면 오른쪽 끝에 얼마의 무게를 매달아야 하는가? (보 자체의 무게는 보의 중앙에 작용한다.)",
+     "options": [
+      "50 lb",
+      "64 lb",
+      "80 lb",
+      "96 lb"
+     ],
+     "answer": 1,
+     "explain": "원리: 무게중심과 모멘트 평형 — 균일한 보의 무게는 한가운데(8 ft 지점, 받침점 오른쪽 2 ft)에 모여 작용한다. 왼쪽 모멘트 200 × 4 = 800, 오른쪽 모멘트 = 80 × 2 + W × 10. 800 = 160 + 10W → W = 64 lb. ⚠️ 함정: 보의 무게를 무시하면 80 lb, 보의 무게를 왼쪽 모멘트에 더하면 96 lb가 된다.",
+     "fig": {
+      "type": "lever",
+      "length": 16,
+      "fulcrum": 6,
+      "unit": "ft",
+      "items": [
+       {
+        "x": 2,
+        "label": "200 lb",
+        "kind": "weight"
+       },
+       {
+        "x": 8,
+        "label": "beam 80 lb",
+        "kind": "force",
+        "dir": "down"
+       },
+       {
+        "x": 16,
+        "label": "W = ?",
+        "kind": "weight"
+       }
+      ]
+     }
+    },
+    {
+     "id": "fa_mct_27",
+     "topic": "torque_rotation",
+     "diff": 2,
+     "q": "A mechanic pulls with 40 lb of force at the end of a 15-inch wrench, perpendicular to the handle. How much torque is applied to the bolt, in foot-pounds?",
+     "q_ko": "정비사가 길이 15인치 렌치의 끝을 손잡이에 수직으로 40 lb의 힘으로 당긴다. 볼트에 가해지는 토크는 몇 foot-pound인가?",
+     "options": [
+      "50 ft·lb",
+      "55 ft·lb",
+      "600 ft·lb",
+      "7,200 ft·lb"
+     ],
+     "answer": 0,
+     "explain": "원리: 토크 = 힘 × 회전축까지의 수직 거리. 40 lb × 15 in = 600 in·lb. 1 ft = 12 in이므로 600 ÷ 12 = 50 ft·lb. ⚠️ 함정: 600은 inch-pound 값이다. 12를 곱하면(7,200) 단위 변환 방향이 거꾸로이고, 힘과 거리를 더한 55는 의미가 없다."
+    },
+    {
+     "id": "fa_mct_28",
+     "topic": "torque_rotation",
+     "diff": 1,
+     "q": "A mechanic cannot loosen a tight bolt with a short wrench. Without pushing any harder, which change will increase the turning effect on the bolt the most?",
+     "q_ko": "정비사가 짧은 렌치로 꽉 조인 볼트를 풀지 못하고 있다. 더 세게 밀지 않고 볼트를 돌리는 효과를 가장 크게 늘리는 방법은?",
+     "options": [
+      "Using a longer wrench and pushing at its far end",
+      "Gripping the wrench closer to the bolt head",
+      "Pushing along the handle toward the bolt",
+      "Using a wrench made of a lighter material"
+     ],
+     "answer": 0,
+     "explain": "원리: 토크 = 힘 × 팔 길이(회전축에서 힘의 작용선까지의 수직 거리). 같은 힘이면 팔이 길수록 토크가 커진다. 볼트 가까이 잡으면 팔이 짧아지고, 손잡이를 따라 볼트 쪽으로 밀면 수직 거리가 0이라 토크가 생기지 않는다. 렌치의 재질은 토크와 관계없다."
+    },
+    {
+     "id": "fa_mct_29",
+     "topic": "springs",
+     "diff": 3,
+     "q": "Two springs hang in series, one below the other. The upper spring has a constant of 40 lb/in and the lower spring 60 lb/in. A 48-lb weight hangs from the bottom. How far does the weight move down in total? (Ignore the weight of the springs.)",
+     "q_ko": "스프링 두 개가 위아래로 직렬 연결되어 매달려 있다. 위 스프링의 상수는 40 lb/in, 아래 스프링은 60 lb/in이다. 맨 아래에 48 lb 추를 매달면 추는 모두 얼마나 내려가는가? (스프링 자체 무게 무시)",
+     "options": [
+      "0.48 in",
+      "0.8 in",
+      "1.2 in",
+      "2.0 in"
+     ],
+     "answer": 3,
+     "explain": "원리: 직렬 스프링 — 각 스프링이 전체 하중을 똑같이 받으므로 늘어난 길이를 더한다(후크의 법칙 x = F ÷ k). 위: 48 ÷ 40 = 1.2 in, 아래: 48 ÷ 60 = 0.8 in, 합계 2.0 in. (합성 상수 40 × 60 ÷ 100 = 24 lb/in, 48 ÷ 24 = 2.0 in.) ⚠️ 함정: 병렬처럼 상수를 더하면(100 lb/in) 0.48 in가 된다.",
+     "fig": {
+      "type": "springs",
+      "mode": "series",
+      "springs": [
+       "40 lb/in",
+       "60 lb/in"
+      ],
+      "load": "48 lb"
+     }
+    },
+    {
+     "id": "fa_mct_30",
+     "topic": "mechanisms",
+     "diff": 2,
+     "q": "In a piston engine, lobes on a rotating camshaft open and close the valves. What does a cam do?",
+     "q_ko": "피스톤 엔진에서는 회전하는 캠축의 돌출부(lobe)가 밸브를 열고 닫는다. 캠은 어떤 역할을 하는가?",
+     "options": [
+      "It turns rotary motion into reciprocating motion.",
+      "It turns reciprocating motion into rotary motion.",
+      "It turns slow rotary motion into faster rotary motion.",
+      "It stores energy to smooth out changes in engine speed."
+     ],
+     "answer": 0,
+     "explain": "원리: 캠(cam) — 회전하는 캠의 돌출부가 종동절(follower)을 밀어 올렸다 내렸다 하므로 회전 운동을 왕복(직선) 운동으로 바꾼다. 엔진에서는 캠축이 밸브를 정해진 시점에 열고 닫는다. (2)는 피스톤-크랭크축, (3)은 기어·벨트, (4)는 플라이휠의 역할이다."
+    }
+   ]
+  },
+  {
+   "code": "ANIT",
+   "secs": 900,
+   "items": [
+    {
+     "id": "fa_anit_01",
+     "topic": "aerodynamics",
+     "diff": 2,
+     "q": "An airplane can stall at any airspeed and in any flight attitude whenever",
+     "q_ko": "비행기는 어느 속도, 어느 자세에서든 다음과 같은 경우에 실속(stall)할 수 있다.",
+     "options": [
+      "the critical angle of attack is exceeded",
+      "the engine loses power",
+      "the airspeed falls below a fixed value",
+      "the nose is raised above the horizon"
+     ],
+     "answer": 0,
+     "explain": "실속은 날개의 받음각(angle of attack)이 임계 받음각을 넘어 공기 흐름이 날개 윗면에서 떨어져 나갈 때 생긴다. 그래서 속도·자세·출력과 관계없이 일어날 수 있다. 엔진 고장이나 기수 들림 자체가 실속은 아니며, 실속 '속도'도 무게·하중계수에 따라 변한다. 💡 암기: 실속은 속도가 아니라 받음각 문제."
+    },
+    {
+     "id": "fa_anit_02",
+     "topic": "nautical_terms",
+     "diff": 1,
+     "q": "Aboard a Navy ship, what is a 'bulkhead'?",
+     "q_ko": "해군 함정에서 'bulkhead'는 무엇인가?",
+     "options": [
+      "A floor",
+      "A wall",
+      "A ceiling",
+      "A stairway"
+     ],
+     "answer": 1,
+     "explain": "bulkhead = 벽(격벽). 함정 용어로 바닥은 deck, 천장은 overhead, 계단은 ladder라고 한다. 격벽은 구획을 나눠 화재·침수가 번지는 것을 막는 역할도 한다. 💡 암기: deck(바닥) · overhead(천장) · bulkhead(벽) · ladder(계단).",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_03",
+     "topic": "aircraft_structure",
+     "diff": 1,
+     "q": "In a conventional airplane, moving the control stick forward and aft moves which control surface to change pitch?",
+     "q_ko": "일반적인 비행기에서 조종간을 앞뒤로 움직이면 피치(기수 상하)를 바꾸기 위해 어느 조종면이 움직이는가?",
+     "options": [
+      "Elevator",
+      "Ailerons",
+      "Rudder",
+      "Wing flaps"
+     ],
+     "answer": 0,
+     "explain": "엘리베이터(승강타)는 수평꼬리날개 뒤쪽에 있으며 가로축(lateral axis)에 대한 피치를 조종한다. 에일러론은 옆놀이(roll), 러더는 빗놀이(yaw)를 조종하고, 플랩은 양력·항력을 늘리는 고양력 장치다. 💡 암기: 스틱 앞뒤 = 엘리베이터 = 피치."
+    },
+    {
+     "id": "fa_anit_04",
+     "topic": "ship_types",
+     "diff": 1,
+     "q": "An aircraft carrier together with its embarked air wing and escorting cruisers and destroyers forms what kind of group?",
+     "q_ko": "항공모함이 탑재 비행단, 호위 순양함·구축함과 함께 이루는 부대를 무엇이라 하는가?",
+     "options": [
+      "A carrier strike group",
+      "A convoy",
+      "An amphibious ready group",
+      "A battle line"
+     ],
+     "answer": 0,
+     "explain": "항모 + 항모비행단(air wing) + 호위 순양함·구축함 = 항모타격단(Carrier Strike Group, CSG). 상륙준비단(ARG)은 강습상륙함 중심, convoy는 호송 선단, battle line은 옛 전함 전열이다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_05",
+     "topic": "airport_ops",
+     "diff": 1,
+     "q": "An aircraft on final approach is flying a magnetic heading of about 087° to line up with the runway. What number is painted on the runway end it is landing on?",
+     "q_ko": "최종 접근 중인 항공기가 활주로에 정렬하려고 약 087°의 자방위(magnetic heading)로 비행하고 있다. 착륙하는 활주로 끝에 칠해진 번호는?",
+     "options": [
+      "8",
+      "9",
+      "27",
+      "87"
+     ],
+     "answer": 1,
+     "explain": "활주로 번호는 활주로 방향의 자방위를 10으로 나눠 가장 가까운 정수로 반올림한 값이다. 087° → 약 090° → '9'. 반대편 끝은 180° 차이인 약 270°이므로 '27'이다. 8.7을 버림해 8로 하면 틀린다. 💡 암기: 활주로 번호 = 자방위 ÷ 10 (반올림)."
+    },
+    {
+     "id": "fa_anit_06",
+     "topic": "seamanship",
+     "diff": 1,
+     "q": "At night, a lookout sees only the red sidelight of another vessel. Which side of that vessel is facing the lookout?",
+     "q_ko": "밤에 견시(lookout)가 다른 선박의 붉은 현등(sidelight)만 보고 있다. 그 선박의 어느 쪽이 견시를 향하고 있는가?",
+     "options": [
+      "Its port side",
+      "Its starboard side",
+      "Its bow, head-on",
+      "Its stern"
+     ],
+     "answer": 0,
+     "explain": "현등은 좌현(port)이 빨강, 우현(starboard)이 초록이다. 빨간 현등만 보이면 그 배의 좌현을 보고 있는 것이다. 정면으로 마주 오면 빨강·초록이 함께 보이고, 선미 쪽에서는 흰색 선미등이 보인다. 💡 암기: port wine is red(포트 와인은 빨갛다).",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_07",
+     "topic": "regs_airspace",
+     "diff": 1,
+     "q": "Which transponder code should a pilot squawk to indicate a general emergency?",
+     "q_ko": "일반 비상 상황을 알리려면 조종사는 트랜스폰더 코드를 무엇으로 설정해야 하는가?",
+     "options": [
+      "1200",
+      "7500",
+      "7600",
+      "7700"
+     ],
+     "answer": 3,
+     "explain": "7700 = 비상(emergency). 7600 = 무선 통신 두절(lost communications), 7500 = 불법 방해(hijacking), 1200 = 미국의 일반 VFR 코드다. 💡 암기: 75 납치 · 76 무전 두절 · 77 비상."
+    },
+    {
+     "id": "fa_anit_08",
+     "topic": "navy_org_ranks",
+     "diff": 1,
+     "q": "Which U.S. Navy officer rank corresponds to pay grade O-4?",
+     "q_ko": "미 해군 장교 계급 중 급여 등급(pay grade) O-4에 해당하는 것은?",
+     "options": [
+      "Lieutenant",
+      "Lieutenant Commander",
+      "Commander",
+      "Captain"
+     ],
+     "answer": 1,
+     "explain": "해군 장교: O-1 Ensign(소위), O-2 Lieutenant Junior Grade(중위), O-3 Lieutenant(대위), O-4 Lieutenant Commander(소령), O-5 Commander(중령), O-6 Captain(대령). 이름에 'Commander'가 들어간다고 다 같은 계급이 아니다. 💡 암기: LT(O-3) → LCDR(O-4) → CDR(O-5) → CAPT(O-6).",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_09",
+     "topic": "aircraft_structure",
+     "diff": 2,
+     "q": "What is the main purpose of an elevator trim tab?",
+     "q_ko": "엘리베이터 트림 탭(trim tab)의 주된 목적은?",
+     "options": [
+      "To increase lift during takeoff",
+      "To steer the aircraft on the ground",
+      "To relieve steady pressure on the controls",
+      "To reduce drag during high-speed cruise"
+     ],
+     "answer": 2,
+     "explain": "트림 탭은 조종면 뒤끝의 작은 조종면으로, 공기력으로 조종면을 원하는 위치에 붙잡아 두어 조종사가 조종간을 계속 밀거나 당기지 않아도 되게 해 준다. 이륙 시 양력 증가는 플랩, 지상 조향은 앞바퀴 조향·브레이크의 역할이다."
+    },
+    {
+     "id": "fa_anit_10",
+     "topic": "carrier_ops",
+     "diff": 2,
+     "q": "On an aircraft carrier's flight deck, crew members in purple jerseys handle which job?",
+     "q_ko": "항공모함 비행갑판에서 보라색 저지(jersey)를 입은 승조원은 어떤 일을 맡는가?",
+     "options": [
+      "Ordnance",
+      "Catapults and arresting gear",
+      "Aviation fuel",
+      "Aircraft direction"
+     ],
+     "answer": 2,
+     "explain": "보라색(purple, 별명 'grapes') = 항공 연료 급유. 빨강 = 무장(ordnance)·충돌구조, 초록 = 캐터펄트·어레스팅 기어, 노랑 = 항공기 유도(director)·핸들링 장교, 파랑 = 항공기 이동 요원(chocks & chains)·엘리베이터·견인차, 갈색 = 플레인 캡틴, 흰색 = 안전·의무·LSO. 💡 암기: 포도(grapes) 주스 = 연료.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_11",
+     "topic": "instruments",
+     "diff": 2,
+     "q": "Which flight instrument does NOT operate from the pitot-static system?",
+     "q_ko": "다음 중 피토-정압(pitot-static) 계통으로 작동하지 않는 비행 계기는?",
+     "options": [
+      "Airspeed indicator",
+      "Altimeter",
+      "Vertical speed indicator",
+      "Attitude indicator"
+     ],
+     "answer": 3,
+     "explain": "피토-정압 계통을 쓰는 계기는 속도계(피토압 + 정압), 고도계(정압), 승강계(VSI, 정압) 세 가지다. 자세계(attitude indicator)는 방향지시계·선회계와 함께 진공 또는 전기로 도는 자이로 계기다. 💡 암기: 피토-정압 3형제 = 속도·고도·승강."
+    },
+    {
+     "id": "fa_anit_12",
+     "topic": "nautical_terms",
+     "diff": 2,
+     "q": "In U.S. Navy usage, what is the 'brow'?",
+     "q_ko": "미 해군 용어에서 'brow'는 무엇인가?",
+     "options": [
+      "The forward-most tip of the bow",
+      "The walkway between the pier and the ship",
+      "The raised edge around a hatch opening",
+      "The compartment that stores the anchor chain"
+     ],
+     "answer": 1,
+     "explain": "brow는 부두(pier)와 함정 사이에 걸쳐 놓는 이동식 통로(현문 다리, gangway)다. 함정의 맨 앞 끝은 stem, 해치 둘레의 턱은 coaming, 닻줄을 보관하는 구획은 chain locker라고 한다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_13",
+     "topic": "engines_systems",
+     "diff": 2,
+     "q": "As a piston-engine airplane climbs to a higher altitude, the pilot leans the fuel mixture. Why?",
+     "q_ko": "피스톤 엔진 비행기가 더 높은 고도로 상승하면 조종사는 연료 혼합비를 희박하게(lean) 조정한다. 그 이유는?",
+     "options": [
+      "Thinner air makes the mixture too rich.",
+      "The engine needs more fuel at altitude.",
+      "Leaning prevents carburetor ice.",
+      "The propeller turns faster at altitude."
+     ],
+     "answer": 0,
+     "explain": "고도가 높아질수록 공기 밀도가 낮아진다. 같은 양의 연료가 들어가면 공기에 비해 연료가 많아져 혼합기가 과농(too rich)해지고 출력 저하·점화플러그 오염이 생긴다. 그래서 혼합비 조절 레버로 연료를 줄인다. 기화기 결빙을 막는 것은 기화기 히트(carburetor heat)다."
+    },
+    {
+     "id": "fa_anit_14",
+     "topic": "ship_types",
+     "diff": 2,
+     "q": "Which hull symbol identifies a nuclear-powered ballistic missile submarine?",
+     "q_ko": "원자력 탄도미사일 잠수함을 나타내는 선체 기호는?",
+     "options": [
+      "SSN",
+      "SSGN",
+      "SSBN",
+      "DDG"
+     ],
+     "answer": 2,
+     "explain": "SSBN = 원자력 탄도미사일 잠수함(B = ballistic). SSN은 원자력 공격잠수함, SSGN은 원자력 유도(순항)미사일 잠수함(G = guided missile), DDG는 유도미사일 구축함이다. 💡 암기: SS = 잠수함, B = 탄도, G = 유도미사일, N = 원자력.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_15",
+     "topic": "regs_airspace",
+     "diff": 2,
+     "q": "In the United States, Class A airspace begins at what altitude?",
+     "q_ko": "미국에서 A등급 공역(Class A airspace)은 어느 고도부터 시작하는가?",
+     "options": [
+      "10,000 feet MSL",
+      "14,500 feet MSL",
+      "18,000 feet MSL",
+      "60,000 feet MSL"
+     ],
+     "answer": 2,
+     "explain": "A등급 공역은 평균해수면 기준 18,000 ft(MSL)부터 FL600까지이며, 이 공역에서는 IFR 비행만 허용된다. 14,500 ft MSL은 대부분 지역에서 E등급 공역의 기본 하한, 10,000 ft MSL은 250노트 속도 제한의 기준 고도라 자주 헷갈린다. 💡 암기: 'A는 18부터'."
+    },
+    {
+     "id": "fa_anit_16",
+     "topic": "carrier_ops",
+     "diff": 2,
+     "q": "A carrier aircraft touches down, but its tailhook misses every arresting wire, so the pilot adds power and flies off the angled deck to try again. What is this called?",
+     "q_ko": "함재기가 착함했지만 테일후크가 모든 어레스팅 와이어를 놓쳐, 조종사가 출력을 올리고 경사 갑판(angled deck)에서 다시 날아올라 재시도한다. 이것을 무엇이라 하는가?",
+     "options": [
+      "A trap",
+      "A bolter",
+      "A wave-off",
+      "A cat shot"
+     ],
+     "answer": 1,
+     "explain": "볼터(bolter)는 착함했지만 후크가 와이어를 잡지 못해 다시 날아오르는 것이다. 그래서 조종사는 착함 순간 출력을 최대로 올린다. 트랩(trap)은 와이어를 잡아 멈추는 정상 착함, 웨이브오프(wave-off)는 접지 전에 LSO 지시 등으로 복행하는 것, 캣샷(cat shot)은 캐터펄트 발진이다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_17",
+     "topic": "regs_airspace",
+     "diff": 2,
+     "q": "While fuel planning for a night VFR flight in an airplane, a student checks the FAA minimum reserve. The airplane must carry enough fuel to reach the first point of intended landing and then fly for at least how long at normal cruising speed?",
+     "q_ko": "비행기로 야간 VFR 비행을 하려고 연료 계획을 세우던 학생이 FAA 최소 예비 연료를 확인한다. 첫 착륙 예정지까지 간 뒤 정상 순항 속도로 최소 얼마 동안 더 비행할 연료를 실어야 하는가?",
+     "options": [
+      "20 minutes",
+      "30 minutes",
+      "45 minutes",
+      "60 minutes"
+     ],
+     "answer": 2,
+     "explain": "FAA 규정(14 CFR 91.151)상 비행기의 VFR 예비 연료는 첫 착륙 예정지 도착 후 정상 순항 기준으로 주간 30분, 야간 45분이다. 30분은 주간 기준이라 함정이고, 20분은 헬리콥터 기준이다. 💡 암기: 낮 30 · 밤 45."
+    },
+    {
+     "id": "fa_anit_18",
+     "topic": "navy_org_ranks",
+     "diff": 2,
+     "q": "In the U.S. Navy, officers in pay grades O-7 through O-10 are collectively known as what?",
+     "q_ko": "미 해군에서 급여등급 O-7부터 O-10까지의 장교를 통틀어 무엇이라 부르는가?",
+     "options": [
+      "Warrant officers",
+      "Flag officers",
+      "Petty officers",
+      "Company-grade officers"
+     ],
+     "answer": 1,
+     "explain": "O-7(Rear Admiral lower half)부터 O-10(Admiral)까지는 flag officer(장성급 장교)라 부른다 — 자기 깃발(flag)을 게양할 자격이 있어서 붙은 이름이다. Warrant officer(W-1~W-5)는 준사관, petty officer(E-4~E-6)는 부사관, company-grade officer는 육군·해병대의 O-1~O-3 위관급이다. 💡 암기: 제독의 깃발 = flag officer.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_19",
+     "topic": "navigation",
+     "diff": 2,
+     "q": "A student plots a true course of 250°. The magnetic variation in the area is 12° W. Ignoring wind, what magnetic course should the student fly?",
+     "q_ko": "학생이 진침로(true course) 250°를 작도했다. 그 지역의 자기편차(magnetic variation)는 12° W이다. 바람을 무시할 때 비행해야 할 자침로(magnetic course)는?",
+     "options": [
+      "238°",
+      "250°",
+      "262°",
+      "274°"
+     ],
+     "answer": 2,
+     "explain": "진방위를 자방위로 바꿀 때 서편차(W)는 더하고 동편차(E)는 뺀다. 250° + 12° = 262°. 편차를 빼면 238°로 틀린다. 💡 암기: East is least(동편차는 빼고), West is best(서편차는 더한다)."
+    },
+    {
+     "id": "fa_anit_20",
+     "topic": "weather",
+     "diff": 2,
+     "q": "Fog that forms when warm, moist air moves over a colder surface, such as cold coastal water, is called",
+     "q_ko": "따뜻하고 습한 공기가 차가운 연안 바다처럼 더 차가운 표면 위로 이동할 때 생기는 안개는?",
+     "options": [
+      "radiation fog",
+      "upslope fog",
+      "steam fog",
+      "advection fog"
+     ],
+     "answer": 3,
+     "explain": "이류 안개(advection fog)는 습한 공기가 수평으로 이동하면서 차가운 표면에 식어 생기며, 해안 지역에 흔하고 바람이 있어도 생긴다. 복사 안개는 맑고 바람 없는 밤에 지면이 식어서, 활승 안개는 공기가 경사면을 타고 오르며 식어서, 증기 안개(steam fog)는 찬 공기가 따뜻한 수면 위를 지날 때 생긴다."
+    },
+    {
+     "id": "fa_anit_21",
+     "topic": "aviation_history",
+     "diff": 2,
+     "q": "In January 1911, civilian pilot Eugene Ely made the first landing of an airplane aboard a ship. Which ship was it?",
+     "q_ko": "1911년 1월, 민간 조종사 유진 엘리(Eugene Ely)가 처음으로 비행기를 배 위에 착륙시켰다. 그 배는?",
+     "options": [
+      "USS Birmingham",
+      "USS Langley",
+      "USS Pennsylvania",
+      "USS Enterprise"
+     ],
+     "answer": 2,
+     "explain": "엘리는 1910년 11월 순양함 USS Birmingham에서 최초의 함상 이륙을, 1911년 1월 샌프란시스코만에 있던 장갑순양함 USS Pennsylvania에서 최초의 함상 착륙을 했다. USS Langley(CV-1)는 1922년 취역한 미 해군 최초의 항공모함이다. 💡 암기: 이륙 B(Birmingham) → 착륙 P(Pennsylvania).",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_22",
+     "topic": "aerodynamics",
+     "diff": 3,
+     "q": "On a landing approach, a student pilot notices that the airplane floats just above the runway instead of settling onto it. What is the main cause?",
+     "q_ko": "착륙 접근 중 학생 조종사는 비행기가 활주로에 내려앉지 않고 바로 위에서 떠 가는(float) 것을 느낀다. 주된 원인은?",
+     "options": [
+      "A sudden tailwind gust",
+      "Increased parasite drag near the runway",
+      "Warm air rising from the pavement",
+      "Ground effect reducing induced drag"
+     ],
+     "answer": 3,
+     "explain": "지면효과(ground effect): 날개가 지면에서 대략 날개폭 이내로 가까워지면 지면이 내리흐름(downwash)과 날개끝 와류를 억제해 유도항력이 줄어든다. 항력이 줄어 속도가 잘 줄지 않으므로 비행기가 활주로 위를 떠 간다. 뒷바람 돌풍은 오히려 대기속도와 양력을 줄이고, 유해항력 증가는 감속시키는 쪽이다."
+    },
+    {
+     "id": "fa_anit_23",
+     "topic": "nautical_terms",
+     "diff": 3,
+     "q": "A chart shows a depth of 6 fathoms at an anchorage. A ship anchored there has a draft of 33 feet. Ignoring tide, about how much water is under its keel?",
+     "q_ko": "해도에 어느 정박지의 수심이 6패덤(fathom)으로 표시되어 있다. 그곳에 정박한 함정의 흘수는 33피트이다. 조석을 무시할 때 용골 아래의 물 깊이는 약 얼마인가?",
+     "options": [
+      "3 feet",
+      "6 feet",
+      "27 feet",
+      "39 feet"
+     ],
+     "answer": 0,
+     "explain": "1패덤 = 6피트이므로 6패덤 = 36피트. 용골 아래 여유 수심 = 36 - 33 = 3피트. 패덤을 피트로 바꾸지 않고 6을 그대로 빼거나 더하면 27·39피트가 나온다. 💡 암기: 1 fathom = 6 ft(양팔을 벌린 길이).",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_24",
+     "topic": "flight_maneuvers",
+     "diff": 3,
+     "q": "An airplane in a level, coordinated 60° bank turn has a load factor of 2 G. Compared with wings-level flight, how does its stall speed change?",
+     "q_ko": "60° 경사로 고도를 유지하며 균형 잡힌 선회를 하는 비행기의 하중계수는 2 G이다. 날개 수평 비행과 비교하면 실속 속도는 어떻게 변하는가?",
+     "options": [
+      "It stays the same.",
+      "It exactly doubles.",
+      "It drops by about half.",
+      "It rises by about 41%."
+     ],
+     "answer": 3,
+     "explain": "실속 속도는 하중계수의 제곱근에 비례해 커진다. 60° 선회의 하중계수 2 G → √2 ≈ 1.41배, 즉 약 41% 증가한다. 하중계수 2배를 그대로 적용해 '두 배'라고 하면 틀린다. 💡 암기: 60° 선회 = 2 G = 실속 속도 약 1.4배."
+    },
+    {
+     "id": "fa_anit_25",
+     "topic": "ship_types",
+     "diff": 3,
+     "q": "Which hull symbol identifies an amphibious assault ship that has a full-length flight deck for helicopters and short-takeoff jets, plus a well deck for landing craft?",
+     "q_ko": "헬리콥터와 단거리 이륙 제트기를 위한 함 전체 길이의 비행갑판과 상륙정용 웰 도크(well deck)를 함께 갖춘 강습상륙함의 선체 기호는?",
+     "options": [
+      "LPD",
+      "LHD",
+      "LCS",
+      "DDG"
+     ],
+     "answer": 1,
+     "explain": "LHD(예: Wasp급)는 함 전체 길이의 비행갑판과 웰 도크를 모두 갖춘 다목적 강습상륙함이다. LPD는 상륙수송함(amphibious transport dock)으로 웰 도크는 있지만 비행갑판이 함미 쪽 일부뿐이다. LCS는 연안전투함, DDG는 유도미사일 구축함이다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_26",
+     "topic": "instruments",
+     "diff": 3,
+     "q": "During a climb, the static port of a training aircraft becomes completely blocked by ice while the pitot tube stays open. How will the altimeter behave?",
+     "q_ko": "상승 중 훈련기의 정압공(static port)이 얼음으로 완전히 막혔고, 피토관은 열려 있다. 고도계는 어떻게 되는가?",
+     "options": [
+      "It will continue to read correctly.",
+      "It will show a continuous climb.",
+      "It will freeze at the blockage altitude.",
+      "It will fall to field elevation."
+     ],
+     "answer": 2,
+     "explain": "고도계는 정압만으로 작동한다. 정압공이 막히면 계기 안의 압력이 막힌 순간의 값으로 고정되므로, 이후 고도가 바뀌어도 막힌 고도를 계속 가리킨다. 같은 이유로 승강계는 0에 머물고, 속도계는 상승 중 실제보다 낮게 읽힌다. 대체 정압원(alternate static source)을 열어 대처한다."
+    },
+    {
+     "id": "fa_anit_27",
+     "topic": "carrier_ops",
+     "diff": 3,
+     "q": "On a carrier approach, the pilot sees the 'meatball' of the optical landing system above the horizontal row of green datum lights. What does this indicate?",
+     "q_ko": "항모 착함 접근 중 조종사가 광학 착함 장치의 '미트볼(meatball)'이 녹색 기준등(datum lights) 줄보다 위에 있는 것을 본다. 이는 무엇을 뜻하는가?",
+     "options": [
+      "The aircraft is above the glide slope.",
+      "The aircraft is below the glide slope.",
+      "The aircraft is on the glide slope.",
+      "The deck is closed to landings."
+     ],
+     "answer": 0,
+     "explain": "IFLOLS의 미트볼(노란 불빛)은 항공기의 활공각 위치를 보여 준다. 볼이 녹색 기준등보다 위 = 높음(high), 아래 = 낮음(low), 기준등과 나란함 = 정상 활공각이다. 너무 낮으면 볼이 빨갛게 보인다. 착함 불가·복행 지시는 빨간 웨이브오프 등으로 알린다. 💡 암기: 볼은 내 위치 — 위에 있으면 나도 높다.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_28",
+     "topic": "weather",
+     "diff": 3,
+     "q": "Which set of changes typically occurs as a cold front passes a weather station?",
+     "q_ko": "한랭전선이 어떤 기상 관측소를 통과할 때 일반적으로 나타나는 변화는?",
+     "options": [
+      "Rising temperature, falling pressure, steady wind",
+      "Falling temperature, rising pressure, wind shift",
+      "Rising temperature, rising pressure, calm wind",
+      "Falling temperature, falling pressure, calm wind"
+     ],
+     "answer": 1,
+     "explain": "한랭전선이 지나가면 찬 공기가 들어오므로 기온(과 이슬점)이 떨어지고, 기압은 통과 후 꾸준히 오르며, 풍향이 뚜렷하게 바뀐다(북반구에서는 보통 남서풍 → 북서풍). 전선이 다가오는 동안에는 기압이 떨어지다가 통과 뒤 오른다는 점을 구별하자."
+    },
+    {
+     "id": "fa_anit_29",
+     "topic": "seamanship",
+     "diff": 3,
+     "q": "Under the U.S. 'red right returning' rule, on which side should a ship keep the red buoys while departing a harbor for the open sea?",
+     "q_ko": "미국의 'red right returning' 규칙에 따르면, 항구를 떠나 먼바다로 나가는 함정은 붉은 부표를 어느 쪽에 두어야 하는가?",
+     "options": [
+      "On its port side",
+      "On its starboard side",
+      "Directly astern",
+      "On either side"
+     ],
+     "answer": 0,
+     "explain": "'Red right returning'은 바다에서 항구로 '돌아올 때' 붉은 부표를 오른쪽(우현)에 둔다는 뜻이다. 항구를 떠날 때는 방향이 뒤집히므로 붉은 부표가 왼쪽(좌현)에 오게 된다. ⚠️ 규칙이 '귀항' 기준이라는 점이 함정이다. 💡 암기: 들어올 때 빨강 오른쪽, 나갈 때 빨강 왼쪽.",
+     "tags": [
+      "navy"
+     ]
+    },
+    {
+     "id": "fa_anit_30",
+     "topic": "helicopters",
+     "diff": 3,
+     "q": "During an autorotation after an engine failure, what keeps a helicopter's main rotor turning?",
+     "q_ko": "엔진 고장 후 자동회전(autorotation) 중에 헬리콥터의 주 로터를 계속 돌게 하는 것은?",
+     "options": [
+      "Idle power from the engine",
+      "Power fed back from the tail rotor",
+      "A battery-driven backup motor",
+      "Air flowing upward through the rotor"
+     ],
+     "answer": 3,
+     "explain": "자동회전은 엔진 동력 없이, 헬리콥터가 하강하면서 로터 아래에서 위로 통과하는 공기 흐름이 로터를 돌리는 상태다. 프리휠링 장치(freewheeling unit)가 멈춘 엔진을 로터에서 분리해 주므로 로터는 계속 돈다. 조종사는 콜렉티브를 내려 로터 회전수를 유지한다."
+    }
+   ]
+  }
+ ]
+}

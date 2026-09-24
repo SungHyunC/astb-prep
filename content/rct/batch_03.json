@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rct_0081",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Fuel in Midair",
+    "passage": "Aerial refueling allows aircraft to stay airborne far longer, or carry heavier loads on takeoff, than their fuel tanks would otherwise permit. Two main systems are in use. In the probe-and-drogue method, the tanker trails a hose ending in a funnel-shaped basket, and the receiving pilot flies a rigid probe into it. Because the tanker's crew cannot steer the basket, the receiving pilot does most of the work. In the flying-boom method, an operator aboard the tanker steers a rigid telescoping tube into a receptacle on the receiving aircraft. The boom can transfer fuel faster, which matters for large aircraft, but each tanker can refuel only one aircraft at a time through it. Some tankers carry both systems so they can serve aircraft designed for either method.",
+    "passage_ko": "공중급유는 항공기가 연료 탱크만으로 가능한 것보다 훨씬 오래 공중에 머물거나, 더 무거운 짐을 싣고 이륙할 수 있게 해 준다. 주로 두 가지 방식이 쓰인다. 프로브 앤 드로그(probe-and-drogue) 방식에서는 급유기가 끝에 깔때기 모양 바스켓이 달린 호스를 늘어뜨리고, 급유받는 조종사가 단단한 프로브를 비행해 그 안에 꽂는다. 급유기 승무원은 바스켓을 조종할 수 없으므로, 일의 대부분은 급유받는 조종사가 한다. 플라잉 붐(flying boom) 방식에서는 급유기에 탄 운용자가 단단한 신축식 관을 조종해 급유받는 항공기의 수유구에 꽂는다. 붐은 연료를 더 빨리 옮길 수 있어 대형기에게 중요하지만, 급유기 한 대가 붐으로는 한 번에 한 대만 급유할 수 있다. 일부 급유기는 두 방식을 모두 갖추고 있어 어느 방식으로 설계된 항공기든 급유할 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "In the probe-and-drogue method, the tanker crew steers the basket onto the probe.",
+      "The flying boom transfers fuel more slowly than the probe-and-drogue system.",
+      "The first experiments with aerial refueling took place during the 1920s.",
+      "A pilot receiving fuel from a drogue must fly with considerable precision."
+    ],
+    "answer": 3,
+    "explain": "근거: \"Because the tanker's crew cannot steer the basket, the receiving pilot does most of the work\".\n(1) 세부 비틀기 — 드로그 바스켓은 급유기 승무원이 조종할 수 없음\n(2) 비교 뒤집기 — 붐이 \"transfer fuel faster\"\n(3) 지문에 없는 상식 — 1920년대 실험은 언급 없음"
+  },
+  {
+    "id": "rct_0082",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Breaking the Ice",
+    "passage": "An icebreaker does not simply ram its way through frozen seas. Its bow is sloped at a shallow angle so that, as the ship moves forward, it rides up onto the ice and uses its own great weight to crush the ice from above. Its rounded hull helps push broken pieces aside and reduces the risk of being trapped if the ice presses in from the sides. Where the ice is too thick to break in a single pass, the ship may back up and charge again repeatedly. Icebreakers carry powerful engines and heavily reinforced hulls, but their rounded shape has a drawback in open water: without a deep keel or sharp lines, they tend to roll heavily in waves, making long transits uncomfortable for their crews.",
+    "passage_ko": "쇄빙선은 단순히 얼어붙은 바다를 들이받으며 나아가는 것이 아니다. 뱃머리가 완만한 각도로 경사져 있어서, 배가 앞으로 나아가면 얼음 위로 올라타 자신의 엄청난 무게로 위에서 얼음을 부순다. 둥근 선체는 깨진 조각을 옆으로 밀어내는 데 도움이 되고, 얼음이 옆에서 조여 올 때 갇힐 위험을 줄인다. 얼음이 너무 두꺼워 한 번에 깰 수 없는 곳에서는 배가 후진했다가 다시 돌진하기를 반복하기도 한다. 쇄빙선은 강력한 엔진과 크게 보강된 선체를 갖추고 있지만, 둥근 형태에는 열린 바다에서의 단점이 있다. 깊은 용골이나 날카로운 선형이 없어서 파도 속에서 심하게 옆으로 흔들리는 경향이 있고, 그래서 긴 항해는 승조원들에게 불편하다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Icebreakers break ice mainly by striking it head-on with a sharp, narrow bow.",
+      "A hull shape that suits ice well can perform poorly in another setting.",
+      "Icebreakers can clear ice of any thickness in a single forward pass.",
+      "Some icebreakers are nuclear-powered for long voyages in the Arctic."
+    ],
+    "answer": 1,
+    "explain": "근거: \"their rounded shape has a drawback in open water ... they tend to roll heavily in waves\" — 얼음에 맞춘 선체가 열린 바다에서는 불리하다.\n(1) 뒤집기 — 날카롭게 들이받는 것이 아니라 얼음 위로 올라타 무게로 부숨\n(3) 과잉 일반화 — any thickness, 두꺼우면 후진 후 반복 돌진\n(4) 지문에 없는 상식 — 원자력 쇄빙선은 언급 없음"
+  },
+  {
+    "id": "rct_0083",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Citizen Soldiers",
+    "passage": "Many nations maintain reserve forces made up of trained personnel who hold civilian jobs and serve part-time. In the United States, reservists typically train one weekend a month and for about two weeks each year, and they can be called to full-time duty when needed. Reserve units allow a country to expand its forces quickly in a crisis without paying to keep everyone on active duty in peacetime. They also bring civilian skills into the military: a reservist who works as a nurse, engineer, or police officer may apply that experience in uniform. Mobilization, however, can place real strain on reservists' families and employers, and some laws exist specifically to protect reservists' civilian jobs while they serve.",
+    "passage_ko": "많은 나라는 민간 직업을 가지고 파트타임으로 복무하는 훈련된 인원으로 이루어진 예비군을 유지한다. 미국의 예비군은 보통 한 달에 한 번 주말과 매년 약 2주 동안 훈련하며, 필요하면 전일제 복무로 소집될 수 있다. 예비 부대는 평시에 모든 인원을 현역으로 유지하는 비용을 들이지 않고도 위기 때 병력을 빠르게 늘릴 수 있게 해 준다. 또한 민간의 기술을 군에 들여온다. 간호사, 기술자, 경찰관으로 일하는 예비군은 그 경험을 군복을 입고 활용할 수 있다. 그러나 동원은 예비군의 가족과 고용주에게 실질적인 부담을 줄 수 있으며, 복무하는 동안 예비군의 민간 일자리를 보호하기 위한 법률도 따로 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Reservists serve full-time on active duty throughout the entire year.",
+      "Reserve forces cost more to maintain in peacetime than active forces.",
+      "A reservist's civilian skills may prove useful to the military when called up.",
+      "The National Guard can also be called up by a state governor for local emergencies."
+    ],
+    "answer": 2,
+    "explain": "근거: \"They also bring civilian skills into the military\" — 간호사·기술자·경찰관의 경험을 군복을 입고 활용.\n(1) 세부 비틀기 — 예비군은 파트타임으로 복무함\n(2) 비교 뒤집기 — 평시에 모두를 현역으로 두는 비용을 아낄 수 있음\n(4) 지문에 없는 상식 — 주방위군·주지사 이야기는 없음"
+  },
+  {
+    "id": "rct_0084",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Counting to the Thunder",
+    "passage": "Lightning heats the air along its path to temperatures several times hotter than the surface of the sun, causing the air to expand violently and produce the sound we call thunder. Light from the flash reaches an observer almost instantly, but sound travels much more slowly, covering roughly one kilometer in three seconds, or one mile in about five. By counting the seconds between a flash and its thunder, a person can estimate how far away the strike occurred. Thunder is rarely heard more than about 15 kilometers away, although lightning can strike well beyond the edge of a storm. Safety guidance therefore advises people to seek shelter as soon as they hear thunder, rather than waiting until rain begins.",
+    "passage_ko": "번개는 지나가는 경로의 공기를 태양 표면보다 몇 배나 뜨겁게 달구고, 그 결과 공기가 격렬하게 팽창하면서 우리가 천둥이라 부르는 소리를 낸다. 번쩍임의 빛은 관찰자에게 거의 즉시 도달하지만, 소리는 훨씬 느려서 약 3초에 1킬로미터, 또는 약 5초에 1마일을 간다. 번쩍임과 천둥 사이의 초를 세면 벼락이 얼마나 멀리서 쳤는지 추정할 수 있다. 천둥은 약 15킬로미터 밖에서는 거의 들리지 않지만, 번개는 폭풍의 가장자리 훨씬 너머까지 칠 수 있다. 그래서 안전 지침은 비가 오기 시작할 때까지 기다리지 말고 천둥이 들리는 즉시 대피하라고 권한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "a flash followed by thunder nine seconds later struck about three kilometers away",
+      "light travels more slowly than sound, so the thunder is usually heard first",
+      "lightning never strikes outside the area where rain is already falling",
+      "lightning rods protect buildings by guiding the electrical current safely into the ground"
+    ],
+    "answer": 0,
+    "explain": "근거: \"covering roughly one kilometer in three seconds\" → 9초 ÷ 3초 = 약 3킬로미터.\n(2) 비교 뒤집기 — 빛이 거의 즉시 도달하고 소리가 훨씬 느림\n(3) 과잉 일반화 — never, 번개는 폭풍 가장자리 너머까지 칠 수 있음\n(4) 지문에 없는 상식 — 피뢰침은 언급 없음"
+  },
+  {
+    "id": "rct_0085",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Where the Weight Sits",
+    "passage": "An airplane's handling depends not only on how much it weighs but on where that weight is located. The center of gravity must stay within limits set by the manufacturer. If it is too far forward, the airplane becomes very stable but harder to rotate for takeoff and to flare for landing, and it needs more tail force, which adds drag. If the center of gravity is too far aft, the airplane becomes less stable and may be difficult or even impossible to recover from a stall or spin. Because fuel burn, passengers, and cargo all shift the balance, pilots calculate weight and balance before flight rather than assuming that a load within the maximum weight is automatically safe.",
+    "passage_ko": "비행기의 조종 특성은 얼마나 무거운지뿐 아니라 그 무게가 어디에 있는지에도 달려 있다. 무게중심은 제작사가 정한 한계 안에 있어야 한다. 무게중심이 너무 앞에 있으면 비행기는 매우 안정적이지만 이륙 때 기수를 들거나 착륙 때 플레어하기가 더 어렵고, 더 큰 꼬리 힘이 필요해 항력이 늘어난다. 무게중심이 너무 뒤에 있으면 비행기는 덜 안정적이 되며 실속이나 스핀에서 회복하기가 어렵거나 심지어 불가능할 수 있다. 연료 소모, 승객, 화물이 모두 균형을 바꾸므로, 조종사는 최대 중량 이내의 적재라면 자동으로 안전하다고 여기지 않고 비행 전에 중량과 균형을 계산한다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Moving the center of gravity aft can make it easier to recover from a spin.",
+      "Any load below the maximum weight is safe no matter how it is distributed.",
+      "An airplane can be under its maximum weight and still be loaded unsafely.",
+      "Airlines use load sheets to record how passengers and cargo are distributed."
+    ],
+    "answer": 2,
+    "explain": "근거: \"rather than assuming that a load within the maximum weight is automatically safe\" — 무게뿐 아니라 무게중심 위치도 한계 안에 있어야 한다.\n(1) 뒤집기 — 무게중심이 너무 뒤면 실속·스핀 회복이 어렵거나 불가능\n(2) 과잉 일반화 — any/no matter how, 분포(balance)도 중요\n(4) 지문에 없는 상식 — 로드시트는 언급 없음"
+  },
+  {
+    "id": "rct_0086",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Plowing or Skimming",
+    "passage": "Most large ships have displacement hulls, which move through the water by pushing it aside. Such hulls are efficient at moderate speeds and can carry heavy loads, but they face a practical speed limit: as they go faster, they create a bow wave that grows larger and requires rapidly increasing power to push through. Planing hulls, common on small, fast boats, work differently. At low speed they behave like displacement hulls, but with enough power they rise up and skim across the surface, greatly reducing the amount of hull in contact with the water. Planing hulls can reach high speeds, but they need large engines for their size, ride roughly in waves, and cannot carry the heavy cargoes that displacement ships routinely handle.",
+    "passage_ko": "대부분의 대형 선박은 배수량형(displacement) 선체를 갖는데, 이 선체는 물을 옆으로 밀어내며 나아간다. 이런 선체는 중간 속력에서 효율적이고 무거운 짐을 실을 수 있지만, 실질적인 속력 한계에 부딪힌다. 빨라질수록 선수파가 생겨 점점 커지고, 그것을 밀고 나아가는 데 필요한 동력이 급격히 늘어나기 때문이다. 작고 빠른 보트에 흔한 활주형(planing) 선체는 다르게 작동한다. 저속에서는 배수량형 선체처럼 움직이지만, 충분한 동력이 있으면 떠올라 수면 위를 미끄러지듯 달려, 물에 닿는 선체 면적을 크게 줄인다. 활주형 선체는 고속을 낼 수 있지만, 크기에 비해 큰 엔진이 필요하고, 파도 속에서 거칠게 움직이며, 배수량형 선박이 일상적으로 싣는 무거운 화물은 실을 수 없다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "planing hulls can carry heavier cargo than displacement hulls of the same size",
+      "a displacement hull can reach any speed if its engines are made large enough",
+      "hydrofoils lift a boat's hull completely out of the water at high speed",
+      "a small patrol boat built mainly for speed would likely use a planing hull"
+    ],
+    "answer": 3,
+    "explain": "근거: \"Planing hulls, common on small, fast boats\" + \"Planing hulls can reach high speeds\".\n(1) 비교 뒤집기 — 무거운 화물은 배수량형 선박이 다룸\n(2) 과잉 일반화 — any speed, 배수량형은 선수파 때문에 실질적 속력 한계가 있음\n(3) 지문에 없는 상식 — 수중익선은 언급 없음"
+  },
+  {
+    "id": "rct_0087",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Rehearsing War on a Table",
+    "passage": "Wargames, from tabletop exercises with maps and markers to large computer simulations, allow officers to test plans against a thinking opponent without risking lives. Their greatest value often lies not in predicting outcomes but in revealing problems that planners had not considered, such as a supply route that becomes congested or a decision that must be made before key information is available. A wargame is only as useful as its assumptions, however. If the opposing side is played too cautiously or given unrealistic limits, the exercise may produce false confidence. For this reason, many organizations assign experienced officers to play the opponent aggressively and encourage them to exploit weaknesses in the plan being tested.",
+    "passage_ko": "지도와 말을 쓰는 탁상 연습부터 대규모 컴퓨터 시뮬레이션까지, 워게임(wargame)은 장교들이 인명을 위험에 빠뜨리지 않고 생각하는 적을 상대로 계획을 시험할 수 있게 해 준다. 워게임의 가장 큰 가치는 흔히 결과를 예측하는 데 있지 않고, 혼잡해지는 보급로나 핵심 정보를 얻기 전에 내려야 하는 결정처럼 계획자들이 미처 생각하지 못한 문제를 드러내는 데 있다. 그러나 워게임은 그 가정만큼만 쓸모가 있다. 상대편을 너무 소극적으로 운용하거나 비현실적인 제약을 주면, 연습은 잘못된 자신감을 낳을 수 있다. 이런 이유로 많은 조직은 경험 많은 장교에게 적 역할을 공격적으로 맡기고, 시험 중인 계획의 약점을 파고들도록 장려한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Wargames are valued mainly because they can predict how a battle will turn out.",
+      "A wargame with a timid opposing player may make a flawed plan look sound.",
+      "Computer simulations have completely replaced tabletop wargames today.",
+      "Officers played wargames at the Naval War College before World War II."
+    ],
+    "answer": 1,
+    "explain": "근거: \"If the opposing side is played too cautiously or given unrealistic limits, the exercise may produce false confidence\".\n(1) 뒤집기 — 가장 큰 가치는 결과 예측이 아니라 문제 발견\n(3) 과잉 일반화 — completely, 지문은 두 형태를 모두 언급\n(4) 지문에 없는 상식 — 해군대학 사례는 언급 없음"
+  },
+  {
+    "id": "rct_0088",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "High Orbits and Low Orbits",
+    "passage": "Communications satellites in geostationary orbit circle the earth once a day at an altitude of about 36,000 kilometers, so they appear to hang motionless over one spot. Three of them can cover most of the populated world, and ground antennas can point at a fixed position in the sky. The great distance, however, adds a delay of roughly a quarter second each time a signal travels up to the satellite and back down, which is noticeable in conversation and troublesome for some computer applications. Satellites in low earth orbit, a few hundred to about 2,000 kilometers up, cut this delay sharply. Because each one passes overhead in minutes, though, a low-orbit system needs many satellites working together, and ground equipment must track them or switch smoothly from one to the next.",
+    "passage_ko": "정지궤도의 통신위성은 약 3만 6천 킬로미터 고도에서 하루에 한 번 지구를 돌기 때문에 한 지점 위에 멈춰 떠 있는 것처럼 보인다. 이런 위성 세 기로 사람이 사는 세계의 대부분을 덮을 수 있고, 지상 안테나는 하늘의 고정된 위치를 향하면 된다. 그러나 먼 거리 때문에 신호가 위성까지 올라갔다가 다시 내려올 때마다 약 4분의 1초의 지연이 생기는데, 이는 대화에서 눈에 띄고 일부 컴퓨터 응용 프로그램에는 골칫거리다. 수백 킬로미터에서 약 2,000킬로미터 상공의 저궤도 위성은 이 지연을 크게 줄인다. 하지만 각 위성이 몇 분 만에 머리 위를 지나가므로, 저궤도 체계에는 함께 작동하는 많은 위성이 필요하고, 지상 장비는 위성을 추적하거나 한 위성에서 다음 위성으로 매끄럽게 전환해야 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A conversation relayed by a low-orbit satellite is likely to have less delay.",
+      "A single low-orbit satellite can provide continuous coverage of one region.",
+      "Geostationary satellites orbit closer to the earth than low-orbit satellites.",
+      "Weather satellites also use geostationary orbits so that they can watch storms develop."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Satellites in low earth orbit ... cut this delay sharply\".\n(2) 세부 비틀기 — 저궤도 위성은 몇 분 만에 지나가므로 여러 기가 함께 필요\n(3) 비교 뒤집기 — 정지궤도(약 36,000km)가 훨씬 멀다\n(4) 지문에 없는 상식 — 기상위성은 언급 없음"
+  },
+  {
+    "id": "rct_0089",
+    "topic": "history",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "The Berlin Airlift",
+    "passage": "In June 1948, the Soviet Union blocked all road, rail, and canal routes into the western sectors of Berlin, a city located deep inside the Soviet occupation zone of Germany. More than two million residents faced the loss of food and fuel. Rather than force the roads open, which risked war, the United States, Britain, and their allies chose to supply the city entirely by air. Cargo planes landed around the clock, at times only minutes apart, carrying coal, flour, medicine, and other necessities. Many observers doubted that a city could be sustained this way, but by the spring of 1949 the airlift was delivering more cargo each day than had arrived by rail before the blockade. In May 1949, the Soviet Union lifted the blockade.",
+    "passage_ko": "1948년 6월, 소련은 독일의 소련 점령 지역 깊숙이 자리한 도시 베를린의 서방 관할 구역으로 들어가는 모든 도로, 철도, 운하 경로를 봉쇄했다. 200만 명이 넘는 주민이 식량과 연료를 잃을 처지에 놓였다. 전쟁의 위험이 있는 도로 강제 개방 대신, 미국과 영국 및 동맹국들은 도시에 전적으로 항공으로 물자를 공급하기로 했다. 수송기들은 밤낮없이, 때로는 불과 몇 분 간격으로 착륙하며 석탄, 밀가루, 의약품 등 생필품을 날랐다. 많은 관측자가 도시를 이런 방식으로 지탱할 수 있을지 의심했지만, 1949년 봄이 되자 공수는 봉쇄 이전에 철도로 들어오던 것보다 더 많은 화물을 매일 실어 나르고 있었다. 1949년 5월, 소련은 봉쇄를 해제했다.",
+    "q": "Which of the following best states the main idea of the passage?",
+    "q_ko": "다음 중 지문의 중심 내용을 가장 잘 나타낸 것은?",
+    "options": [
+      "The Soviet Union blocked Berlin because the city lay inside its occupation zone.",
+      "Western allies kept West Berlin supplied by air until the Soviet blockade ended.",
+      "The airlift carried only food, since fuel such as coal could not be transported by air.",
+      "The Berlin Airlift was one of the first major crises of the Cold War."
+    ],
+    "answer": 1,
+    "explain": "근거: \"chose to supply the city entirely by air\"에서 \"In May 1949, the Soviet Union lifted the blockade\"까지 — 공수로 봉쇄를 버텨 낸 것이 요지.\n(1) 인과 왜곡 — 봉쇄의 이유는 지문에 없음(위치는 배경 설명일 뿐)\n(3) 세부 비틀기 + 과잉 일반화 — only, 석탄(연료)도 공수함\n(4) 지문에 없는 상식 — 냉전 초기 위기라는 평가는 없음"
+  },
+  {
+    "id": "rct_0090",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Matching Style to the Situation",
+    "passage": "No single leadership style works best in every situation. A new team member who lacks experience usually needs clear direction, specific instructions, and close supervision. As that person gains skill, a leader can shift toward coaching, explaining the reasons behind decisions and inviting questions. Once the team member is both capable and confident, the leader can delegate, setting goals and then stepping back. Problems arise when the style does not fit. Close supervision of a highly skilled expert can feel like distrust and may drive that person away, while leaving an inexperienced newcomer alone can lead to costly mistakes. Effective leaders therefore watch how each person develops and adjust their approach over time.",
+    "passage_ko": "모든 상황에서 가장 잘 통하는 단 하나의 리더십 방식은 없다. 경험이 부족한 새 팀원에게는 대개 분명한 방향, 구체적인 지시, 가까운 감독이 필요하다. 그 사람이 기량을 쌓아 가면 지휘자는 코칭 쪽으로 옮겨 가, 결정의 이유를 설명하고 질문을 받을 수 있다. 팀원이 유능하면서도 자신감까지 갖추면 지휘자는 목표를 정해 준 뒤 한발 물러서 권한을 위임할 수 있다. 방식이 맞지 않을 때 문제가 생긴다. 매우 숙련된 전문가를 가까이 감독하면 불신처럼 느껴져 그 사람을 떠나게 만들 수 있고, 경험 없는 신입을 혼자 두면 값비싼 실수로 이어질 수 있다. 그래서 유능한 지휘자는 각 사람이 어떻게 성장하는지 지켜보며 시간이 지남에 따라 접근 방식을 조정한다.",
+    "q": "With which of the following statements would the author most likely agree?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "Leaders should supervise every team member as closely as possible.",
+      "Experienced experts usually need more detailed instructions than newcomers.",
+      "A leader may treat two members of the same team quite differently.",
+      "Military leadership doctrine emphasizes leading by personal example."
+    ],
+    "answer": 2,
+    "explain": "근거: \"Effective leaders therefore watch how each person develops and adjust their approach\" — 사람마다 숙련도가 다르면 방식도 달라진다.\n(1) 과잉 일반화 — every/as closely as possible, 숙련자에게는 불신으로 느껴짐\n(2) 비교 뒤집기 — 자세한 지시가 필요한 쪽은 신입\n(4) 지문에 없는 상식 — 솔선수범 교리는 언급 없음"
+  },
+  {
+    "id": "rct_0091",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Riding the Beams to the Runway",
+    "passage": "The instrument landing system guides aircraft to a runway when clouds or fog hide it from view. It uses two radio beams. The localizer shows the pilot whether the aircraft is left or right of the runway centerline, and the glide slope shows whether it is above or below the proper descent path. Both indications become more sensitive as the aircraft gets closer to the runway, because the beams narrow toward their source. A small correction that is appropriate several miles out can therefore be far too large near the runway. Each approach also has a decision height: if the pilot cannot see the runway environment by that point, the landing must be abandoned and a missed approach flown, no matter how well aligned the aircraft appears to be.",
+    "passage_ko": "계기착륙장치(ILS)는 구름이나 안개로 활주로가 보이지 않을 때 항공기를 활주로로 유도한다. 이 장치는 두 개의 전파 빔을 사용한다. 로컬라이저(localizer)는 항공기가 활주로 중심선의 왼쪽에 있는지 오른쪽에 있는지를, 글라이드 슬로프(glide slope)는 올바른 강하 경로보다 위에 있는지 아래에 있는지를 조종사에게 보여 준다. 빔이 발신원 쪽으로 갈수록 좁아지기 때문에, 두 지시는 모두 항공기가 활주로에 가까워질수록 더 민감해진다. 그래서 몇 마일 밖에서 적절했던 작은 수정도 활주로 근처에서는 지나치게 클 수 있다. 각 접근에는 결심고도(decision height)도 있다. 그 지점까지 활주로 주변이 보이지 않으면, 항공기가 아무리 잘 정렬된 것처럼 보여도 착륙을 포기하고 복행(missed approach)해야 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Many ILS approaches once used marker beacons to show distance from the runway.",
+      "Corrections should be made larger as the aircraft gets closer to the runway.",
+      "Pilots may descend below decision height whenever the instruments show good alignment.",
+      "A given sideways error produces a larger indication close to the runway than far out."
+    ],
+    "answer": 3,
+    "explain": "근거: \"Both indications become more sensitive as the aircraft gets closer to the runway, because the beams narrow toward their source\".\n(1) 지문에 없는 상식 — 마커 비컨은 언급 없음\n(2) 뒤집기 — 가까울수록 수정은 '작게' 해야 함\n(3) 세부 비틀기 — 결심고도에서 활주로가 안 보이면 \"no matter how well aligned\" 복행"
+  },
+  {
+    "id": "rct_0092",
+    "topic": "naval",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Sweeping and Hunting",
+    "passage": "Navies clear sea mines by two broad methods. Minesweeping tows equipment through the water to cut the cables of moored mines or to imitate a ship's magnetic and acoustic signature, tricking influence mines into exploding harmlessly. Sweeping can clear a wide area relatively quickly, but it may miss mines designed to ignore the first several ships that pass. Minehunting instead uses sonar to find individual objects on or near the seabed, which are then identified and destroyed, often by remotely operated vehicles or divers. Hunting is slower but more thorough, and it works against mines that sweeping cannot trigger. Many modern mine-countermeasure forces use both methods, along with unmanned systems that keep sailors farther from danger.",
+    "passage_ko": "해군은 크게 두 가지 방법으로 기뢰를 제거한다. 소해(minesweeping)는 장비를 물속으로 끌고 다니며 계류 기뢰의 케이블을 끊거나, 함정의 자기·음향 신호를 흉내 내 감응 기뢰가 무해하게 폭발하도록 속인다. 소해는 비교적 빠르게 넓은 지역을 처리할 수 있지만, 처음 지나가는 몇 척을 무시하도록 설계된 기뢰는 놓칠 수 있다. 반면 기뢰 탐색(minehunting)은 소나로 해저 위나 근처의 개별 물체를 찾아내고, 이를 식별해 흔히 원격 조종 장비나 잠수부로 파괴한다. 탐색은 더 느리지만 더 철저하며, 소해로는 작동시킬 수 없는 기뢰에도 효과가 있다. 많은 현대 대기뢰전 부대는 두 방법을 함께 쓰며, 승조원을 위험에서 더 멀리 떨어뜨려 주는 무인 체계도 활용한다.",
+    "q": "According to the passage, minesweeping may fail to clear mines that",
+    "q_ko": "지문에 따르면, 소해로 제거하지 못할 수 있는 기뢰는?",
+    "options": [
+      "are set to let the first several ships pass before exploding",
+      "are moored to the seabed by a single anchor cable",
+      "respond to a ship's magnetic or acoustic signature",
+      "were laid from aircraft rather than from surface ships or submarines"
+    ],
+    "answer": 0,
+    "explain": "근거: \"it may miss mines designed to ignore the first several ships that pass\".\n(2) 뒤집기 — 계류 기뢰는 소해가 케이블을 끊어 처리함\n(3) 세부 비틀기 — 자기·음향 감응 기뢰는 소해가 신호를 흉내 내 터뜨림\n(4) 지문에 없는 상식 — 항공기 부설 기뢰는 언급 없음"
+  },
+  {
+    "id": "rct_0093",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Moving in Convoy",
+    "passage": "Military vehicle convoys move supplies and troops along roads that may be watched by an enemy. Spacing between vehicles is a constant compromise. Vehicles packed closely together are easier to control and less likely to become separated, but a single attack can strike several of them at once. Wide spacing reduces that danger but stretches the convoy over many kilometers, making it harder to command and slower to regroup. Speed involves a similar trade-off: moving fast shortens exposure, yet it raises the risk of accidents and leaves slower vehicles behind. Convoy commanders therefore adjust spacing and speed to the threat, the road, and the visibility, and they brief every driver on the route, halts, and actions to take if the convoy is attacked.",
+    "passage_ko": "군 차량 호송대는 적이 감시하고 있을지 모르는 도로를 따라 보급품과 병력을 옮긴다. 차량 간 간격은 늘 절충의 문제다. 차량들이 촘촘히 붙어 있으면 통제하기 쉽고 흩어질 가능성도 적지만, 한 번의 공격으로 여러 대가 한꺼번에 피해를 볼 수 있다. 간격을 넓히면 그 위험은 줄지만 호송대가 수 킬로미터에 걸쳐 늘어서서 지휘하기 어렵고 다시 모이는 데도 느려진다. 속도에도 비슷한 절충이 있다. 빨리 움직이면 노출 시간이 줄지만 사고 위험이 커지고 느린 차량이 뒤처진다. 그래서 호송대 지휘관은 위협, 도로, 시정에 맞춰 간격과 속도를 조정하며, 모든 운전병에게 경로, 정차 지점, 공격받았을 때의 조치를 브리핑한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "convoys should always travel at the highest speed the road allows",
+      "close spacing makes a convoy harder to control than wide spacing",
+      "the best spacing for a convoy may change from one mission to the next",
+      "modern convoys often carry electronic jammers to defeat roadside bombs"
+    ],
+    "answer": 2,
+    "explain": "근거: \"Convoy commanders therefore adjust spacing and speed to the threat, the road, and the visibility\".\n(1) 과잉 일반화 — always, 빠른 속도는 사고 위험을 높임\n(2) 비교 뒤집기 — 통제가 쉬운 쪽은 '좁은' 간격\n(4) 지문에 없는 상식 — 전파 방해 장비는 언급 없음"
+  },
+  {
+    "id": "rct_0094",
+    "topic": "space",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Why Rockets Have Stages",
+    "passage": "Most of a rocket's weight at launch is propellant, and the tanks, engines, and structure needed to hold and burn it add still more. As the propellant is used up, the rocket continues to carry the weight of empty tanks, which wastes energy. Staging solves this problem. A multistage rocket is built as a stack of sections, each with its own engines and propellant. When the lowest stage runs out of fuel, it separates and falls away, and the next stage ignites, now pushing a much lighter vehicle. By shedding dead weight along the way, a staged rocket can reach speeds that a single-stage rocket of the same size could not. The trade-off is added complexity, since every separation and ignition must work correctly.",
+    "passage_ko": "발사 순간 로켓 무게의 대부분은 추진제이며, 그것을 담고 태우는 데 필요한 탱크, 엔진, 구조물이 무게를 더한다. 추진제를 다 써 가도 로켓은 빈 탱크의 무게를 계속 싣고 다니므로 에너지가 낭비된다. 다단 분리(staging)가 이 문제를 해결한다. 다단 로켓은 각각 자체 엔진과 추진제를 가진 여러 구간을 쌓아 만든다. 가장 아래 단의 연료가 떨어지면 그 단이 분리되어 떨어져 나가고, 다음 단이 점화되어 이제 훨씬 가벼워진 비행체를 민다. 도중에 쓸모없는 무게를 버림으로써, 다단 로켓은 같은 크기의 단단 로켓이 도달할 수 없는 속도에 이를 수 있다. 대가는 복잡성이 늘어난다는 점이다. 모든 분리와 점화가 제대로 작동해야 하기 때문이다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "a single-stage rocket can usually reach higher speeds than a staged one of the same size",
+      "dropping empty tanks makes it easier for later stages to speed up",
+      "all the stages of a rocket share a single set of engines between them",
+      "some modern boosters fly back to land so that they can be used again"
+    ],
+    "answer": 1,
+    "explain": "근거: \"the next stage ignites, now pushing a much lighter vehicle\" + \"By shedding dead weight\".\n(1) 비교 뒤집기 — 같은 크기라면 다단 로켓이 더 높은 속도에 도달\n(3) 세부 비틀기 — 각 단은 \"its own engines and propellant\"를 가짐\n(4) 지문에 없는 상식 — 재사용 부스터는 언급 없음"
+  },
+  {
+    "id": "rct_0095",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Newcomers on Islands",
+    "passage": "Islands are home to many species found nowhere else, and these species are often especially vulnerable to animals introduced by people. Because many island birds evolved without ground predators, some nest on the ground or have lost the ability to fly. When rats, cats, or snakes arrive, often as stowaways on ships, they can wipe out such birds within decades. Removing an established invader is difficult and expensive, and on large islands it may be impossible with current methods. On small islands, however, eradication programs have succeeded many times, and some native bird populations have recovered afterward. For this reason, conservation agencies place great emphasis on prevention, such as inspecting cargo and boats, since keeping invaders out costs far less than removing them.",
+    "passage_ko": "섬에는 다른 곳에서는 볼 수 없는 종이 많이 살며, 이런 종은 사람이 들여온 동물에 특히 취약한 경우가 많다. 많은 섬 새는 지상 포식자 없이 진화했기 때문에, 일부는 땅에 둥지를 틀거나 나는 능력을 잃었다. 흔히 배에 몰래 실려 쥐, 고양이, 뱀이 들어오면, 이런 새들을 수십 년 안에 전멸시킬 수 있다. 이미 자리 잡은 침입종을 없애는 것은 어렵고 비용이 많이 들며, 큰 섬에서는 현재의 방법으로는 불가능할 수도 있다. 그러나 작은 섬에서는 박멸 사업이 여러 번 성공했고, 그 뒤 일부 토종 새 개체군이 회복되었다. 이런 이유로 보전 기관들은 화물과 보트를 검사하는 것 같은 예방을 크게 강조한다. 침입종을 막는 비용이 제거하는 비용보다 훨씬 적기 때문이다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Island birds are generally better at escaping predators than mainland birds.",
+      "Eradication programs have failed on every island where they were tried.",
+      "Introduced goats and rabbits have also badly damaged native plant life on many islands.",
+      "Checking boats bound for an island can be a cost-effective way to protect its birds."
+    ],
+    "answer": 3,
+    "explain": "근거: \"keeping invaders out costs far less than removing them\" + 예방책으로 \"inspecting cargo and boats\".\n(1) 비교 뒤집기 — 섬 새는 지상 포식자 없이 진화해 '더 취약'\n(2) 과잉 일반화 — every, 작은 섬에서는 \"succeeded many times\"\n(3) 지문에 없는 상식 — 염소·토끼 피해는 언급 없음"
+  },
+  {
+    "id": "rct_0096",
+    "topic": "health",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "When the Senses Disagree",
+    "passage": "Motion sickness is thought to arise when the senses send the brain conflicting information about movement. Below decks on a rolling ship, for example, the inner ear detects motion, but the eyes, fixed on the walls of a cabin that moves with the ship, report that everything is still. The same conflict can occur in reverse: a person watching a moving scene in a simulator or on a large screen may feel sick even though the body is not moving at all. Many people find relief by looking at the horizon, which brings the eyes' information into agreement with the inner ear. Most sailors also adapt after a few days at sea, though some find their symptoms return briefly when they step back onto land.",
+    "passage_ko": "멀미는 감각들이 뇌에 움직임에 대해 서로 모순된 정보를 보낼 때 생기는 것으로 여겨진다. 예를 들어 흔들리는 배의 갑판 아래에서는 내이가 움직임을 감지하지만, 배와 함께 움직이는 선실 벽에 고정된 눈은 모든 것이 정지해 있다고 알린다. 같은 충돌은 반대로도 일어날 수 있다. 시뮬레이터나 큰 화면에서 움직이는 장면을 보는 사람은 몸이 전혀 움직이지 않는데도 멀미를 느낄 수 있다. 많은 사람은 수평선을 바라보면 나아지는데, 이렇게 하면 눈의 정보가 내이의 정보와 일치하게 되기 때문이다. 대부분의 선원은 바다에서 며칠 지나면 적응하지만, 일부는 육지에 다시 발을 디딜 때 증상이 잠깐 돌아오기도 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A passenger may feel better on deck watching the horizon than in a closed cabin.",
+      "Motion sickness occurs only when a person's body is actually moving through space.",
+      "Fixing the eyes on cabin walls helps them agree with the inner ear.",
+      "Some medicines taken for motion sickness can cause drowsiness."
+    ],
+    "answer": 0,
+    "explain": "근거: 선실에서는 눈이 \"report that everything is still\"해 감각이 충돌하지만, 수평선을 보면 \"brings the eyes' information into agreement with the inner ear\".\n(2) 과잉 일반화 — only, 시뮬레이터에서는 몸이 움직이지 않아도 멀미가 남\n(3) 뒤집기 — 선실 벽을 보는 것이 바로 충돌의 원인\n(4) 지문에 없는 상식 — 약의 부작용은 언급 없음"
+  },
+  {
+    "id": "rct_0097",
+    "topic": "economics",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Just in Time",
+    "passage": "Many manufacturers once kept large warehouses of parts in case they were needed. Just-in-time production reverses this approach: suppliers deliver parts shortly before they are used, so factories hold little inventory. The method cuts storage costs, reduces waste from parts that become obsolete, and exposes production problems quickly, since there is no stockpile to hide them. Its weakness appears when deliveries are interrupted. With little stock on hand, a delay at a single supplier, a closed port, or a severe storm can halt an entire assembly line within days. Some companies have responded by keeping larger reserves of critical parts or by using several suppliers, accepting higher costs in exchange for greater resilience.",
+    "passage_ko": "예전에 많은 제조업체는 필요할 때를 대비해 부품을 큰 창고에 쌓아 두었다. 적시생산(just-in-time) 방식은 이 접근을 뒤집는다. 공급업체가 부품을 쓰기 직전에 납품하므로 공장은 재고를 거의 두지 않는다. 이 방식은 보관 비용을 줄이고, 구식이 되는 부품으로 인한 낭비를 줄이며, 문제를 감춰 줄 비축분이 없으므로 생산상의 문제를 빨리 드러낸다. 약점은 납품이 끊길 때 나타난다. 재고가 거의 없기 때문에 공급업체 한 곳의 지연, 항구 폐쇄, 심한 폭풍만으로도 며칠 안에 조립 라인 전체가 멈출 수 있다. 일부 기업은 핵심 부품의 비축을 늘리거나 여러 공급업체를 이용하는 것으로 대응해, 더 높은 비용을 감수하는 대신 더 큰 회복력을 얻고 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Just-in-time production usually requires factories to keep very large warehouses.",
+      "A factory with more parts in reserve may keep running longer during a disruption.",
+      "Just-in-time methods have no real disadvantages at all when they are used correctly.",
+      "Just-in-time production was pioneered by a Japanese automobile maker."
+    ],
+    "answer": 1,
+    "explain": "근거: \"With little stock on hand, a delay at a single supplier ... can halt an entire assembly line\" + 대응책 \"keeping larger reserves of critical parts\".\n(1) 뒤집기 — 적시생산은 재고를 거의 두지 않음\n(3) 과잉 일반화 — no disadvantages, 공급 차질에 취약함\n(4) 지문에 없는 상식 — 일본 자동차 회사는 언급 없음"
+  },
+  {
+    "id": "rct_0098",
+    "topic": "science",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Checking the Result",
+    "passage": "A single experiment, however careful, rarely settles a scientific question. Measurements contain errors, samples may be unusual, and researchers can unintentionally favor results they hope to see. For these reasons, scientists place great weight on replication, in which independent teams repeat a study to see whether they obtain the same result. When a finding is confirmed several times by different groups using different equipment, confidence in it grows. When repeated attempts fail, the original result may have been a fluke or the product of an error. Replication is not always glamorous, and journals have sometimes been more eager to publish new discoveries than repeated tests, but it remains one of the main ways science corrects its own mistakes.",
+    "passage_ko": "한 번의 실험은 아무리 신중해도 과학적 질문을 결론짓는 경우가 드물다. 측정에는 오차가 있고, 표본이 특이할 수 있으며, 연구자는 의도치 않게 바라던 결과 쪽으로 기울 수 있다. 이런 이유로 과학자들은 재현(replication), 즉 독립된 연구팀이 연구를 반복해 같은 결과를 얻는지 확인하는 것을 매우 중시한다. 어떤 발견이 서로 다른 장비를 쓰는 여러 집단에 의해 여러 번 확인되면 그 발견에 대한 신뢰가 커진다. 반복 시도가 실패하면 원래 결과는 우연이었거나 오류의 산물이었을 수 있다. 재현은 늘 화려하지는 않고, 학술지들은 때때로 반복 검증보다 새로운 발견을 싣는 데 더 열심이었지만, 재현은 여전히 과학이 스스로의 잘못을 바로잡는 주요 방법 가운데 하나다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "most scientific experiments contain errors that make them worthless",
+      "journals publish repeated tests more eagerly than new discoveries",
+      "journals use peer review to evaluate studies before publishing them",
+      "independent repetition helps science confirm results and catch errors"
+    ],
+    "answer": 3,
+    "explain": "근거: \"scientists place great weight on replication\" + \"it remains one of the main ways science corrects its own mistakes\".\n(1) 과잉 일반화 — worthless, 지문은 한 번의 실험이 \"rarely settles\"한다고만 함\n(2) 비교 뒤집기 — 학술지는 새 발견을 '더' 반겼음\n(3) 지문에 없는 상식 — 동료 심사는 언급 없음"
+  },
+  {
+    "id": "rct_0099",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Wind over the Mountains",
+    "passage": "When strong wind blows across a mountain ridge, the air rises smoothly up the windward slope but can tumble down the far side in powerful downdrafts and turbulence. On the lee side, these downdrafts can exceed the climb rate of a small airplane, and waves of rising and sinking air may extend many miles downwind. Pilots flying in mountainous terrain are therefore advised to cross ridges at an angle rather than head-on, so that they can turn away toward lower ground if they encounter sinking air, and to cross with ample altitude above the ridgeline. Lenticular clouds, smooth lens-shaped clouds that appear stationary, often mark such waves, but the waves can also form in clear air with no visible warning.",
+    "passage_ko": "강한 바람이 산등성이를 가로질러 불면, 공기는 바람을 받는 쪽 비탈을 따라 부드럽게 올라가지만 반대편 비탈로는 강력한 하강기류와 난류를 이루며 굴러떨어질 수 있다. 바람이 불어 가는 쪽(lee side)에서는 이 하강기류가 소형 비행기의 상승률을 넘어설 수 있고, 오르내리는 공기의 파동이 바람이 불어 가는 방향으로 수 마일까지 이어질 수 있다. 그래서 산악 지형을 비행하는 조종사는 하강기류를 만나면 낮은 지대 쪽으로 돌아 나갈 수 있도록 산등성이를 정면이 아니라 비스듬히 건너고, 능선 위로 충분한 고도를 두고 건너라는 권고를 받는다. 매끄러운 렌즈 모양으로 멈춰 있는 듯 보이는 렌즈구름(lenticular cloud)이 흔히 이런 파동을 표시하지만, 파동은 눈에 보이는 경고 없이 맑은 하늘에서도 생길 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The smoothest air near a mountain ridge is usually found on its lee side.",
+      "Mountain waves always produce lenticular clouds that pilots can see.",
+      "A pilot with no lenticular clouds in sight could still meet strong sinking air.",
+      "Glider pilots sometimes use mountain waves to climb to remarkably high altitudes."
+    ],
+    "answer": 2,
+    "explain": "근거: \"the waves can also form in clear air with no visible warning\".\n(1) 뒤집기 — 바람이 불어 가는 쪽(lee side)에 강한 하강기류와 난류\n(2) 과잉 일반화 — always, 구름 없이도 생길 수 있음\n(4) 지문에 없는 상식 — 글라이더 이야기는 없음"
+  },
+  {
+    "id": "rct_0100",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Sinking by Speeding",
+    "passage": "A ship moving through shallow water tends to sit lower than it does when stopped, an effect called squat. As the hull moves, water must flow faster beneath and around it, and this faster flow lowers the pressure, drawing the ship downward. Squat increases sharply with speed and is greatest when the space between the keel and the seabed is small, as in a narrow, shallow channel. A large ship that has plenty of clearance when stationary may therefore touch bottom when it moves too quickly. For this reason, harbor pilots and navigators reduce speed in shallow channels, particularly when a deep-draft vessel has only a small margin beneath its keel.",
+    "passage_ko": "얕은 물에서 움직이는 배는 정지해 있을 때보다 더 낮게 가라앉는 경향이 있는데, 이 현상을 스쿼트(squat)라 한다. 선체가 움직이면 물이 그 아래와 주변을 더 빠르게 흘러야 하고, 이 빨라진 흐름이 압력을 낮춰 배를 아래로 끌어당긴다. 스쿼트는 속력에 따라 급격히 커지며, 좁고 얕은 수로처럼 용골과 해저 사이 공간이 작을 때 가장 크다. 그래서 정지해 있을 때는 여유가 충분한 대형선도 너무 빨리 움직이면 바닥에 닿을 수 있다. 이런 이유로 도선사와 항해사는 얕은 수로에서, 특히 흘수가 깊은 선박의 용골 아래 여유가 작을 때 속력을 줄인다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Slowing down can increase the clearance between a ship's keel and the seabed.",
+      "Squat is greatest when a ship moves through deep, open water far from land.",
+      "A ship that clears the bottom when stopped will clear it at any speed.",
+      "Harbor pilots often board ships by climbing a rope ladder from a small boat."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Squat increases sharply with speed\" → 속력을 줄이면 가라앉음이 줄어 용골 아래 여유가 커진다.\n(2) 뒤집기 — 스쿼트는 좁고 얕은 수로에서 가장 큼\n(3) 과잉 일반화 — any speed, 정지 시 여유가 있어도 빠르면 바닥에 닿을 수 있음\n(4) 지문에 없는 상식 — 도선사 승선 방법은 언급 없음"
+  },
+  {
+    "id": "rct_0101",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Testing for the Job",
+    "passage": "Military fitness tests have changed over time as leaders have asked what the tests actually measure. Traditional events such as push-ups, sit-ups, and a timed run are easy to administer and score, but they may not reflect the tasks soldiers perform in combat, such as carrying heavy loads, dragging a casualty, or rising quickly from the ground. Some newer tests add events designed to resemble those demands more closely. Supporters argue that such tests better predict performance and reduce injuries by encouraging balanced training. Critics note that new events require more equipment and space, and that changes to scoring standards can be controversial. Most agree, however, that a test shapes how people train, so its design influences fitness far beyond test day.",
+    "passage_ko": "지휘자들이 체력 검정이 실제로 무엇을 측정하는지 묻게 되면서, 군 체력 검정은 시간이 흐르며 바뀌어 왔다. 팔굽혀펴기, 윗몸일으키기, 시간제 달리기 같은 전통 종목은 실시하고 채점하기 쉽지만, 무거운 짐 나르기, 부상자 끌기, 땅에서 재빨리 일어나기처럼 병사가 전투에서 하는 과업을 반영하지 못할 수 있다. 일부 새로운 검정은 그런 요구를 더 가깝게 닮도록 설계한 종목을 추가한다. 지지자들은 이런 검정이 수행 능력을 더 잘 예측하고, 균형 잡힌 훈련을 장려해 부상을 줄인다고 주장한다. 비판자들은 새 종목에는 장비와 공간이 더 필요하고, 채점 기준의 변경이 논란이 될 수 있다고 지적한다. 그러나 대부분은 검정이 사람들의 훈련 방식을 결정하므로, 그 설계가 검정 당일을 훨씬 넘어 체력에 영향을 미친다는 데 동의한다.",
+    "q": "The author would most likely agree with which of the following statements?",
+    "q_ko": "글쓴이가 가장 동의할 만한 진술은?",
+    "options": [
+      "Traditional fitness events are harder to administer than the newer ones.",
+      "Every expert agrees that newer fitness tests are better in all respects.",
+      "Military fitness tests often use separate scoring standards by age group.",
+      "If a test rewards only running, people may train mainly by running."
+    ],
+    "answer": 3,
+    "explain": "근거: \"a test shapes how people train, so its design influences fitness far beyond test day\".\n(1) 비교 뒤집기 — 전통 종목이 \"easy to administer and score\"\n(2) 과잉 일반화 — every/all, 비판하는 사람도 있음\n(3) 지문에 없는 상식 — 연령별 기준은 언급 없음"
+  },
+  {
+    "id": "rct_0102",
+    "topic": "technology",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Fixing Errors Automatically",
+    "passage": "Whenever data is sent over a radio link or stored on a disk, some bits may be flipped by noise, interference, or physical wear. Error-correcting codes deal with this by adding carefully designed extra bits to the original data. These extra bits carry no new information, but they allow the receiver to detect that an error has occurred and, within limits, to work out which bits were wrong and correct them without asking for the data to be sent again. The more extra bits are added, the more errors can be corrected, but the less room remains for useful data. Engineers choose the balance to suit the situation, adding more protection for a spacecraft billions of kilometers away than for a cable a few meters long.",
+    "passage_ko": "데이터를 무선 링크로 보내거나 디스크에 저장할 때마다, 잡음, 간섭, 물리적 마모 때문에 일부 비트가 뒤집힐 수 있다. 오류 정정 부호(error-correcting code)는 원래 데이터에 신중하게 설계된 여분의 비트를 덧붙여 이 문제를 해결한다. 이 여분의 비트는 새로운 정보를 담지 않지만, 수신 측이 오류가 생겼음을 알아내고, 일정 한도 안에서 어느 비트가 틀렸는지 찾아내 데이터를 다시 보내 달라고 요청하지 않고도 바로잡을 수 있게 해 준다. 여분의 비트를 많이 넣을수록 더 많은 오류를 정정할 수 있지만, 유용한 데이터를 담을 공간은 줄어든다. 기술자들은 상황에 맞게 균형을 정하는데, 몇 미터짜리 케이블보다 수십억 킬로미터 떨어진 우주선에 더 많은 보호를 넣는다.",
+    "q": "According to the passage, adding more extra bits to data",
+    "q_ko": "지문에 따르면, 데이터에 여분의 비트를 더 많이 넣으면?",
+    "options": [
+      "increases the amount of new information that can be sent",
+      "allows more errors to be corrected but leaves less room for data",
+      "removes every possible error no matter how noisy the channel is",
+      "is also used to protect the music stored on compact discs"
+    ],
+    "answer": 1,
+    "explain": "근거: \"The more extra bits are added, the more errors can be corrected, but the less room remains for useful data\".\n(1) 세부 비틀기 — 여분의 비트는 \"carry no new information\"\n(3) 과잉 일반화 — every/no matter how, 정정은 \"within limits\"\n(4) 지문에 없는 상식 — CD 이야기는 없음"
+  },
+  {
+    "id": "rct_0103",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Roads Built to Last",
+    "passage": "The Roman road network, which eventually stretched for tens of thousands of miles, was built first for military purposes. Straight, well-drained roads allowed legions to march quickly between provinces and let messengers carry orders across the empire. Engineers typically dug a trench and filled it with layers of stone and gravel, often topping major roads with fitted paving stones and giving them a slight curve so that rainwater ran off to the sides. The roads soon served merchants and travelers as well, and towns grew up along them. Because they were so solidly built, some Roman roads remained in use for centuries after the empire fell, and the routes of several modern highways still follow them.",
+    "passage_ko": "로마의 도로망은 결국 수만 마일에 이르렀는데, 처음에는 군사적 목적으로 건설되었다. 곧고 배수가 잘되는 도로 덕분에 군단은 속주 사이를 빠르게 행군할 수 있었고, 전령은 제국 전역에 명령을 전달할 수 있었다. 기술자들은 보통 도랑을 파고 돌과 자갈을 여러 층으로 채웠으며, 주요 도로는 흔히 맞춰 깐 포장석으로 덮고 빗물이 양옆으로 흘러내리도록 살짝 둥글게 만들었다. 도로는 곧 상인과 여행자에게도 쓰였고, 그 길을 따라 마을들이 생겨났다. 워낙 튼튼하게 지어졌기 때문에 일부 로마 도로는 제국이 무너진 뒤에도 수 세기 동안 쓰였고, 오늘날 몇몇 고속도로의 경로는 여전히 그 길을 따라간다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "Roman roads were probably built mainly to encourage trade between towns",
+      "every Roman road was paved with fitted stones from end to end",
+      "the quality of Roman construction helped some roads outlast the empire",
+      "the Appian Way was one of the earliest major roads built by Rome"
+    ],
+    "answer": 2,
+    "explain": "근거: \"Because they were so solidly built, some Roman roads remained in use for centuries after the empire fell\".\n(1) 인과 뒤집기 — 처음 목적은 군사용, 상인은 나중에 이용\n(2) 과잉 일반화 — every, 포장석은 \"often topping major roads\"\n(4) 지문에 없는 상식 — 아피아 가도는 언급 없음"
+  },
+  {
+    "id": "rct_0104",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Trust Is Built Slowly",
+    "passage": "Subordinates judge their leaders less by speeches than by patterns of behavior. A leader who keeps promises, applies standards equally, and admits mistakes gradually earns trust, while one who makes exceptions for favorites or blames others for failures loses it, often faster than it was gained. Trust has practical effects. Team members who trust their leader are more likely to report problems early, accept difficult assignments, and carry out orders when the reasons cannot be fully explained. Because trust grows through repeated experience, a leader who takes over a new unit cannot simply demand it on the first day. Many experienced officers recommend listening carefully and delivering on small commitments before attempting major changes.",
+    "passage_ko": "부하들은 지휘자를 연설보다는 행동의 일관된 양상으로 판단한다. 약속을 지키고, 기준을 공평하게 적용하며, 실수를 인정하는 지휘자는 점차 신뢰를 얻는 반면, 아끼는 사람에게 예외를 두거나 실패를 남의 탓으로 돌리는 지휘자는 신뢰를 잃는데, 흔히 얻을 때보다 더 빨리 잃는다. 신뢰는 실제적인 효과를 낸다. 지휘자를 신뢰하는 팀원은 문제를 일찍 보고하고, 어려운 임무를 받아들이며, 이유를 다 설명할 수 없을 때도 명령을 수행할 가능성이 더 크다. 신뢰는 반복된 경험을 통해 자라기 때문에, 새 부대를 맡은 지휘자가 첫날부터 신뢰를 요구할 수는 없다. 경험이 풍부한 장교 중 상당수는 큰 변화를 시도하기 전에 주의 깊게 듣고 작은 약속부터 지키라고 권한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A leader's trustworthiness can be damaged more quickly than it is built.",
+      "Once a leader has earned trust, it can never be lost again afterward.",
+      "Team members who trust their leader tend to hide problems from him or her.",
+      "Trust between leaders and subordinates is also studied in business schools."
+    ],
+    "answer": 0,
+    "explain": "근거: \"loses it, often faster than it was gained\".\n(2) 과잉 일반화 — never, 편애나 책임 전가로 신뢰를 잃을 수 있음\n(3) 뒤집기 — 신뢰하는 팀원은 \"report problems early\"\n(4) 지문에 없는 상식 — 경영대학원 연구는 언급 없음"
+  },
+  {
+    "id": "rct_0105",
+    "topic": "culture",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Poems Built for Memory",
+    "passage": "Long before writing was widespread, many cultures preserved their history and stories through oral poetry recited from memory. Performers could deliver works thousands of lines long, and scholars have studied how this was possible. Such poems often rely on repeated phrases, fixed descriptions of characters, and regular rhythms, all of which help a performer recall the next line and fill a gap if memory fails. Performers did not necessarily repeat a poem word for word each time; many rebuilt it during performance from familiar patterns and episodes, so two tellings could differ in detail while keeping the same story. When such poems were finally written down, the written versions preserved features that had originally served the needs of memory.",
+    "passage_ko": "글쓰기가 널리 퍼지기 훨씬 전, 많은 문화는 기억에 의존해 낭송하는 구전 시로 역사와 이야기를 보존했다. 공연자들은 수천 행에 이르는 작품을 읊을 수 있었고, 학자들은 그것이 어떻게 가능했는지 연구해 왔다. 이런 시는 흔히 반복되는 구절, 인물에 대한 고정된 묘사, 규칙적인 운율에 의존하는데, 이 모두가 공연자가 다음 행을 떠올리고 기억이 끊겼을 때 빈틈을 메우는 데 도움이 된다. 공연자가 매번 시를 한 글자도 틀리지 않고 반복했던 것은 아니다. 많은 이들이 익숙한 틀과 일화를 바탕으로 공연 중에 시를 다시 짜 맞췄기 때문에, 두 번의 낭송은 같은 이야기를 유지하면서도 세부가 다를 수 있었다. 이런 시가 마침내 글로 기록되었을 때, 기록된 판본에는 원래 기억의 필요를 위해 쓰였던 특징들이 남았다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Oral performers always recited a poem in exactly the same words each time.",
+      "Repeated phrases in some written epics may reflect their oral origins.",
+      "Regular rhythms often made long poems harder for performers to remember.",
+      "Homer's epics are among the best-known examples of ancient oral poetry."
+    ],
+    "answer": 1,
+    "explain": "근거: \"the written versions preserved features that had originally served the needs of memory\".\n(1) 과잉 일반화 — always/exactly, 공연마다 세부가 다를 수 있었음\n(3) 인과 뒤집기 — 규칙적 운율은 기억을 '돕는다'\n(4) 지문에 없는 상식 — 호메로스는 언급 없음"
+  },
+  {
+    "id": "rct_0106",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Bypass Air",
+    "passage": "In a turbofan engine, a large fan at the front pushes air in two paths. Some air passes through the core, where it is compressed, mixed with fuel, and burned; the rest flows around the core as bypass air. The ratio between the two is called the bypass ratio. Engines on modern airliners have high bypass ratios, moving a large mass of air at relatively low speed, which is quieter and more fuel-efficient at typical cruising speeds. Fighter aircraft generally use low-bypass engines, which move less air at much higher speed and are better suited to supersonic flight, especially when fitted with afterburners. The choice of bypass ratio therefore reflects the mission an aircraft is designed to perform.",
+    "passage_ko": "터보팬 엔진에서는 앞쪽의 큰 팬이 공기를 두 경로로 밀어 보낸다. 일부 공기는 코어를 지나며 압축되고 연료와 섞여 연소되고, 나머지는 바이패스 공기로서 코어 주위를 돌아 흐른다. 두 공기량의 비율을 바이패스비(bypass ratio)라 한다. 현대 여객기의 엔진은 바이패스비가 높아 많은 양의 공기를 비교적 낮은 속도로 움직이는데, 이는 일반적인 순항 속도에서 더 조용하고 연료 효율이 좋다. 전투기는 대체로 저바이패스 엔진을 쓰는데, 이 엔진은 더 적은 공기를 훨씬 빠른 속도로 움직여, 특히 애프터버너를 달았을 때 초음속 비행에 더 적합하다. 따라서 바이패스비의 선택은 그 항공기가 수행하도록 설계된 임무를 반영한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "the first jet engines were developed separately in Britain and Germany",
+      "high-bypass engines are the best choice for supersonic fighter jets",
+      "all of the air entering a turbofan passes through the combustion core",
+      "an aircraft's mission helps determine the bypass ratio of its engines"
+    ],
+    "answer": 3,
+    "explain": "근거: \"The choice of bypass ratio therefore reflects the mission an aircraft is designed to perform\".\n(1) 지문에 없는 상식 — 최초 제트엔진 개발 이야기는 없음\n(2) 비교 뒤집기 — 초음속 전투기에는 저바이패스 엔진이 적합\n(3) 과잉 일반화 — all, 일부 공기는 코어를 우회(bypass)함"
+  },
+  {
+    "id": "rct_0107",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Heavy Weather at Sea",
+    "passage": "In severe storms, the way a ship meets the waves can matter as much as its size. Heading into the seas at a moderate speed usually keeps the bow facing the largest waves, though it can cause heavy pounding and slow progress. Running before the storm, with the waves coming from astern, reduces pounding but carries its own danger: if a large wave lifts the stern and swings it sideways, the ship may broach, turning broadside to the seas where it can be rolled heavily or even capsized. The risk is greatest when the ship's speed is close to the speed of the overtaking waves, which can hold the stern in a steep wave slope for a long time. Seamanship in heavy weather therefore involves constant adjustment of both course and speed.",
+    "passage_ko": "심한 폭풍 속에서는 배가 파도를 어떻게 맞느냐가 배의 크기만큼 중요할 수 있다. 적당한 속력으로 파도를 향해 나아가면 대개 가장 큰 파도에 선수를 맞출 수 있지만, 심한 선수 충격(pounding)과 더딘 전진을 부를 수 있다. 파도가 선미 쪽에서 오도록 폭풍을 등지고 달리면 충격은 줄지만 나름의 위험이 있다. 큰 파도가 선미를 들어 옆으로 돌려 버리면 배가 브로칭(broach), 즉 파도에 옆구리를 내보이게 되어 심하게 옆으로 흔들리거나 심지어 전복될 수 있다. 이 위험은 배의 속력이 뒤따라오는 파도의 속력에 가까울 때 가장 큰데, 그러면 선미가 가파른 파도 비탈에 오랫동안 붙잡혀 있을 수 있기 때문이다. 그래서 악천후 속 조선술은 침로와 속력을 끊임없이 조정하는 일이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A ship running before a storm might lower its broaching risk by changing speed.",
+      "Heading into the waves usually avoids both pounding and slow progress in a storm.",
+      "Running before the seas is always the safest way to ride out a storm.",
+      "Modern ships often receive weather routing advice to steer around severe storms."
+    ],
+    "answer": 0,
+    "explain": "근거: \"The risk is greatest when the ship's speed is close to the speed of the overtaking waves\" → 속력을 바꾸면 위험을 줄일 수 있다.\n(2) 뒤집기 — 파도를 향해 가면 오히려 \"heavy pounding and slow progress\"\n(3) 과잉 일반화 — always, 순파 항주에는 브로칭 위험이 있음\n(4) 지문에 없는 상식 — 기상 항로 안내는 언급 없음"
+  },
+  {
+    "id": "rct_0108",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "Practice Without Ammunition",
+    "passage": "Good marksmanship depends on a few fundamentals: a steady position, proper aim, controlled breathing, and a smooth trigger squeeze that does not disturb the sights. Many shooters assume that more time on the firing range is the only way to improve, but instructors often emphasize dry-fire practice, in which a shooter goes through the full process with an unloaded weapon. Without the noise and recoil of live rounds, the shooter can notice small errors, such as jerking the trigger or shifting the sights at the moment of firing. Dry-fire costs nothing in ammunition and can be done almost anywhere safe. It does not replace live fire, which remains necessary to confirm accuracy, but it can make range time far more productive.",
+    "passage_ko": "좋은 사격술은 몇 가지 기본에 달려 있다. 안정된 자세, 올바른 조준, 통제된 호흡, 그리고 조준을 흐트러뜨리지 않는 부드러운 방아쇠 당기기다. 많은 사수는 사격장에서 시간을 더 보내는 것만이 실력을 늘리는 유일한 방법이라고 생각하지만, 교관들은 흔히 공격발(dry-fire) 연습, 즉 탄을 넣지 않은 총으로 사격 전 과정을 그대로 해 보는 연습을 강조한다. 실탄의 소음과 반동이 없기 때문에, 사수는 방아쇠를 확 당기거나 격발 순간 조준이 움직이는 것 같은 작은 실수를 알아차릴 수 있다. 공격발은 탄약이 전혀 들지 않고 안전한 곳이면 거의 어디서나 할 수 있다. 공격발이 실탄 사격을 대신하지는 않으며 정확도를 확인하려면 실탄 사격이 여전히 필요하지만, 사격장에서의 시간을 훨씬 더 생산적으로 만들 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Dry-fire practice completely replaces the need to fire live rounds.",
+      "The recoil of live rounds can make small trigger errors easier to notice.",
+      "A shooter who practices dry-fire may make better use of time on the range.",
+      "Snipers are trained to account for wind and distance when they aim."
+    ],
+    "answer": 2,
+    "explain": "근거: \"it can make range time far more productive\".\n(1) 과잉 일반화 — completely, 지문은 \"does not replace live fire\"\n(2) 인과 뒤집기 — 소음과 반동이 '없을 때' 작은 실수가 잘 보임\n(4) 지문에 없는 상식 — 저격수의 바람·거리 보정은 언급 없음"
+  },
+  {
+    "id": "rct_0109",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Thick and Thin",
+    "passage": "Viscosity is a fluid's resistance to flow: honey is highly viscous, while water is not. For most liquids, viscosity drops as temperature rises, because warmer molecules move more freely past one another. This is why cold motor oil flows sluggishly and why an engine is most vulnerable to wear in the first moments after a cold start, before the oil has fully circulated. Multigrade oils are formulated to limit this change, remaining thin enough to flow in cold weather while staying thick enough to protect moving parts when hot. Gases behave in the opposite way: their viscosity generally increases with temperature, since faster-moving molecules collide and transfer momentum more often.",
+    "passage_ko": "점성(viscosity)은 유체가 흐르는 것에 저항하는 정도다. 꿀은 점성이 매우 높고 물은 그렇지 않다. 대부분의 액체는 온도가 오르면 점성이 떨어지는데, 따뜻해진 분자들이 서로 더 자유롭게 스쳐 지나가기 때문이다. 그래서 차가운 엔진오일은 굼뜨게 흐르고, 엔진은 오일이 충분히 돌기 전인 냉간 시동 직후에 마모에 가장 취약하다. 멀티그레이드 오일은 이런 변화를 제한하도록 배합되어, 추운 날씨에도 흐를 만큼 묽으면서도 뜨거울 때 움직이는 부품을 보호할 만큼 진하게 유지된다. 기체는 반대로 행동한다. 기체의 점성은 대체로 온도가 오르면 증가하는데, 더 빠르게 움직이는 분자들이 더 자주 충돌하며 운동량을 전달하기 때문이다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Heating honey would generally make it flow more slowly than before.",
+      "Warming a gas and warming a liquid tend to change viscosity in opposite ways.",
+      "Motor oil protects an engine best in the first moments after a cold start.",
+      "Lubricating oils are refined from crude petroleum or made synthetically."
+    ],
+    "answer": 1,
+    "explain": "근거: \"For most liquids, viscosity drops as temperature rises\" vs \"Gases behave in the opposite way\".\n(1) 뒤집기 — 액체는 데우면 점성이 '낮아져' 잘 흐름\n(3) 세부 비틀기 — 냉간 시동 직후가 마모에 \"most vulnerable\"\n(4) 지문에 없는 상식 — 윤활유 제조법은 언급 없음"
+  },
+  {
+    "id": "rct_0110",
+    "topic": "space",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Finding Planets by Shadow",
+    "passage": "Most planets orbiting other stars are far too faint to see directly, so astronomers usually detect them indirectly. One of the most productive methods watches for transits. When a planet passes in front of its star as seen from Earth, it blocks a tiny fraction of the starlight, causing a slight, regular dip in brightness. The size of the dip reveals the planet's size relative to the star, and the time between dips gives the length of its orbit. The method has an important limitation: a transit is visible only if the planet's orbit is lined up nearly edge-on from our point of view, so many planets never pass in front of their stars as seen from Earth and cannot be found this way.",
+    "passage_ko": "다른 별을 도는 행성 대부분은 너무 희미해서 직접 볼 수 없기 때문에, 천문학자들은 보통 간접적으로 행성을 찾아낸다. 가장 성과가 큰 방법 중 하나는 통과(transit)를 관찰하는 것이다. 지구에서 볼 때 행성이 자기 별 앞을 지나가면 별빛의 아주 작은 일부를 가려, 밝기가 규칙적으로 약간 떨어진다. 밝기가 떨어지는 정도는 별에 대한 행성의 상대적 크기를 알려 주고, 밝기 감소 사이의 시간은 공전 주기를 알려 준다. 이 방법에는 중요한 한계가 있다. 행성의 궤도가 우리 시점에서 거의 옆면으로 정렬되어 있어야만 통과를 볼 수 있으므로, 많은 행성은 지구에서 볼 때 결코 자기 별 앞을 지나가지 않아 이 방법으로는 발견할 수 없다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A star that shows no transits might still have planets orbiting it.",
+      "Most planets around other stars can easily be photographed directly.",
+      "The time between dips reveals the planet's size relative to its star.",
+      "Space telescopes such as Kepler have found thousands of planets this way."
+    ],
+    "answer": 0,
+    "explain": "근거: \"many planets never pass in front of their stars as seen from Earth and cannot be found this way\".\n(2) 뒤집기 — 대부분의 외계행성은 \"far too faint to see directly\"\n(3) 세부 비틀기 — 크기는 밝기 감소의 '정도', 감소 사이 간격은 공전 주기\n(4) 지문에 없는 상식 — 케플러 망원경은 언급 없음"
+  },
+  {
+    "id": "rct_0111",
+    "topic": "environment",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "Mangroves on the Front Line",
+    "passage": "Mangroves are trees that grow in the salty, muddy shallows of tropical and subtropical coastlines. Their tangled roots slow moving water, trap sediment, and help hold shorelines in place. Studies after major storms have found that coastal areas behind healthy mangrove belts often suffered less damage from waves and surges than similar areas where mangroves had been cleared, although mangroves cannot stop the largest surges entirely. The forests also shelter young fish and shellfish, supporting local fisheries, and store large amounts of carbon in their waterlogged soils. Despite these benefits, many mangrove areas have been cleared for aquaculture ponds, farms, and coastal development, prompting replanting efforts in several countries.",
+    "passage_ko": "맹그로브는 열대와 아열대 해안의 짜고 질척한 얕은 물에서 자라는 나무다. 뒤엉킨 뿌리는 움직이는 물을 늦추고, 퇴적물을 붙잡으며, 해안선을 제자리에 붙들어 두는 데 도움을 준다. 큰 폭풍 뒤의 연구들은 건강한 맹그로브 숲 뒤쪽의 해안 지역이 맹그로브가 제거된 비슷한 지역보다 파도와 해일 피해를 덜 입은 경우가 많다는 것을 발견했지만, 맹그로브가 가장 큰 해일을 완전히 막지는 못한다. 이 숲은 어린 물고기와 조개류의 은신처가 되어 지역 어업을 떠받치고, 물에 잠긴 토양에 많은 양의 탄소를 저장한다. 이런 이점에도 불구하고 많은 맹그로브 지역이 양식장, 농지, 해안 개발을 위해 제거되었고, 이에 여러 나라에서 다시 심는 노력이 이루어지고 있다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "mangroves can stop even the largest storm surges from reaching the shore",
+      "mangrove wood has long been used for charcoal and for building poles",
+      "mangrove forests protect and support coasts but have often been cleared",
+      "mangrove roots slow moving water and help hold shorelines in place"
+    ],
+    "answer": 2,
+    "explain": "근거: 해안 보호·어장·탄소 저장이라는 이점과 \"many mangrove areas have been cleared\"가 지문의 두 축.\n(1) 과잉 일반화 — 지문은 \"cannot stop the largest surges entirely\"\n(2) 지문에 없는 상식 — 숯·목재 용도는 언급 없음\n(4) 너무 좁음(세부) — 뿌리가 해안선을 붙드는 것은 여러 이점 중 하나일 뿐"
+  },
+  {
+    "id": "rct_0112",
+    "topic": "health",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Sleep and Learning",
+    "passage": "Sleep does more than rest the body. During sleep, the brain appears to strengthen and organize memories formed during the day, a process known as consolidation. In many studies, people who slept after learning a new skill or set of facts performed better when tested later than people who stayed awake for the same length of time. Sleep deprivation, by contrast, impairs attention and makes it harder to form new memories in the first place. Caffeine can temporarily improve alertness in a tired person, but it does not restore the memory benefits of sleep, and taken late in the day it can make the following night's sleep shorter and lighter. For students and trainees, cutting sleep to gain extra study hours may therefore backfire.",
+    "passage_ko": "잠은 몸을 쉬게 하는 것 이상의 일을 한다. 잠자는 동안 뇌는 낮에 형성된 기억을 강화하고 정리하는 것으로 보이며, 이 과정을 기억 공고화(consolidation)라고 한다. 많은 연구에서, 새로운 기술이나 사실을 배운 뒤 잠을 잔 사람들은 같은 시간 동안 깨어 있던 사람들보다 나중에 시험을 볼 때 더 좋은 성적을 냈다. 반대로 수면 부족은 주의력을 떨어뜨리고, 애초에 새 기억을 만드는 것을 더 어렵게 한다. 카페인은 피곤한 사람의 각성도를 일시적으로 높일 수 있지만 잠이 주는 기억상의 이점을 되돌려 주지는 못하며, 늦은 시간에 섭취하면 그날 밤 잠을 더 짧고 얕게 만들 수 있다. 따라서 학생과 훈련생이 공부 시간을 더 얻으려고 잠을 줄이면 역효과가 날 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Caffeine fully restores the memory benefits that sleep would provide.",
+      "Staying awake after learning improves later recall more than a night of sleep does.",
+      "Most adults need roughly seven to nine hours of sleep each night.",
+      "A trainee who stays up all night studying may remember less than one who sleeps."
+    ],
+    "answer": 3,
+    "explain": "근거: \"cutting sleep to gain extra study hours may therefore backfire\" + 수면 부족은 \"makes it harder to form new memories\".\n(1) 과잉 일반화 — fully, 카페인은 \"does not restore the memory benefits of sleep\"\n(2) 비교 뒤집기 — 학습 후 잠을 잔 쪽이 더 잘함\n(3) 지문에 없는 상식 — 권장 수면 시간은 언급 없음"
+  },
+  {
+    "id": "rct_0113",
+    "topic": "economics",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "The Humble Shipping Box",
+    "passage": "Before the 1950s, cargo ships were loaded piece by piece. Dockworkers carried sacks, barrels, and crates into the hold, a slow and costly process that could keep a ship in port for days and left goods exposed to theft and damage. The standardized shipping container changed this. Because containers come in a few uniform sizes, the same box can move from ship to train to truck without its contents being unpacked, and cranes can load a vessel in hours. Shipping costs fell sharply, making it practical to manufacture goods far from where they are sold. The change also had costs of its own: many traditional dockworker jobs disappeared, and ports that could not afford new cranes and deep berths lost business to those that could.",
+    "passage_ko": "1950년대 이전에는 화물선에 짐을 하나하나 실었다. 부두 노동자들이 자루, 통, 상자를 선창으로 날랐는데, 이는 느리고 비용이 많이 드는 과정이어서 배가 며칠씩 항구에 묶여 있을 수 있었고, 화물은 도난과 파손에 노출되었다. 규격화된 화물 컨테이너가 이것을 바꾸었다. 컨테이너는 몇 가지 균일한 크기로 나오기 때문에, 같은 상자가 내용물을 풀지 않고 배에서 기차로, 트럭으로 옮겨 갈 수 있고, 크레인은 몇 시간 만에 배에 짐을 실을 수 있다. 운송비가 급격히 떨어져, 상품이 팔리는 곳에서 멀리 떨어진 곳에서 제조하는 것이 현실적이 되었다. 이 변화에는 대가도 있었다. 많은 전통적인 부두 노동 일자리가 사라졌고, 새 크레인과 깊은 선석을 마련할 여력이 없는 항구는 그럴 수 있는 항구에 사업을 빼앗겼다.",
+    "q": "Based on the passage, which of the following is most likely true?",
+    "q_ko": "지문에 근거할 때, 다음 중 사실일 가능성이 가장 높은 것은?",
+    "options": [
+      "Cheaper shipping let distant factories compete with those near their customers.",
+      "Containerization increased the number of dockworkers needed at most ports.",
+      "Every port gained business in equal measure from the switch to containers.",
+      "Container shipping was popularized by an American trucking businessman."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Shipping costs fell sharply, making it practical to manufacture goods far from where they are sold\".\n(2) 인과 뒤집기 — 많은 전통적 부두 노동 일자리가 \"disappeared\"\n(3) 과잉 일반화 — every/equal, 크레인·선석을 갖추지 못한 항구는 사업을 잃음\n(4) 지문에 없는 상식 — 컨테이너를 보급한 인물은 언급 없음"
+  },
+  {
+    "id": "rct_0114",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Solar Panels in the Heat",
+    "passage": "It might seem that solar panels work best on the hottest days, but heat actually reduces their efficiency. The cells in most panels convert sunlight to electricity less effectively as their temperature rises, losing a fraction of a percent of output for every degree above a standard test temperature. On a bright, cool, clear day, a panel may therefore produce more power than on an equally bright day that is very hot. Installers leave space behind panels so that air can circulate and carry heat away, and some systems in hot climates use designs that shed heat more readily. Dust, shading, and the angle of the panels also affect output, so a panel's rated power is achieved only under specific test conditions.",
+    "passage_ko": "태양광 패널은 가장 더운 날에 가장 잘 작동할 것 같지만, 실제로 열은 효율을 떨어뜨린다. 대부분 패널의 전지는 온도가 오를수록 햇빛을 전기로 덜 효과적으로 바꾸며, 표준 시험 온도보다 1도 오를 때마다 출력이 1퍼센트 미만씩 줄어든다. 그래서 밝고 서늘하고 맑은 날에 패널은 똑같이 밝지만 매우 더운 날보다 더 많은 전력을 낼 수 있다. 설치 기사들은 공기가 순환하며 열을 빼앗아 가도록 패널 뒤에 공간을 두고, 더운 기후의 일부 시스템은 열을 더 쉽게 내보내는 설계를 쓴다. 먼지, 그늘, 패널의 각도도 출력에 영향을 주므로, 패널의 정격 출력은 특정한 시험 조건에서만 달성된다.",
+    "q": "Which of the following can be inferred from the passage?",
+    "q_ko": "다음 중 지문에서 추론할 수 있는 것은?",
+    "options": [
+      "Solar panels always produce their rated power whenever the sun is shining.",
+      "Mounting panels flat against a hot roof with no air gap could lower their output.",
+      "Raising a panel's temperature improves how well it converts sunlight.",
+      "Most solar cells are made of silicon, the material used in computer chips."
+    ],
+    "answer": 1,
+    "explain": "근거: \"Installers leave space behind panels so that air can circulate and carry heat away\" — 열이 빠지지 않으면 효율이 떨어진다.\n(1) 과잉 일반화 — always, 정격 출력은 \"only under specific test conditions\"\n(3) 인과 뒤집기 — 온도가 오르면 효율이 '떨어짐'\n(4) 지문에 없는 상식 — 실리콘 재료는 언급 없음"
+  },
+  {
+    "id": "rct_0115",
+    "topic": "history",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Type That Could Be Moved",
+    "passage": "Before printing with movable type appeared in Europe in the mid-fifteenth century, books there were copied by hand, a slow process that made them expensive and allowed errors to creep in with each new copy. Printing did not eliminate mistakes, but it changed their nature: once a page was set, hundreds of identical copies could be produced, so every reader of an edition saw the same text, errors included. This made it easier for scholars in different cities to refer to the same page and passage when they discussed a work. Printed books also grew cheaper over time, and the number of titles in circulation rose dramatically. Historians still debate how quickly printing changed ordinary people's lives, since many could not yet read.",
+    "passage_ko": "15세기 중반 유럽에 가동 활자 인쇄가 등장하기 전, 그곳의 책은 손으로 베껴 썼다. 이는 느린 과정이어서 책값이 비쌌고, 새로 베낄 때마다 오류가 스며들었다. 인쇄는 실수를 없애지는 못했지만 실수의 성격을 바꾸었다. 한 쪽의 조판이 끝나면 똑같은 사본을 수백 부 찍을 수 있었으므로, 한 판본의 모든 독자는 오류까지 포함해 같은 글을 보게 되었다. 덕분에 서로 다른 도시의 학자들이 어떤 작품을 논할 때 같은 쪽, 같은 구절을 가리키기가 쉬워졌다. 인쇄된 책은 시간이 지나며 값도 싸졌고, 유통되는 책의 종수는 극적으로 늘었다. 역사가들은 아직 글을 읽지 못하는 사람이 많았던 만큼, 인쇄가 평범한 사람들의 삶을 얼마나 빨리 바꾸었는지를 여전히 논쟁하고 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Printing with movable type removed errors from books entirely.",
+      "Hand copying probably produced identical texts more reliably than printing did.",
+      "Movable type was used in East Asia before it appeared in Europe.",
+      "Printing made texts consistent but could also spread one error widely."
+    ],
+    "answer": 3,
+    "explain": "근거: \"hundreds of identical copies could be produced, so every reader of an edition saw the same text, errors included\".\n(1) 과잉 일반화 — entirely, 지문은 \"did not eliminate mistakes\"\n(2) 비교 뒤집기 — 손 필사는 사본마다 새 오류가 생김\n(3) 지문에 없는 상식 — 동아시아의 활자 인쇄는 언급 없음"
+  },
+  {
+    "id": "rct_0116",
+    "topic": "leadership",
+    "diff": 1,
+    "qtype": "main_idea",
+    "title": "The Value of a Mentor",
+    "passage": "A mentor is an experienced person who helps a less experienced one develop, usually outside the formal chain of command. Unlike a supervisor, who evaluates performance and directs daily work, a mentor offers advice on long-term goals, shares lessons from his or her own career, and provides a safe place to ask questions that might seem naive. Many officers credit mentors with helping them avoid mistakes and choose assignments wisely. Mentoring works best when both sides are committed and honest; a mentor who only offers praise is of little help. Organizations can encourage mentoring through formal programs, but many of the most valuable relationships form informally and continue for years.",
+    "passage_ko": "멘토란 보통 공식 지휘 계통 밖에서, 경험이 적은 사람의 성장을 돕는 경험 많은 사람이다. 성과를 평가하고 일상 업무를 지시하는 감독자와 달리, 멘토는 장기적인 목표에 대해 조언하고, 자기 경력에서 얻은 교훈을 나누며, 순진해 보일 수 있는 질문도 마음 놓고 할 수 있는 자리를 마련해 준다. 많은 장교가 멘토 덕분에 실수를 피하고 보직을 현명하게 선택할 수 있었다고 말한다. 멘토링은 양쪽이 모두 헌신적이고 정직할 때 가장 효과가 좋다. 칭찬만 하는 멘토는 별 도움이 되지 않는다. 조직은 공식 프로그램으로 멘토링을 장려할 수 있지만, 가장 가치 있는 관계 중 상당수는 비공식적으로 형성되어 수년간 이어진다.",
+    "q": "The main point of the passage is that",
+    "q_ko": "지문의 요지는?",
+    "options": [
+      "mentors should evaluate performance and direct their mentees' daily work",
+      "formal programs are the only way that mentoring relationships can form",
+      "mentors help less experienced people grow in ways supervisors often do not",
+      "the word mentor comes from a character in an ancient Greek epic poem"
+    ],
+    "answer": 2,
+    "explain": "근거: 멘토는 \"helps a less experienced one develop\"하며, 감독자와 달리 장기 목표·경험·질문할 자리를 제공한다는 것이 요지.\n(1) 세부 비틀기 — 평가·일상 지시는 감독자(supervisor)의 역할\n(2) 과잉 일반화 — only, 가장 귀한 관계는 흔히 비공식적으로 형성됨\n(4) 지문에 없는 상식 — 단어의 유래는 언급 없음"
+  },
+  {
+    "id": "rct_0117",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Flying While Tired",
+    "passage": "Fatigue is a hazard in aviation partly because it is difficult to judge from the inside. Tired pilots often rate their own alertness higher than their measured performance justifies, and they may experience brief lapses of attention, called microsleeps, without realizing it. Fatigue slows reaction time, narrows attention to a few instruments, and makes people more willing to accept a poor decision rather than think through alternatives. Motivation and experience can mask these effects for a short time but do not remove them. For this reason, aviation organizations set limits on duty hours and require minimum rest periods, rather than leaving the decision entirely to the individual, and many encourage crews to report fatigue without penalty.",
+    "passage_ko": "피로가 항공에서 위험한 이유 중 하나는 스스로 판단하기 어렵다는 점이다. 피곤한 조종사는 흔히 자신의 각성도를 실제 측정된 수행 능력이 뒷받침하는 것보다 높게 평가하며, 미세수면(microsleep)이라 불리는 짧은 주의 공백을 알아차리지 못한 채 겪을 수 있다. 피로는 반응 시간을 늦추고, 주의를 몇몇 계기로 좁히며, 대안을 끝까지 따져 보기보다 나쁜 결정을 받아들이려는 경향을 키운다. 동기와 경험은 잠시 이런 영향을 가릴 수는 있지만 없애지는 못한다. 이런 이유로 항공 조직은 판단을 전적으로 개인에게 맡기지 않고 근무 시간 한도와 최소 휴식 시간을 정해 두며, 많은 조직이 승무원이 불이익 없이 피로를 보고하도록 장려한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A highly motivated pilot is protected from the effects of fatigue.",
+      "A tired pilot's own sense of being alert may not be a reliable guide.",
+      "Fatigue widens a pilot's attention so that it covers more instruments.",
+      "Long-haul flights often carry extra pilots so that crews can rest aloft."
+    ],
+    "answer": 1,
+    "explain": "근거: \"Tired pilots often rate their own alertness higher than their measured performance justifies\".\n(1) 과잉 일반화 — 동기는 잠시 가릴 뿐 \"do not remove them\"\n(3) 뒤집기 — 피로는 주의를 몇몇 계기로 '좁힘'\n(4) 지문에 없는 상식 — 교대 조종사 탑승은 언급 없음"
+  },
+  {
+    "id": "rct_0118",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Searching the Open Sea",
+    "passage": "When a vessel or aircraft goes down at sea, search and rescue planners must estimate where survivors are likely to be. They start from the last known position and account for wind and current, which can carry a life raft or a person in the water many miles from the original spot. The longer the search takes, the larger the area of uncertainty grows. Planners then assign search patterns suited to the situation, such as an expanding square that begins at the most likely point and spirals outward. Time is critical for another reason: a person in cold water may lose the ability to swim or hold onto debris within an hour, long before hypothermia becomes fatal, so the chance of rescue falls quickly as a search is delayed.",
+    "passage_ko": "선박이나 항공기가 바다에서 조난되면, 수색구조 계획자들은 생존자가 어디에 있을지 추정해야 한다. 그들은 마지막으로 확인된 위치에서 출발해 바람과 해류를 고려하는데, 바람과 해류는 구명뗏목이나 물에 빠진 사람을 원래 지점에서 수 마일 떨어진 곳까지 옮길 수 있다. 수색이 오래 걸릴수록 불확실성의 범위는 넓어진다. 계획자들은 그다음 상황에 맞는 수색 방식을 배정하는데, 예컨대 확대 사각형(expanding square) 수색은 가장 가능성이 높은 지점에서 시작해 바깥으로 소용돌이치듯 넓혀 간다. 시간이 결정적인 이유는 또 있다. 차가운 물에 빠진 사람은 저체온증이 치명적이 되기 훨씬 전인 한 시간 안에 헤엄치거나 부유물을 붙잡는 능력을 잃을 수 있으므로, 수색이 늦어질수록 구조될 가능성은 빠르게 떨어진다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "survivors of a sinking usually stay close to the last known position",
+      "an expanding square search always begins at the edge of the search area",
+      "the U.S. Coast Guard coordinates most maritime rescues near U.S. coasts",
+      "a search that starts hours late may need to cover a much larger area"
+    ],
+    "answer": 3,
+    "explain": "근거: \"The longer the search takes, the larger the area of uncertainty grows\".\n(1) 뒤집기 — 바람과 해류가 \"many miles from the original spot\"까지 옮길 수 있음\n(2) 세부 비틀기 — 확대 사각형 수색은 가장 가능성 높은 지점에서 시작해 바깥으로 나감\n(3) 지문에 없는 상식 — 해안경비대 이야기는 없음"
+  },
+  {
+    "id": "rct_0119",
+    "topic": "military",
+    "diff": 1,
+    "qtype": "detail",
+    "title": "Every Soldier a First Responder",
+    "passage": "Most combat deaths from wounds that could have been survived are caused by severe bleeding, and many of them occur before a casualty reaches a hospital. Because a trained medic cannot be everywhere at once, armed forces teach basic lifesaving skills to all personnel. Soldiers learn to apply tourniquets and pressure dressings, keep an airway open, and move a casualty to safety, all while the unit may still be under fire. Some units also train a number of non-medical soldiers to a higher level, so that each small team has someone who can provide more advanced care until a medic arrives. The goal is not to turn every soldier into a medic, but to ensure that the first minutes after an injury are not wasted.",
+    "passage_ko": "살 수 있었던 부상으로 인한 전투 사망의 대부분은 심한 출혈 때문이며, 그중 많은 경우가 부상자가 병원에 도착하기 전에 일어난다. 훈련된 의무병이 동시에 모든 곳에 있을 수는 없기 때문에, 군은 모든 인원에게 기본 구명 기술을 가르친다. 병사들은 부대가 여전히 적의 사격을 받는 상황에서도 지혈대와 압박 붕대를 감고, 기도를 확보하며, 부상자를 안전한 곳으로 옮기는 법을 배운다. 일부 부대는 의무병이 아닌 병사 몇 명을 더 높은 수준까지 훈련해, 소규모 팀마다 의무병이 도착할 때까지 더 고급 처치를 할 수 있는 사람을 둔다. 목표는 모든 병사를 의무병으로 만드는 것이 아니라, 부상 직후의 첫 몇 분을 허비하지 않게 하는 것이다.",
+    "q": "According to the passage, armed forces teach basic lifesaving skills to all personnel because",
+    "q_ko": "지문에 따르면, 군이 모든 인원에게 기본 구명 기술을 가르치는 이유는?",
+    "options": [
+      "a trained medic cannot always be present when someone is wounded",
+      "they intend for every soldier to become a fully qualified medic",
+      "most combat deaths come from infections that develop in hospitals",
+      "civilian first-aid courses also teach people how to control bleeding"
+    ],
+    "answer": 0,
+    "explain": "근거: \"Because a trained medic cannot be everywhere at once, armed forces teach basic lifesaving skills to all personnel\".\n(2) 세부 비틀기 — 목표는 \"not to turn every soldier into a medic\"\n(3) 원인 바꾸기(인과 뒤집기) — 원인은 심한 출혈, 그것도 병원 도착 전\n(4) 지문에 없는 상식 — 민간 응급처치 교육은 언급 없음"
+  },
+  {
+    "id": "rct_0120",
+    "topic": "science",
+    "diff": 1,
+    "qtype": "inference",
+    "title": "A Compass in the Bird",
+    "passage": "Many migratory birds travel thousands of kilometers and return to the same breeding grounds year after year. They appear to use several cues to find their way, including the position of the sun, patterns of stars, landmarks, and even smells. Experiments suggest that many species can also sense the earth's magnetic field. In some studies, birds placed in cages surrounded by artificial magnetic fields shifted the direction in which they tried to fly when the field was altered. How birds detect magnetism is still under investigation, and researchers have proposed more than one mechanism. Because birds can draw on multiple cues, losing one, such as the sun on a cloudy day, does not necessarily leave them lost.",
+    "passage_ko": "많은 철새는 수천 킬로미터를 이동하고 해마다 같은 번식지로 돌아온다. 철새들은 길을 찾는 데 태양의 위치, 별자리의 형태, 지형지물, 심지어 냄새까지 여러 단서를 이용하는 것으로 보인다. 실험들은 많은 종이 지구 자기장도 감지할 수 있음을 시사한다. 일부 연구에서는 인공 자기장으로 둘러싸인 새장에 넣은 새들이, 자기장을 바꾸자 날아가려는 방향을 바꾸었다. 새가 어떻게 자기를 감지하는지는 아직 연구 중이며, 연구자들은 한 가지 이상의 메커니즘을 제안해 왔다. 새는 여러 단서를 쓸 수 있으므로, 흐린 날의 태양처럼 그중 하나를 잃는다고 해서 반드시 길을 잃는 것은 아니다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Migratory birds rely on the position of the sun alone to navigate.",
+      "Scientists have fully explained how birds detect the magnetic field.",
+      "A migrating bird may still be able to find its way on a cloudy day.",
+      "Arctic terns may make the longest yearly migration of any animal."
+    ],
+    "answer": 2,
+    "explain": "근거: \"losing one, such as the sun on a cloudy day, does not necessarily leave them lost\".\n(1) 과잉 일반화 — alone, 별·지형지물·냄새·자기장도 이용\n(2) 뒤집기 — 감지 방식은 \"still under investigation\"\n(4) 지문에 없는 상식 — 북극제비갈매기는 언급 없음"
+  }
+]

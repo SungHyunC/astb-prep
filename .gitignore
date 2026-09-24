@@ -1,0 +1,5 @@
+.DS_Store
+# 모의고사 작업용 임시 조각 파일
+content/mocks/.parts/
+*.plain.json
+node_modules/
