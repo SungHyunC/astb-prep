@@ -84,13 +84,14 @@ async function pullAll(){
 function mergeDaily(r){ const cur=state.daily[r.day];
   if(!cur||syncTime(r.updated_at)>syncTime(cur.updated_at)){ state.daily[r.day]={studied:r.studied,correct:r.correct,seconds:r.seconds,goal_met:r.goal_met,updated_at:r.updated_at}; return true; }
   return false; }
-const SETTING_KEYS=["phase","p2start","hide_ko","no_back","terms_per_day","onboard_done"];
+const SETTING_KEYS=["phase","p2start","hide_ko","no_back","terms_per_day","onboard_done","cat_show_level","cat_ko"];
 function mergeSettings(r){ const rt=syncTime(r.updated_at); if(rt&&rt<=settingsSyncUpdatedAt) return false; if(rt) settingsSyncUpdatedAt=rt;
   state.settings.exam_date=r.exam_date||"";
   if(r.data) for(const k of SETTING_KEYS) if(r.data[k]!=null) state.settings[k]=r.data[k];
   return true; }
-// 시험 상세(items)는 크기 때문에 기기에만 두고 요약만 동기화한다.
-function syncedExamHistory(){ return state.examHist.map(h=>{ if(!h||!h.items) return h; const s={...h}; delete s.items; return s; }); }
+// 시험 상세(items·적응형 경로 path)는 크기 때문에 기기에만 두고 요약만 동기화한다.
+function syncedExamHistory(){ return state.examHist.map(h=>{ if(!h||(!h.items&&!h.cat)) return h; const s={...h}; delete s.items;
+  if(s.cat) s.cat=Object.fromEntries(Object.entries(s.cat).map(([k,v])=>{ const {path,...rest}=v||{}; return [k,rest]; })); return s; }); }
 function miscBlob(){ return {exams:state.exams, examHist:syncedExamHistory(), wrongs:state.wrongs, reasonLog:state.reasonLog, weak:state.weak,
   secAcc:state.secAcc, qSeen:state.qSeen, speed:state.speed, first5:state.first5, terms:state.terms, pbmLog:state.pbmLog,
   realScores:state.realScores, checklist:state.checklist, dayStats:state.dayStats}; }
@@ -98,6 +99,7 @@ function mergeMisc(d){
   if(!d) return;
   for(const k in (d.exams||{})){ const r=d.exams[k], c=state.exams[k];
     if(!c){ state.exams[k]={...r}; continue; }
+    if((r.scale==="oar")!==(c.scale==="oar")){ if(r.scale==="oar") state.exams[k]={...r}; continue; }   // 적응형(환산 점수) 기록이 예전 정답 수 기록을 대체
     const m={...c}, remoteBest=(r.best||0)/(r.bestTotal||1)>(c.best||0)/(c.bestTotal||1);
     if(remoteBest){ m.best=r.best; m.bestTotal=r.bestTotal; }
     if(syncTime(r.updated_at)>syncTime(c.updated_at)){ m.last=r.last; m.lastTotal=r.lastTotal; m.date=r.date; m.updated_at=r.updated_at; }

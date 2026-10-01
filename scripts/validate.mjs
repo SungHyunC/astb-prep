@@ -43,7 +43,7 @@ const pct = (n, d) => d ? n / d : 0;
 const BANK_FIELDS = {
   MST:  { req: ["id", "topic", "diff", "q", "q_ko", "options", "answer", "explain"], opt: ["tags"] },
   MCT:  { req: ["id", "topic", "diff", "q", "q_ko", "options", "answer", "explain"], opt: ["tags", "fig"] },
-  ANIT: { req: ["id", "topic", "diff", "q", "q_ko", "options", "answer", "explain"], opt: ["tags"] },
+  ANIT: { req: ["id", "topic", "diff", "q", "q_ko", "options", "answer", "explain"], opt: ["tags", "fig"] },
   RCT:  { req: ["id", "topic", "diff", "qtype", "title", "passage", "passage_ko", "q", "q_ko", "options", "answer", "explain"], opt: ["tags"] },
 };
 
@@ -55,11 +55,13 @@ function checkKeys(loc, obj, req, opt) {
   return true;
 }
 
-/* ---------- figure (MCT) ---------- */
-function checkFig(loc, f) {
+/* ---------- figure (MCT · ANIT) ---------- */
+const FIG_TYPES = { MCT: ENUMS.figTypes, ANIT: ENUMS.anitFigTypes };
+const PARTS = ENUMS.figParts;
+function checkFig(loc, f, sub) {
   if (!f || typeof f !== "object") return err(loc, "fig가 객체가 아님");
   const T = f.type;
-  if (!ENUMS.figTypes.includes(T)) return err(loc, `fig.type 허용 안 됨: ${T}`);
+  if (!FIG_TYPES[sub].includes(T)) return err(loc, `fig.type 허용 안 됨(${sub}): ${T}`);
   const only = (keys) => { for (const k of Object.keys(f)) if (!["type", ...keys].includes(k)) err(loc, `fig(${T}) 알 수 없는 필드: ${k}`); };
   const labelled = (arr, what) => Array.isArray(arr) && arr.every(x => x && isStr(x.label)) || err(loc, `fig(${T}) ${what} 라벨 필요`);
   switch (T) {
@@ -134,7 +136,91 @@ function checkFig(loc, f) {
       f.sections.forEach((s, i) => { if (!isNum(s.d) || s.d <= 0 || s.d > 20) err(loc, `pipe.sections[${i}].d`); });
       if (!["right", "left"].includes(f.flow)) err(loc, "pipe.flow right|left");
       break;
+    case "beam": {
+      only(["length", "unit", "supports", "loads"]);
+      if (!isNum(f.length) || f.length <= 0) { err(loc, "beam.length > 0 숫자"); break; }
+      const inR = (x) => isNum(x) && x >= 0 && x <= f.length;
+      if (!Array.isArray(f.supports) || f.supports.length !== 2) err(loc, "beam.supports 정확히 2개");
+      else f.supports.forEach((s, i) => { if (!inR(s.x) || !isStr(s.label)) err(loc, `beam.supports[${i}] {x(0..length), label}`);
+        for (const k of Object.keys(s)) if (!["x", "label"].includes(k)) err(loc, `beam.supports[${i}] 알 수 없는 필드 ${k}`); });
+      if (!Array.isArray(f.loads) || f.loads.length < 1 || f.loads.length > 3) err(loc, "beam.loads 1–3개");
+      else f.loads.forEach((s, i) => { if (!inR(s.x) || !isStr(s.label)) err(loc, `beam.loads[${i}] {x(0..length), label}`);
+        for (const k of Object.keys(s)) if (!["x", "label"].includes(k)) err(loc, `beam.loads[${i}] 알 수 없는 필드 ${k}`); });
+      break;
+    }
+    case "tank": {
+      only(["tanks", "holes", "level"]);
+      if ((f.tanks != null) === (f.holes != null)) { err(loc, "tank은 tanks 또는 holes 중 하나만"); break; }
+      if (f.tanks != null) {
+        if (f.level != null) err(loc, "tank.level은 holes 모드에서만");
+        if (!Array.isArray(f.tanks) || f.tanks.length < 1 || f.tanks.length > 4) { err(loc, "tank.tanks 1–4개"); break; }
+        f.tanks.forEach((t, i) => {
+          if (!["rect", "wide", "flare", "taper"].includes(t.shape)) err(loc, `tank.tanks[${i}].shape rect|wide|flare|taper`);
+          if (!isNum(t.level) || t.level < 0.05 || t.level > 1) err(loc, `tank.tanks[${i}].level 0.05–1`);
+          if (!isStr(t.label)) err(loc, `tank.tanks[${i}].label`);
+          if (t.note != null && !isStr(t.note)) err(loc, `tank.tanks[${i}].note 문자열`);
+          for (const k of Object.keys(t)) if (!["shape", "level", "label", "note"].includes(k)) err(loc, `tank.tanks[${i}] 알 수 없는 필드 ${k}`);
+        });
+      } else {
+        if (!isNum(f.level) || f.level < 0.1 || f.level > 1) err(loc, "tank.level 0.1–1 (holes 모드 수위)");
+        if (!Array.isArray(f.holes) || f.holes.length < 2 || f.holes.length > 4) { err(loc, "tank.holes 2–4개"); break; }
+        f.holes.forEach((h, i) => {
+          if (!isNum(h.h) || h.h < 0 || h.h >= (isNum(f.level) ? f.level : 1)) err(loc, `tank.holes[${i}].h 0 이상, 수위(level) 미만`);
+          if (!isStr(h.label)) err(loc, `tank.holes[${i}].label`);
+          for (const k of Object.keys(h)) if (!["h", "label"].includes(k)) err(loc, `tank.holes[${i}] 알 수 없는 필드 ${k}`);
+        });
+      }
+      break;
+    }
+    case "wheel":
+      only(["wheel", "axle", "load", "effort"]);
+      for (const k of ["wheel", "axle", "load", "effort"]) if (!isStr(f[k])) err(loc, `wheel.${k} 문자열 필수`);
+      break;
+    case "attitude":
+      only(["bank", "pitch"]);
+      if (!isNum(f.bank) || f.bank < -90 || f.bank > 90) err(loc, "attitude.bank −90..90 (+ = 오른쪽 경사)");
+      if (!isNum(f.pitch) || f.pitch < -25 || f.pitch > 25) err(loc, "attitude.pitch −25..25 (+ = 기수 들림)");
+      break;
+    case "heading":
+      only(["hdg"]);
+      if (!isInt(f.hdg) || f.hdg < 0 || f.hdg > 359) err(loc, "heading.hdg 0–359 정수");
+      break;
+    case "aircraft": {
+      only(["view", "labels"]);
+      if (!["top", "side"].includes(f.view)) { err(loc, "aircraft.view top|side"); break; }
+      checkParts(loc, f.labels, PARTS["aircraft_" + f.view], "aircraft", 1);
+      break;
+    }
+    case "ship":
+      only(["labels"]);
+      checkParts(loc, f.labels, PARTS.ship, "ship", 1);
+      break;
+    case "runway": {
+      only(["num", "labels", "displaced", "blastpad"]);
+      if (!isStr(f.num) || !/^(0?[1-9]|[12]\d|3[0-6])[LRC]?$/.test(f.num)) err(loc, "runway.num 01–36 (+L/R/C)");
+      for (const k of ["displaced", "blastpad"]) if (f[k] != null && typeof f[k] !== "boolean") err(loc, `runway.${k} boolean`);
+      checkParts(loc, f.labels || [], PARTS.runway, "runway", 0);
+      const used = (f.labels || []).map(l => l && l.part);
+      if (used.includes("displaced_threshold") && !f.displaced) err(loc, "displaced_threshold 라벨은 displaced:true 필요");
+      if (used.includes("blast_pad") && !f.blastpad) err(loc, "blast_pad 라벨은 blastpad:true 필요");
+      break;
+    }
+    case "papi":
+      only(["white"]);
+      if (!isInt(f.white) || f.white < 0 || f.white > 4) err(loc, "papi.white 0–4 정수");
+      break;
   }
+}
+function checkParts(loc, labels, allowed, what, min) {
+  if (!Array.isArray(labels) || labels.length < min || labels.length > 4) return err(loc, `${what}.labels ${min}–4개`);
+  const seenP = new Set(), seenL = new Set();
+  labels.forEach((l, i) => {
+    if (!l || !allowed.includes(l.part)) err(loc, `${what}.labels[${i}].part 허용 안 됨: ${l && l.part} (가능: ${allowed.join(", ")})`);
+    if (!l || !isStr(l.label)) err(loc, `${what}.labels[${i}].label 필요`);
+    if (l) { if (seenP.has(l.part)) err(loc, `${what}.labels 부위 중복: ${l.part}`); seenP.add(l.part);
+      if (seenL.has(l.label)) err(loc, `${what}.labels 라벨 중복: ${l.label}`); seenL.add(l.label);
+      for (const k of Object.keys(l)) if (!["part", "label"].includes(k)) err(loc, `${what}.labels[${i}] 알 수 없는 필드 ${k}`); }
+  });
 }
 
 /* ---------- one question ---------- */
@@ -142,7 +228,7 @@ function checkItem(sub, it, loc) {
   const F = BANK_FIELDS[sub];
   if (!checkKeys(loc, it, F.req, F.opt)) return;
   if (!TOPIC_KEYS[sub].includes(it.topic)) err(loc, `topic 허용 안 됨: ${it.topic}`);
-  if (![1, 2, 3].includes(it.diff)) err(loc, "diff는 1|2|3");
+  if (![1, 2, 3, 4].includes(it.diff)) err(loc, "diff는 1|2|3|4");
   if (!isStr(it.q)) err(loc, "q 비어 있음");
   else if (HANGUL.test(it.q)) err(loc, "q에 한글 포함 (영어 문항이어야 함)");
   if (!isStr(it.q_ko) || !HANGUL.test(it.q_ko)) err(loc, "q_ko에 한국어 번역 필요");
@@ -171,8 +257,8 @@ function checkItem(sub, it, loc) {
     if (!isStr(it.passage_ko) || !HANGUL.test(it.passage_ko)) err(loc, "passage_ko 한국어 번역 필요");
   }
   if (it.fig != null) {
-    if (sub !== "MCT") err(loc, "fig는 MCT만 허용");
-    else checkFig(loc, it.fig);
+    if (!FIG_TYPES[sub]) err(loc, "fig는 MCT·ANIT만 허용");
+    else checkFig(loc, it.fig, sub);
   }
 }
 
@@ -184,12 +270,16 @@ function checkDistribution(sub, items, loc) {
   items.forEach(it => { if (isInt(it.answer) && it.answer >= 0 && it.answer < OPT_N) pos[it.answer]++; });
   const maxShare = Math.max(...pos) / n;
   if (maxShare > 0.35) err(loc, `정답 위치 편중 ${pos.join("/")} (최대 ${(maxShare * 100).toFixed(0)}% > 35%)`);
-  const d = [1, 2, 3].map(k => pct(items.filter(it => it.diff === k).length, n));
-  if (d[0] < 0.15 || d[0] > 0.45 || d[1] < 0.3 || d[1] > 0.7 || d[2] < 0.08 || d[2] > 0.4)
-    warn(loc, `난이도 분포 ${d.map(x => (x * 100).toFixed(0) + "%").join("/")} (권장 30/50/20)`);
+  const d = [1, 2, 3, 4].map(k => pct(items.filter(it => it.diff === k).length, n));
+  const show = d.map(x => (x * 100).toFixed(0) + "%").join("/");
+  if (d[3] > 0) {   // 상위권 배치(난이도 4 포함): 적응형 상단 문항 풀 보강용
+    if (d[0] > 0.1 || d[1] < 0.1 || d[1] > 0.35 || d[2] < 0.35 || d[2] > 0.65 || d[3] < 0.15 || d[3] > 0.45)
+      warn(loc, `상위권 배치 난이도 분포 ${show} (권장 0/20/50/30)`);
+  } else if (d[0] < 0.15 || d[0] > 0.45 || d[1] < 0.3 || d[1] > 0.7 || d[2] < 0.08 || d[2] > 0.4)
+    warn(loc, `난이도 분포 ${show} (권장 30/50/20/0)`);
   const used = new Set(items.map(it => it.topic));
   const missing = TOPIC_KEYS[sub].filter(k => !used.has(k));
-  if (n >= 40 && missing.length) warn(loc, `빠진 토픽: ${missing.join(", ")}`);
+  if (n >= 40 && missing.length && !(d[3] > 0)) warn(loc, `빠진 토픽: ${missing.join(", ")}`);
   if (sub === "RCT") {
     const inf = pct(items.filter(it => it.qtype === "inference").length, n);
     if (inf < 0.7) warn(loc, `inference 비율 ${(inf * 100).toFixed(0)}% (권장 ≥80%)`);
@@ -223,7 +313,7 @@ function trackId(id, loc) {
 function trackStem(sub, it, loc) {
   let key;
   if (sub === "RCT") { if (!isStr(it.passage)) return; key = "RCT|" + norm(it.passage).slice(0, 240); }
-  else { if (!isStr(it.q) || !Array.isArray(it.options)) return; key = sub + "|" + norm(it.q) + "|" + it.options.map(normOpt).join("|"); }
+  else { if (!isStr(it.q) || !Array.isArray(it.options)) return; key = sub + "|" + norm(it.q) + "|" + it.options.map(normOpt).join("|") + (it.fig ? "|" + JSON.stringify(it.fig) : ""); }
   if (seenStems.has(key)) err(loc, `중복 문항 (이미 ${seenStems.get(key)})`);
   else seenStems.set(key, loc);
 }

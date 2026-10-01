@@ -1,6 +1,7 @@
 /* ============================================================
    ASTB-E Prep — exam.js
-   시험 엔진: 프리셋 · 섹션별 타이머 · 되돌아가기 금지(적응형 재현) · 학습 모드(즉시 해설)
+   시험 엔진: 프리셋 · 섹션별 타이머 · 되돌아가기 금지 · 학습 모드(즉시 해설)
+   적응형(CAT) 실전은 cat.js — 이 러너에 exam.cat 플래그로 붙는다(안내 화면·확인·채점만 분기)
    중단 복구 스냅샷 · 화면 꺼짐 방지 · 채점/기록 · 초반 5문제 · 해설/틀린 이유
    (타이머·스냅샷·채점 골격은 AFOQT Master app.js의 startExam~submitExam 이식)
    ============================================================ */
@@ -13,15 +14,14 @@ let EXAM_PRESETS = {};
 function registerPresets(){
   EXAM_PRESETS = {};
   const P=(key,o)=>{ EXAM_PRESETS[key]=o; };
-  P("oar",{name:"OAR 모의고사",icon:"🏆",desc:"MST 30 + RCT 20 + MCT 30 · 85분 — 끝나면 예상 OAR",kind:"mock",
-    build:()=>OAR_SUBS.flatMap(s=>orderForExam(pickFresh(s,SUBMETA[s].n)))});
-  P("full",{name:"학과 전체 모의고사",icon:"🎖️",desc:"OAR 3과목 + ANIT 30 · 100분",kind:"mock",
-    build:()=>SUBS.flatMap(s=>orderForExam(pickFresh(s,SUBMETA[s].n)))});
-  P("diag",{name:"진단 미니 모의고사",icon:"🩺",desc:"MST 10 · RCT 7 · MCT 10 · ANIT 10 · 약 34분 — 지금 실력부터",kind:"mock",
-    build:()=>[["MST",10],["RCT",7],["MCT",10],["ANIT",10]].flatMap(([s,n])=>orderForExam(pickFresh(s,n)))});
-  for(const s of SUBS) P("sub:"+s,{name:`${SUBMETA[s].ko} 실전 (${s})`,icon:SUBMETA[s].icon,
-    desc:`${SUBMETA[s].n}문항 · ${SUBMETA[s].secs/60}분 · 덜 본 문항 우선`,kind:"sub",
-    build:()=>orderForExam(pickFresh(s,SUBMETA[s].n))});
+  // 적응형(CAT) 실전: 문항을 미리 뽑지 않고, 답할 때마다 실력 추정치에 맞춰 다음 문항을 고른다(cat.js)
+  P("oar",{name:"OAR 실전 모의고사 · 적응형",icon:"🏆",desc:"MST 30 → RCT 20 → MCT 30 · 85분 — 맞히면 어려워지는 실전 방식 · 끝나면 예상 OAR",kind:"mock",
+    cat:OAR_SUBS});
+  P("full",{name:"ASTB-E 학과 전체 · 적응형",icon:"🎖️",desc:"OAR 3과목 + ANIT 30 · 100분 — 실전 순서·시간 그대로",kind:"mock",cat:SUBS});
+  P("diag",{name:"진단 미니 모의고사 · 적응형",icon:"🩺",desc:"MST 10 · RCT 7 · MCT 10 · ANIT 10 · 약 34분 — 지금 실력부터",kind:"mock",
+    cat:SUBS, catN:{MST:10,RCT:7,MCT:10,ANIT:10}});
+  for(const s of SUBS) P("sub:"+s,{name:`${SUBMETA[s].ko} 실전 (${s}) · 적응형`,icon:SUBMETA[s].icon,
+    desc:`${SUBMETA[s].n}문항 · ${SUBMETA[s].secs/60}분 · 맞히면 어려워지고 틀리면 쉬워져요`,kind:"sub",cat:[s]});
   for(const L of Object.keys(MOCKS)){ const m=MOCKS[L];
     P("form_"+L,{name:m.name_ko||("실전 모의고사 "+L.toUpperCase()),icon:"📘",kind:"form",
       desc:m.sections.map(x=>`${x.code} ${x.items.length}`).join(" · ")+` · ${Math.round(m.sections.reduce((t,x)=>t+x.secs,0)/60)}분 · 고정 문항`,
@@ -34,6 +34,7 @@ function registerPresets(){
 /* ---------- launchers ---------- */
 function startExam(key, opts={}){
   const p=EXAM_PRESETS[key]; if(!p){ toast("시험 구성을 찾지 못했어요."); return; }
+  if(p.cat){ launchCat({key, name:p.name, kind:p.kind, codes:p.cat, catN:p.catN, practice:!!opts.practice, from:opts.from}); return; }
   launchExam({key, name:p.name, items:p.build(), kind:p.kind, secMap:p.secMap, practice:!!opts.practice, from:opts.from});
 }
 function startDrill(sub, opt={}){
@@ -43,7 +44,7 @@ function startDrill(sub, opt={}){
 }
 function startPicked(subs){
   const list=SUBS.filter(s=>subs.includes(s)); if(!list.length) return;
-  launchExam({key:"pick", name:`직접 고른 모의고사 (${list.join("·")})`, items:list.flatMap(s=>orderForExam(pickFresh(s,SUBMETA[s].n))), kind:"mock"});
+  launchCat({key:"pick", name:`직접 고른 모의고사 (${list.join("·")}) · 적응형`, codes:list, kind:"mock"});
 }
 // 오답노트 재풀이 — 기본은 학습 모드(즉시 해설). timed=true면 실전 시간.
 function startWrongReview(opt={}){
@@ -88,13 +89,20 @@ function closeOpenQuestion(e){ e.times=e.times||new Array(e.total).fill(0);
 function advanceExamSection(auto){
   const e=exam; if(!e||!e.sections||e.submitted) return;
   const s=e.sections[e.secIdx];
-  if(!auto){ const un=e.answers.slice(s.from,s.to+1).filter(a=>a==null).length;
+  if(!auto&&e.cat){ const rem=s.n-catSecAnswered(e,s);
+    if(rem>0 && !confirm(`이 섹션에 아직 ${rem}문항이 남았어요.\n지금 끝내면 남은 문항은 미응답으로 감점되고, 돌아올 수 없어요. 끝낼까요?`)) return; }
+  else if(!auto){ const un=e.answers.slice(s.from,s.to+1).filter(a=>a==null).length;
     if(un && !confirm(`이 섹션에서 ${un}문제를 안 풀었어요.\n다음 섹션으로 넘어가면 돌아올 수 없어요. 계속할까요?`)) return; }
+  if(e.cat&&e.items[e.idx]&&!e.locked[e.idx]) e.answers[e.idx]=null;      // '확인' 안 누른 선택은 응답이 아니다
   s.leftAtDone=Math.max(0,s.left); s.autoOut=!!auto; s.left=0; s.done=true;
-  for(let i=s.from;i<=s.to;i++) e.locked[i]=true;
+  if(s.from!=null) for(let i=s.from;i<=s.to;i++) e.locked[i]=true;
   closeOpenQuestion(e);
   if(e.secIdx>=e.sections.length-1){ submitExam(true); return; }
-  e.secIdx++; e.idx=e.sections[e.secIdx].from; saveExamSnap(); updateTimerUI();
+  e.secIdx++;
+  if(e.cat){ e.paused=true; saveExamStatic(); saveExamSnap(); updateTimerUI();
+    toast(`${auto&&s.leftAtDone<=0?"⏰ 시간 종료":"✅ 섹션 완료"} → 다음: ${SUBMETA[e.sections[e.secIdx].code].ko}`,2600);
+    window.scrollTo(0,0); renderExamQ(); return; }
+  e.idx=e.sections[e.secIdx].from; saveExamSnap(); updateTimerUI();
   const nx=e.sections[e.secIdx];
   toast(`${auto&&s.leftAtDone<=0?"⏰ 시간 종료":"✅ 섹션 완료"} → ${SUBMETA[nx.code].ko} ${nx.to-nx.from+1}문항 ${Math.round(nx.secs/60)}분`,3000);
   window.scrollTo(0,0); renderExamQ();
@@ -109,7 +117,7 @@ function consumeExamSeconds(elapsed){
 // 브라우저가 백그라운드 타이머를 늦춰도 호출 횟수가 아니라 실제 경과 초를 차감한다.
 function settleExamClock(now=Date.now()){
   if(!exam||exam.submitted||!exam._timerAt) return;
-  if(now<exam._timerAt){ exam._timerAt=now; return; }
+  if(now<exam._timerAt||exam.paused){ exam._timerAt=now; return; }      // 적응형 섹션 안내 화면에서는 시계가 멈춘다
   const elapsed=Math.floor((now-exam._timerAt)/1000); if(elapsed<1) return;
   exam._timerAt+=elapsed*1000; if(!exam.learn) consumeExamSeconds(elapsed);
   if(exam&&!exam.submitted) updateTimerUI();
@@ -136,12 +144,12 @@ function examReleaseWake(){ try{ examWake&&examWake.release&&examWake.release();
 /* ---------- 중단 복구 스냅샷 (문항은 id만 저장 → 복원 시 ITEM_INDEX로 재구성) ---------- */
 function saveExamStatic(){ const e=exam; if(!e||e.submitted) return;
   try{ const snap={key:e.key,name:e.name,kind:e.kind,ids:e.items.map(it=>it.qid),total:e.total,learn:!!e.learn,practice:!!e.practice,
-      noBack:!!e.noBack,startSecs:e.startSecs,from:e.from,savedAt:Date.now()};
-    if(e.sections) snap.sections=e.sections.map(s=>({code:s.code,from:s.from,to:s.to,secs:s.secs}));
+      noBack:!!e.noBack,startSecs:e.startSecs,from:e.from,savedAt:Date.now(),cat:e.cat?1:0};
+    if(e.sections) snap.sections=e.sections.map(s=>({code:s.code,from:s.from,to:s.to,secs:s.secs,n:s.n}));
     localStorage.setItem(LS.examSave,JSON.stringify(snap)); }catch{ clearExamSnap(); } }
 function saveExamSnap(paused){ const e=exam; if(!e||e.submitted) return;
   try{ const dyn={answers:e.answers,locked:e.locked,recorded:e.recorded,idx:e.idx,secsLeft:e.secsLeft,times:e.times||null,
-      timerAt:paused?null:(e._timerAt||null),savedAt:Date.now()};
+      timerAt:(paused||e.paused)?null:(e._timerAt||null),paused:e.paused?1:0,savedAt:Date.now()};
     if(e.sections){ dyn.secIdx=e.secIdx; dyn.secDyn=e.sections.map(s=>({left:s.left,done:!!s.done,leftAtDone:s.leftAtDone,autoOut:!!s.autoOut})); }
     localStorage.setItem(LS.examDyn,JSON.stringify(dyn)); }catch{ clearExamSnap(); } }
 function clearExamSnap(){ try{ localStorage.removeItem(LS.examSave); localStorage.removeItem(LS.examDyn); }catch{} }
@@ -161,7 +169,8 @@ function resumeExamSnap(){
   exam={key:s.key,name:s.name,kind:s.kind,items,idx:s.idx||0,total:s.total,answers:s.answers,
     locked:s.locked||new Array(s.total).fill(false),recorded:s.recorded||new Array(s.total).fill(false),
     secsLeft:s.secsLeft,startSecs:s.startSecs,submitted:false,timerId:null,times:s.times||undefined,
-    learn:!!s.learn,practice:!!s.practice,noBack:!!s.noBack,from:s.from||"mock"};
+    learn:!!s.learn,practice:!!s.practice,noBack:!!s.noBack,from:s.from||"mock",cat:!!s.cat,paused:!!s.paused};
+  if(exam.cat&&!Array.isArray(exam.times)) exam.times=new Array(items.length).fill(0);
   if(s.sections){ exam.sections=s.sections.map((b,i)=>{ const d=(s.secDyn||[])[i]||{};
       return {...b,left:d.left!=null?d.left:b.secs,done:!!d.done,leftAtDone:d.leftAtDone,autoOut:!!d.autoOut}; });
     exam.secIdx=s.secIdx||0; }
@@ -181,14 +190,16 @@ function quitExam(){
 function renderExamQ(){
   const e=exam; if(!e) return;
   const sec=curExamSec();
+  if(e.cat&&e.paused){ renderCatIntro(); return; }
+  $(".exam-nav").classList.remove("hidden");
   e.idx=sec?clamp(e.idx,sec.from,sec.to):clamp(e.idx,0,e.total-1);
   const it=e.items[e.idx], nowT=Date.now();
   e.times=e.times||new Array(e.total).fill(0);
   if(e._openIdx!=null&&e._openIdx!==e.idx&&!e.submitted&&e._openAt) e.times[e._openIdx]+=nowT-e._openAt;
   if(e._openIdx!==e.idx||!e._openAt){ e._openIdx=e.idx; e._openAt=nowT; }
-  if(sec){ const n=sec.to-sec.from+1, pos=e.idx-sec.from+1; $("#examCount").textContent=`${pos} / ${n}`; $("#examBar").style.width=((pos-1)/n*100)+"%"; }
+  if(sec){ const n=e.cat?sec.n:sec.to-sec.from+1, pos=e.idx-sec.from+1; $("#examCount").textContent=e.cat?`${sec.code} · ${pos} / ${n}`:`${pos} / ${n}`; $("#examBar").style.width=((pos-1)/n*100)+"%"; }
   else { $("#examCount").textContent=`${e.idx+1} / ${e.total}`; $("#examBar").style.width=(e.idx/e.total*100)+"%"; }
-  const revealed=e.learn&&e.answers[e.idx]!=null, showKo=!flag("hide_ko");
+  const revealed=e.learn&&e.answers[e.idx]!=null, showKo=!flag("hide_ko")&&(!e.cat||flag("cat_ko"));
   const chipTxt=`${SUBMETA[it.section].ko}${e.learn?" · "+(it.section==="RCT"?(RCT_QTYPE_KO[it.qtype]||""):topicKo(it.section,it.topic)):""}`;
   const passage=it.section==="RCT"&&it.passage?`<div class="rct-passage"><div class="tt">📖 ${esc(it.title||"Passage")}</div><div class="passage">${esc(it.passage)}</div>${
       (e.learn&&it.passageKo&&showKo)?`<details class="ko-details"><summary>한글 번역 보기</summary><div class="kotxt">${esc(it.passageKo)}</div></details>`:""}</div>`:"";
@@ -203,10 +214,11 @@ function renderExamQ(){
       <div class="ee-body">${fmtMath(it.explain||"")}</div>
       ${okAns?"":reasonHTML(it.qid)}
       <button class="btn primary" id="drillNext" style="margin-top:12px">${e.idx>=e.total-1?"결과 보기 →":"다음 문제 →"}</button></div>`:"";
-  const banner=sec?`<div class="sec-banner"><div><b>섹션 ${e.secIdx+1}/${e.sections.length} · ${SUBMETA[sec.code].ko} (${sec.code})</b>
-      <span class="muted"> ${sec.to-sec.from+1}문항 · ${Math.round(sec.secs/60)}분</span></div><div class="muted">전체 ${e.idx+1}/${e.total}</div></div>`:"";
+  const banner=sec?`<div class="sec-banner"><div><b>${e.sections.length>1?`섹션 ${e.secIdx+1}/${e.sections.length} · `:""}${SUBMETA[sec.code].ko} (${sec.code})</b>
+      <span class="muted"> ${e.cat?`적응형 ${sec.n}문항`:`${sec.to-sec.from+1}문항`} · ${Math.round(sec.secs/60)}분</span></div><div class="muted">${
+      e.cat&&flag("cat_show_level")?`난이도 <span class="dchip">${diffDots(it.diff)}</span> ${DIFF_KO[catLevel(it)]}`:`전체 ${e.idx+1}/${e.total}`}</div></div>`:"";
   $("#examArea").innerHTML=`${banner}${passage}<div class="card">
-    <span class="exam-sec">${esc(chipTxt)}</span><span class="qtime" id="qTimeChip">⏱ 0초 / ${SECRATE[it.section]||30}초</span>
+    <span class="exam-sec">${esc(chipTxt)}</span>${e.cat&&!flag("cat_show_level")?"":`<span class="qtime" id="qTimeChip">⏱ 0초 / ${SECRATE[it.section]||30}초</span>`}
     <div class="exam-prompt">${fmtMath(it.prompt)}</div>${ko}${fig}
     <div class="choices" id="examChoices">${choices}</div>${explain}</div>`;
   $$("#examChoices .choice").forEach(btn=>btn.onclick=()=>{
@@ -224,7 +236,9 @@ function renderExamQ(){
   prev.classList.toggle("hidden",e.noBack); $("#examGrid").classList.toggle("hidden",e.noBack); $("#kbdArrows").classList.toggle("hidden",e.noBack);
   if(e.noBack){ next.textContent="확인 →"; next.disabled=e.answers[e.idx]==null; }
   else { next.textContent="다음 →"; prev.disabled=sec?e.idx<=sec.from:e.idx===0; next.disabled=sec?e.idx>=sec.to:e.idx>=e.total-1; }
-  sub.textContent=e.learn?"끝내기":sec?(e.secIdx<e.sections.length-1?"섹션 제출 →":"최종 제출"):"제출";
+  next.classList.toggle("primary",!!e.cat); next.classList.toggle("ghost",!e.cat);
+  sub.textContent=e.learn?"끝내기":e.cat?"섹션 끝내기":sec?(e.secIdx<e.sections.length-1?"섹션 제출 →":"최종 제출"):"제출";
+  sub.classList.toggle("primary",!e.cat); sub.classList.toggle("ghost",!!e.cat); sub.classList.toggle("cat-end",!!e.cat);
   if(!e.noBack) renderExamGrid();
   updateTimerUI();
 }
@@ -234,6 +248,7 @@ function renderExamGrid(){ const e=exam, s=curExamSec(), from=s?s.from:0, to=s?s
 function refreshExamGrid(){ const e=exam; const b=$(`#examGrid button[data-i="${e.idx}"]`); if(b) b.classList.add("answered"); }
 function examNextAction(){
   const e=exam; if(!e||e.submitted) return;
+  if(e.cat){ if(e.paused) catBeginSection(); else catConfirm(); return; }
   const sec=curExamSec(), last=sec?sec.to:e.total-1;
   if(e.learn){ if(e.answers[e.idx]==null) return; if(e.idx>=e.total-1) submitExam(true); else { e.idx++; renderExamQ(); } return; }
   if(e.noBack){
@@ -249,6 +264,7 @@ function examPrevAction(){ const e=exam; if(!e||e.submitted||e.noBack) return; c
   if(e.idx>(sec?sec.from:0)){ e.idx--; renderExamQ(); } }
 function examSubmitAction(){ const e=exam; if(!e) return;
   if(e.learn){ quitExam(); return; }
+  if(e.cat&&e.paused) return;
   if(curExamSec()) advanceExamSection(false); else submitExam(false); }
 
 /* ---------- 기록 ---------- */
@@ -264,11 +280,13 @@ function recordLearn(i){ const e=exam, it=e.items[i], ok=e.answers[i]===it.answe
   if(e.kind==="review") statBump("review");
   bumpDay({studied:1,correct:ok?1:0}); }
 function pruneExamDetail(){ const keep=20; let n=0;
-  for(let i=state.examHist.length-1;i>=0;i--){ const h=state.examHist[i]; if(h&&h.items){ n++; if(n>keep) delete h.items; } } }
+  for(let i=state.examHist.length-1;i>=0;i--){ const h=state.examHist[i]; if(h&&(h.items||h.cat)){ n++;
+    if(n>keep){ delete h.items; if(h.cat) for(const k in h.cat) if(h.cat[k]) delete h.cat[k].path; } } } }
 
 /* ---------- 채점 ---------- */
 function submitExam(auto){
   const e=exam; if(!e||e.submitted) return;
+  if(e.cat){ submitCat(auto); return; }
   const ansBySec={}; e.items.forEach((it,i)=>{ if(e.answers[i]!=null) ansBySec[it.section]=(ansBySec[it.section]||0)+1; });
   const skipped=[...new Set(e.items.map(it=>it.section))].filter(sc=>!(ansBySec[sc]>0));
   let counted=e.items.map((_,i)=>i).filter(i=>!skipped.includes(e.items[i].section));

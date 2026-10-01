@@ -555,6 +555,28 @@ sub{vertical-align:-.25em}
 .fig text.m{fill:var(--muted);font-weight:500;font-size:11px}
 .fig text.a{fill:var(--brand2);font-weight:800}
 .fig text.g{fill:var(--gold);font-weight:800}
+.fig .sky{fill:#0369a1}
+.fig .earth{fill:#7c2d12}
+.fig .hz{stroke:#f8fafc;stroke-width:2}
+.fig .pl{stroke:#e2e8f0;stroke-width:1.3}
+.fig text.pt{fill:#e2e8f0;font-size:9px;font-weight:600}
+.fig .ptr{fill:#f8fafc}
+.fig text.cn{font-size:13px;font-weight:700}
+.fig text.cd{fill:var(--gold);font-size:14px;font-weight:800}
+.fig .plane{fill:none;stroke:var(--gold);stroke-width:1.8;stroke-linejoin:round}
+.fig .cs{fill:#06b6d455;stroke:var(--brand2);stroke-width:1.4}
+.fig .cs2{fill:#6366f155;stroke:#a5b4fc;stroke-width:1.4}
+.fig .glass{fill:#bae6fd55;stroke:#bae6fd;stroke-width:1.2}
+.fig .co{stroke:var(--gold);stroke-width:1.1;stroke-dasharray:3 2;fill:none}
+.fig .rwy{fill:#3f4654;stroke:#94a3b8;stroke-width:1}
+.fig .mk{fill:#f8fafc}
+.fig .mk2{stroke:#f8fafc;stroke-width:2.4}
+.fig .mkh{fill:#f8fafc}
+.fig text.rn{fill:#f8fafc;font-size:26px;font-weight:800;letter-spacing:1px}
+.fig .pad{fill:#3f4654;stroke:#94a3b8;stroke-width:1}
+.fig .chev{stroke:#facc15;stroke-width:3;fill:none}
+.fig .lw{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.fig .lr{fill:#ef4444;stroke:#fca5a5;stroke-width:1.5}
 .figbox{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:10px;margin:10px 0 12px}
 .principles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
 .principle{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
@@ -659,3 +681,45 @@ sub{vertical-align:-.25em}
 #examChoices .choice::before{content:counter(chn);position:absolute;left:13px;top:50%;transform:translateY(-50%);
   width:22px;height:22px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-bottom-width:2px;
   border-radius:6px;background:var(--bg2);color:var(--muted);font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+
+/* ===== 적응형(CAT) — 섹션 안내 · 경로 차트 ===== */
+.cat-intro h2{margin:6px 0 4px;font-size:20px;line-height:1.3}
+.cat-intro .ci-step{font-size:12px;color:var(--brand2);font-weight:700;letter-spacing:.3px}
+.cat-intro .ci-meta{font-size:14px;margin:6px 0 10px}
+.cat-intro .ci-rules{margin:0 0 14px;padding-left:18px;font-size:13.5px;line-height:1.6}
+.cat-intro .ci-rules li{margin:4px 0}
+.catviz{--cv-surface:var(--bg);--cv-s1:#3987e5;--cv-good:#0ca30c;--cv-bad:#d03b3b;
+  margin-top:12px;text-align:left;background:var(--cv-surface);border:1px solid var(--line);border-radius:14px;padding:12px}
+.catviz .cv-head{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap;font-size:14px;color:var(--txt)}
+.catviz .cv-head span{font-size:12.5px;color:var(--muted)}
+.catviz .cv-head span b{color:var(--txt);font-size:15px}
+.catviz .cv-sub{font-size:12px;color:var(--muted);margin:3px 0 8px;line-height:1.5}
+.catviz .cv-sub b{color:var(--txt)}
+.catviz .cv-legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;color:var(--muted);margin-bottom:4px}
+.catviz .cv-legend span{display:inline-flex;align-items:center;gap:5px}
+.catviz .k-line{display:inline-block;width:14px;height:2px;background:var(--cv-s1);border-radius:1px}
+.catviz .k-ok{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--cv-good)}
+.catviz .k-no{font-style:normal;color:var(--cv-bad);font-weight:800;font-size:12px;line-height:1}
+.catviz .k-pen{display:inline-block;width:8px;height:8px;border-radius:50%;border:1.5px solid var(--muted)}
+.catviz .cv-plot{position:relative}
+.catviz .cv-svg{width:100%;height:auto;display:block;touch-action:pan-y}
+.cv-svg .cv-grid{stroke:var(--line);stroke-width:1}
+.cv-svg .cv-base{stroke:#475569;stroke-width:1}
+.cv-svg .cv-ax{fill:var(--muted);font:500 10.5px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.cv-svg .cv-line{fill:none;stroke:var(--cv-s1);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.cv-svg .cv-ok{fill:var(--cv-good);stroke:var(--cv-surface);stroke-width:2}
+.cv-svg .cv-ring{fill:var(--cv-surface)}
+.cv-svg .cv-no{stroke:var(--cv-bad);stroke-width:2.4;stroke-linecap:round}
+.cv-svg .cv-pen{fill:none;stroke:var(--muted);stroke-width:1.5}
+.cv-svg .cv-end{fill:var(--cv-s1);stroke:var(--cv-surface);stroke-width:2}
+.cv-svg .cv-cross{stroke:var(--muted);stroke-width:1}
+.catviz .cv-tip{position:absolute;top:2px;width:160px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 8px;
+  font-size:11.5px;pointer-events:none;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:2px;z-index:2}
+.catviz .cv-tip[hidden]{display:none}
+.catviz .cv-tip b{font-size:12.5px;color:var(--txt)}
+.catviz .cv-tip span{color:var(--muted)}
+.catviz .cv-table summary{font-size:12px;color:var(--muted);cursor:pointer;margin-top:6px}
+.catviz .cv-table table{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px;font-variant-numeric:tabular-nums}
+.catviz .cv-table th,.catviz .cv-table td{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;color:var(--txt)}
+.catviz .cv-table th{color:var(--muted);font-weight:600}
+.exam-nav .btn.cat-end{flex:0 0 34%;font-size:13px;color:var(--muted)}

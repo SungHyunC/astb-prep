@@ -1,10 +1,10 @@
 {
   "OPT_N": 4,
   "subtests": {
-    "MST":  {"prefix": "mst",  "batchSize": 50, "batches": 4},
-    "RCT":  {"prefix": "rct",  "batchSize": 40, "batches": 3},
-    "MCT":  {"prefix": "mct",  "batchSize": 50, "batches": 4},
-    "ANIT": {"prefix": "anit", "batchSize": 50, "batches": 5}
+    "MST":  {"prefix": "mst",  "batchSize": 50, "batches": 6},
+    "RCT":  {"prefix": "rct",  "batchSize": 40, "batches": 5},
+    "MCT":  {"prefix": "mct",  "batchSize": 50, "batches": 6},
+    "ANIT": {"prefix": "anit", "batchSize": 50, "batches": 7}
   },
   "topics": {
     "MST": [
@@ -75,7 +75,14 @@
     ]
   },
   "rctQtypes": ["inference", "main_idea", "detail"],
-  "figTypes": ["lever", "pulley", "gears", "belt", "incline", "hydraulic", "circuit", "springs", "pipe"],
+  "figTypes": ["lever", "pulley", "gears", "belt", "incline", "hydraulic", "circuit", "springs", "pipe", "beam", "tank", "wheel"],
+  "anitFigTypes": ["attitude", "heading", "aircraft", "ship", "runway", "papi"],
+  "figParts": {
+    "aircraft_top":  ["nose", "propeller", "cockpit", "fuselage", "wing", "wingtip", "aileron", "flap", "horizontal_stabilizer", "elevator", "trim_tab", "vertical_stabilizer"],
+    "aircraft_side": ["propeller", "cowling", "cockpit", "fuselage", "wing", "landing_gear", "vertical_stabilizer", "rudder", "horizontal_stabilizer", "elevator"],
+    "ship":          ["bow", "stern", "port", "starboard", "amidships", "port_bow", "starboard_bow", "port_quarter", "starboard_quarter", "superstructure", "beam"],
+    "runway":        ["threshold", "designation", "centerline", "aiming_point", "touchdown_zone", "displaced_threshold", "blast_pad"]
+  },
   "termBatches": {"prefix": "t", "batchSize": 100, "batches": 3},
   "mockForms": ["a", "b", "c"],
   "mockSections": [

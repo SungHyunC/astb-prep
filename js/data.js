@@ -45,7 +45,8 @@ function topicsOf(sub){ return (META&&META.topics&&META.topics[sub])||[]; }
 function topicKo(sub,key){ const t=topicsOf(sub).find(x=>x.key===key); return t?t.ko:key; }
 function weakKey(it){ return it.section==="RCT" ? "RCT:"+(it.qtype||"inference") : it.section+":"+it.topic; }
 function weakLabel(k){ const [s,key]=k.split(":"); return s==="RCT" ? (RCT_QTYPE_KO[key]||key) : topicKo(s,key); }
-function diffDots(d){ return "●".repeat(d||1)+"○".repeat(3-(d||1)); }
+const DIFF_KO = {1:"쉬움", 2:"보통", 3:"어려움", 4:"최상"};
+function diffDots(d){ d=clamp(d||1,1,4); return "●".repeat(d)+"○".repeat(4-d); }
 
 /* ---------- 원본 → 시험 아이템 ---------- */
 function toItem(sub, raw, src){

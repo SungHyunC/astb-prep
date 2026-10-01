@@ -25,10 +25,24 @@ node scripts/validate.mjs                             # 전체 (중복·분포�
    - 보기는 서로 달라야 하고, 길이·형식이 비슷해야 한다(정답만 유독 길면 안 됨).
    - 숫자 보기는 같은 단위·자릿수 형식으로. 오름차순 정렬을 권장하되 정답 위치는 섞는다.
 6. **정답 위치 분산.** 한 배치 안에서 `answer` 0·1·2·3 중 어느 하나도 **35%를 넘지 않게**.
-7. **난이도(`diff`) 분포** (배치 기준): 1(쉬움) ≈30% · 2(보통) ≈50% · 3(어려움) ≈20%.
+7. **난이도(`diff`)는 적응형(CAT) 엔진이 그대로 쓴다** — 맞히면 더 높은 `diff`, 틀리면 더 낮은 `diff`가 나온다. 그래서 라벨이 정확해야 한다(§0-1).
+   - 기본 배치 분포: 1 ≈30% · 2 ≈50% · 3 ≈20% (난이도 4 없음).
+   - **상위권 배치**(난이도 4가 하나라도 있는 배치): 1 0% · 2 ≈20% · 3 ≈50% · 4 ≈30%. 적응형 상단(실력 좋은 응시자)에 나갈 문항 풀을 채우는 용도다.
 8. **토픽 분포.** 배치 안에서 `enums.json`의 토픽을 고르게 섞는다. 아래 과목별 "가중 토픽"은 조금 더 많이.
 9. **수식 표기** (앱의 `fmtMath`가 변환): `x^2`→x², `2^(n+1)`, `sqrt(49)`→√(49), `a_1`→a₁, `pi`→π, `<=`/`>=`/`!=`. 곱셈은 `×`, 나눗셈은 `÷` 또는 `/`, 음수 부호는 `-`. 분수는 `3/4`. 유니코드 `²`, `³`, `°`, `√`, `π`도 그대로 써도 된다.
 10. **알 수 없는 필드 금지.** 아래 스키마에 없는 키를 넣으면 검증이 실패한다(`explanation` 같은 오타 방지).
+
+### 0-1. 난이도 기준 (적응형 b값과 연결)
+
+| diff | 이름 | 실전 응시자 정답률(가늠) | 기준 |
+|---|---|---|---|
+| 1 | 쉬움 | ~85% | 한 단계 · 공식/사실 하나를 바로 적용 |
+| 2 | 보통 | ~65% | 두 단계 · 흔한 적용, 함정 1개 |
+| 3 | 어려움 | ~40% | 여러 단계 · 함정이 있거나 덜 흔한 지식 · 시간 압박에서 실수하기 쉬움 |
+| 4 | 최상 | ~20% | 개념 2개 이상을 엮거나, 오답이 매우 그럴듯한 정교한 문항. 그래도 **계산기 없이 실전 시간의 2배 안**에 풀린다 |
+
+- 난이도는 "읽기 길이"가 아니라 **사고 단계 수와 함정**으로 올린다. 숫자를 지저분하게 만들어 어렵게 하지 않는다.
+- 4는 지식 과목(ANIT)에선 "덜 알려졌지만 공식 교범으로 검증 가능한 사실"이나 두 지식을 결합하는 문항이다(예: 자세계 그림 + 선회 방향 판단).
 
 ## 1. 파일 위치와 ID
 
@@ -65,13 +79,13 @@ node scripts/validate.mjs                             # 전체 (중복·분포�
 |---|---|---|
 | `id` | ✅ | 위 표의 형식·범위 |
 | `topic` | ✅ | `enums.json`의 해당 과목 토픽 키 |
-| `diff` | ✅ | 1 · 2 · 3 |
+| `diff` | ✅ | 1 · 2 · 3 · 4 (§0-1) |
 | `q` | ✅ | 영어 문항. 한글 금지 |
 | `q_ko` | ✅ | 자연스러운 한국어 번역 |
 | `options` | ✅ | 영어(숫자·단위 포함) 4개 |
 | `answer` | ✅ | 0–3 정수 |
 | `explain` | ✅ | 한국어 해설 20자 이상, 보통 1–4문장(≈350자 이내) |
-| `fig` | MCT만 선택 | §5 그림 규격 |
+| `fig` | MCT·ANIT 선택 | MCT §5 · ANIT §5-2 그림 규격 |
 | `tags` | 선택 | 문자열 배열. 예: `afoqt_overlap`(AFOQT와 겹치는 유형), `navy`(해군 특화) |
 
 ### 해설 스타일
@@ -81,21 +95,30 @@ node scripts/validate.mjs                             # 전체 (중복·분포�
 
 ## 3. 과목별 내용 가이드
 
+### 실전 유사도 (모든 과목 공통)
+- 실제 ASTB-E처럼 **질문은 짧고 직접적**으로: "What is…?", "How many…?", "Which of the following…?". 지시문·잡담·이야기 장식은 최소화.
+- 보기 4개는 **같은 형식·같은 정밀도**(단위·자릿수·문장 길이)로. 오답은 실제로 학생이 저지르는 실수의 결과(부호 실수, 단위 미환산, 역수, 반대 방향, 상식이지만 지문에 없는 진술)로 만든다.
+- 문항끼리 단서를 주지 않게 한다(같은 배치 안에서 같은 숫자·같은 상황 반복 금지).
+
 ### MST — Math Skills (가중 토픽: `geometry_measure`의 3D 입체, `unit_conversion`, `word_problems`의 단리·복리 이자)
 - 산술·분수·비율·일차/이차 방정식·연립·지수·제곱근·간단한 로그(log₁₀ 100 = 2 수준), 각·삼각형·피타고라스, 넓이·둘레·부피(원기둥·구·원뿔·직육면체), 확률·평균·중앙값, 속력·시간·거리, 작업량, 단위 환산(ft·mi·nm·kt·gal·lb·°F↔°C), 이자·할인·나이·혼합 문장제.
 - 항공·해군 맥락(연료, 항속, 활주로, 함정 속력 knots)을 30% 정도 섞으면 좋다.
 - 계산기 없이 1분 안팎에 풀리는 수치로. 답이 지저분한 소수라면 보기를 "약 ~"으로.
+- 실전처럼 **기호 조작형**도 섞는다: 식 정리·인수분해·지수 법칙·식의 값·부등식 해·식 세우기("Which expression represents…?") — 보기가 식인 문항.
+- 난이도 3·4: 두 개념 결합(비율 + 넓이, 연립 + 문장제, 닮음 + 피타고라스), 역으로 구하기, "몇 % 증가 후 몇 % 감소", 평균의 변화, 조건부 확률(비복원 추출), 원뿔·구 부피 비, 일 효율 합산.
 
 ### MCT — Mechanical Comprehension (가중 토픽: `levers`, `pulleys`, `gears_belts`, `fluids_pressure`)
 - 고교 물리 수준: 뉴턴 법칙·마찰, 속도·가속도, 지렛대 3종, 도르래(받치는 줄 수), 기어·벨트(회전 방향·회전수 비), 경사면·나사·쐐기, 파스칼·유압, 베르누이·부력, 보일·샤를 법칙·열팽창, 일·에너지·일률, 4행정·제트 엔진·변속, 옴의 법칙·직렬/병렬, 전자석, 무게중심·안정성·하중 분배, 토크, 스프링 직렬/병렬, 캠·크랭크·래칫·밸브.
 - **그림 문항 35–45%**: §5의 `fig`를 붙인다. 단, **문항 텍스트만으로도 풀 수 있게** 필요한 숫자를 모두 문장에 쓴다(그림은 보조).
 - 개념형(계산 없이 "어느 쪽이 더 ~한가")과 계산형을 반반.
+- 실전 MCT는 **문항당 약 30초** → 계산은 암산 한두 번으로 끝나야 한다. 난이도 3·4는 계산량이 아니라 **원리를 한 번 더 꼬는 것**(아이들 기어·복합 기어, 움직도르래 여러 개, 받침대 두 개의 하중 분배, 모양이 다른 용기의 수압, 관 굵기와 압력, 직병렬 혼합 회로, 바이메탈 방향, 원심력·관성).
 
 ### ANIT — Aviation & Nautical Information (가중: 해상·함정·항모·계급·조함 = 전체의 **40% 이상**)
 - 항공: 4가지 힘, 받음각·실속, 조종면(에일러론·엘리베이터·러더·플랩·트림), 3축, 선회·하중계수, 6대 계기와 피토-정압 계통, 왕복/제트 엔진, 활주로 번호·표지·등화·라이트 건 신호, VFR/IFR, 공역 등급, 트랜스폰더 코드(7500/7600/7700), 우선통행권, 위경도·자기편차, VOR, 기상(전선·안개·착빙·밀도고도), 헬리콥터(콜렉티브·사이클릭·자동회전).
 - 해군 항공 역사: Eugene Ely, Pensacola, 1911 Curtiss, Midway·Coral Sea, 최초 제트 항모 운용 등 **검증 가능한 사실만**.
 - 해상: bow/stern/port/starboard/fore/aft/amidships/bulkhead/deck/overhead/ladder/hatch/head/galley/brow, knot·fathom·nautical mile, 당직(watch)과 종(bell), 함정 선체 기호(CVN·DDG·CG·LHD·LHA·SSN·SSBN·FFG·LCS), 항모 운용(catapult·arresting wire·LSO·IFLOLS "meatball"·bolter·trap·plane guard·flight deck jersey 색), 계급(O-1 Ensign … O-10 Admiral, 부사관, Marine 대응 계급), 조함 규칙(red right returning, 항해등 적색=좌현·녹색=우현, 추월·교차·정면 상황).
 - 확실하지 않은 사실은 쓰지 않는다. 연도·숫자는 널리 확인되는 것만.
+- 실전 ANIT에는 **그림 문항**(계기·항공기 부위·활주로 표지·함정 부위)이 나온다 → §5-2 그림을 배치의 20–30%에 쓴다. 그림 문항은 그림을 봐야 풀리는 게 정상이다(문장에 "shown"/"labeled"를 쓴다).
 
 ## 4. RCT 스키마 — 지문 1개 = 문제 1개 (ASTB-E 형식)
 
@@ -179,6 +202,65 @@ node scripts/validate.mjs                             # 전체 (중복·분포�
 {"type":"pipe","sections":[{"d":6,"label":"A"},{"d":3,"label":"B"}],"unit":"in","flow":"right"}
 ```
 구간 2–3개, `d` 숫자, `flow`: `right` · `left`.
+
+**beam** — 받침대 두 개 위의 보 (하중 분배·모멘트)
+```json
+{"type":"beam","length":12,"unit":"ft","supports":[{"x":0,"label":"A"},{"x":12,"label":"B"}],"loads":[{"x":4,"label":"600 lb"}]}
+```
+`supports` 정확히 2개, `loads` 1–3개, 모든 `x`는 0..length. 하중 라벨끼리 너무 가깝게(길이의 15% 미만) 두지 않는다. 보 자체 무게는 문장에서 "light beam"/"uniform 40-lb beam"으로 밝힌다.
+
+**tank** — 모양이 다른 용기들(`tanks`) 또는 구멍 뚫린 탱크 하나(`holes`) — 둘 중 하나만
+```json
+{"type":"tank","tanks":[{"shape":"rect","level":0.8,"label":"A"},{"shape":"wide","level":0.8,"label":"B"},{"shape":"flare","level":0.8,"label":"C"}]}
+{"type":"tank","holes":[{"h":0.75,"label":"A"},{"h":0.45,"label":"B"},{"h":0.12,"label":"C"}],"level":0.92}
+```
+`shape`: `rect`(좁은 직사각) · `wide`(넓은 직사각) · `flare`(위로 갈수록 넓음) · `taper`(위로 갈수록 좁음), `level` 0.05–1(높이 비율), `note` 선택(예: "water", "oil"). 용기 1–4개, 모든 용기 높이는 같게 그려진다. holes: 구멍 2–4개, `h`는 바닥에서의 높이 비율(수위 `level` 미만). 물줄기는 그리지 않는다.
+
+**wheel** — 축바퀴(윈치): 축에 하중, 바퀴 테두리에 힘
+```json
+{"type":"wheel","wheel":"radius 24 in","axle":"radius 4 in","load":"300 lb","effort":"F = ?"}
+```
+네 필드 모두 문자열(라벨 그대로 표시). 반지름인지 지름인지 라벨에 쓴다.
+
+## 5-2. ANIT 그림(`fig`) 규격
+
+**attitude** — 자세계 (`bank` +는 오른쪽 경사, −는 왼쪽 / `pitch` +는 기수 들림)
+```json
+{"type":"attitude","bank":30,"pitch":5}
+```
+`bank` −90..90, `pitch` −25..25. 오른쪽으로 경사지면 수평선이 미니어처 비행기에 대해 반시계 방향으로 기울어 보이게 그려진다(실제 계기와 같음). 질문 예: "The attitude indicator shown indicates that the aircraft is in a:" → "climbing right turn" 등. 경사 ±10° 미만·피치 ±3° 미만은 애매하므로 쓰지 않는다.
+
+**heading** — 방향 지시계(계기판 카드가 돌아 현재 기수 방향이 위에 온다)
+```json
+{"type":"heading","hdg":240}
+```
+`hdg` 0–359 정수. 질문 예: "What heading is shown?", "To turn to a heading of 090 by the shortest way, which direction should the pilot turn?"
+
+**aircraft** — 항공기 부위 (`view`: `top` 위에서 / `side` 옆에서), 라벨 1–4개
+```json
+{"type":"aircraft","view":"top","labels":[{"part":"aileron","label":"A"},{"part":"elevator","label":"B"}]}
+```
+top 부위: `nose` `propeller` `cockpit` `fuselage` `wing` `wingtip` `aileron`(바깥쪽 뒷전) `flap`(안쪽 뒷전) `horizontal_stabilizer` `elevator` `trim_tab` `vertical_stabilizer`
+side 부위: `propeller` `cowling` `cockpit` `fuselage` `wing` `landing_gear` `vertical_stabilizer` `rudder` `horizontal_stabilizer` `elevator`
+질문 예: "In the figure, the control surface labeled A is the:" / "Moving the part labeled B controls rotation about which axis?"
+
+**ship** — 함정 위에서 본 모습(선수가 위), 라벨 1–4개
+```json
+{"type":"ship","labels":[{"part":"bow","label":"A"},{"part":"port","label":"B"},{"part":"beam","label":"C"}]}
+```
+부위: `bow` `stern` `port`(좌현 측면) `starboard` `amidships` `port_bow` `starboard_bow` `port_quarter` `starboard_quarter` `superstructure` `beam`(최대 폭 치수 화살표).
+
+**runway** — 활주로 진입단(아래쪽이 접근 방향), 라벨 0–4개
+```json
+{"type":"runway","num":"27","labels":[{"part":"aiming_point","label":"A"},{"part":"blast_pad","label":"B"}],"blastpad":true}
+```
+`num` 01–36(+L/R/C). 부위: `threshold`(진입단 줄무늬) `designation`(활주로 번호) `centerline` `aiming_point` `touchdown_zone` `displaced_threshold`(화살표, `displaced:true` 필요) `blast_pad`(노란 셰브런, `blastpad:true` 필요).
+
+**papi** — 진입각 지시등 4개, 왼쪽부터 `white`개가 백색이고 나머지는 적색
+```json
+{"type":"papi","white":2}
+```
+`white` 0–4 정수. 2 = 정상 경로, 3 = 약간 높음, 4 = 높음, 1 = 약간 낮음, 0 = 낮음.
 
 ## 6. 용어 스키마 — `content/terms/batch_NN.json`
 

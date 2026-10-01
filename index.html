@@ -119,16 +119,18 @@
 <!-- ===== MOCK EXAMS (setup) ===== -->
 <main id="view-mock" class="view">
   <h2 class="section" style="margin-top:0">🎯 모의고사</h2>
-  <p class="muted" style="margin:0 0 12px;font-size:13.5px">시간을 재고 실전처럼 풉니다. 끝나면 채점·해설·<b>예상 OAR(비공식)</b>을 보여줘요.</p>
+  <p class="muted" style="margin:0 0 12px;font-size:13.5px;line-height:1.55">실제 ASTB-E처럼 <b>적응형(CAT)</b>으로 풀어요 — 맞히면 더 어려운 문제, 틀리면 더 쉬운 문제가 나오고, 건너뛰기·되돌아가기가 안 돼요. 끝나면 <b>난이도 경로 그래프</b>와 <b>예상 OAR(비공식)</b>을 보여줘요.</p>
   <div id="examResumeBox" class="hidden"></div>
   <div class="card tight" style="margin-bottom:14px">
-    <div class="switch-row"><span>🚫 되돌아가기 금지 <span class="muted" style="font-weight:500;font-size:12px">(적응형 실전처럼)</span></span><input type="checkbox" id="optNoBack"></div>
-    <div class="switch-row"><span>🈶 문제 한글 번역 표시</span><input type="checkbox" id="optShowKo"></div>
+    <div class="switch-row"><span>🈶 문제 한글 번역 표시 <span class="muted" style="font-weight:500;font-size:12px">(드릴·고정 시험)</span></span><input type="checkbox" id="optShowKo"></div>
+    <div class="switch-row"><span>🈶 적응형 실전에서도 번역 보기 <span class="muted" style="font-weight:500;font-size:12px">(실제 시험엔 없음)</span></span><input type="checkbox" id="optCatKo"></div>
+    <div class="switch-row"><span>🎚️ 적응형 난이도 표시 <span class="muted" style="font-weight:500;font-size:12px">(연습용 — 실제 시험엔 안 보임)</span></span><input type="checkbox" id="optShowLevel"></div>
+    <div class="switch-row"><span>🚫 고정 시험도 되돌아가기 금지</span><input type="checkbox" id="optNoBack"></div>
   </div>
   <div id="mockPresets"></div>
   <h3 class="exam-group">🎛️ 직접 고르기</h3>
   <div class="card" style="padding:14px">
-    <div class="muted" style="font-size:12.5px;margin-bottom:10px">풀 과목만 고르세요. <b>실전 순서·문항수·제한시간</b>으로 진행돼요.</div>
+    <div class="muted" style="font-size:12.5px;margin-bottom:10px">풀 과목만 고르세요. <b>실전 순서·문항수·제한시간 · 적응형</b>으로 진행돼요.</div>
     <div id="pickSecs" class="pick-secs"></div>
     <div id="pickSum" class="muted" style="font-size:12.5px;margin-top:10px">과목을 선택하세요</div>
     <button class="btn primary" id="pickStart" style="margin-top:10px" disabled>선택한 과목으로 시작</button>
@@ -260,6 +262,7 @@
 <script src="./js/data.js"></script>
 <script src="./js/figures.js"></script>
 <script src="./js/score.js"></script>
+<script src="./js/cat.js"></script>
 <script src="./js/exam.js"></script>
 <script src="./js/sync.js"></script>
 <script src="./js/views.js"></script>

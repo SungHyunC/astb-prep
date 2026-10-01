@@ -6,7 +6,7 @@
    ============================================================ */
 "use strict";
 
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const CFG = window.ASTB_CONFIG || {};
 // 같은 origin(sunghyunc.github.io)을 AFOQT 앱과 공유하므로 모든 키는 astb_ 접두사.
 const LS = { state:"astb_state_v1", code:"astb_sync_code", device:"astb_device_id", url:"astb_sb_url", key:"astb_sb_key",
@@ -84,7 +84,7 @@ function DEFAULT_STATE(){ return {
   pbmLog:[],           // [{id,date,min,rate,miss,memo,del?}]
   realScores:[],       // [{id,date,oar,aqr,pfar,fofar,memo,del?}]
   checklist:{},        // day -> {taskId:1}
-  settings:{ exam_date:"", phase:0, p2start:"", hide_ko:false, no_back:true, terms_per_day:20, onboard_done:0 },
+  settings:{ exam_date:"", phase:0, p2start:"", hide_ko:false, no_back:true, terms_per_day:20, onboard_done:0, cat_show_level:false, cat_ko:false },
 }; }
 function loadLocal(){
   try{ state=JSON.parse(localStorage.getItem(LS.state))||DEFAULT_STATE(); }catch{ state=DEFAULT_STATE(); }

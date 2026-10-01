@@ -19,15 +19,18 @@ function oarFromAcc(accs){ if(OAR_SUBS.some(s=>accs[s]==null)) return null;
   return Math.round(interpCurve(OAR_CURVE, OAR_SUBS.reduce((t,s)=>t+accs[s],0)/OAR_SUBS.length)); }
 function realExams(){ return (state.examHist||[]).filter(h=>h && !h.learn && !h.practice && h.bySec); }
 // 과목 정답률: 최근 실전 3회(그 과목 5문항 이상 — 진단 미니의 RCT 7문항 포함) 우선, 없으면 누적 정답률(8문항 이상)
+// 적응형(CAT) 시험은 날것의 정답률이 실력과 무관하게 50–70%로 모이므로, θ로 환산한 '표준 시험지 기대 정답률'(cat.acc)을 쓴다.
 function subtestAcc(sub){
   const rec=realExams().filter(h=>h.bySec[sub] && h.bySec[sub].total>=5).slice(-3);
-  if(rec.length){ const g=rec.reduce((t,h)=>t+h.bySec[sub].got,0), n=rec.reduce((t,h)=>t+h.bySec[sub].total,0); return {acc:g/n, n, src:"exam"}; }
+  if(rec.length){ let g=0, n=0;
+    for(const h of rec){ const c=h.cat&&h.cat[sub], w=c?(c.N||h.bySec[sub].total):h.bySec[sub].total; g+=c?c.acc*w:h.bySec[sub].got; n+=w; }
+    return {acc:g/n, n, src:"exam"}; }
   const o=state.secAcc[sub]; if(o && (o.c+o.w)>=8) return {acc:o.c/(o.c+o.w), n:o.c+o.w, src:"all"};
   return null; }
 function estOAR(){ const accs={}, missing=[];
   for(const s of OAR_SUBS){ const a=subtestAcc(s); if(a) accs[s]=a.acc; else missing.push(s); }
   return {oar: missing.length?null:oarFromAcc(accs), accs, missing}; }
-function examOAR(h){ if(!h||!h.bySec) return null; const accs={};
+function examOAR(h){ if(!h||!h.bySec) return null; if(h.cat) return h.oar!=null?h.oar:null; const accs={};
   for(const s of OAR_SUBS){ const b=h.bySec[s]; if(!b||b.total<5) return null; accs[s]=b.got/b.total; }
   return oarFromAcc(accs); }
 function coverage(sub){ const seen=Object.keys(state.qSeen[sub]||{}).length, pool=Math.max(1,(POOL[sub]||[]).length);

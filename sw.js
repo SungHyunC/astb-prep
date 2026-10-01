@@ -1,10 +1,10 @@
 /* ASTB-E Prep — Service Worker (오프라인 캐시)
    ⚠️ 배포마다 js/core.js의 VERSION과 이 CACHE를 함께 올린다. 새 파일은 ASSETS에 추가.
    같은 origin(sunghyunc.github.io)의 AFOQT 앱 캐시는 절대 지우지 않는다(astb- 접두사만 정리). */
-const CACHE = "astb-v1-0-0";
+const CACHE = "astb-v1-1-0";
 const ASSETS = [
   "./", "./index.html", "./app.css", "./config.js",
-  "./js/core.js", "./js/data.js", "./js/figures.js", "./js/score.js", "./js/exam.js", "./js/sync.js", "./js/views.js", "./js/boot.js",
+  "./js/core.js", "./js/data.js", "./js/figures.js", "./js/score.js", "./js/cat.js", "./js/exam.js", "./js/sync.js", "./js/views.js", "./js/boot.js",
   "./data/meta.json", "./data/mst.json", "./data/rct.json", "./data/mct.json", "./data/anit.json",
   "./data/terms.json", "./data/topics.json", "./data/guides.json",
   "./data/mock_a.json", "./data/mock_b.json", "./data/mock_c.json",

@@ -13,7 +13,7 @@ for (const [sub, spec] of Object.entries(ENUMS.subtests)) {
   const t = tally(items, x => x.topic);
   for (const { key, ko } of ENUMS.topics[sub]) console.log(`  ${String(t[key] || 0).padStart(4)}  ${key} (${ko})`);
   console.log("  diff:", JSON.stringify(tally(items, x => x.diff)), " answer:", JSON.stringify(tally(items, x => x.answer)));
-  if (sub === "MCT") console.log("  fig:", JSON.stringify(tally(items.filter(x => x.fig), x => x.fig.type)), `(${items.filter(x => x.fig).length})`);
+  if (sub === "MCT" || sub === "ANIT") console.log("  fig:", JSON.stringify(tally(items.filter(x => x.fig), x => x.fig.type)), `(${items.filter(x => x.fig).length})`);
   if (sub === "RCT") console.log("  qtype:", JSON.stringify(tally(items, x => x.qtype)));
 }
 const terms = load("terms.json") || [];

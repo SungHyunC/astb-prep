@@ -148,7 +148,7 @@ function renderHome(){
       <div class="muted" style="font-size:12.5px;margin:6px 0 10px">진단 미니 모의고사(약 34분) — 끝나면 과목별 준비도와 예상 OAR이 채워져요.</div>
       <button class="btn primary" id="homeDiag">🩺 진단 미니 모의고사 시작</button></div>`
     :`<div class="card tight"><div class="row" style="justify-content:space-between;align-items:center"><div><div class="muted" style="font-size:11.5px">최근 모의고사 · ${fmtDate(last.date)}</div>
-      <b>${esc(last.name)}</b></div><div style="text-align:right"><b style="font-size:20px">${last.oar!=null?last.oar:Math.round(last.acc*100)+"%"}</b><div class="muted" style="font-size:11px">${last.oar!=null?"예상 OAR":"정답률"}</div></div></div></div>`;
+      <b>${esc(last.name)}</b></div><div style="text-align:right"><b style="font-size:20px">${last.oar!=null?last.oar:last.sc!=null?last.sc:Math.round(last.acc*100)+"%"}</b><div class="muted" style="font-size:11px">${last.oar!=null?"예상 OAR":last.sc!=null?"환산 점수":"정답률"}</div></div></div></div>`;
   const hd=$("#homeDiag"); if(hd) hd.onclick=()=>startExam("diag",{from:"home"});
   $("#stStreak").textContent=streak; $("#stToday").textContent=getDay().studied||0; $("#stDue").textContent=dueWrongs().length;
   $("#homeSubs").innerHTML=SUBS.map(x=>{ const m=SUBMETA[x], r=readiness(x), a=subtestAcc(x), seen=Object.keys(state.qSeen[x]||{}).length, wn=activeWrongs(x).length;
@@ -206,8 +206,8 @@ function renderSub(){
     <div class="spec-line">실전: ${m.spec}</div>
     <div class="grid2"><div class="card tight stat"><div class="num">${a?Math.round(a.acc*100)+"%":"–"}</div><div class="lbl">정답률${a?` (${a.n}문항${a.src==="exam"?" · 최근 실전":""})`:""}</div></div>
       <div class="card tight stat"><div class="num">${r!=null?r:"–"}</div><div class="lbl">준비도 · 본 문제 ${seen}/${pool.length}</div></div></div>
-    <button class="btn primary mt12" data-exam="sub:${s}">🎯 실전 ${m.n}문항 · ${m.secs/60}분 (덜 본 문제 우선)</button>
-    <div class="row mt8" style="gap:8px"><button class="btn ghost" data-exam-practice="sub:${s}" style="flex:1;font-size:14px">⏳ 연습 모드 (시간 2.2배)</button>
+    <button class="btn primary mt12" data-exam="sub:${s}">🎯 실전 적응형 ${m.n}문항 · ${m.secs/60}분 <span style="font-weight:500;opacity:.85">— 맞히면 어려워져요</span></button>
+    <div class="row mt8" style="gap:8px"><button class="btn ghost" data-exam-practice="sub:${s}" style="flex:1;font-size:14px">⏳ 연습 모드 (적응형 · 시간 2.2배)</button>
       <button class="btn ghost" data-wrongsub="${s}" style="flex:1;font-size:14px">📕 오답 ${wn}</button></div>`;
   if(s==="MCT") html+=`<h2 class="section">⚙️ 원리 5개 — 한 장 요약</h2><div class="principles">${MCT_PRINCIPLES.map(p=>`<div class="principle"><b>${p.name}</b>${renderFig(p.fig)}<div class="rule">${fmtMath(p.rule)}</div></div>`).join("")}</div>`;
   if(s==="ANIT"){ const due=TERMS.filter(t=>termDue(state.terms[t.id])).length, fresh=TERMS.filter(t=>!state.terms[t.id]||state.terms[t.id].status==="new").length;
@@ -330,13 +330,14 @@ function renderMock(){
     $("#resumeBtn").onclick=resumeExamSnap; $("#dropBtn").onclick=()=>{ if(confirm("하다 만 시험을 버릴까요?")){ clearExamSnap(); renderMock(); } }; }
   else box.classList.add("hidden");
   $("#optNoBack").checked=flag("no_back"); $("#optShowKo").checked=!flag("hide_ko");
+  $("#optCatKo").checked=flag("cat_ko"); $("#optShowLevel").checked=flag("cat_show_level");
   const preset=k=>{ const p=EXAM_PRESETS[k]; if(!p) return ""; const ex=state.exams[k];
     return `<button class="exam-preset" data-exam="${k}" ${k==="full"||k==="oar"?'style="border-color:var(--gold)"':""}><div class="ic">${p.icon}</div><div class="meta"><b>${esc(p.name)}</b><div class="muted">${esc(p.desc)}</div>
-      ${ex?`<div class="last">최근 ${ex.last}/${ex.lastTotal} · 최고 ${ex.best}/${ex.bestTotal} · ${fmtDate(ex.date)}</div>`:""}</div><div class="go">›</div></button>`; };
+      ${ex?`<div class="last">${ex.scale==="oar"?`최근 ${ex.last} · 최고 ${ex.best} (OAR 척도 환산)`:`최근 ${ex.last}/${ex.lastTotal} · 최고 ${ex.best}/${ex.bestTotal}`} · ${fmtDate(ex.date)}</div>`:""}</div><div class="go">›</div></button>`; };
   const forms=Object.keys(MOCKS).map(L=>preset("form_"+L)).join("");
-  $("#mockPresets").innerHTML=`<h3 class="exam-group">🏆 종합 모의고사 (덜 본 문제로 새로 구성)</h3>${preset("oar")}${preset("full")}${preset("diag")}
-    ${forms?`<h3 class="exam-group">📘 고정 모의고사 — 같은 문항으로 재응시 비교</h3>${forms}`:""}
-    <h3 class="exam-group">📚 과목별 실전</h3>${SUBS.map(s=>preset("sub:"+s)).join("")}`;
+  $("#mockPresets").innerHTML=`<h3 class="exam-group">🏆 실전 모의고사 — 적응형(CAT), 실제 ASTB-E 방식</h3>${preset("oar")}${preset("full")}${preset("diag")}
+    <h3 class="exam-group">📚 과목별 실전 — 적응형</h3>${SUBS.map(s=>preset("sub:"+s)).join("")}
+    ${forms?`<h3 class="exam-group">📘 고정 모의고사 — 같은 문항으로 재응시 비교 (비적응형)</h3>${forms}`:""}`;
   $$("#mockPresets [data-exam]").forEach(b=>b.onclick=()=>startExam(b.dataset.exam,{from:"mock"}));
   $("#pickSecs").innerHTML=SUBS.map(s=>`<button class="pick-chip ${pickSel.has(s)?"on":""}" data-s="${s}"><span class="pi">${SUBMETA[s].icon}</span><b>${s}</b><span class="pm">${SUBMETA[s].n}문항 · ${SUBMETA[s].secs/60}분</span></button>`).join("");
   $$("#pickSecs .pick-chip").forEach(b=>b.onclick=()=>{ const s=b.dataset.s; if(pickSel.has(s)) pickSel.delete(s); else pickSel.add(s); renderMock(); });
@@ -455,12 +456,14 @@ function renderExamLog(){
   if(examlogOpen!=null){ const h=H.find(x=>x.ts===examlogOpen); if(!h){ examlogOpen=null; return renderExamLog(); }
     const items=(h.items||[]);
     $("#examlogBody").innerHTML=`<div class="card"><b>${esc(h.name)}</b><div class="muted small">${h.date} · ${h.got}/${h.total} (${Math.round(h.acc*100)}%)${h.oar!=null?` · 예상 OAR ${h.oar}`:""} · ${fmtTime(h.secs||0)}</div>
-      <div class="muted small mt8">${Object.entries(h.bySec||{}).map(([k,v])=>`${k} ${v.got}/${v.total}`).join(" · ")}${h.f5?` · 초반5 ${Object.entries(h.f5).map(([k,v])=>`${k} ${v[0]}/${v[1]}`).join(" ")}`:""}</div></div>
+      <div class="muted small mt8">${Object.entries(h.bySec||{}).map(([k,v])=>`${k} ${v.got}/${v.total}${h.cat&&h.cat[k]?` (환산 ${h.cat[k].sc})`:""}`).join(" · ")}${h.f5?` · 초반5 ${Object.entries(h.f5).map(([k,v])=>`${k} ${v[0]}/${v[1]}`).join(" ")}`:""}</div></div>
+      ${h.cat?Object.entries(h.cat).filter(([,c])=>c&&c.path).map(([k,c])=>catVizHTML(c,k)).join(""):""}
       ${items.length?items.map((x,i)=>reviewItemHTML(itemById(x.id),x.u,i+1,x.ms)).join(""):`<div class="card muted center mt12">이 기록은 요약만 남아 있어요 (상세는 최근 20회만 이 기기에 보관).</div>`}`;
+    catVizBind($("#examlogBody"));
     return; }
   $("#examlogBody").innerHTML=[...H].reverse().map(h=>`<button class="elrow" data-ts="${h.ts}"><div class="elm"><div class="eln">${esc(h.name)}${h.learn?" · 학습":h.practice?" · 연습":""}</div>
       <div class="eld">${h.date} · ${Object.entries(h.bySec||{}).map(([k,v])=>`${k} ${v.got}/${v.total}`).join(" · ")}</div></div>
-      <div class="elsc"><b>${h.oar!=null?h.oar:Math.round(h.acc*100)+"%"}</b><span>${h.oar!=null?"OAR":`${h.got}/${h.total}`}</span></div><div class="elgo">›</div></button>`).join("")
+      <div class="elsc"><b>${h.oar!=null?h.oar:h.sc!=null?h.sc:Math.round(h.acc*100)+"%"}</b><span>${h.oar!=null?"OAR":h.sc!=null?"환산":`${h.got}/${h.total}`}</span></div><div class="elgo">›</div></button>`).join("")
     ||`<div class="card muted center">아직 기록이 없어요.</div>`;
   $$("#examlogBody .elrow").forEach(b=>b.onclick=()=>{ examlogOpen=+b.dataset.ts; renderExamLog(); window.scrollTo(0,0); });
 }
@@ -559,6 +562,8 @@ function wire(){
   // mock toggles
   $("#optNoBack").onchange=e=>{ state.settings.no_back=e.target.checked; saveLocal(); queuePush("settings",{}); };
   $("#optShowKo").onchange=e=>{ state.settings.hide_ko=!e.target.checked; saveLocal(); queuePush("settings",{}); };
+  $("#optCatKo").onchange=e=>{ state.settings.cat_ko=e.target.checked; saveLocal(); queuePush("settings",{}); };
+  $("#optShowLevel").onchange=e=>{ state.settings.cat_show_level=e.target.checked; saveLocal(); queuePush("settings",{}); };
   // exam
   $("#examPrev").onclick=examPrevAction; $("#examNext").onclick=examNextAction; $("#examSubmit").onclick=examSubmitAction; $("#examQuit").onclick=quitExam;
   $("#examReviewBtn").onclick=()=>{ renderExamReview(); $("#examReviewBtn").classList.add("hidden"); };
