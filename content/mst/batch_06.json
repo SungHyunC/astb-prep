@@ -1,23 +1,24 @@
 [
   {
     "id": "mst_0251",
-    "topic": "probability_stats",
-    "diff": 2,
-    "q": "A student pilot's first 5 training flights averaged 70 minutes each. The sixth flight lasted 100 minutes. What is the average length of all 6 flights?",
-    "q_ko": "학생 조종사의 처음 5회 훈련 비행은 평균 70분이었다. 6번째 비행은 100분이었다. 6회 비행 전체의 평균 시간은?",
-    "options": ["75 minutes","76 minutes","85 minutes","90 minutes"],
-    "answer": 0,
-    "explain": "풀이: 처음 5회 합계 = 5 × 70 = 350분. 6회 합계 = 350 + 100 = 450분. 평균 = 450 ÷ 6 = 75분. ⚠️ 함정: 70과 100을 그냥 평균 내면 85, 합계를 5로 나누면 90, 늘어난 30분을 5로 나눠 더하면 76이 된다."
+    "topic": "word_problems",
+    "diff": 3,
+    "q": "A deposit of $2,500 grows to $3,025 in 2 years with interest compounded annually. What is the annual interest rate?",
+    "q_ko": "2,500달러를 예금했더니 연 복리로 2년 후 3,025달러가 되었다. 연이율은?",
+    "options": ["5%","10%","10.5%","21%"],
+    "answer": 1,
+    "explain": "풀이: 3,025 ÷ 2,500 = 1.21 = 1.1². 매년 1.1배가 되었으므로 연이율은 10%. (확인: 2,500 → 2,750 → 3,025.) ⚠️ 함정: 이자 525달러를 2,500으로 나눈 21%는 2년 합계이고, 그 절반 10.5%는 단리로 계산한 값이다. 10%를 다시 2로 나눈 5%도 틀린다.",
+    "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0252",
     "topic": "unit_conversion",
     "diff": 4,
-    "q": "The temperature at an airfield is 59°F. The air cools by 2°C for every 1,000 feet of altitude. What is the temperature 5,000 feet above the field, in degrees Fahrenheit? (°F = (9/5)°C + 32)",
-    "q_ko": "비행장의 기온은 59°F이다. 공기는 고도 1,000피트마다 2°C씩 낮아진다. 비행장 위 5,000피트의 기온은 화씨로 몇 도인가? (°F = (9/5)°C + 32)",
-    "options": ["5°F","9°F","41°F","49°F"],
+    "q": "The temperature at an airfield is 86°F. The air cools by 2°C for every 1,000 feet of altitude. What is the temperature 5,000 feet above the field, in degrees Fahrenheit? (°F = (9/5)°C + 32)",
+    "q_ko": "비행장의 기온은 86°F이다. 공기는 고도 1,000피트마다 2°C씩 낮아진다. 비행장 위 5,000피트의 기온은 화씨로 몇 도인가? (°F = (9/5)°C + 32)",
+    "options": ["20°F","36°F","68°F","76°F"],
     "answer": 2,
-    "explain": "풀이: 5,000ft에서는 2 × 5 = 10°C 낮다. 온도 \"차이\" 10°C = 10 × 9/5 = 18°F(차이에는 32를 더하지 않는다). 59 - 18 = 41°F. (확인: 59°F = 15°C → 15 - 10 = 5°C → 41°F.) ⚠️ 함정: 10°C를 50°F로 바꿔 빼면 9°F, 10을 그대로 빼면 49°F, 5°C를 화씨로 바꾸지 않으면 5가 된다."
+    "explain": "풀이: 5,000ft에서는 2 × 5 = 10°C 낮다. 온도 \"차이\" 10°C = 10 × 9/5 = 18°F(차이에는 32를 더하지 않는다). 86 - 18 = 68°F. (확인: 86°F = 30°C → 30 - 10 = 20°C → 68°F.) ⚠️ 함정: 10°C를 50°F로 바꿔 빼면 36°F, 10을 그대로 빼면 76°F, 20°C를 화씨로 바꾸지 않으면 20이 된다."
   },
   {
     "id": "mst_0253",
@@ -32,6 +33,17 @@
   },
   {
     "id": "mst_0254",
+    "topic": "geometry_measure",
+    "diff": 3,
+    "q": "A tent with no floor is shaped like a square pyramid. Its base is 6 feet on each side, and its height is 4 feet. How many square feet of fabric are needed for its four triangular sides?",
+    "q_ko": "바닥이 없는 텐트가 정사각뿔 모양이다. 밑면의 한 변은 6피트이고 높이는 4피트이다. 네 개의 삼각형 옆면을 만드는 데 천이 몇 제곱피트 필요한가?",
+    "options": ["48 square feet","60 square feet","96 square feet","120 square feet"],
+    "answer": 1,
+    "explain": "풀이: 옆면 삼각형의 높이(빗높이)는 텐트 높이 4ft와 밑변의 절반 3ft로 이루어진 직각삼각형의 빗변이다 → √(4² + 3²) = 5ft. 삼각형 1개 = (1/2) × 6 × 5 = 15ft², 4개 = 60ft². ⚠️ 함정: 텐트 높이 4ft를 삼각형의 높이로 쓰면 48, 바닥 36ft²까지 더하면 96, 1/2을 빠뜨리면 120이 된다.",
+    "tags": ["afoqt_overlap"]
+  },
+  {
+    "id": "mst_0255",
     "topic": "word_problems",
     "diff": 3,
     "q": "How many liters of water must be evaporated from 50 liters of a 4% salt solution to produce a 5% salt solution?",
@@ -42,7 +54,7 @@
     "tags": ["afoqt_overlap"]
   },
   {
-    "id": "mst_0255",
+    "id": "mst_0256",
     "topic": "geometry_measure",
     "diff": 2,
     "q": "A cube-shaped shipping crate has a volume of 125 cubic feet. What is the total surface area of the crate?",
@@ -53,60 +65,69 @@
     "tags": ["afoqt_overlap"]
   },
   {
-    "id": "mst_0256",
-    "topic": "probability_stats",
-    "diff": 3,
-    "q": "Two radar sets search for a target independently. The first detects it with probability 0.6, and the second detects it with probability 0.7. What is the probability that exactly one of the two radars detects the target?",
-    "q_ko": "두 레이더가 서로 독립적으로 목표를 탐색한다. 첫째 레이더가 탐지할 확률은 0.6, 둘째 레이더가 탐지할 확률은 0.7이다. 두 레이더 중 정확히 하나만 탐지할 확률은?",
-    "options": ["0.18","0.28","0.42","0.46"],
-    "answer": 3,
-    "explain": "풀이: 정확히 하나는 두 경우의 합이다. 첫째만 탐지 = 0.6 × 0.3 = 0.18, 둘째만 탐지 = 0.4 × 0.7 = 0.28. 합 = 0.46. ⚠️ 함정: 한 경우만 계산하면 0.18이나 0.28, 0.6 × 0.7 = 0.42는 둘 다 탐지할 확률이다. \"적어도 하나\"(1 - 0.4 × 0.3 = 0.88)와도 구별할 것."
-  },
-  {
     "id": "mst_0257",
     "topic": "rate_time_distance",
     "diff": 3,
-    "q": "Two ships leave the same port at the same time. One steams due east at 12 knots, and the other steams due north at 16 knots. After how many hours will the ships be 140 nautical miles apart?",
-    "q_ko": "두 함정이 같은 항구에서 동시에 출항한다. 한 척은 정동쪽으로 12노트, 다른 한 척은 정북쪽으로 16노트로 항해한다. 몇 시간 후에 두 함정은 140해리 떨어지는가?",
-    "options": ["5 hours","7 hours","10 hours","35 hours"],
-    "answer": 1,
-    "explain": "풀이: 두 함정은 직각 방향으로 멀어진다. t시간 후 거리 = √((12t)² + (16t)²) = 20t (3-4-5의 4배). 20t = 140 → t = 7시간. ⚠️ 함정: 반대 방향처럼 속력을 더하면(28노트) 5시간, 같은 방향처럼 빼면(4노트) 35시간, 두 속력의 평균(14노트)을 쓰면 10시간이 된다."
+    "q": "A boat travels 10 nautical miles through a harbor at 10 knots and then 90 nautical miles in open water at 30 knots. What is its average speed for the entire trip?",
+    "q_ko": "보트가 항만 안에서 10노트로 10해리를 간 뒤, 먼바다에서 30노트로 90해리를 간다. 전체 구간의 평균 속력은?",
+    "options": ["15 knots","20 knots","25 knots","28 knots"],
+    "answer": 2,
+    "explain": "풀이: 평균 속력 = 전체 거리 ÷ 전체 시간. 시간 = 10 ÷ 10 + 90 ÷ 30 = 1 + 3 = 4시간 → 100 ÷ 4 = 25노트. ⚠️ 함정: 두 속력을 그냥 평균하면 20노트, 왕복 공식 2ab/(a + b)를 쓰면 15노트(두 구간 거리가 같을 때만 성립), 거리로 가중평균하면 28노트가 된다."
   },
   {
     "id": "mst_0258",
-    "topic": "geometry_angles",
-    "diff": 4,
-    "q": "A triangle is inscribed in a circle, and one side of the triangle is a diameter of the circle. The other two sides are 10 inches and 24 inches long. What is the circumference of the circle? (Leave the answer in terms of π.)",
-    "q_ko": "삼각형이 원에 내접하고, 삼각형의 한 변이 원의 지름이다. 나머지 두 변의 길이는 10인치와 24인치이다. 원의 둘레는? (답은 π를 포함한 식으로)",
-    "options": ["26π inches","34π inches","52π inches","169π inches"],
+    "topic": "probability_stats",
+    "diff": 2,
+    "q": "A student pilot's first 5 training flights averaged 70 minutes each. The sixth flight lasted 100 minutes. What is the average length of all 6 flights?",
+    "q_ko": "학생 조종사의 처음 5회 훈련 비행은 평균 70분이었다. 6번째 비행은 100분이었다. 6회 비행 전체의 평균 시간은?",
+    "options": ["75 minutes","76 minutes","85 minutes","90 minutes"],
     "answer": 0,
-    "explain": "풀이: 지름을 한 변으로 하는 내접 삼각형은 지름의 맞은편 각이 90°인 직각삼각형이다(반원에 대한 원주각). 지름 = √(10² + 24²) = √676 = 26인치 → 둘레 = π × 26 = 26π인치. ⚠️ 함정: 26을 반지름으로 보고 2πr로 계산하면 52π, 169π는 넓이(π × 13²), 34π는 두 변을 더해 지름으로 잡은 값이다.",
-    "tags": ["afoqt_overlap"]
+    "explain": "풀이: 처음 5회 합계 = 5 × 70 = 350분. 6회 합계 = 350 + 100 = 450분. 평균 = 450 ÷ 6 = 75분. ⚠️ 함정: 70과 100을 그냥 평균 내면 85, 합계를 5로 나누면 90, 늘어난 30분을 5로 나눠 더하면 76이 된다."
   },
   {
     "id": "mst_0259",
-    "topic": "probability_stats",
+    "topic": "geometry_angles",
     "diff": 4,
-    "q": "A fair six-sided die is rolled twice. What is the probability that the second number rolled is greater than the first?",
-    "q_ko": "공정한 주사위를 두 번 던진다. 두 번째 눈이 첫 번째 눈보다 클 확률은?",
-    "options": ["5/12","1/2","7/12","5/6"],
-    "answer": 0,
-    "explain": "풀이: 36가지 중 두 눈이 같은 경우는 6가지다. 나머지 30가지는 \"두 번째가 큼\"과 \"첫 번째가 큼\"이 대칭이라 15가지씩 → 15/36 = 5/12. ⚠️ 함정: 같은 경우를 무시하고 반반으로 보면 1/2, \"크거나 같음\"을 세면 7/12, 단순히 \"다름\"을 세면 5/6이 된다.",
+    "q": "In triangle ABC, AB = AC and angle A measures 40°. The bisector of angle B meets side AC at point D. What is the measure of angle BDC?",
+    "q_ko": "삼각형 ABC에서 AB = AC이고 각 A는 40°이다. 각 B의 이등분선이 변 AC와 점 D에서 만난다. 각 BDC의 크기는?",
+    "options": ["35°","70°","75°","105°"],
+    "answer": 2,
+    "explain": "풀이: AB = AC이므로 B = C = (180° - 40°) ÷ 2 = 70°. 이등분선이므로 각 DBC = 35°. 삼각형 BDC에서 각 BDC = 180° - 35° - 70° = 75°. (삼각형 ABD의 외각으로 보면 40° + 35° = 75°.) ⚠️ 함정: 105°는 그 옆의 각 ADB이고, 35°와 70°는 다른 각을 답한 것이다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0260",
-    "topic": "geometry_measure",
-    "diff": 3,
-    "q": "A concrete drainage pipe is 8 feet long. Its outer radius is 2 feet, and its inner radius is 1.5 feet. What volume of concrete does the pipe contain? (Leave the answer in terms of π.)",
-    "q_ko": "콘크리트 배수관의 길이는 8피트이다. 바깥 반지름은 2피트, 안쪽 반지름은 1.5피트이다. 배수관을 이루는 콘크리트의 부피는? (답은 π를 포함한 식으로)",
-    "options": ["2π cubic feet","14π cubic feet","18π cubic feet","32π cubic feet"],
-    "answer": 1,
-    "explain": "풀이: 콘크리트 = 바깥 원기둥 - 안쪽 빈 공간 = π(2²)(8) - π(1.5²)(8) = 32π - 18π = 14π ft³. ⚠️ 함정: 두께 0.5ft를 반지름처럼 제곱하면 π(0.5²)(8) = 2π가 된다. 반지름의 차가 아니라 r²의 차를 써야 한다. 32π는 바깥 원기둥, 18π는 빈 공간의 부피다.",
+    "topic": "word_problems",
+    "diff": 4,
+    "q": "A sum of money is invested for 2 years at 10% per year. Compounded annually, it earns $30 more in interest than it would earn with simple interest. How much money was invested?",
+    "q_ko": "어떤 금액을 연 10%로 2년 동안 투자한다. 연 복리로 하면 단리보다 이자가 30달러 더 많다. 투자한 금액은?",
+    "options": ["$150","$300","$1,500","$3,000"],
+    "answer": 3,
+    "explain": "풀이: 단리 이자 = P × 0.1 × 2 = 0.2P. 복리 이자 = P(1.1² - 1) = 0.21P. 차이 = 0.01P = 30 → P = 3,000달러. (차이는 첫해 이자 0.1P에 다시 붙은 이자 0.1P × 0.1이다.) ⚠️ 함정: 30을 0.1로만 나누면 300달러, 0.2로 나누면 150달러가 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0261",
+    "topic": "probability_stats",
+    "diff": 3,
+    "q": "A class of 30 student naval aviators averaged 80 on an exam. The Navy students averaged 84, and the Marine Corps students averaged 74. How many students in the class are Marines?",
+    "q_ko": "해군 비행 훈련생 30명의 시험 평균이 80점이었다. 해군 학생의 평균은 84점, 해병대 학생의 평균은 74점이었다. 해병대 학생은 몇 명인가?",
+    "options": ["6","12","15","18"],
+    "answer": 1,
+    "explain": "풀이: 해병 수를 M이라 하면 84(30 - M) + 74M = 80 × 30 = 2,400 → 2,520 - 10M = 2,400 → M = 12. (해군은 평균보다 4점 높고 해병은 6점 낮으므로 인원비 해군 : 해병 = 6 : 4 = 18 : 12.) ⚠️ 함정: 비를 거꾸로 적용하면 18(해군 수), 두 집단이 같다고 보면 15가 된다."
+  },
+  {
+    "id": "mst_0262",
+    "topic": "geometry_measure",
+    "diff": 3,
+    "q": "A storage hangar is shaped like half of a cylinder lying on its flat side. The hangar is 50 feet long, and each semicircular end wall is 20 feet wide at the base. What is the volume of the hangar? (Leave the answer in terms of π.)",
+    "q_ko": "창고용 격납고가 원기둥을 길이 방향으로 반으로 잘라 평평한 면을 바닥에 놓은 모양이다. 격납고의 길이는 50피트이고, 반원 모양인 양쪽 끝 벽의 바닥 폭은 20피트이다. 격납고의 부피는? (답은 π를 포함한 식으로)",
+    "options": ["2,500π cubic feet","5,000π cubic feet","10,000π cubic feet","20,000π cubic feet"],
+    "answer": 0,
+    "explain": "풀이: 끝 벽(반원)의 지름 20ft → 반지름 10ft. 반원기둥 부피 = (1/2)πr²h = (1/2) × π × 10² × 50 = 2,500π ft³. ⚠️ 함정: 원기둥 전체로 계산하면 5,000π, 바닥 폭 20을 반지름으로 쓰면 10,000π(원기둥 전체면 20,000π)가 된다."
+  },
+  {
+    "id": "mst_0263",
     "topic": "probability_stats",
     "diff": 3,
     "q": "Seven test scores have a mean of 80 and a median of 78. If the highest of the seven scores is raised by 14 points, what are the new mean and median?",
@@ -117,7 +138,17 @@
     "tags": ["afoqt_overlap"]
   },
   {
-    "id": "mst_0262",
+    "id": "mst_0264",
+    "topic": "geometry_angles",
+    "diff": 2,
+    "q": "A fighter climbs along a straight path at a constant angle of 30° above the horizontal. After it travels 4,000 feet along its flight path, how much altitude has it gained?",
+    "q_ko": "전투기가 수평선 위 30°의 일정한 각도로 직선 경로를 따라 상승한다. 비행 경로를 따라 4,000피트를 이동했을 때, 고도는 얼마나 높아졌는가?",
+    "options": ["2,000 feet","2,000√2 feet","2,000√3 feet","4,000 feet"],
+    "answer": 0,
+    "explain": "풀이: 비행 경로 4,000ft가 빗변이고 상승각이 30°인 30°-60°-90° 직각삼각형이다. 30°의 맞은편 변(높이) = 빗변 ÷ 2 = 2,000ft. ⚠️ 함정: 2,000√3ft는 60°의 맞은편 변, 즉 수평 이동 거리다. 2,000√2ft는 45°-45°-90° 비율을 잘못 쓴 값이고, 4,000ft는 빗변 자체다."
+  },
+  {
+    "id": "mst_0265",
     "topic": "rate_time_distance",
     "diff": 4,
     "q": "An aircraft carrier steams due north at 25 knots. A helicopter lifts off from the carrier, flies due north at 125 knots to a stationary destroyer 75 nautical miles from the takeoff point, and immediately flies back to the carrier at 125 knots. Assuming no wind, how many minutes is the helicopter away from the carrier?",
@@ -127,56 +158,25 @@
     "explain": "풀이: 갈 때 75 ÷ 125 = 0.6시간(36분). 그동안 항모는 25 × 0.6 = 15해리 북진하므로 간격은 60해리. 돌아올 때는 마주 보고 다가가므로 접근 속도 125 + 25 = 150노트 → 60 ÷ 150 = 0.4시간(24분). 합계 60분. ⚠️ 함정: 항모의 이동을 무시하면 150 ÷ 125 = 1.2시간 = 72분, 갈 때 항모가 간 거리만 빼먹으면 36 + 30 = 66분이 된다."
   },
   {
-    "id": "mst_0263",
-    "topic": "geometry_measure",
+    "id": "mst_0266",
+    "topic": "word_problems",
     "diff": 3,
-    "q": "A closed cylindrical canister has a volume of 144π cubic inches and a height of 4 inches. What is its total surface area? (Leave the answer in terms of π.)",
-    "q_ko": "뚜껑이 있는 원기둥 용기의 부피가 144π세제곱인치이고 높이가 4인치이다. 겉넓이(전체 표면적)는? (답은 π를 포함한 식으로)",
-    "options": ["48π square inches","84π square inches","96π square inches","120π square inches"],
-    "answer": 3,
-    "explain": "풀이: πr² × 4 = 144π → r² = 36 → r = 6in. 겉넓이 = 두 밑면 2πr² + 옆면 2πrh = 72π + 48π = 120π in². ⚠️ 함정: 옆면만 쓰면 48π, 밑면을 하나만 더하면 84π, 옆면을 πrh로 잘못 계산하면 96π가 된다.",
+    "q": "An account that pays 5% simple interest per year earned $270 in interest in 18 months. How much money was deposited?",
+    "q_ko": "연 5% 단리를 주는 계좌에서 18개월 동안 이자 270달러가 붙었다. 처음 예금한 금액은?",
+    "options": ["$300","$3,000","$3,600","$5,400"],
+    "answer": 2,
+    "explain": "풀이: 18개월 = 1.5년. 이자 = 원금 × 이율 × 기간 → 270 = P × 0.05 × 1.5 = 0.075P → P = 3,600달러. ⚠️ 함정: 18개월을 1.8년으로 바꾸면 3,000달러, 18년으로 보면 300달러, 기간을 1년으로 두면 5,400달러가 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
-    "id": "mst_0264",
-    "topic": "geometry_angles",
-    "diff": 3,
-    "q": "A ship steams 60 nautical miles on a course of 045° (northeast). How far north of its starting point is the ship?",
-    "q_ko": "함정이 침로 045°(북동쪽)로 60해리를 항해한다. 출발점에서 북쪽으로 얼마나 떨어져 있는가?",
-    "options": ["30 nautical miles","30√2 nautical miles","30√3 nautical miles","60√2 nautical miles"],
-    "answer": 1,
-    "explain": "풀이: 045° 침로는 북쪽과 동쪽으로 같은 거리를 가는 45°-45°-90° 삼각형이고 60해리가 빗변이다. 북쪽 변 = 60 ÷ √2 = 30√2 ≈ 42.4해리. ⚠️ 함정: 30은 30°-60°-90°의 규칙(빗변 ÷ 2)을 잘못 쓴 값이고, 60√2는 √2로 나누지 않고 곱한 값이다."
-  },
-  {
-    "id": "mst_0265",
-    "topic": "geometry_measure",
-    "diff": 3,
-    "q": "A storage hangar is shaped like half of a cylinder lying on its flat side. The hangar is 50 feet long, and each semicircular end wall is 20 feet wide at the base. What is the volume of the hangar? (Leave the answer in terms of π.)",
-    "q_ko": "창고용 격납고가 원기둥을 길이 방향으로 반으로 잘라 평평한 면을 바닥에 놓은 모양이다. 격납고의 길이는 50피트이고, 반원 모양인 양쪽 끝 벽의 바닥 폭은 20피트이다. 격납고의 부피는? (답은 π를 포함한 식으로)",
-    "options": ["2,500π cubic feet","5,000π cubic feet","10,000π cubic feet","20,000π cubic feet"],
-    "answer": 0,
-    "explain": "풀이: 끝 벽(반원)의 지름 20ft → 반지름 10ft. 반원기둥 부피 = (1/2)πr²h = (1/2) × π × 10² × 50 = 2,500π ft³. ⚠️ 함정: 원기둥 전체로 계산하면 5,000π, 바닥 폭 20을 반지름으로 쓰면 10,000π(원기둥 전체면 20,000π)가 된다."
-  },
-  {
-    "id": "mst_0266",
-    "topic": "probability_stats",
-    "diff": 4,
-    "q": "A duty list includes 3 lieutenants, 4 lieutenants junior grade, and 5 ensigns. Two of these 12 officers are chosen at random. What is the probability that both officers hold the same rank?",
-    "q_ko": "당직 명단에 대위(LT) 3명, 중위(LTJG) 4명, 소위(ENS) 5명이 있다. 이 12명 중 2명을 무작위로 고를 때, 두 사람의 계급이 같을 확률은?",
-    "options": ["19/132","5/33","19/66","25/72"],
-    "answer": 2,
-    "explain": "풀이: 같은 계급 쌍의 수 = C(3,2) + C(4,2) + C(5,2) = 3 + 6 + 10 = 19. 전체 쌍 = C(12,2) = 66. 확률 = 19/66. ⚠️ 함정: 뽑은 사람을 다시 뽑을 수 있는 것처럼(복원) 계산하면 25/72, 소위끼리(10/66 = 5/33)만 세면 다른 계급이 빠진다. 19/132는 쌍의 수(조합)를 순서 있는 경우의 수로 나눈 실수다.",
-    "tags": ["navy"]
-  },
-  {
     "id": "mst_0267",
-    "topic": "word_problems",
+    "topic": "geometry_angles",
     "diff": 4,
-    "q": "A sum of money is invested for 2 years at 10% per year. Compounded annually, it earns $30 more in interest than it would earn with simple interest. How much money was invested?",
-    "q_ko": "어떤 금액을 연 10%로 2년 동안 투자한다. 연 복리로 하면 단리보다 이자가 30달러 더 많다. 투자한 금액은?",
-    "options": ["$150","$300","$1,500","$3,000"],
-    "answer": 3,
-    "explain": "풀이: 단리 이자 = P × 0.1 × 2 = 0.2P. 복리 이자 = P(1.1² - 1) = 0.21P. 차이 = 0.01P = 30 → P = 3,000달러. (차이는 첫해 이자 0.1P에 다시 붙은 이자 0.1P × 0.1이다.) ⚠️ 함정: 30을 0.1로만 나누면 300달러, 0.2로 나누면 150달러가 된다.",
+    "q": "At the same time of day, a 6-foot-tall person casts an 8-foot shadow, and a vertical flagpole casts a 24-foot shadow. What is the straight-line distance from the top of the flagpole to the tip of its shadow?",
+    "q_ko": "같은 시각에 키 6피트인 사람의 그림자는 8피트이고, 수직으로 선 깃대의 그림자는 24피트이다. 깃대 꼭대기에서 깃대 그림자 끝까지의 직선거리는?",
+    "options": ["18 feet","30 feet","40 feet","42 feet"],
+    "answer": 1,
+    "explain": "풀이: 닮음비 높이 : 그림자 = 6 : 8 → 깃대 높이 = 24 × 6/8 = 18ft. 꼭대기에서 그림자 끝까지는 빗변 = √(18² + 24²) = √900 = 30ft (3-4-5의 6배). ⚠️ 함정: 비를 뒤집어 높이를 32ft로 잡으면 40ft, 높이만 답하면 18ft, 두 변을 그냥 더하면 42ft가 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -193,18 +193,18 @@
     "id": "mst_0269",
     "topic": "geometry_measure",
     "diff": 2,
-    "q": "A cylindrical hydraulic reservoir has an inside diameter of 8 inches and a length of 5 inches. What is its volume? (Use π ≈ 3.14.)",
-    "q_ko": "원기둥 모양의 유압유 탱크(리저버)는 안지름이 8인치, 길이가 5인치이다. 부피는? (π ≈ 3.14)",
-    "options": ["62.8 cubic inches","125.6 cubic inches","251.2 cubic inches","1,004.8 cubic inches"],
+    "q": "A solid rubber wheel chock is shaped like a triangular prism. Each triangular end has a base of 6 inches and a height of 4 inches, and the chock is 10 inches long. What is the volume of the chock?",
+    "q_ko": "속이 꽉 찬 고무 바퀴 고임목(chock)이 삼각기둥 모양이다. 양 끝의 삼각형은 밑변 6인치, 높이 4인치이고, 고임목의 길이는 10인치이다. 고임목의 부피는?",
+    "options": ["12 cubic inches","40 cubic inches","120 cubic inches","240 cubic inches"],
     "answer": 2,
-    "explain": "풀이: 반지름 = 8 ÷ 2 = 4in. V = πr²h = 3.14 × 4² × 5 = 3.14 × 80 = 251.2in³. ⚠️ 함정: 지름 8을 반지름으로 쓰면 1,004.8(4배), 옆넓이 공식 2πrh를 쓰면 125.6, r을 제곱하지 않으면 62.8이 된다."
+    "explain": "풀이: 삼각기둥의 부피 = 밑면(삼각형) 넓이 × 길이. 삼각형 넓이 = (1/2) × 6 × 4 = 12in² → 부피 = 12 × 10 = 120in³. ⚠️ 함정: 삼각형 넓이에서 1/2을 빠뜨리면 240, 뿔처럼 1/3을 곱하면 40, 길이를 곱하지 않으면 12(밑면 넓이)가 된다."
   },
   {
     "id": "mst_0270",
     "topic": "word_problems",
     "diff": 3,
-    "q": "Working alone, three ground crews can wash a patrol aircraft in 6 hours, 8 hours, and 12 hours, respectively. How long will it take the three crews working together?",
-    "q_ko": "세 지상 정비팀이 각각 혼자서 초계기 한 대를 세척하는 데 6시간, 8시간, 12시간이 걸린다. 세 팀이 함께 일하면 얼마나 걸리는가?",
+    "q": "Working alone, three sailors can paint a section of a ship's hull in 6 hours, 8 hours, and 12 hours, respectively. How long will it take the three sailors working together?",
+    "q_ko": "세 수병이 각각 혼자서 함정 선체의 한 구역을 칠하는 데 6시간, 8시간, 12시간이 걸린다. 세 사람이 함께 일하면 얼마나 걸리는가?",
     "options": ["2 h 40 min","2 h 53 min","3 h 07 min","8 h 40 min"],
     "answer": 0,
     "explain": "풀이: 시간당 작업량을 더한다: 1/6 + 1/8 + 1/12 = 4/24 + 3/24 + 2/24 = 9/24. 걸리는 시간 = 24/9 = 2와 2/3시간 = 2시간 40분. ⚠️ 함정: 세 시간을 평균하면 8시간 40분, 그 평균을 다시 3으로 나누면 약 2시간 53분이다. 2.67시간을 \"2시간 67분(= 3시간 7분)\"으로 읽지 말 것."
@@ -212,23 +212,23 @@
   {
     "id": "mst_0271",
     "topic": "geometry_measure",
-    "diff": 3,
-    "q": "A square 3 inches on a side is cut from each corner of a rectangular metal sheet that is 20 inches long and 14 inches wide. The sides are then folded up to form an open-top box. What is the volume of the box?",
-    "q_ko": "길이 20인치, 너비 14인치인 직사각형 금속판의 네 모서리에서 한 변이 3인치인 정사각형을 하나씩 잘라 낸 뒤, 옆면을 접어 올려 뚜껑 없는 상자를 만든다. 상자의 부피는?",
-    "options": ["112 cubic inches","336 cubic inches","561 cubic inches","840 cubic inches"],
+    "diff": 4,
+    "q": "A rectangular box has three different faces with areas of 12, 15, and 20 square inches. What is the volume of the box?",
+    "q_ko": "직육면체 상자의 서로 다른 세 면의 넓이가 각각 12, 15, 20제곱인치이다. 상자의 부피는?",
+    "options": ["47 cubic inches","60 cubic inches","94 cubic inches","3,600 cubic inches"],
     "answer": 1,
-    "explain": "풀이: 길이와 너비는 양쪽 끝에서 3인치씩 줄어든다. 바닥 = (20 - 6) × (14 - 6) = 14 × 8 = 112in², 높이 = 3in → 부피 = 112 × 3 = 336in³. ⚠️ 함정: 한쪽에서만 3을 빼면 17 × 11 × 3 = 561, 높이를 곱하지 않으면 112, 잘라 낸 부분을 무시하면 20 × 14 × 3 = 840이 된다.",
+    "explain": "풀이: 세 모서리를 a, b, c라 하면 ab = 12, bc = 15, ac = 20. 세 식을 곱하면 (abc)² = 12 × 15 × 20 = 3,600 → abc = 60in³ (모서리는 4, 3, 5). ⚠️ 함정: 3,600은 제곱근을 빠뜨린 값이고, 47은 세 넓이의 합, 94는 겉넓이(2 × 47)다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0272",
-    "topic": "geometry_angles",
+    "topic": "probability_stats",
     "diff": 4,
-    "q": "In triangle ABC, AB = AC and angle A measures 40°. The bisector of angle B meets side AC at point D. What is the measure of angle BDC?",
-    "q_ko": "삼각형 ABC에서 AB = AC이고 각 A는 40°이다. 각 B의 이등분선이 변 AC와 점 D에서 만난다. 각 BDC의 크기는?",
-    "options": ["35°","70°","75°","105°"],
-    "answer": 2,
-    "explain": "풀이: AB = AC이므로 B = C = (180° - 40°) ÷ 2 = 70°. 이등분선이므로 각 DBC = 35°. 삼각형 BDC에서 각 BDC = 180° - 35° - 70° = 75°. (삼각형 ABD의 외각으로 보면 40° + 35° = 75°.) ⚠️ 함정: 105°는 그 옆의 각 ADB이고, 35°와 70°는 다른 각을 답한 것이다.",
+    "q": "A fair six-sided die is rolled twice. What is the probability that the second number rolled is greater than the first?",
+    "q_ko": "공정한 주사위를 두 번 던진다. 두 번째 눈이 첫 번째 눈보다 클 확률은?",
+    "options": ["5/12","1/2","7/12","5/6"],
+    "answer": 0,
+    "explain": "풀이: 36가지 중 두 눈이 같은 경우는 6가지다. 나머지 30가지는 \"두 번째가 큼\"과 \"첫 번째가 큼\"이 대칭이라 15가지씩 → 15/36 = 5/12. ⚠️ 함정: 같은 경우를 무시하고 반반으로 보면 1/2, \"크거나 같음\"을 세면 7/12, 단순히 \"다름\"을 세면 5/6이 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -243,34 +243,35 @@
   },
   {
     "id": "mst_0274",
-    "topic": "word_problems",
-    "diff": 2,
-    "q": "A store marks up the price of a $40 item by 50% and then puts it on sale at 20% off the marked-up price. What is the sale price?",
-    "q_ko": "가게가 40달러짜리 물건의 가격을 50% 올린 뒤, 올린 가격에서 20% 할인해 판매한다. 할인 판매 가격은?",
-    "options": ["$48","$52","$60","$72"],
-    "answer": 0,
-    "explain": "풀이: 올린 가격 = 40 × 1.5 = 60달러. 할인가 = 60 × (1 - 0.2) = 60 × 0.8 = 48달러. ⚠️ 함정: +50%와 -20%를 합쳐 +30%로 보면 52달러, 할인을 빠뜨리면 60달러, 20%를 빼지 않고 더하면 72달러가 된다.",
-    "tags": ["afoqt_overlap"]
-  },
-  {
-    "id": "mst_0275",
-    "topic": "unit_conversion",
-    "diff": 3,
-    "q": "A helicopter burns 4 gallons of fuel per minute. About how many liters of fuel does it burn per hour? (1 gallon ≈ 3.8 liters)",
-    "q_ko": "헬기가 분당 연료 4갤런을 쓴다. 시간당 약 몇 리터를 쓰는가? (1갤런 ≈ 3.8리터)",
-    "options": ["15.2 liters","63.2 liters","240 liters","912 liters"],
-    "answer": 3,
-    "explain": "풀이: 분당 4갤런 × 60 = 시간당 240갤런. 240 × 3.8 = 912리터. ⚠️ 함정: 60을 곱하지 않으면 분당 값 15.2, 3.8을 곱하지 않고 나누면 약 63.2, 리터로 바꾸지 않으면 240이다. 갤런 → 리터는 수가 커져야 한다."
-  },
-  {
-    "id": "mst_0276",
     "topic": "geometry_measure",
     "diff": 3,
     "q": "A propane tank is shaped like a cylinder with a hemisphere attached to each end. The cylindrical section is 10 feet long, and the radius of the tank is 3 feet. What is the total volume of the tank? (Leave the answer in terms of π.)",
     "q_ko": "프로판 탱크가 원기둥 양 끝에 반구가 하나씩 붙은 모양이다. 원기둥 부분의 길이는 10피트이고, 탱크의 반지름은 3피트이다. 탱크 전체의 부피는? (답은 π를 포함한 식으로)",
-    "options": ["108π cubic feet","126π cubic feet","144π cubic feet","162π cubic feet"],
-    "answer": 1,
-    "explain": "풀이: 원기둥 부분 = π × 3² × 10 = 90π. 양 끝 반구 2개 = 구 1개 = (4/3)π × 3³ = 36π. 합계 = 126π ft³. ⚠️ 함정: 반구를 하나만 더하면 108π, 양 끝에 구를 하나씩 더하면 162π, 전체 길이 16ft를 원기둥으로 보면 144π가 된다.",
+    "options": ["90π cubic feet","102π cubic feet","108π cubic feet","126π cubic feet"],
+    "answer": 3,
+    "explain": "풀이: 원기둥 부분 = π × 3² × 10 = 90π. 양 끝의 반구 2개를 합치면 구 1개 = (4/3)π × 3³ = 36π. 합계 = 126π ft³. ⚠️ 함정: 반구를 하나만 더하면 108π, 양 끝을 빼먹으면 90π, 구의 부피를 (4/3)πr²로 잘못 계산하면 90π + 12π = 102π가 된다.",
+    "tags": ["afoqt_overlap"]
+  },
+  {
+    "id": "mst_0275",
+    "topic": "geometry_angles",
+    "diff": 3,
+    "q": "Each interior angle of a regular polygon is 5 times as large as each of its exterior angles. How many sides does the polygon have?",
+    "q_ko": "정다각형의 한 내각의 크기가 한 외각의 크기의 5배이다. 이 정다각형의 변은 몇 개인가?",
+    "options": ["6","10","12","30"],
+    "answer": 2,
+    "explain": "풀이: 내각 + 외각 = 180°이고 내각 = 5 × 외각이므로 6 × 외각 = 180° → 외각 = 30°. 외각의 합은 항상 360°이므로 변의 수 = 360 ÷ 30 = 12. ⚠️ 함정: 30은 외각의 크기다. 비 5:1에서 5 + 1 = 6을 고르거나, (n - 2) × 180 = 1,800에서 n - 2 = 10에 멈추지 말 것.",
+    "tags": ["afoqt_overlap"]
+  },
+  {
+    "id": "mst_0276",
+    "topic": "word_problems",
+    "diff": 2,
+    "q": "A jacket is marked down 20%. The sale price is then reduced by another 25%. The final price is what percent less than the original price?",
+    "q_ko": "재킷 가격을 20% 할인한 뒤, 할인된 가격에서 다시 25%를 더 할인했다. 최종 가격은 원래 가격보다 몇 % 낮은가?",
+    "options": ["40%","45%","50%","60%"],
+    "answer": 0,
+    "explain": "풀이: 원래 가격을 100이라 하면 20% 할인 → 80, 다시 25% 할인 → 80 × 0.75 = 60. 원래보다 40 낮으므로 40% 할인과 같다. ⚠️ 함정: 할인율을 그냥 더하면 45%. 두 번째 25%는 원래 가격이 아니라 할인된 가격 80에 적용된다. 60%는 할인율이 아니라 최종 가격이 원래 가격의 몇 %인지다.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -286,44 +287,43 @@
   {
     "id": "mst_0278",
     "topic": "rate_time_distance",
-    "diff": 3,
-    "q": "A boat travels 10 nautical miles through a harbor at 10 knots and then 90 nautical miles in open water at 30 knots. What is its average speed for the entire trip?",
-    "q_ko": "보트가 항만 안에서 10노트로 10해리를 간 뒤, 먼바다에서 30노트로 90해리를 간다. 전체 구간의 평균 속력은?",
-    "options": ["15 knots","20 knots","25 knots","28 knots"],
+    "diff": 2,
+    "q": "An aircraft flying at a groundspeed of 240 knots passes over checkpoint A at 1412 and over checkpoint B at 1427. How far apart are the two checkpoints?",
+    "q_ko": "대지속도 240노트로 비행하는 항공기가 1412에 체크포인트 A 상공을, 1427에 체크포인트 B 상공을 지난다. 두 체크포인트 사이의 거리는?",
+    "options": ["16 nautical miles","36 nautical miles","60 nautical miles","3,600 nautical miles"],
     "answer": 2,
-    "explain": "풀이: 평균 속력 = 전체 거리 ÷ 전체 시간. 시간 = 10 ÷ 10 + 90 ÷ 30 = 1 + 3 = 4시간 → 100 ÷ 4 = 25노트. ⚠️ 함정: 두 속력을 그냥 평균하면 20노트, 왕복 공식 2ab/(a + b)를 쓰면 15노트(두 구간 거리가 같을 때만 성립), 거리로 가중평균하면 28노트가 된다."
+    "explain": "풀이: 걸린 시간 = 1427 - 1412 = 15분 = 15/60 = 0.25시간. 거리 = 240 × 0.25 = 60해리. (240노트 = 분당 4해리 → 4 × 15 = 60.) ⚠️ 함정: 15분을 0.15시간으로 바꾸면 36해리, 분을 시간처럼 곱하면 240 × 15 = 3,600해리, 속력을 시간으로 나누면 16이 된다."
   },
   {
     "id": "mst_0279",
-    "topic": "geometry_angles",
+    "topic": "unit_conversion",
     "diff": 3,
-    "q": "Each interior angle of a regular polygon is 5 times as large as each of its exterior angles. How many sides does the polygon have?",
-    "q_ko": "정다각형의 한 내각의 크기가 한 외각의 크기의 5배이다. 이 정다각형의 변은 몇 개인가?",
-    "options": ["6","10","12","30"],
-    "answer": 2,
-    "explain": "풀이: 내각 + 외각 = 180°이고 내각 = 5 × 외각이므로 6 × 외각 = 180° → 외각 = 30°. 외각의 합은 항상 360°이므로 변의 수 = 360 ÷ 30 = 12. ⚠️ 함정: 30은 외각의 크기다. 비 5:1에서 5 + 1 = 6을 고르거나, (n - 2) × 180 = 1,800에서 n - 2 = 10에 멈추지 말 것.",
-    "tags": ["afoqt_overlap"]
+    "q": "A helicopter burns 4 gallons of fuel per minute. About how many liters of fuel does it burn per hour? (1 gallon ≈ 3.8 liters)",
+    "q_ko": "헬기가 분당 연료 4갤런을 쓴다. 시간당 약 몇 리터를 쓰는가? (1갤런 ≈ 3.8리터)",
+    "options": ["15.2 liters","63.2 liters","240 liters","912 liters"],
+    "answer": 3,
+    "explain": "풀이: 분당 4갤런 × 60 = 시간당 240갤런. 240 × 3.8 = 912리터. ⚠️ 함정: 60을 곱하지 않으면 분당 값 15.2, 3.8을 곱하지 않고 나누면 약 63.2, 리터로 바꾸지 않으면 240이다. 갤런 → 리터는 수가 커져야 한다."
   },
   {
     "id": "mst_0280",
-    "topic": "word_problems",
+    "topic": "probability_stats",
     "diff": 3,
-    "q": "An item is discounted 25%, and then an 8% sales tax is added to the discounted price. The customer pays $81. What was the original price of the item?",
-    "q_ko": "물건을 25% 할인한 뒤, 할인된 가격에 판매세 8%를 붙였다. 손님이 낸 금액은 81달러이다. 물건의 원래 가격은?",
-    "options": ["$87.48","$93.75","$97.59","$100.00"],
+    "q": "A laundry bag holds 6 black socks and 4 white socks. Two socks are taken out at random without replacement. What is the probability of getting one black sock and one white sock?",
+    "q_ko": "세탁 가방에 검은 양말 6짝과 흰 양말 4짝이 있다. 양말 2짝을 다시 넣지 않고(비복원) 무작위로 꺼낸다. 검은 양말 1짝과 흰 양말 1짝이 나올 확률은?",
+    "options": ["6/25","4/15","12/25","8/15"],
     "answer": 3,
-    "explain": "풀이: 원가를 P라 하면 P × 0.75 × 1.08 = 81 → 0.81P = 81 → P = 100달러. ⚠️ 함정: 할인을 되돌린다고 1.25를 곱하면(81 × 1.25 ÷ 1.08) 93.75달러, -25%와 +8%를 합쳐 81 ÷ 0.83으로 하면 97.59달러가 된다. 87.48달러는 81에 세금을 한 번 더 붙인 값이다.",
+    "explain": "풀이: (검정, 흰색) 순서: 6/10 × 4/9 = 24/90. (흰색, 검정) 순서: 4/10 × 6/9 = 24/90. 합 = 48/90 = 8/15. ⚠️ 함정: 한 가지 순서만 계산하면 4/15. 꺼낸 양말을 다시 넣는 것처럼(복원) 분모를 10으로 두면 12/25나 6/25가 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0281",
     "topic": "geometry_angles",
-    "diff": 2,
-    "q": "A fighter climbs along a straight path at a constant angle of 30° above the horizontal. After it travels 4,000 feet along its flight path, how much altitude has it gained?",
-    "q_ko": "전투기가 수평선 위 30°의 일정한 각도로 직선 경로를 따라 상승한다. 비행 경로를 따라 4,000피트를 이동했을 때, 고도는 얼마나 높아졌는가?",
-    "options": ["2,000 feet","2,000√2 feet","2,000√3 feet","4,000 feet"],
-    "answer": 0,
-    "explain": "풀이: 비행 경로 4,000ft가 빗변이고 상승각이 30°인 30°-60°-90° 직각삼각형이다. 30°의 맞은편 변(높이) = 빗변 ÷ 2 = 2,000ft. ⚠️ 함정: 2,000√3ft는 60°의 맞은편 변, 즉 수평 이동 거리다. 2,000√2ft는 45°-45°-90° 비율을 잘못 쓴 값이고, 4,000ft는 빗변 자체다."
+    "diff": 3,
+    "q": "A ship steams 60 nautical miles on a course of 045° (northeast). How far north of its starting point is the ship?",
+    "q_ko": "함정이 침로 045°(북동쪽)로 60해리를 항해한다. 출발점에서 북쪽으로 얼마나 떨어져 있는가?",
+    "options": ["30 nautical miles","30√2 nautical miles","30√3 nautical miles","60√2 nautical miles"],
+    "answer": 1,
+    "explain": "풀이: 045° 침로는 북쪽과 동쪽으로 같은 거리를 가는 45°-45°-90° 삼각형이고 60해리가 빗변이다. 북쪽 변 = 60 ÷ √2 = 30√2 ≈ 42.4해리. ⚠️ 함정: 30은 30°-60°-90°의 규칙(빗변 ÷ 2)을 잘못 쓴 값이고, 60√2는 √2로 나누지 않고 곱한 값이다."
   },
   {
     "id": "mst_0282",
@@ -340,44 +340,43 @@
     "id": "mst_0283",
     "topic": "geometry_angles",
     "diff": 4,
-    "q": "At the same time of day, a 6-foot-tall person casts an 8-foot shadow, and a vertical flagpole casts a 24-foot shadow. What is the straight-line distance from the top of the flagpole to the tip of its shadow?",
-    "q_ko": "같은 시각에 키 6피트인 사람의 그림자는 8피트이고, 수직으로 선 깃대의 그림자는 24피트이다. 깃대 꼭대기에서 깃대 그림자 끝까지의 직선거리는?",
-    "options": ["18 feet","30 feet","40 feet","42 feet"],
-    "answer": 1,
-    "explain": "풀이: 닮음비 높이 : 그림자 = 6 : 8 → 깃대 높이 = 24 × 6/8 = 18ft. 꼭대기에서 그림자 끝까지는 빗변 = √(18² + 24²) = √900 = 30ft (3-4-5의 6배). ⚠️ 함정: 비를 뒤집어 높이를 32ft로 잡으면 40ft, 높이만 답하면 18ft, 두 변을 그냥 더하면 42ft가 된다.",
+    "q": "A triangle is inscribed in a circle, and one side of the triangle is a diameter of the circle. The other two sides are 10 inches and 24 inches long. What is the circumference of the circle? (Leave the answer in terms of π.)",
+    "q_ko": "삼각형이 원에 내접하고, 삼각형의 한 변이 원의 지름이다. 나머지 두 변의 길이는 10인치와 24인치이다. 원의 둘레는? (답은 π를 포함한 식으로)",
+    "options": ["26π inches","34π inches","52π inches","169π inches"],
+    "answer": 0,
+    "explain": "풀이: 지름을 한 변으로 하는 내접 삼각형은 지름의 맞은편 각이 90°인 직각삼각형이다(반원에 대한 원주각). 지름 = √(10² + 24²) = √676 = 26인치 → 둘레 = π × 26 = 26π인치. ⚠️ 함정: 26을 반지름으로 보고 2πr로 계산하면 52π, 169π는 넓이(π × 13²), 34π는 두 변을 더해 지름으로 잡은 값이다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0284",
-    "topic": "probability_stats",
-    "diff": 3,
-    "q": "A jar holds 5 red marbles and 4 blue marbles. Two marbles are drawn at random without replacement. What is the probability that one marble of each color is drawn?",
-    "q_ko": "병에 빨간 구슬 5개와 파란 구슬 4개가 있다. 구슬 2개를 다시 넣지 않고(비복원) 무작위로 꺼낸다. 두 색이 하나씩 나올 확률은?",
-    "options": ["20/81","5/18","40/81","5/9"],
-    "answer": 3,
-    "explain": "풀이: (빨강, 파랑) 순서: 5/9 × 4/8 = 20/72. (파랑, 빨강) 순서: 4/9 × 5/8 = 20/72. 합 = 40/72 = 5/9. ⚠️ 함정: 한 가지 순서만 계산하면 5/18. 꺼낸 구슬을 다시 넣는 것처럼(복원) 분모를 9로 두면 40/81이나 20/81이 된다.",
-    "tags": ["afoqt_overlap"]
+    "topic": "rate_time_distance",
+    "diff": 2,
+    "q": "An aircraft with a true airspeed of 160 knots flies 480 nautical miles into a steady 40-knot headwind. It burns 10 gallons of fuel per hour. How many gallons of fuel does it burn on this flight?",
+    "q_ko": "진대기속도 160노트인 항공기가 일정한 40노트의 맞바람을 받으며 480해리를 비행한다. 연료는 시간당 10갤런을 쓴다. 이 비행에서 연료를 몇 갤런 쓰는가?",
+    "options": ["24 gallons","30 gallons","40 gallons","48 gallons"],
+    "answer": 2,
+    "explain": "풀이: 맞바람이면 대지속도 = 160 - 40 = 120노트. 시간 = 480 ÷ 120 = 4시간. 연료 = 4 × 10 = 40갤런. ⚠️ 함정: 바람을 무시하면 3시간 → 30갤런, 바람을 더하면(뒷바람으로 착각) 200노트 → 2.4시간 → 24갤런이 된다. 48은 거리 480을 연료율 10으로 나눈 의미 없는 값이다."
   },
   {
     "id": "mst_0285",
-    "topic": "rate_time_distance",
-    "diff": 2,
-    "q": "An aircraft flies at a groundspeed of 150 knots. How many minutes does it take to fly 50 nautical miles?",
-    "q_ko": "항공기가 대지속도 150노트로 비행한다. 50해리를 비행하는 데 몇 분이 걸리는가?",
-    "options": ["3 minutes","20 minutes","33 minutes","125 minutes"],
-    "answer": 1,
-    "explain": "풀이: 150노트 = 분당 150 ÷ 60 = 2.5해리. 50 ÷ 2.5 = 20분. (또는 50 ÷ 150 = 1/3시간 = 20분.) ⚠️ 함정: 1/3시간 ≈ 0.33시간을 \"33분\"으로 읽으면 안 된다. 시간 → 분은 60을 곱한다. 3은 150 ÷ 50, 125는 50 × 2.5로 계산한 값이다."
+    "topic": "word_problems",
+    "diff": 3,
+    "q": "An item is discounted 25%, and then an 8% sales tax is added to the discounted price. The customer pays $81. What was the original price of the item?",
+    "q_ko": "물건을 25% 할인한 뒤, 할인된 가격에 판매세 8%를 붙였다. 손님이 낸 금액은 81달러이다. 물건의 원래 가격은?",
+    "options": ["$87.48","$93.75","$97.59","$100.00"],
+    "answer": 3,
+    "explain": "풀이: 원가를 P라 하면 P × 0.75 × 1.08 = 81 → 0.81P = 81 → P = 100달러. ⚠️ 함정: 할인을 되돌린다고 1.25를 곱하면(81 × 1.25 ÷ 1.08) 93.75달러, -25%와 +8%를 합쳐 81 ÷ 0.83으로 하면 97.59달러가 된다. 87.48달러는 81에 세금을 한 번 더 붙인 값이다.",
+    "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0286",
-    "topic": "word_problems",
+    "topic": "rate_time_distance",
     "diff": 3,
-    "q": "A deposit of $2,500 grows to $3,025 in 2 years with interest compounded annually. What is the annual interest rate?",
-    "q_ko": "2,500달러를 예금했더니 연 복리로 2년 후 3,025달러가 되었다. 연이율은?",
-    "options": ["5%","10%","10.5%","21%"],
+    "q": "Two ships leave the same port at the same time. One steams due east at 12 knots, and the other steams due north at 16 knots. After how many hours will the ships be 140 nautical miles apart?",
+    "q_ko": "두 함정이 같은 항구에서 동시에 출항한다. 한 척은 정동쪽으로 12노트, 다른 한 척은 정북쪽으로 16노트로 항해한다. 몇 시간 후에 두 함정은 140해리 떨어지는가?",
+    "options": ["5 hours","7 hours","10 hours","35 hours"],
     "answer": 1,
-    "explain": "풀이: 3,025 ÷ 2,500 = 1.21 = 1.1². 매년 1.1배가 되었으므로 연이율은 10%. (확인: 2,500 → 2,750 → 3,025.) ⚠️ 함정: 이자 525달러를 2,500으로 나눈 21%는 2년 합계이고, 그 절반 10.5%는 단리로 계산한 값이다. 10%를 다시 2로 나눈 5%도 틀린다.",
-    "tags": ["afoqt_overlap"]
+    "explain": "풀이: 두 함정은 직각 방향으로 멀어진다. t시간 후 거리 = √((12t)² + (16t)²) = 20t (3-4-5의 4배). 20t = 140 → t = 7시간. ⚠️ 함정: 반대 방향처럼 속력을 더하면(28노트) 5시간, 같은 방향처럼 빼면(4노트) 35시간, 두 속력의 평균(14노트)을 쓰면 10시간이 된다."
   },
   {
     "id": "mst_0287",
@@ -392,33 +391,34 @@
   },
   {
     "id": "mst_0288",
-    "topic": "word_problems",
-    "diff": 4,
-    "q": "A 20-gallon tank is full of a cleaning solution that is 40% concentrate. Five gallons of the solution are drained and replaced with pure concentrate. What percent of the new solution is concentrate?",
-    "q_ko": "20갤런 탱크에 원액 비율이 40%인 세정액이 가득 차 있다. 이 세정액 5갤런을 빼내고 순수 원액 5갤런을 채운다. 새 세정액의 원액 비율은?",
-    "options": ["44%","52%","55%","65%"],
-    "answer": 2,
-    "explain": "풀이: 5갤런을 빼면 15갤런이 남고 그 안의 원액 = 15 × 0.4 = 6갤런. 원액 5갤런을 넣으면 (6 + 5) ÷ 20 = 11/20 = 55%. ⚠️ 함정: 빼낸 5갤런에도 원액 2갤런이 있었다. 이를 무시하면 (8 + 5) ÷ 20 = 65%, 빼지 않고 더하기만 하면 13 ÷ 25 = 52%가 된다."
+    "topic": "probability_stats",
+    "diff": 3,
+    "q": "Two radar sets search for a target independently. The first detects it with probability 0.6, and the second detects it with probability 0.7. What is the probability that exactly one of the two radars detects the target?",
+    "q_ko": "두 레이더가 서로 독립적으로 목표를 탐색한다. 첫째 레이더가 탐지할 확률은 0.6, 둘째 레이더가 탐지할 확률은 0.7이다. 두 레이더 중 정확히 하나만 탐지할 확률은?",
+    "options": ["0.18","0.28","0.42","0.46"],
+    "answer": 3,
+    "explain": "풀이: 정확히 하나는 두 경우의 합이다. 첫째만 탐지 = 0.6 × 0.3 = 0.18, 둘째만 탐지 = 0.4 × 0.7 = 0.28. 합 = 0.46. ⚠️ 함정: 한 경우만 계산하면 0.18이나 0.28, 0.6 × 0.7 = 0.42는 둘 다 탐지할 확률이다. \"적어도 하나\"(1 - 0.4 × 0.3 = 0.88)와도 구별할 것."
   },
   {
     "id": "mst_0289",
-    "topic": "probability_stats",
+    "topic": "geometry_measure",
     "diff": 3,
-    "q": "A class of 30 student naval aviators averaged 80 on an exam. The Navy students averaged 84, and the Marine Corps students averaged 74. How many students in the class are Marines?",
-    "q_ko": "해군 비행 훈련생 30명의 시험 평균이 80점이었다. 해군 학생의 평균은 84점, 해병대 학생의 평균은 74점이었다. 해병대 학생은 몇 명인가?",
-    "options": ["6","12","15","18"],
+    "q": "A concrete drainage pipe is 8 feet long. Its outer radius is 2 feet, and its inner radius is 1.5 feet. What volume of concrete does the pipe contain? (Leave the answer in terms of π.)",
+    "q_ko": "콘크리트 배수관의 길이는 8피트이다. 바깥 반지름은 2피트, 안쪽 반지름은 1.5피트이다. 배수관을 이루는 콘크리트의 부피는? (답은 π를 포함한 식으로)",
+    "options": ["2π cubic feet","14π cubic feet","18π cubic feet","32π cubic feet"],
     "answer": 1,
-    "explain": "풀이: 해병 수를 M이라 하면 84(30 - M) + 74M = 80 × 30 = 2,400 → 2,520 - 10M = 2,400 → M = 12. (해군은 평균보다 4점 높고 해병은 6점 낮으므로 인원비 해군 : 해병 = 6 : 4 = 18 : 12.) ⚠️ 함정: 비를 거꾸로 적용하면 18(해군 수), 두 집단이 같다고 보면 15가 된다."
+    "explain": "풀이: 콘크리트 = 바깥 원기둥 - 안쪽 빈 공간 = π(2²)(8) - π(1.5²)(8) = 32π - 18π = 14π ft³. ⚠️ 함정: 두께 0.5ft를 반지름처럼 제곱하면 π(0.5²)(8) = 2π가 된다. 반지름의 차가 아니라 r²의 차를 써야 한다. 32π는 바깥 원기둥, 18π는 빈 공간의 부피다.",
+    "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0290",
     "topic": "rate_time_distance",
-    "diff": 2,
-    "q": "An aircraft with a true airspeed of 160 knots flies 480 nautical miles into a steady 40-knot headwind. It burns 10 gallons of fuel per hour. How many gallons of fuel does it burn on this flight?",
-    "q_ko": "진대기속도 160노트인 항공기가 일정한 40노트의 맞바람을 받으며 480해리를 비행한다. 연료는 시간당 10갤런을 쓴다. 이 비행에서 연료를 몇 갤런 쓰는가?",
-    "options": ["24 gallons","30 gallons","40 gallons","48 gallons"],
-    "answer": 2,
-    "explain": "풀이: 맞바람이면 대지속도 = 160 - 40 = 120노트. 시간 = 480 ÷ 120 = 4시간. 연료 = 4 × 10 = 40갤런. ⚠️ 함정: 바람을 무시하면 3시간 → 30갤런, 바람을 더하면(뒷바람으로 착각) 200노트 → 2.4시간 → 24갤런이 된다. 48은 거리 480을 연료율 10으로 나눈 의미 없는 값이다."
+    "diff": 4,
+    "q": "Two aircraft are 1,000 nautical miles apart and fly directly toward each other on the same route. Aircraft A departs at 1300 and flies at 200 knots. Aircraft B departs at 1330 and flies at 300 knots. At what time do they meet?",
+    "q_ko": "두 항공기가 1,000해리 떨어져 있고 같은 항로에서 서로를 향해 날아간다. A는 1300에 출발해 200노트로, B는 1330에 출발해 300노트로 비행한다. 두 항공기는 몇 시에 만나는가?",
+    "options": ["1438","1500","1512","1518"],
+    "answer": 3,
+    "explain": "풀이: 1330까지 A 혼자 0.5시간 × 200 = 100해리를 가므로 남은 거리는 900해리. 이후 접근 속도 200 + 300 = 500노트 → 900 ÷ 500 = 1.8시간 = 1시간 48분. 1330 + 1:48 = 1518. ⚠️ 함정: 출발 시차를 무시하면 2시간 → 1500. 1.8시간을 \"1시간 8분\"으로 읽으면 1438, 앞서 간 거리를 B의 속력(150해리)으로 계산하면 1512가 된다."
   },
   {
     "id": "mst_0291",
@@ -454,27 +454,6 @@
   },
   {
     "id": "mst_0294",
-    "topic": "geometry_angles",
-    "diff": 2,
-    "q": "Two parallel lines are cut by a transversal. Two interior angles on the same side of the transversal are in the ratio 2:7. What is the measure of the smaller angle?",
-    "q_ko": "평행한 두 직선이 한 직선(횡단선)과 만난다. 횡단선의 같은 쪽에 있는 두 내각(동측내각)의 비가 2:7이다. 작은 각의 크기는?",
-    "options": ["20°","40°","80°","140°"],
-    "answer": 1,
-    "explain": "풀이: 평행선에서 같은 쪽 내각(동측내각)의 합은 180°이다. 작은 각 = 180° × 2/9 = 40° (큰 각은 140°). ⚠️ 함정: 두 각의 합을 360°로 보면 80°, 90°로 보면 20°가 나온다. 140°는 큰 각이다.",
-    "tags": ["afoqt_overlap"]
-  },
-  {
-    "id": "mst_0295",
-    "topic": "rate_time_distance",
-    "diff": 4,
-    "q": "Two aircraft are 1,000 nautical miles apart and fly directly toward each other on the same route. Aircraft A departs at 1300 and flies at 200 knots. Aircraft B departs at 1330 and flies at 300 knots. At what time do they meet?",
-    "q_ko": "두 항공기가 1,000해리 떨어져 있고 같은 항로에서 서로를 향해 날아간다. A는 1300에 출발해 200노트로, B는 1330에 출발해 300노트로 비행한다. 두 항공기는 몇 시에 만나는가?",
-    "options": ["1438","1500","1512","1518"],
-    "answer": 3,
-    "explain": "풀이: 1330까지 A 혼자 0.5시간 × 200 = 100해리를 가므로 남은 거리는 900해리. 이후 접근 속도 200 + 300 = 500노트 → 900 ÷ 500 = 1.8시간 = 1시간 48분. 1330 + 1:48 = 1518. ⚠️ 함정: 출발 시차를 무시하면 2시간 → 1500. 1.8시간을 \"1시간 8분\"으로 읽으면 1438, 앞서 간 거리를 B의 속력(150해리)으로 계산하면 1512가 된다."
-  },
-  {
-    "id": "mst_0296",
     "topic": "unit_conversion",
     "diff": 3,
     "q": "A ship is making 18 knots. Using 1 nautical mile ≈ 2,000 yards, how many yards does the ship travel in 3 minutes?",
@@ -485,36 +464,57 @@
     "tags": ["navy"]
   },
   {
+    "id": "mst_0295",
+    "topic": "word_problems",
+    "diff": 4,
+    "q": "A 20-gallon tank is full of a cleaning solution that is 40% concentrate. Five gallons of the solution are drained and replaced with pure concentrate. What percent of the new solution is concentrate?",
+    "q_ko": "20갤런 탱크에 원액 비율이 40%인 세정액이 가득 차 있다. 이 세정액 5갤런을 빼내고 순수 원액 5갤런을 채운다. 새 세정액의 원액 비율은?",
+    "options": ["44%","52%","55%","65%"],
+    "answer": 2,
+    "explain": "풀이: 5갤런을 빼면 15갤런이 남고 그 안의 원액 = 15 × 0.4 = 6갤런. 원액 5갤런을 넣으면 (6 + 5) ÷ 20 = 11/20 = 55%. ⚠️ 함정: 빼낸 5갤런에도 원액 2갤런이 있었다. 이를 무시하면 (8 + 5) ÷ 20 = 65%, 빼지 않고 더하기만 하면 13 ÷ 25 = 52%가 된다."
+  },
+  {
+    "id": "mst_0296",
+    "topic": "geometry_angles",
+    "diff": 2,
+    "q": "Through vertex A of triangle ABC, a line is drawn parallel to side BC. On one side of A, this line forms a 55° angle with side AB; on the other side of A, it forms a 65° angle with side AC. What is the measure of angle BAC?",
+    "q_ko": "삼각형 ABC의 꼭짓점 A를 지나고 변 BC에 평행한 직선을 긋는다. A의 한쪽에서 이 직선은 변 AB와 55°를 이루고, 다른 쪽에서는 변 AC와 65°를 이룬다. 각 BAC의 크기는?",
+    "options": ["55°","60°","65°","120°"],
+    "answer": 1,
+    "explain": "풀이: 직선 위의 점 A에서 55°, 각 BAC, 65°가 나란히 놓여 평각(180°)을 이룬다 → 각 BAC = 180° - 55° - 65° = 60°. (평행선의 엇각이므로 각 B = 55°, 각 C = 65°이고, 삼각형 내각의 합으로도 60°.) ⚠️ 함정: 두 각을 더한 120°는 각 A가 아니라 각 A의 보각(180° - 60°)이다. 55°와 65°는 각 B와 각 C의 크기다.",
+    "tags": ["afoqt_overlap"]
+  },
+  {
     "id": "mst_0297",
     "topic": "geometry_measure",
-    "diff": 4,
-    "q": "A rectangular box has three different faces with areas of 12, 15, and 20 square inches. What is the volume of the box?",
-    "q_ko": "직육면체 상자의 서로 다른 세 면의 넓이가 각각 12, 15, 20제곱인치이다. 상자의 부피는?",
-    "options": ["47 cubic inches","60 cubic inches","94 cubic inches","3,600 cubic inches"],
+    "diff": 3,
+    "q": "A square 3 inches on a side is cut from each corner of a rectangular metal sheet that is 20 inches long and 14 inches wide. The sides are then folded up to form an open-top box. What is the volume of the box?",
+    "q_ko": "길이 20인치, 너비 14인치인 직사각형 금속판의 네 모서리에서 한 변이 3인치인 정사각형을 하나씩 잘라 낸 뒤, 옆면을 접어 올려 뚜껑 없는 상자를 만든다. 상자의 부피는?",
+    "options": ["112 cubic inches","336 cubic inches","561 cubic inches","840 cubic inches"],
     "answer": 1,
-    "explain": "풀이: 세 모서리를 a, b, c라 하면 ab = 12, bc = 15, ac = 20. 세 식을 곱하면 (abc)² = 12 × 15 × 20 = 3,600 → abc = 60in³ (모서리는 4, 3, 5). ⚠️ 함정: 3,600은 제곱근을 빠뜨린 값이고, 47은 세 넓이의 합, 94는 겉넓이(2 × 47)다.",
+    "explain": "풀이: 길이와 너비는 양쪽 끝에서 3인치씩 줄어든다. 바닥 = (20 - 6) × (14 - 6) = 14 × 8 = 112in², 높이 = 3in → 부피 = 112 × 3 = 336in³. ⚠️ 함정: 한쪽에서만 3을 빼면 17 × 11 × 3 = 561, 높이를 곱하지 않으면 112, 잘라 낸 부분을 무시하면 20 × 14 × 3 = 840이 된다.",
     "tags": ["afoqt_overlap"]
   },
   {
     "id": "mst_0298",
-    "topic": "word_problems",
-    "diff": 3,
-    "q": "An account that pays 5% simple interest per year earned $270 in interest in 18 months. How much money was deposited?",
-    "q_ko": "연 5% 단리를 주는 계좌에서 18개월 동안 이자 270달러가 붙었다. 처음 예금한 금액은?",
-    "options": ["$300","$3,000","$3,600","$5,400"],
+    "topic": "probability_stats",
+    "diff": 4,
+    "q": "A duty list includes 3 lieutenants, 4 lieutenants junior grade, and 5 ensigns. Two of these 12 officers are chosen at random. What is the probability that both officers hold the same rank?",
+    "q_ko": "당직 명단에 대위(LT) 3명, 중위(LTJG) 4명, 소위(ENS) 5명이 있다. 이 12명 중 2명을 무작위로 고를 때, 두 사람의 계급이 같을 확률은?",
+    "options": ["19/132","5/33","19/66","25/72"],
     "answer": 2,
-    "explain": "풀이: 18개월 = 1.5년. 이자 = 원금 × 이율 × 기간 → 270 = P × 0.05 × 1.5 = 0.075P → P = 3,600달러. ⚠️ 함정: 18개월을 1.8년으로 바꾸면 3,000달러, 18년으로 보면 300달러, 기간을 1년으로 두면 5,400달러가 된다.",
-    "tags": ["afoqt_overlap"]
+    "explain": "풀이: 같은 계급 쌍의 수 = C(3,2) + C(4,2) + C(5,2) = 3 + 6 + 10 = 19. 전체 쌍 = C(12,2) = 66. 확률 = 19/66. ⚠️ 함정: 뽑은 사람을 다시 뽑을 수 있는 것처럼(복원) 계산하면 25/72, 소위끼리(10/66 = 5/33)만 세면 다른 계급이 빠진다. 19/132는 쌍의 수(조합)를 순서 있는 경우의 수로 나눈 실수다.",
+    "tags": ["navy"]
   },
   {
     "id": "mst_0299",
     "topic": "unit_conversion",
     "diff": 2,
-    "q": "An aircraft access panel measures 18 inches by 24 inches. What is its area in square feet?",
-    "q_ko": "항공기 점검용 패널의 크기가 18인치 × 24인치이다. 넓이는 몇 제곱피트인가?",
-    "options": ["3 square feet","36 square feet","48 square feet","432 square feet"],
+    "q": "A rectangular aluminum sheet for an aircraft skin repair measures 30 inches by 48 inches. What is its area in square feet?",
+    "q_ko": "항공기 외피 수리에 쓸 직사각형 알루미늄 판의 크기가 30인치 × 48인치이다. 넓이는 몇 제곱피트인가?",
+    "options": ["10 square feet","120 square feet","160 square feet","1,440 square feet"],
     "answer": 0,
-    "explain": "풀이: 1ft² = 12 × 12 = 144in². 18 × 24 = 432in² → 432 ÷ 144 = 3ft². (또는 1.5ft × 2ft = 3ft².) ⚠️ 함정: 넓이 환산은 길이 비의 제곱이다. 12로만 나누면 36, 9로 나누면(제곱야드 환산과 혼동) 48, 환산하지 않으면 432다."
+    "explain": "풀이: 1ft² = 12 × 12 = 144in². 30 × 48 = 1,440in² → 1,440 ÷ 144 = 10ft². (또는 2.5ft × 4ft = 10ft².) ⚠️ 함정: 넓이 환산은 길이 비의 제곱이다. 12로만 나누면 120, 9로 나누면(제곱야드 환산과 혼동) 160, 환산하지 않으면 1,440이다."
   },
   {
     "id": "mst_0300",
