@@ -13,7 +13,7 @@
   {
     "id": "mst_0252",
     "topic": "unit_conversion",
-    "diff": 4,
+    "diff": 3,
     "q": "The temperature at an airfield is 86°F. The air cools by 2°C for every 1,000 feet of altitude. What is the temperature 5,000 feet above the field, in degrees Fahrenheit? (°F = (9/5)°C + 32)",
     "q_ko": "비행장의 기온은 86°F이다. 공기는 고도 1,000피트마다 2°C씩 낮아진다. 비행장 위 5,000피트의 기온은 화씨로 몇 도인가? (°F = (9/5)°C + 32)",
     "options": ["20°F","36°F","68°F","76°F"],
@@ -223,7 +223,7 @@
   {
     "id": "mst_0272",
     "topic": "probability_stats",
-    "diff": 4,
+    "diff": 3,
     "q": "A fair six-sided die is rolled twice. What is the probability that the second number rolled is greater than the first?",
     "q_ko": "공정한 주사위를 두 번 던진다. 두 번째 눈이 첫 번째 눈보다 클 확률은?",
     "options": ["5/12","1/2","7/12","5/6"],
@@ -239,7 +239,7 @@
     "q_ko": "경비행기의 속도계가 시속 115마일(mph)을 가리킨다. 바람이 없을 때 75해리를 비행하는 데 약 몇 분이 걸리는가? (1노트 ≈ 1.15mph)",
     "options": ["34 minutes","39 minutes","45 minutes","75 minutes"],
     "answer": 2,
-    "explain": "풀이: 115mph ÷ 1.15 = 100노트 = 시간당 100해리. 75 ÷ 100 = 0.75시간 = 45분. ⚠️ 함정: 해리와 마일을 섞어 75 ÷ 115로 계산하면 약 39분, 1.15를 거꾸로 곱하면(132mph로 착각) 약 34분, 0.75시간을 75분으로 읽으면 틀린다."
+    "explain": "풀이: 115mph ÷ 1.15 = 100노트 = 시간당 100해리. 75 ÷ 100 = 0.75시간 = 45분. ⚠️ 함정: 해리와 마일을 섞어 75 ÷ 115로 계산하면 약 39분, 1.15로 나누지 않고 곱해 약 132노트로 잘못 바꾸면 약 34분, 0.75시간을 75분으로 읽으면 틀린다."
   },
   {
     "id": "mst_0274",
@@ -446,11 +446,11 @@
     "id": "mst_0293",
     "topic": "rate_time_distance",
     "diff": 4,
-    "q": "A patrol aircraft has fuel for 5 hours of flight and a true airspeed of 150 knots. It will fly straight out against a 30-knot headwind and return along the same route with the same wind behind it. How far out can it fly and still return?",
-    "q_ko": "초계기는 5시간 비행할 연료가 있고 진대기속도는 150노트이다. 30노트 맞바람을 받으며 곧장 나갔다가 같은 경로로 뒷바람을 받으며 돌아온다. 돌아올 수 있는 최대 진출 거리는?",
-    "options": ["300 nautical miles","360 nautical miles","375 nautical miles","450 nautical miles"],
+    "q": "A patrol aircraft has fuel for 4 hours of flight and a true airspeed of 180 knots. It will fly straight out against a 30-knot headwind and return along the same route with the same wind behind it. How far out can it fly and still return?",
+    "q_ko": "초계기는 4시간 비행할 연료가 있고 진대기속도는 180노트이다. 30노트 맞바람을 받으며 곧장 나갔다가 같은 경로로 뒷바람을 받으며 돌아온다. 돌아올 수 있는 최대 진출 거리는?",
+    "options": ["300 nautical miles","350 nautical miles","360 nautical miles","420 nautical miles"],
     "answer": 1,
-    "explain": "풀이: 갈 때 대지속도 120노트, 올 때 180노트. 편도 거리를 d라 하면 d/120 + d/180 = 5 → (3d + 2d)/360 = 5 → d = 360해리. ⚠️ 함정: 바람이 왕복에서 상쇄된다고 보면 150 × 2.5 = 375해리. 느린 맞바람 구간에 더 오래 머물기 때문에 실제 거리는 더 짧다."
+    "explain": "풀이: 갈 때 대지속도 180 - 30 = 150노트, 올 때 180 + 30 = 210노트. 편도 거리를 d라 하면 d/150 + d/210 = 4 → (7d + 5d)/1,050 = 4 → 12d = 4,200 → d = 350해리. (확인: 갈 때 2시간 20분 + 올 때 1시간 40분 = 4시간.) ⚠️ 함정: 바람이 왕복에서 상쇄된다고 보면 180 × 2 = 360해리. 느린 맞바람 구간에 더 오래 머물기 때문에 실제 거리는 더 짧다. 300과 420은 한쪽 대지속도로만 2시간씩 계산한 값이다."
   },
   {
     "id": "mst_0294",
