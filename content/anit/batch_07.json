@@ -124,7 +124,7 @@
    "q":"In marlinespike seamanship, what is the bitter end of a line?",
    "q_ko":"줄 다루기(marlinespike seamanship)에서 줄의 'bitter end'란?",
    "options":["A loop formed by bending the line back on itself","The long, main part of the line","The very end of the line","A splice that joins two lines together"],"answer":2,
-   "explain":"bitter end는 줄의 맨 끝을 말한다(닻줄에서는 체인 로커에 고정된 안쪽 끝). 줄을 접어 만든 굽이(고리)는 bight, 매듭에 쓰이지 않는 길고 주된 부분은 standing part, 두 줄을 꼬아 잇는 것은 splice다. 'to the bitter end(끝까지)'라는 표현도 여기서 나왔다는 설이 널리 알려져 있다.",
+   "explain":"bitter end는 줄의 맨 끝을 말한다(닻줄에서는 체인 로커에 고정된 안쪽 끝). 줄을 접어 만든 굽이(고리)는 bight, 매듭에 쓰이지 않는 길고 주된 부분은 standing part, 두 줄의 가닥을 엮어 잇는 것은 splice다. 'to the bitter end(끝까지)'라는 표현도 여기서 나왔다는 설이 널리 알려져 있다.",
    "tags":["navy"]},
   {"id":"anit_0321","topic":"carrier_ops","diff":3,
    "q":"Assume the ship shown, viewed from above, is an aircraft carrier. Near which labeled area is the Landing Signal Officer's platform located?",

@@ -171,12 +171,12 @@
   {
     "id": "anit_0266",
     "topic": "airport_ops",
-    "diff": 3,
+    "diff": 2,
     "q": "On final approach, a pilot sees the PAPI shown. What does it indicate, and what should the pilot do?",
     "q_ko": "최종 접근 중 조종사에게 그림과 같은 PAPI가 보인다. 무엇을 뜻하며 조종사는 어떻게 해야 하는가?",
     "options": ["Well above the path; steepen the descent", "Slightly above the path; descend a bit faster", "Slightly below the path; descend a bit slower", "Well below the path; level off until on the path"],
     "answer": 3,
-    "explain": "PAPI는 백색 2·적색 2가 정상 활공경로(약 3°)다. 4개가 모두 적색이면 경로보다 훨씬 낮은(well below, 약 2.5° 미만) 상태이므로 더 내려가지 말고 수평을 유지하거나 필요하면 출력을 더해, 백색 2·적색 2가 보일 때까지 경로로 돌아가야 한다. 백색 1은 약간 낮음, 백색 3은 약간 높음, 백색 4는 훨씬 높음이다. 💡 암기: 'Red on red, you're dead' — 적색이 많을수록 낮다.",
+    "explain": "PAPI는 백색 2·적색 2가 정상 활공경로(약 3°)다. 4개가 모두 적색이면 경로보다 훨씬 낮은(well below, 약 2.5° 미만) 상태이므로 더 내려가지 말고 수평을 유지하거나 필요하면 출력을 더해, 백색 2·적색 2가 보일 때까지 경로로 돌아가야 한다. 백색 1은 약간 낮음, 백색 3은 약간 높음, 백색 4는 훨씬 높음이다. 💡 암기: 'All red, you're dead' — 적색이 많을수록 낮다.",
     "fig": {"type": "papi", "white": 0},
     "tags": ["afoqt_overlap"]
   },
@@ -185,7 +185,7 @@
     "topic": "carrier_ops",
     "diff": 4,
     "q": "Which carrier air wing squadron flies the MH-60R Seahawk, with anti-submarine warfare as one of its primary missions?",
-    "q_ko": "MH-60R 시호크를 운용하며 대잠전(anti-submarine warfare)을 주요 임무로 하는 항모 비행단 비행대대는?",
+    "q_ko": "MH-60R 시호크를 운용하며 대잠전(anti-submarine warfare)을 주요 임무 중 하나로 하는 항모 비행단 비행대대는?",
     "options": ["HSC", "HSM", "VAW", "VRM"],
     "answer": 1,
     "explain": "HSM(Helicopter Maritime Strike)은 MH-60R로 대잠전(ASW)·대수상전(ASUW)을 주로 맡는다. 같은 시호크 계열이지만 HSC(Helicopter Sea Combat)는 MH-60S로 전투 탐색구조(CSAR)·수직 보급(VERTREP)·특수작전 지원 등을 맡는다. VAW와 VRM은 V로 시작하므로 헬기가 아닌 고정익(틸트로터 포함) 대대다. 💡 HS'M' = Maritime strike(바다 속·위 표적 공격).",
@@ -195,11 +195,11 @@
     "id": "anit_0268",
     "topic": "weather",
     "diff": 3,
-    "q": "Which stage of a thunderstorm is dominated by downdrafts, with rainfall gradually decreasing as the storm dies out?",
-    "q_ko": "하강기류가 지배적이고, 뇌우가 소멸하면서 강수가 점차 줄어드는 뇌우의 단계는?",
-    "options": ["Cumulus stage", "Mature stage", "Dissipating stage", "Anvil stage"],
+    "q": "Which set of weather characteristics is typical of a stable air mass?",
+    "q_ko": "안정한 기단(stable air mass)에서 전형적으로 나타나는 기상 특징의 조합은?",
+    "options": ["Cumuliform clouds, showery precipitation, rough air, good visibility", "Cumuliform clouds, steady precipitation, smooth air, poor visibility", "Stratiform clouds, steady precipitation, smooth air, poor visibility", "Stratiform clouds, showery precipitation, rough air, good visibility"],
     "answer": 2,
-    "explain": "뇌우는 적운(cumulus) → 성숙(mature) → 소산(dissipating) 3단계로 발달한다. 적운 단계는 상승기류가 주도하고, 성숙 단계는 비가 내리기 시작해 상승·하강기류가 공존하며 가장 격렬하다. 소산 단계에서는 하강기류가 지배해 구름이 흩어지고 비가 약해진다. 'Anvil stage'라는 공식 단계는 없다.",
+    "explain": "안정한 공기는 상승 운동이 억제되어 층운형(stratiform) 구름·안개, 지속적인 강수, 난류 없는 매끄러운 공기가 나타나고, 연무·연기가 낮은 층에 갇혀 시정이 보통~나쁘다(PHAK). 불안정한 공기는 반대로 적운형(cumuliform) 구름, 소나기성 강수, 난류(rough air), (날림 먼지·눈이 없으면) 좋은 시정이 특징이다. 나머지 두 보기는 두 성질을 섞어 놓은 함정이다. 💡 암기: 안정 = 납작한 구름·잔잔한 공기·뿌연 시야.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -307,7 +307,7 @@
   {
     "id": "anit_0278",
     "topic": "carrier_ops",
-    "diff": 4,
+    "diff": 3,
     "q": "A VRM squadron flying the CMV-22B Osprey performs what main mission for an aircraft carrier?",
     "q_ko": "CMV-22B 오스프리를 운용하는 VRM 비행대대가 항공모함을 위해 수행하는 주 임무는?",
     "options": ["Airborne early warning for the strike group", "Carrier onboard delivery of cargo and people", "Aerial refueling for strike fighters", "Combat search and rescue of downed aircrew"],
@@ -319,11 +319,11 @@
     "id": "anit_0279",
     "topic": "engines_systems",
     "diff": 3,
-    "q": "In a piston engine, ignition of the fuel-air mixture before the spark plug fires, usually caused by a hot spot in the cylinder, is called:",
-    "q_ko": "피스톤 엔진에서 실린더 안의 과열 지점(hot spot) 때문에 점화 플러그가 불꽃을 내기 전에 혼합기가 먼저 불붙는 현상을 무엇이라 하는가?",
-    "options": ["Detonation", "Vapor lock", "Backfiring", "Preignition"],
+    "q": "Compared with a carbureted engine, a fuel-injected piston aircraft engine is less prone to which problem?",
+    "q_ko": "기화기(carburetor)식 엔진과 비교할 때, 연료분사식(fuel injection) 피스톤 항공기 엔진에서 덜 생기는 문제는?",
+    "options": ["Vapor lock on the ground on hot days", "Hard starting when the engine is hot", "Hard restarts after fuel starvation", "Induction icing from fuel vaporization"],
     "answer": 3,
-    "explain": "조기 점화(preignition)는 탄소 퇴적물, 금 간 점화 플러그 절연체 같은 실린더 안의 과열 지점이 정상 점화 시점보다 먼저 혼합기에 불을 붙이는 현상이다(PHAK). 디토네이션(detonation)은 점화 후 남은 혼합기가 고르게 타지 않고 폭발적으로 타는 것, 베이퍼 록(vapor lock)은 연료관 안에서 연료가 기화해 흐름이 막히는 것이다. 조기 점화와 디토네이션 모두 과열·출력 손실·엔진 손상을 부른다.",
+    "explain": "기화기는 벤투리(venturi)에서 연료가 기화하며 공기 온도를 떨어뜨려 흡기 계통에 얼음이 생기기 쉽다. 연료분사식은 이런 증발 착빙(evaporative icing)이 줄어드는 것이 장점이다(PHAK). 반면 더운 날 지상 운용 중의 베이퍼 록(vapor lock), 뜨거운 엔진의 시동 곤란, 연료 고갈(fuel starvation)로 꺼진 엔진의 재시동 문제는 PHAK가 꼽는 연료분사식의 단점이다. 그 밖의 장점: 고른 연료 분배, 빠른 스로틀 반응, 추운 날에도 쉬운 시동.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -345,7 +345,7 @@
     "q_ko": "계류줄을 다룰 때 'Check(체크)' 명령은 무슨 뜻인가?",
     "options": ["Hold, but ease out line to keep it from parting", "Pay out line until there is no tension on it", "Hold fast and do not pay out any more line", "Haul in line until there is tension on it"],
     "answer": 0,
-    "explain": "'Check'는 줄에 장력을 유지하며 버티되, 장력이 지나쳐 끊어질(parting) 위험이 있으면 줄을 조금씩 내주는 것이다. 'Slack'은 장력이 없도록 줄을 늘어뜨려 내주는 것, 'Hold'는 더 이상 줄을 내주지 않는 것(끊어질 위험이 있으면 즉시 함교에 보고), 'Take a strain'은 줄을 당겨 장력을 거는 것이다.",
+    "explain": "'Check'는 줄에 장력을 유지하며 버티되, 장력이 지나쳐 끊어질(parting) 위험이 있으면 줄을 조금씩 내주는 것이다. 'Slack'은 장력이 없도록 줄을 늘어뜨려 내주는 것, 'Hold'는 줄이 끊어질 위험이 있더라도 더 이상 내주지 않고 그대로 붙잡는 것, 'Take a strain'은 줄을 당겨 장력을 거는 것이다.",
     "tags": ["navy"]
   },
   {
@@ -433,7 +433,7 @@
     "diff": 4,
     "q": "The U.S. Navy's first airplane, the Curtiss A-1 ordered in 1911, was nicknamed the \"Triad\" because it could:",
     "q_ko": "1911년에 주문된 미 해군 최초의 비행기 커티스(Curtiss) A-1은 '트라이어드(Triad)'라는 별명으로 불렸다. 그 이유는?",
-    "options": ["Carry a crew of three", "Fly with three stacked wings", "Operate on land, on water, and in the air", "Fly with three engines"],
+    "options": ["Carry a crew of three", "Fly with three stacked wings", "Operate on land, sea, and air", "Fly with three engines"],
     "answer": 2,
     "explain": "커티스 A-1 트라이어드는 1911년 5월 8일 주문된 해군 최초의 항공기로, 이날이 해군 항공의 탄생일로 기념된다. 바퀴와 플로트(float)를 함께 갖춰 땅과 물 위에서 뜨고 내리며 하늘을 날 수 있었기 때문에 '세 가지(land·sea·air)'라는 뜻의 Triad라 불렸다. 엔진 1개짜리 복엽기였다.",
     "tags": ["navy"]
