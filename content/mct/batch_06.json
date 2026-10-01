@@ -292,7 +292,7 @@
   {
     "id": "mct_0279",
     "topic": "engines",
-    "diff": 4,
+    "diff": 3,
     "q": "An engine cylinder has a swept (displacement) volume of 450 cc and a clearance volume of 50 cc. What is its compression ratio?",
     "q_ko": "엔진 실린더의 행정 체적(배기량)이 450 cc이고 간극 체적(연소실 체적)이 50 cc이다. 압축비는?",
     "options": ["8:1","9:1","10:1","11:1"],
@@ -451,7 +451,7 @@
   {
     "id": "mct_0294",
     "topic": "engines",
-    "diff": 3,
+    "diff": 2,
     "q": "What does the afterburner on a military jet engine do?",
     "q_ko": "군용 제트 엔진의 애프터버너(afterburner)는 무슨 일을 하는가?",
     "options": ["Burns extra fuel behind the turbine for more thrust","Burns leftover exhaust fuel to save fuel","Preheats the intake air before compression","Heats the turbine so it spins the compressor faster"],
@@ -493,7 +493,7 @@
     "id": "mct_0298",
     "topic": "electricity_circuits",
     "diff": 3,
-    "q": "A heater with a fixed resistance uses 1,000 W on 120 V. As shown, it is instead connected to a 60-V supply. How much power does it use now?",
+    "q": "A heater with a fixed resistance uses 1,000 W on 120 V. If it is connected to a 60-V supply instead, as shown, how much power does it use?",
     "q_ko": "저항이 일정한 히터가 120 V에서 1,000 W를 쓴다. 그림처럼 이 히터를 60 V 전원에 연결하면 소비 전력은?",
     "options": ["250 W","500 W","1,000 W","2,000 W"],
     "answer": 0,
