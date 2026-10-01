@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rct_0161",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Turbulence Without a Cloud",
+    "passage": "Turbulence is often associated with thunderstorms, but some of the roughest air at cruising altitude is found in clear skies. Clear-air turbulence usually forms where layers of air moving at different speeds or in different directions meet, a common situation near the jet stream, a narrow band of strong winds high in the atmosphere. Because there are no clouds, pilots get no visual warning. Onboard weather radar is of little help either, since it detects echoes from raindrops and other precipitation, and clear air contains none. Crews therefore rely on forecasts of areas where strong wind shear is likely and on reports from aircraft that have already flown through the area. Airlines also urge passengers to keep their seat belts fastened whenever they are seated, even when the seat belt sign is off.",
+    "passage_ko": "난기류는 흔히 뇌우와 연관되지만, 순항 고도에서 가장 거친 공기 가운데 일부는 맑은 하늘에서 나타난다. 청천난류(clear-air turbulence)는 보통 서로 다른 속도나 방향으로 움직이는 공기층이 만나는 곳에서 생기는데, 이는 대기 높은 곳에 있는 좁고 강한 바람의 띠인 제트기류 근처에서 흔한 상황이다. 구름이 없으므로 조종사는 눈으로 볼 수 있는 경고를 받지 못한다. 기상 레이더도 별 도움이 되지 않는다. 레이더는 빗방울과 그 밖의 강수에서 되돌아오는 반사파를 탐지하는데, 맑은 공기에는 그런 것이 전혀 없기 때문이다. 그래서 승무원들은 강한 윈드시어가 예상되는 지역에 대한 예보와, 그 지역을 이미 지나간 항공기의 보고에 의존한다. 항공사들은 또한 좌석벨트 표시등이 꺼져 있더라도 자리에 앉아 있을 때는 늘 좌석벨트를 매 두라고 승객들에게 권한다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "Clear-air turbulence is usually milder than the turbulence found inside thunderstorms.",
+      "Weather radar can detect clear-air turbulence once the aircraft nears the jet stream.",
+      "Reports from aircraft ahead can warn a crew of turbulence that its radar would miss.",
+      "Clear-air turbulence forms only inside the jet stream itself and never outside it."
+    ],
+    "answer": 2,
+    "explain": "근거: 레이더는 \"detects echoes from raindrops and other precipitation, and clear air contains none\"이므로 승무원은 \"reports from aircraft that have already flown through the area\"에 의존한다.\n(1) 지문과 반대 — 맑은 하늘에 \"some of the roughest air\"가 있다고 함\n(2) 지문과 반대 — 레이더는 강수만 잡으므로 제트기류 근처에서도 탐지 못 함\n(4) 과잉 일반화 — only/never, 제트기류 근처는 '흔한' 곳일 뿐"
+  },
+  {
+    "id": "rct_0162",
+    "topic": "naval",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Tide and Current",
+    "passage": "Sailors use the word tide for the vertical rise and fall of the sea and current for the horizontal flow of water that goes with it. The two are linked, but they do not always keep the same schedule. Along an open coast, the incoming current may weaken and stop close to the time of high water. In many bays, rivers, and narrow channels, however, water can keep flowing inland for an hour or more after the level has begun to fall, because the tide reaches different parts of a basin at different times. Navigators who plan to pass through a narrow channel at slack water, the brief period when the current stops before reversing, therefore consult tables of predicted currents rather than relying on the times of high and low water.",
+    "passage_ko": "선원들은 바다의 수직적인 오르내림을 조석(tide), 그에 따르는 물의 수평적인 흐름을 조류(current)라고 부른다. 둘은 연결되어 있지만 언제나 같은 일정으로 움직이지는 않는다. 탁 트인 해안에서는 밀려드는 조류가 고조(high water) 시각 무렵에 약해지다가 멈출 수 있다. 그러나 많은 만과 강, 좁은 수로에서는 수위가 내려가기 시작한 뒤에도 한 시간 이상 물이 계속 안쪽으로 흐를 수 있는데, 조석이 한 수역의 여러 부분에 서로 다른 시각에 도달하기 때문이다. 그래서 좁은 수로를 정조(slack water), 즉 조류가 방향을 바꾸기 전 잠시 멈추는 짧은 시간에 통과하려는 항해사는 고조·저조 시각에 의존하지 않고 조류 예측표를 참고한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "In some channels, a falling water level does not by itself mean the current has turned seaward.",
+      "In bays and rivers, slack water usually comes before high water rather than after it.",
+      "Along an open coast, the current always stops at the exact moment of high water.",
+      "Navigators use current tables mainly because tide tables for narrow channels are often inaccurate."
+    ],
+    "answer": 0,
+    "explain": "근거: \"water can keep flowing inland for an hour or more after the level has begun to fall\" — 수위가 내려가기 시작해도 물은 여전히 안쪽으로 흐를 수 있다.\n(2) 뒤집기 — 만·강에서는 정조가 고조보다 '뒤에' 올 수 있음\n(3) 과잉 일반화 — always/exact, 지문은 고조 '무렵(close to)'이라고만 함\n(4) 이유 왜곡 — 표가 부정확해서가 아니라 조석과 조류의 일정이 달라서"
+  },
+  {
+    "id": "rct_0163",
+    "topic": "health",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "How Many Must Be Immune?",
+    "passage": "When enough people in a community are immune to a contagious disease, an infected person is unlikely to meet someone who can catch it, and outbreaks die out before they spread widely. This effect, known as herd immunity, also protects people who cannot be vaccinated, such as very young infants. The share of the population that must be immune depends on how contagious the disease is. For measles, one of the most contagious diseases known, the figure is about 95 percent; for diseases that spread less easily, it is considerably lower. National averages can also mislead. If people who are not immune are concentrated in particular schools or neighborhoods, a disease can spread within those groups even when the country as a whole has reached the required level.",
+    "passage_ko": "한 공동체에서 충분히 많은 사람이 어떤 전염병에 면역을 갖고 있으면, 감염된 사람이 그 병에 걸릴 수 있는 사람을 만날 가능성이 낮아지고 유행은 널리 퍼지기 전에 사그라진다. 집단면역(herd immunity)이라 불리는 이 효과는 아주 어린 영아처럼 백신을 맞을 수 없는 사람들도 보호한다. 인구 가운데 면역을 가져야 하는 비율은 그 병의 전염성이 얼마나 강한지에 따라 달라진다. 알려진 병 중 전염성이 가장 강한 축에 드는 홍역은 그 수치가 약 95퍼센트이고, 덜 쉽게 퍼지는 병은 그보다 상당히 낮다. 전국 평균도 오해를 낳을 수 있다. 면역이 없는 사람들이 특정 학교나 동네에 몰려 있으면, 나라 전체로는 필요한 수준에 도달했더라도 그 집단 안에서는 병이 퍼질 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Once a country reaches 95 percent immunity, measles can no longer spread anywhere within it.",
+      "Herd immunity mainly benefits people who have already been vaccinated against the disease.",
+      "A disease that spreads less easily requires a larger share of immune people to stop outbreaks.",
+      "A town where 90 percent are immune might be shielded from some diseases but not from measles."
+    ],
+    "answer": 3,
+    "explain": "근거: 필요한 면역 비율은 \"depends on how contagious the disease is\" — 홍역은 \"about 95 percent\", 덜 전염되는 병은 \"considerably lower\"이므로 90%는 홍역엔 부족해도 다른 병엔 충분할 수 있다.\n(1) 지문과 반대 — 비면역자가 한곳에 몰리면 국가 전체가 기준을 넘어도 퍼질 수 있음\n(2) 세부 왜곡 — 백신을 맞을 수 없는 영아도 보호한다고 함\n(3) 비교 뒤집기 — 덜 전염될수록 필요한 비율은 '낮음'"
+  },
+  {
+    "id": "rct_0164",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Cold Injury Above Freezing",
+    "passage": "Cold injuries do not require freezing temperatures. Frostbite occurs when tissue actually freezes, but a different injury, often called trench foot, develops when the feet stay cold and wet for many hours at temperatures well above freezing. Wet socks draw heat away from the skin far faster than dry ones, and tight boots and long periods of standing still reduce blood flow further. The early signs are easy to dismiss: the feet may feel only numb or cold, and serious pain and swelling often appear only after they are rewarmed. Because nerves and blood vessels can remain damaged for months or even years, prevention receives heavy emphasis. Soldiers are taught to carry spare socks, change them at least once a day, dry and massage their feet, and avoid lacing their boots too tightly.",
+    "passage_ko": "냉손상은 영하의 기온이 있어야만 생기는 것이 아니다. 동상은 조직이 실제로 얼 때 생기지만, 흔히 참호족(trench foot)이라 불리는 다른 손상은 영상보다 훨씬 높은 기온에서도 발이 여러 시간 동안 차갑고 젖은 채로 있으면 생긴다. 젖은 양말은 마른 양말보다 피부의 열을 훨씬 빨리 빼앗고, 꽉 끼는 군화와 오랫동안 가만히 서 있는 것은 혈류를 더 줄인다. 초기 징후는 대수롭지 않게 넘기기 쉽다. 발이 그저 무감각하거나 차갑게 느껴질 뿐이고, 심한 통증과 부기는 발을 다시 데운 뒤에야 나타나는 경우가 많다. 신경과 혈관이 몇 달, 심지어 몇 년 동안 손상된 채로 남을 수 있기 때문에 예방이 크게 강조된다. 병사들은 여분의 양말을 가지고 다니며 적어도 하루에 한 번은 갈아 신고, 발을 말리고 마사지하며, 군화 끈을 너무 꽉 매지 않도록 교육받는다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문에서 추론할 수 있는 것은?",
+    "options": [
+      "trench foot is simply a milder form of frostbite that occurs in slightly warmer weather",
+      "feet that feel only cold and numb may already be injured in ways that cause pain later",
+      "the damage done by trench foot usually heals within a few days once the feet are dry",
+      "soldiers should loosen their boots mainly so that wet socks can dry more quickly"
+    ],
+    "answer": 1,
+    "explain": "근거: \"the feet may feel only numb or cold, and serious pain and swelling often appear only after they are rewarmed\" — 차갑고 무감각하기만 해도 이미 손상되었을 수 있다.\n(1) 세부 왜곡 — 참호족은 동상과 '다른 손상(a different injury)'이며 조직이 얼지 않음\n(3) 지문과 반대 — 손상이 \"months or even years\" 갈 수 있음\n(4) 이유 왜곡 — 끈을 꽉 매지 않는 것은 혈류 감소를 막기 위해서"
+  },
+  {
+    "id": "rct_0165",
+    "topic": "economics",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "The Winner's Curse",
+    "passage": "Suppose several companies bid for the right to drill for oil beneath a tract of seabed. The oil would be worth about the same to any of them, but no one knows exactly how much is there, so each company bids according to its own estimate. Even if the estimates are accurate on average, some will be too high and others too low, and the company that wins is likely to be the one whose estimate was the most optimistic. The winner may therefore pay more than the tract is worth, an outcome known as the winner's curse. The danger grows as more bidders compete and as the true value becomes harder to estimate. Experienced bidders protect themselves by offering somewhat less than their own estimates suggest the tract is worth.",
+    "passage_ko": "여러 회사가 어느 해저 구역 아래에서 석유를 시추할 권리를 놓고 입찰한다고 하자. 석유의 가치는 어느 회사에게나 거의 같겠지만 정확히 얼마나 묻혀 있는지는 아무도 모르므로, 각 회사는 자신의 추정치에 따라 입찰한다. 추정치가 평균적으로는 정확하더라도 어떤 것은 너무 높고 어떤 것은 너무 낮을 것이며, 낙찰받는 회사는 추정치가 가장 낙관적이었던 회사일 가능성이 크다. 그래서 낙찰자는 그 구역의 실제 가치보다 더 많이 지불할 수 있는데, 이를 승자의 저주(winner's curse)라고 한다. 이 위험은 경쟁하는 입찰자가 많을수록, 그리고 실제 가치를 추정하기 어려울수록 커진다. 노련한 입찰자들은 자신의 추정치가 가리키는 가치보다 다소 낮게 제시해 스스로를 보호한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The winner's curse arises because the bidders' estimates are, on average, too high.",
+      "Beating many rivals for a hard-to-value tract suggests the winner may have overestimated it.",
+      "Adding more bidders to such an auction lowers the risk that the winner will overpay.",
+      "Experienced bidders avoid the curse by bidding above their own estimates so that they win."
+    ],
+    "answer": 1,
+    "explain": "근거: \"the company that wins is likely to be the one whose estimate was the most optimistic\" + \"The danger grows as more bidders compete and as the true value becomes harder to estimate\" — 이겼다는 사실 자체가 과대평가의 신호다.\n(1) 지문과 반대 — 추정치가 \"accurate on average\"여도 저주가 생김\n(3) 뒤집기 — 입찰자가 많을수록 위험이 커짐\n(4) 뒤집기 — 노련한 입찰자는 추정치보다 '낮게' 제시"
+  },
+  {
+    "id": "rct_0166",
+    "topic": "environment",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Otters, Urchins, and Kelp",
+    "passage": "Along parts of the North Pacific coast, the health of underwater kelp forests depends on an animal that never eats kelp. Sea otters feed heavily on sea urchins, spiny grazers that can chew through the base of kelp stalks. Where otters are present, urchins tend to stay few in number and hidden in crevices, feeding mostly on drifting scraps of kelp, and the forests thrive. When fur hunters nearly wiped out the otters in the eighteenth and nineteenth centuries, urchin numbers soared in many areas, and dense forests gave way to bare, rocky seafloor known as urchin barrens. In places where otters have since returned, kelp has often regrown within a few years, bringing back many of the fish that shelter among its fronds.",
+    "passage_ko": "북태평양 연안 일부 지역에서는 바닷속 켈프(다시마류) 숲의 건강이 켈프를 전혀 먹지 않는 한 동물에 달려 있다. 해달은 성게를 많이 잡아먹는데, 성게는 켈프 줄기의 밑동을 갉아 끊을 수 있는 가시 돋친 초식동물이다. 해달이 있는 곳에서는 성게가 적은 수로 바위틈에 숨어 지내며 주로 떠다니는 켈프 조각을 먹고, 숲은 번성한다. 18세기와 19세기에 모피 사냥꾼들이 해달을 거의 멸종시키자 많은 지역에서 성게 수가 치솟았고, 울창했던 숲은 성게 황무지(urchin barren)라 불리는 헐벗은 바위 해저로 바뀌었다. 그 뒤 해달이 돌아온 곳에서는 켈프가 몇 년 안에 다시 자라는 경우가 많았고, 그 잎 사이에 숨어 사는 많은 물고기도 함께 돌아왔다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "Urchins become more numerous after otters return, since regrown kelp gives them more food.",
+      "Once a kelp forest has become an urchin barren, it is unlikely ever to grow back.",
+      "Some coastal fish populations may depend indirectly on the presence of sea otters.",
+      "Otters were nearly wiped out because they competed with fishermen for sea urchins."
+    ],
+    "answer": 2,
+    "explain": "근거: 해달이 성게를 억제해 켈프 숲이 유지되고, 해달이 돌아오자 켈프가 자라며 \"bringing back many of the fish that shelter among its fronds\" — 물고기는 해달에 간접적으로 의존한다.\n(1) 인과 뒤집기 — 해달이 돌아오면 성게는 줄어듦\n(2) 지문과 반대 — 켈프가 \"within a few years\" 다시 자람\n(4) 원인 왜곡 — 해달을 거의 멸종시킨 것은 모피 사냥꾼"
+  },
+  {
+    "id": "rct_0167",
+    "topic": "culture",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Painting into Wet Plaster",
+    "passage": "In true fresco, the technique behind many Renaissance wall paintings, the artist brushes pigments mixed with water onto a layer of fresh, damp lime plaster. As the plaster dries, a chemical reaction binds the color into the wall itself, making the painting extremely durable. The method imposes strict limits, however. Plaster stays workable for only about a day, so artists spread only as much as they could paint in one session, and correcting a mistake usually meant chipping away the plaster and redoing that section. Some details and certain colors were added afterward on dry plaster, where the paint simply sits on the surface. Many of those additions have flaked away over the centuries, while the colors painted into wet plaster often survive.",
+    "passage_ko": "르네상스 시대 많은 벽화에 쓰인 기법인 진짜 프레스코(true fresco)에서는 화가가 물에 갠 안료를 갓 바른 축축한 석회 회벽 위에 붓으로 칠한다. 회벽이 마르면서 화학 반응이 색을 벽 자체에 결합시키기 때문에 그림은 매우 오래간다. 그러나 이 방법에는 엄격한 제약이 따른다. 회벽은 하루 정도만 작업할 수 있는 상태로 유지되므로, 화가들은 한 번에 그릴 수 있는 만큼만 회벽을 발랐고, 실수를 고치려면 대개 그 회벽을 쪼아 내고 그 부분을 다시 그려야 했다. 일부 세부와 특정 색은 나중에 마른 회벽 위에 덧칠했는데, 이때 물감은 표면 위에 얹혀 있을 뿐이다. 그렇게 덧칠한 부분 중 상당수는 수 세기에 걸쳐 벗겨져 떨어졌지만, 젖은 회벽에 칠한 색은 남아 있는 경우가 많다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Details missing from an old fresco today may have been painted after the plaster had dried.",
+      "Because plaster dried within a day, artists had to finish each entire wall in one session.",
+      "Painting on dry plaster was a newer method that replaced true fresco during the Renaissance.",
+      "Colors painted into wet plaster tend to fade sooner than those added later on dry plaster."
+    ],
+    "answer": 0,
+    "explain": "근거: 마른 회벽에 덧칠한 것은 \"Many of those additions have flaked away\", 젖은 회벽에 칠한 색은 \"often survive\" — 지금 사라진 세부는 마른 뒤에 칠한 것일 수 있다.\n(2) 세부 왜곡 — 벽 전체가 아니라 한 번에 그릴 수 있는 만큼만 회벽을 바름\n(3) 지문에 없는 내용 — 마른 회벽 기법이 프레스코를 대체했다는 말은 없음\n(4) 비교 뒤집기 — 젖은 회벽에 칠한 색이 더 오래 남음"
+  },
+  {
+    "id": "rct_0168",
+    "topic": "science",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Where a Rainbow Appears",
+    "passage": "A rainbow forms when sunlight enters falling raindrops, reflects off their back surfaces, and leaves them bent at an angle of about 42 degrees. As a result, a rainbow is always centered on the point directly opposite the sun from the observer, the point where the shadow of the observer's head would fall. The bow is the part of a circle lying 42 degrees from that point. When the sun is low, the opposite point lies only slightly below the horizon, and a tall arch appears. As the sun climbs, the opposite point sinks, and the visible arch shrinks. Once the sun is more than 42 degrees above the horizon, no rainbow can be seen from the ground at all, although a viewer in an aircraft may see a complete circle.",
+    "passage_ko": "무지개는 햇빛이 떨어지는 빗방울 속으로 들어가 빗방울 뒷면에서 반사된 뒤 약 42도 꺾여 나올 때 생긴다. 그 결과 무지개는 언제나 관찰자에게서 볼 때 태양의 정반대 지점, 즉 관찰자의 머리 그림자가 떨어지는 지점을 중심으로 한다. 무지개 띠는 그 지점에서 42도 떨어진 원의 일부이다. 해가 낮을 때는 정반대 지점이 지평선 바로 아래에 있어 높은 아치가 나타난다. 해가 높이 오를수록 정반대 지점은 아래로 가라앉고, 보이는 아치는 작아진다. 해가 지평선 위로 42도보다 높이 뜨면 지상에서는 무지개를 전혀 볼 수 없지만, 항공기에 탄 사람은 완전한 원을 볼 수도 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A rainbow appears tallest when the sun stands high in the sky around midday.",
+      "A rainbow is centered on the sun, with the colored bow curving around it.",
+      "Viewers in aircraft see full circles because raindrops bend light more at altitude.",
+      "The shadow of a person watching a rainbow points toward the center of the bow."
+    ],
+    "answer": 3,
+    "explain": "근거: 무지개는 \"always centered on the point directly opposite the sun ..., the point where the shadow of the observer's head would fall\" — 관찰자의 그림자는 무지개 중심을 향한다.\n(1) 뒤집기 — 해가 낮을 때 아치가 높고, 해가 오르면 작아짐\n(2) 뒤집기 — 중심은 태양이 아니라 태양의 정반대 지점\n(3) 지문에 없는 이유 — 고도에서 빛이 더 꺾인다는 설명은 없음"
+  },
+  {
+    "id": "rct_0169",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "The Harbor Pilot",
+    "passage": "Ships entering or leaving many ports must take on a harbor pilot, a local mariner licensed for those particular waters. A ship's captain may have crossed oceans many times yet visit a given port only rarely, while the pilot works the same channel day after day and knows how its currents shift with the tide, where sandbars have built up, and how local traffic tends to move. The pilot usually boards from a small boat while the ship is still under way, climbing a rope ladder hung over the side, and then directs the ship's movements through the harbor. Even so, in most countries the presence of a pilot does not relieve the captain of responsibility for the ship. If the captain judges that the pilot is putting the ship in danger, the captain may take back control.",
+    "passage_ko": "많은 항구에서는 드나드는 선박이 도선사(harbor pilot)를 태워야 하는데, 도선사는 그 특정 수역에 대해 면허를 받은 현지 선원이다. 선장은 대양을 여러 번 건넜더라도 어느 항구에는 드물게만 올 수 있는 반면, 도선사는 같은 수로를 날마다 오가며 조석에 따라 물살이 어떻게 바뀌는지, 어디에 모래톱이 쌓였는지, 현지 선박들이 대개 어떻게 움직이는지를 안다. 도선사는 보통 배가 아직 항행 중일 때 작은 보트에서 옮겨 타는데, 선체 옆으로 늘어뜨린 줄사다리를 타고 올라온 뒤 항구 안에서 배의 움직임을 지휘한다. 그렇더라도 대부분의 나라에서 도선사가 탔다고 해서 선장이 배에 대한 책임에서 벗어나는 것은 아니다. 선장은 도선사가 배를 위험에 빠뜨리고 있다고 판단하면 지휘권을 되찾을 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Once a pilot boards, the captain is no longer responsible for the safety of the ship.",
+      "A pilot's value comes mainly from long, repeated experience in one particular area.",
+      "Harbor pilots generally have more years at sea than the captains of the ships they guide.",
+      "Pilots usually board only after a ship has come to a full stop outside the harbor."
+    ],
+    "answer": 1,
+    "explain": "근거: 선장은 그 항구에 드물게 오지만 도선사는 \"works the same channel day after day and knows how its currents shift ...\" — 도선사의 가치는 한 수역에서 반복해 쌓은 경험이다.\n(1) 지문과 반대 — 도선사가 있어도 선장의 책임은 그대로\n(3) 비교 왜곡 — 바다 경력 연수는 비교하지 않음\n(4) 세부 왜곡 — 배가 \"still under way\"일 때 승선"
+  },
+  {
+    "id": "rct_0170",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Clearing the Ears on Descent",
+    "passage": "The middle ear is an air-filled space connected to the back of the throat by a narrow passage called the Eustachian tube. When an aircraft climbs and the outside pressure falls, the air in the middle ear expands and usually escapes through the tube on its own. Descent is a different matter. As the outside pressure rises, air must flow back into the middle ear, but the tube tends to stay closed unless it is opened by swallowing, yawning, or gently blowing against a pinched nose. A cold or allergy can make the problem worse by swelling the lining of the tube, sometimes so much that the ear cannot be cleared at all. The result can be severe pain and even a ruptured eardrum, which is why aircrew members with congestion are often grounded until it clears.",
+    "passage_ko": "중이(middle ear)는 공기로 찬 공간으로, 유스타키오관(Eustachian tube)이라는 좁은 통로로 목 뒤쪽과 연결되어 있다. 항공기가 상승해 바깥 기압이 떨어지면 중이 속 공기가 팽창하고, 대개는 관을 통해 저절로 빠져나간다. 하강은 사정이 다르다. 바깥 기압이 올라가면 공기가 다시 중이로 들어가야 하는데, 이 관은 침을 삼키거나 하품을 하거나 코를 막고 가볍게 숨을 불어넣어 열어 주지 않는 한 닫힌 채로 있으려는 경향이 있다. 감기나 알레르기는 관 안쪽 막을 붓게 해 문제를 악화시킬 수 있으며, 때로는 너무 부어서 귀를 전혀 뚫을 수 없게 되기도 한다. 그 결과 심한 통증이 생기고 고막이 터질 수도 있는데, 그래서 코가 막힌 승무원은 증상이 나을 때까지 비행에서 제외되는 경우가 많다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문에서 추론할 수 있는 것은?",
+    "options": [
+      "most ear pain in flight is caused by air expanding in the middle ear during the climb",
+      "a crew member with a cold can always clear the ears by blowing against a pinched nose",
+      "congestion is more likely to cause ear trouble during descent than during climb",
+      "decongestant medicines allow aircrew with colds to fly without any risk to their ears"
+    ],
+    "answer": 2,
+    "explain": "근거: 상승 때 공기는 \"usually escapes through the tube on its own\", 하강 때 관은 \"tends to stay closed\", 감기는 \"make the problem worse\" — 코막힘의 문제는 주로 하강 때 생긴다.\n(1) 뒤집기 — 상승 때 팽창한 공기는 보통 저절로 빠짐\n(2) 과잉 일반화 — always, \"cannot be cleared at all\"인 경우도 있음\n(4) 지문에 없는 내용 — 충혈 완화제 언급은 없고, 오히려 비행에서 제외됨"
+  },
+  {
+    "id": "rct_0171",
+    "topic": "military",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Sorting the Wounded",
+    "passage": "When casualties outnumber the medical staff available to treat them, military medics sort the wounded through a process called triage. Casualties who need prompt treatment to survive, and who are likely to survive if they receive it, are treated first. Those with serious wounds that can safely wait are treated next, and those with minor injuries may be asked to help care for others. A fourth group, called expectant, consists of casualties whose wounds are so severe that they are unlikely to survive even with the care that is available; they receive comfort care while efforts go to those who can be saved. These categories are not fixed. Because a casualty's condition can change, triage is repeated, and when more staff and supplies arrive, a casualty once judged expectant may be moved into treatment.",
+    "passage_ko": "사상자 수가 치료할 수 있는 의료진보다 많을 때, 군 의무병은 트리아지(triage)라는 과정으로 부상자를 분류한다. 살기 위해 신속한 치료가 필요하고, 치료를 받으면 살아날 가능성이 큰 사상자가 먼저 치료받는다. 심각하지만 안전하게 기다릴 수 있는 부상자가 그다음이고, 가벼운 부상자는 다른 사람을 돌보는 일을 도와 달라는 요청을 받기도 한다. 네 번째 집단인 기대(expectant) 환자는 상처가 너무 심해 가용한 치료를 받더라도 살아날 가능성이 낮은 사상자들로, 이들은 고통을 덜어 주는 돌봄(comfort care)을 받고 노력은 살릴 수 있는 사람들에게 집중된다. 이 범주들은 고정된 것이 아니다. 사상자의 상태는 변할 수 있으므로 분류는 반복되며, 더 많은 인력과 물자가 도착하면 한때 기대 환자로 판정된 사람도 치료 대상으로 옮겨질 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Medics treat the most severely wounded first, whatever their chances of survival.",
+      "A casualty's triage category, once assigned, is normally kept until evacuation.",
+      "Casualties judged expectant receive no care, so that every effort goes to those who can be saved.",
+      "Whether a casualty is judged expectant depends partly on the care available, not only on the wound."
+    ],
+    "answer": 3,
+    "explain": "근거: 기대(expectant) 환자는 \"unlikely to survive even with the care that is available\"이고, 인력·물자가 오면 \"may be moved into treatment\" — 분류는 상처뿐 아니라 가용 자원에 달려 있다.\n(1) 지문과 반대 — 가장 심한 부상자(기대 환자)가 먼저 치료받지 않음\n(2) 지문과 반대 — 분류는 반복되며 바뀔 수 있음\n(3) 절반만 맞음 — 노력은 살릴 수 있는 쪽에 가지만 기대 환자도 \"comfort care\"를 받음"
+  },
+  {
+    "id": "rct_0172",
+    "topic": "health",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Soreness That Comes Later",
+    "passage": "Muscle soreness that appears a day or two after unfamiliar exercise is known as delayed-onset muscle soreness. It was once blamed on lactic acid, but lactic acid is cleared from the muscles within about an hour after exercise ends, long before the soreness reaches its peak. The soreness is now thought to result from small-scale damage to muscle fibers and the repair process that follows. It is most severe after movements in which a muscle lengthens while resisting a load, such as running downhill or slowly lowering a heavy weight. The body adapts quickly, however: repeating the same exercise a week or two later typically causes much less soreness, even if the workout is just as hard.",
+    "passage_ko": "익숙하지 않은 운동을 하고 하루나 이틀 뒤에 나타나는 근육통을 지연성 근육통(delayed-onset muscle soreness)이라고 한다. 예전에는 젖산 탓으로 여겨졌지만, 젖산은 운동이 끝난 뒤 약 한 시간 안에 근육에서 제거되므로 통증이 절정에 이르기 훨씬 전에 사라진다. 지금은 이 통증이 근섬유의 미세한 손상과 그 뒤에 이어지는 회복 과정에서 생기는 것으로 여겨진다. 통증은 근육이 부하에 저항하면서 늘어나는 동작, 예를 들어 내리막 달리기나 무거운 중량을 천천히 내리는 동작 뒤에 가장 심하다. 하지만 몸은 빨리 적응한다. 한두 주 뒤에 같은 운동을 반복하면, 운동 강도가 똑같더라도 대개 통증이 훨씬 덜하다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A long hike down a steep trail may cause more soreness than climbing the same trail.",
+      "Soreness that peaks two days after exercise comes from lactic acid left in the muscles.",
+      "Repeating a hard workout a week later usually causes even greater soreness than before.",
+      "Stretching before exercise is the most effective way to prevent delayed soreness."
+    ],
+    "answer": 0,
+    "explain": "근거: 통증은 \"most severe after movements in which a muscle lengthens while resisting a load, such as running downhill\" — 내리막이 오르막보다 더 아플 수 있다.\n(2) 지문과 반대 — 젖산은 약 1시간 안에 제거됨\n(3) 뒤집기 — 반복하면 통증이 \"much less\"\n(4) 지문에 없는 내용 — 스트레칭은 언급 없음"
+  },
+  {
+    "id": "rct_0173",
+    "topic": "economics",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Why Bank Runs Spread",
+    "passage": "A bank keeps only a small share of its deposits as cash and lends out the rest. Ordinarily this causes no difficulty, because on any given day only a few customers want their money back. If many depositors try to withdraw at once, however, even a well-run bank may be unable to pay them all, since its loans cannot quickly be turned into cash. Such a run can feed on itself: depositors who fear that others will withdraw have reason to withdraw first, even if they believe the bank is basically sound. Government deposit insurance, which promises to repay deposits up to a set limit if a bank fails, removes that reason for insured customers. Depositors whose balances exceed the limit, however, may still have reason to rush.",
+    "passage_ko": "은행은 예금 중 작은 비율만 현금으로 보유하고 나머지는 대출해 준다. 평소에는 이것이 아무 문제도 일으키지 않는데, 어느 날이든 돈을 돌려받으려는 고객은 소수이기 때문이다. 그러나 많은 예금자가 한꺼번에 인출하려 하면, 대출을 빠르게 현금으로 바꿀 수 없으므로 잘 운영되는 은행조차 모두에게 지급하지 못할 수 있다. 이런 인출 사태(뱅크런)는 스스로를 키울 수 있다. 다른 사람들이 인출할까 두려운 예금자는 은행이 기본적으로 건전하다고 믿더라도 먼저 인출할 이유가 생긴다. 은행이 파산하면 일정 한도까지 예금을 돌려주겠다고 약속하는 정부의 예금보험은 보험 대상 고객에게서 그 이유를 없애 준다. 그러나 잔액이 한도를 넘는 예금자에게는 여전히 서두를 이유가 남아 있을 수 있다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문에서 추론할 수 있는 것은?",
+    "options": [
+      "bank runs happen only when depositors correctly judge that a bank has been badly managed",
+      "deposit insurance works by requiring banks to hold all of their deposits in cash at all times",
+      "a bank whose deposits sit mostly in accounts over the insured limit is more vulnerable to a run",
+      "a bank that lends out most of its deposits cannot pay its customers even on a normal day"
+    ],
+    "answer": 2,
+    "explain": "근거: 예금보험은 \"removes that reason for insured customers\"지만 \"Depositors whose balances exceed the limit ... may still have reason to rush\" — 한도를 넘는 예금이 많을수록 뱅크런에 취약하다.\n(1) 지문과 반대 — 은행이 건전하다고 믿어도 먼저 인출할 이유가 생김\n(2) 원리 왜곡 — 예금보험은 한도까지 상환 '약속'이지 전액 현금 보유가 아님\n(4) 지문과 반대 — 평소에는 \"causes no difficulty\""
+  },
+  {
+    "id": "rct_0174",
+    "topic": "environment",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Dark Snow",
+    "passage": "Fresh snow reflects most of the sunlight that strikes it, which is one reason a snow-covered landscape stays cold even under a bright sun. Darker surfaces such as bare soil, rock, or open water absorb most of the sunlight instead and warm up. This difference allows melting to feed on itself: as snow cover shrinks in spring, more dark ground is exposed, more sunlight is absorbed, and the remaining snow nearby melts faster. Snow does not have to disappear to lose its reflectiveness, however. Dust blown from dry lands and soot from fires and engines can settle on a snowpack and darken its surface. Studies in several mountain ranges have found that heavily dusted snow can melt weeks earlier than clean snow, even when air temperatures are similar.",
+    "passage_ko": "새로 내린 눈은 닿는 햇빛의 대부분을 반사하는데, 이것이 눈 덮인 땅이 밝은 햇살 아래에서도 차갑게 유지되는 이유 중 하나다. 맨흙이나 바위, 탁 트인 수면처럼 더 어두운 표면은 오히려 햇빛을 대부분 흡수해 데워진다. 이 차이 때문에 녹는 과정은 스스로를 가속할 수 있다. 봄에 눈 덮인 면적이 줄어들면 어두운 땅이 더 많이 드러나고, 햇빛이 더 많이 흡수되어 근처에 남은 눈이 더 빨리 녹는다. 그러나 눈이 사라져야만 반사력을 잃는 것은 아니다. 건조한 땅에서 날아온 먼지와 산불·엔진에서 나온 그을음이 쌓인 눈 위에 내려앉아 표면을 어둡게 만들 수 있다. 여러 산맥에서 이루어진 연구에 따르면, 먼지가 많이 덮인 눈은 기온이 비슷할 때에도 깨끗한 눈보다 몇 주 일찍 녹을 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Dusty snow melts earlier mainly because the dust warms the air just above the snow's surface.",
+      "Less soot on mountain snow could delay its melting even with no change in air temperature.",
+      "As spring snow cover shrinks, the snow that remains nearby tends to melt more slowly than before.",
+      "Fresh snow absorbs more sunlight than bare soil does, but it loses that heat more quickly."
+    ],
+    "answer": 1,
+    "explain": "근거: 먼지·그을음은 눈 표면을 어둡게 하고, 먼지 덮인 눈은 \"can melt weeks earlier than clean snow, even when air temperatures are similar\" — 그을음이 줄면 기온 변화 없이도 늦게 녹을 수 있다.\n(1) 원리 왜곡 — 기온이 비슷해도 일찍 녹으므로 공기를 데워서가 아님\n(3) 뒤집기 — 남은 눈은 '더 빨리' 녹음\n(4) 비교 뒤집기 — 새 눈은 햇빛을 대부분 반사하고 맨땅이 흡수함"
+  },
+  {
+    "id": "rct_0175",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "The First Minutes in Cold Water",
+    "passage": "Many people assume that someone who falls into cold water is in danger mainly from hypothermia, the gradual cooling of the body's core. In fact, hypothermia usually takes at least half an hour to become serious, and many cold-water deaths happen much sooner. The first threat is cold shock: sudden immersion triggers an involuntary gasp and a minute or so of rapid, uncontrolled breathing, during which a person whose head goes under can inhale water. Over the next several minutes, the muscles and nerves of the arms and legs cool quickly, and swimming becomes weak and clumsy even while the core stays warm. For this reason, survival training teaches people in cold water to wear a life jacket whenever possible and, unless safety is within a short swim, to stay still and conserve heat rather than attempt a long swim.",
+    "passage_ko": "많은 사람은 차가운 물에 빠진 사람이 주로 저체온증, 즉 몸 중심부가 서서히 식는 것 때문에 위험하다고 생각한다. 사실 저체온증이 심각해지려면 보통 최소 30분이 걸리고, 냉수 사망 중 상당수는 그보다 훨씬 일찍 일어난다. 첫 번째 위협은 냉수 쇼크(cold shock)이다. 갑자기 물에 잠기면 무의식적으로 숨을 헉 들이쉬고 1분 정도 빠르고 통제되지 않는 호흡이 이어지는데, 이때 머리가 물에 잠긴 사람은 물을 들이마실 수 있다. 이후 몇 분 동안 팔다리의 근육과 신경이 빠르게 식어, 몸 중심부는 여전히 따뜻한데도 수영이 약해지고 서툴러진다. 그래서 생존 훈련에서는 차가운 물에 빠진 사람에게 가능하면 언제나 구명조끼를 입고, 안전한 곳이 짧게 헤엄쳐 갈 거리에 있지 않다면 멀리 헤엄치려 하기보다 가만히 있으면서 체온을 보존하라고 가르친다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "A death within a few minutes of falling into cold water is probably not due to hypothermia.",
+      "Most people who die after falling into cold water do so because their core temperature drops.",
+      "People in cold water are taught never to swim, however close a place of safety may be.",
+      "The rapid breathing caused by cold shock continues until the body's core begins to cool."
+    ],
+    "answer": 0,
+    "explain": "근거: \"hypothermia usually takes at least half an hour to become serious, and many cold-water deaths happen much sooner\" — 처음 몇 분 안의 사망은 냉수 쇼크나 수영 능력 상실 때문일 가능성이 크다.\n(2) 지문에 없는 비율 — 오히려 많은 사망이 저체온증보다 훨씬 일찍 일어난다고 함\n(3) 과잉 일반화 — never, 안전한 곳이 \"within a short swim\"이면 예외\n(4) 세부 왜곡 — 빠른 호흡은 \"a minute or so\""
+  },
+  {
+    "id": "rct_0176",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "main_idea",
+    "title": "Passing the Job to the Next Shift",
+    "passage": "Maintenance on large aircraft often takes longer than one work shift, so a task begun by one technician may be finished by another. Investigators have found that these handovers are a common point of failure. A technician who removes a panel near the end of a shift may know exactly which fasteners are still missing, but unless that knowledge is written down or passed on in person, the next shift may assume the job is further along than it is. Spoken handovers alone are unreliable, since details are forgotten or misheard, while written logs can be vague or incomplete when a tired technician fills them in hurriedly. Many maintenance organizations therefore require both: a written record of exactly where each task stands and a face-to-face briefing between the outgoing and incoming technicians, ideally at the aircraft itself.",
+    "passage_ko": "대형 항공기의 정비는 한 근무 교대 시간보다 오래 걸리는 경우가 많아서, 한 정비사가 시작한 작업을 다른 정비사가 마무리하기도 한다. 조사관들은 이런 인계가 흔한 실패 지점이라는 것을 발견했다. 교대가 끝날 무렵 패널을 떼어 낸 정비사는 어떤 고정 부품이 아직 빠져 있는지 정확히 알 수 있지만, 그 정보가 기록되거나 직접 전달되지 않으면 다음 교대조는 작업이 실제보다 더 진척되었다고 여길 수 있다. 말로만 하는 인계는 세부가 잊히거나 잘못 들릴 수 있어 믿기 어렵고, 서면 기록은 지친 정비사가 서둘러 작성하면 모호하거나 불완전할 수 있다. 그래서 많은 정비 조직은 두 가지를 모두 요구한다. 각 작업이 정확히 어디까지 진행되었는지에 대한 서면 기록과, 나가는 정비사와 들어오는 정비사가 가급적 항공기 바로 옆에서 하는 대면 브리핑이다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 나타낸 것은?",
+    "options": [
+      "Written maintenance logs are more dependable than spoken briefings, since a written note cannot be misheard.",
+      "Most aircraft accidents can be traced to technicians who forget to reinstall fasteners on removed panels.",
+      "Large aircraft require so much maintenance that most tasks cannot be completed within a single shift.",
+      "Handing unfinished work to the next shift invites error, so written and face-to-face handovers are both needed."
+    ],
+    "answer": 3,
+    "explain": "근거: \"these handovers are a common point of failure\" + \"Many maintenance organizations therefore require both: a written record ... and a face-to-face briefing\" — 교대 인계의 위험과 서면·대면 병행이 요지.\n(1) 비교 왜곡 — 서면 기록도 \"vague or incomplete\"할 수 있음\n(2) 과잉 일반화 — 대부분의 사고 원인이라는 말은 없음\n(3) 세부·과장 — 도입부 세부일 뿐이고 'most tasks'도 지문에 없음"
+  },
+  {
+    "id": "rct_0177",
+    "topic": "science",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Ants on Stilts",
+    "passage": "Desert ants forage far from their nests across open sand, yet after finding food they head home in a nearly straight line and begin searching for the entrance once they have covered the right distance. To learn how the ants judge that distance, researchers trained them to walk to a feeder and then altered their legs before the trip home. Some ants had their legs lengthened with tiny stilts; others had their legs shortened. The ants on stilts, now taking longer strides, walked past the nest before starting to search, while those with shortened legs stopped short of it. In a later test, ants whose legs were altered before they left the nest, so that they walked both ways on the same altered legs, searched at the correct distance.",
+    "passage_ko": "사막개미는 탁 트인 모래밭을 가로질러 둥지에서 멀리까지 먹이를 찾아다니지만, 먹이를 찾은 뒤에는 거의 일직선으로 집을 향하고, 알맞은 거리를 이동하면 입구를 찾기 시작한다. 개미가 그 거리를 어떻게 판단하는지 알아보기 위해, 연구자들은 개미가 먹이통까지 걸어가도록 훈련한 뒤 돌아가기 전에 다리를 변형했다. 일부 개미는 작은 죽마(stilts)를 붙여 다리를 길게 했고, 다른 개미는 다리를 짧게 했다. 죽마를 단 개미는 보폭이 길어져 둥지를 지나친 뒤에야 찾기 시작했고, 다리가 짧아진 개미는 둥지에 못 미친 곳에서 멈췄다. 이후의 실험에서, 둥지를 떠나기 전에 다리를 변형해 갈 때와 올 때 모두 같은 변형된 다리로 걸은 개미는 정확한 거리에서 둥지를 찾았다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Ants with shortened legs walked past the nest because each of their strides covered less ground.",
+      "Ants that wore stilts in both directions overshot the nest by an even greater distance.",
+      "The ants seem to measure distance by counting steps rather than by sensing the ground covered.",
+      "The ants count their steps, so ants given stilts for the trip home searched at the correct distance."
+    ],
+    "answer": 2,
+    "explain": "근거: 보폭이 길어진 개미는 지나치고 짧아진 개미는 못 미쳤지만, \"walked both ways on the same altered legs\"인 개미는 \"searched at the correct distance\" — 실제 거리가 아니라 걸음 수로 재는 것으로 보인다.\n(1) 뒤집기 — 다리가 짧아진 개미는 둥지에 못 미침\n(2) 지문과 반대 — 갈 때와 올 때 다리가 같으면 정확한 거리에서 찾음\n(4) 절반만 맞음 — 돌아올 때만 죽마를 단 개미는 둥지를 지나쳤음"
+  },
+  {
+    "id": "rct_0178",
+    "topic": "culture",
+    "diff": 2,
+    "qtype": "main_idea",
+    "title": "Mending with Gold",
+    "passage": "In many traditions, a repaired bowl is considered best when the repair cannot be seen. The Japanese craft of kintsugi takes the opposite approach. Broken pottery is rejoined with lacquer, a natural adhesive made from tree sap, and the seams are then dusted or mixed with powdered gold, so that each crack becomes a bright line across the surface. The work is slow, since each layer of lacquer must cure for days or even weeks before the next can be applied. The practice is closely linked with the Japanese tea ceremony and with an outlook that values the marks of age and use. Rather than trying to make an object look new again, kintsugi treats its damage as part of its history.",
+    "passage_ko": "많은 전통에서 수리한 그릇은 수리한 흔적이 보이지 않을 때 가장 좋다고 여겨진다. 일본의 긴쓰기(kintsugi) 공예는 정반대의 방식을 택한다. 깨진 도자기를 나무 수액으로 만든 천연 접착제인 옻칠로 다시 붙이고, 이음매에 금가루를 뿌리거나 섞어서 금 간 자리마다 표면을 가로지르는 밝은 선이 되게 한다. 옻칠은 한 겹마다 며칠, 길게는 몇 주씩 굳혀야 다음 겹을 바를 수 있기 때문에 작업은 느리다. 이 기법은 일본 다도, 그리고 세월과 사용의 흔적을 소중히 여기는 사고방식과 깊이 연결되어 있다. 긴쓰기는 물건을 다시 새것처럼 보이게 하려 하기보다, 그 손상을 물건이 지나온 역사의 일부로 여긴다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 나타낸 것은?",
+    "options": [
+      "Kintsugi repairs broken pottery in a way that displays the damage instead of hiding it.",
+      "Gold is the strongest material available for joining the pieces of broken pottery.",
+      "Kintsugi repairs take a long time because each layer of lacquer must cure before the next is added.",
+      "Japanese potters have generally preferred making new bowls to repairing broken ones."
+    ],
+    "answer": 0,
+    "explain": "근거: kintsugi \"takes the opposite approach\" + \"treats its damage as part of its history\" — 손상을 숨기지 않고 드러내는 수리법이라는 것이 요지.\n(2) 지문에 없는 내용 — 접착은 옻칠이 하며, 금이 가장 튼튼하다는 말은 없음\n(3) 세부일 뿐 — 맞는 내용이지만 지문 전체의 요지가 아님\n(4) 지문에 없는 내용 — 새 그릇 선호는 언급 없음"
+  },
+  {
+    "id": "rct_0179",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Borrowing Parts",
+    "passage": "When a needed spare part is not in stock, military maintainers sometimes take a working part from one aircraft and install it in another, a practice called cannibalization. It can return an aircraft to flight within hours instead of the days or weeks a delivery might take. The practice has hidden costs, however. Each cannibalized part must be removed and installed twice, which consumes extra labor, and every additional removal creates a chance of damaging the part or the aircraft. An aircraft used as a donor may sit idle for months as more parts are taken from it. Cannibalization can also make a supply problem harder to see: because aircraft keep flying, readiness reports may look healthy even when the supply system is failing to deliver the parts it should.",
+    "passage_ko": "필요한 예비 부품이 재고에 없을 때, 군 정비사들은 한 항공기에서 작동하는 부품을 떼어 다른 항공기에 장착하기도 하는데, 이를 부품 돌려쓰기(cannibalization)라고 한다. 이렇게 하면 부품 배송에 걸릴 며칠이나 몇 주가 아니라 몇 시간 안에 항공기를 다시 비행하게 할 수 있다. 하지만 이 관행에는 숨은 비용이 있다. 돌려쓰는 부품은 떼고 다는 작업을 두 번씩 해야 하므로 추가 인력이 들고, 탈착이 한 번 늘 때마다 부품이나 항공기를 손상시킬 가능성이 생긴다. 부품을 내주는 항공기는 계속 부품을 빼앗기면서 몇 달씩 서 있을 수 있다. 또한 부품 돌려쓰기는 보급 문제를 더 보기 어렵게 만들 수 있다. 항공기가 계속 날기 때문에, 보급 체계가 마땅히 공급해야 할 부품을 공급하지 못하고 있을 때에도 준비태세 보고는 양호해 보일 수 있다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "Cannibalization reduces the total maintenance labor needed to keep a fleet flying.",
+      "Readiness reports alone may understate how short a unit is of spare parts.",
+      "Aircraft used as donors are usually returned to service within a few hours.",
+      "Cannibalization is permitted only when an aircraft is too damaged to be repaired."
+    ],
+    "answer": 1,
+    "explain": "근거: \"readiness reports may look healthy even when the supply system is failing to deliver the parts it should\" — 보고만 보면 부품 부족이 실제보다 작아 보일 수 있다.\n(1) 뒤집기 — 두 번 떼고 달아야 해 \"extra labor\"가 듦\n(3) 세부 왜곡 — 몇 시간 만에 복귀하는 건 부품을 받은 항공기, 기증 항공기는 \"idle for months\"\n(4) 지문에 없는 조건 — 수리 불가 항공기에만 허용된다는 말은 없음"
+  },
+  {
+    "id": "rct_0180",
+    "topic": "health",
+    "diff": 3,
+    "qtype": "detail",
+    "title": "Caffeine and the Clock",
+    "passage": "Caffeine promotes alertness by blocking the action of adenosine, a chemical that builds up in the brain during waking hours and produces the feeling of sleepiness. Its effect is not immediate: caffeine reaches its peak level in the blood roughly 30 to 60 minutes after it is consumed. Nor is the effect brief. In a typical adult, about half of a dose is still in the body five or six hours later, though this figure varies widely from person to person. Caffeine taken in the late afternoon can therefore still be active at bedtime. Some people say that coffee does not affect their sleep because they fall asleep easily, but laboratory studies have found that caffeine can reduce the amount of deep sleep even in people who notice no difficulty falling asleep.",
+    "passage_ko": "카페인은 아데노신(adenosine)의 작용을 막아 각성을 돕는다. 아데노신은 깨어 있는 동안 뇌에 쌓여 졸음을 느끼게 하는 화학 물질이다. 카페인의 효과는 즉각적이지 않다. 카페인은 섭취 후 약 30~60분 뒤에 혈중 농도가 정점에 이른다. 효과가 짧지도 않다. 보통의 성인에게서는 섭취량의 약 절반이 5~6시간 뒤에도 몸에 남아 있는데, 이 수치는 사람마다 크게 다르다. 그래서 늦은 오후에 섭취한 카페인은 잠자리에 들 때까지도 작용할 수 있다. 어떤 사람들은 쉽게 잠들기 때문에 커피가 자기 잠에 영향을 주지 않는다고 말하지만, 실험실 연구에서는 잠드는 데 아무 어려움을 느끼지 못하는 사람에게서도 카페인이 깊은 잠의 양을 줄일 수 있다는 결과가 나왔다.",
+    "q": "According to the passage, why can caffeine taken in the late afternoon affect sleep that night?",
+    "q_ko": "지문에 따르면, 늦은 오후에 섭취한 카페인이 그날 밤 잠에 영향을 줄 수 있는 이유는?",
+    "options": [
+      "Caffeine does not reach its peak level in the blood until close to bedtime.",
+      "Caffeine adds to the adenosine that builds up in the brain during waking hours.",
+      "Caffeine keeps most people from falling asleep easily, even hours after a dose.",
+      "Much of the caffeine is still present and active when the person goes to bed."
+    ],
+    "answer": 3,
+    "explain": "근거: \"about half of a dose is still in the body five or six hours later ... Caffeine taken in the late afternoon can therefore still be active at bedtime\".\n(1) 세부 왜곡 — 혈중 정점은 섭취 후 \"30 to 60 minutes\"\n(2) 원리 뒤집기 — 아데노신을 더하는 게 아니라 '차단'함\n(3) 지문에 없는 내용 — 오히려 쉽게 잠드는 사람에게서도 깊은 잠이 줄 수 있다고 함"
+  },
+  {
+    "id": "rct_0181",
+    "topic": "naval",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Reading a Wave Forecast",
+    "passage": "Marine forecasts usually describe the sea in terms of significant wave height, defined as the average height of the highest one-third of the waves. The measure was adopted because it comes close to what experienced observers report when they estimate wave height by eye: the larger waves catch their attention, while the smaller ones go largely unnoticed. One consequence is that most of the waves a ship actually meets are lower than the forecast figure. Another is less obvious. Because the figure is an average, some waves must be higher, and over several hours a vessel may meet an occasional wave nearly twice the forecast height. A crew that treats the forecast number as the largest wave it will see is therefore preparing for a gentler sea than the one it may find.",
+    "passage_ko": "해상 예보는 보통 유의파고(significant wave height)로 바다 상태를 나타내는데, 이는 가장 높은 3분의 1 파도들의 평균 높이로 정의된다. 이 척도가 채택된 이유는 숙련된 관측자가 눈으로 파고를 어림할 때 보고하는 값과 가깝기 때문이다. 큰 파도는 눈길을 끌지만 작은 파도는 대부분 눈에 띄지 않는다. 그 결과 하나는 배가 실제로 만나는 파도 대부분이 예보 수치보다 낮다는 것이다. 다른 결과는 덜 분명하다. 이 수치는 평균이므로 그보다 높은 파도도 반드시 있으며, 몇 시간에 걸쳐 배는 예보 높이의 거의 두 배에 이르는 파도를 가끔 만날 수 있다. 따라서 예보 수치를 앞으로 볼 가장 큰 파도로 여기는 승조원은 실제로 마주칠 수 있는 바다보다 더 잔잔한 바다에 대비하고 있는 셈이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Most of the waves a ship meets are likely to be higher than the significant wave height in the forecast.",
+      "Observers who gave every wave equal attention would tend to report heights below the forecast figure.",
+      "A ship is unlikely to meet any wave much higher than the forecast figure unless the forecast was wrong.",
+      "Observers tend to overestimate wave height because large waves look taller from the deck of a small ship."
+    ],
+    "answer": 1,
+    "explain": "근거: 유의파고는 \"the average height of the highest one-third of the waves\"이고 관측치가 이에 가까운 것은 \"the larger waves catch their attention, while the smaller ones go largely unnoticed\" 때문 — 모든 파도를 똑같이 보면 더 낮게 보고하게 된다.\n(1) 뒤집기 — 대부분의 파도는 예보치보다 낮음\n(3) 지문과 반대 — 예보가 맞아도 거의 2배 높이의 파도를 만날 수 있음\n(4) 지문에 없는 이유 — 갑판에서 커 보여서가 아니라 큰 파도에 '주목'하기 때문"
+  },
+  {
+    "id": "rct_0182",
+    "topic": "economics",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Money Already Spent",
+    "passage": "Economists use the term sunk cost for money, time, or effort that has already been spent and cannot be recovered. Because a sunk cost is the same whichever choice is made next, economists argue that it should not influence the decision. Suppose a person has paid for a nonrefundable concert ticket but feels ill on the evening of the show. The money is gone whether or not the person attends, so the only real question is whether going will be more enjoyable than staying home. In practice, people often reason differently, insisting on going so that the ticket will not be wasted. Organizations make the same error on a larger scale, pouring more money into failing projects because so much has already been invested in them.",
+    "passage_ko": "경제학자들은 이미 써 버려서 되찾을 수 없는 돈, 시간, 노력을 매몰비용(sunk cost)이라고 부른다. 매몰비용은 다음에 어떤 선택을 하든 똑같으므로, 경제학자들은 그것이 결정에 영향을 주어서는 안 된다고 주장한다. 어떤 사람이 환불이 안 되는 콘서트 표를 샀는데 공연 당일 저녁에 몸이 아프다고 하자. 공연에 가든 안 가든 돈은 이미 사라졌으므로, 진짜 질문은 가는 것이 집에 있는 것보다 더 즐거울지뿐이다. 실제로 사람들은 표를 낭비하지 않으려고 가겠다고 고집하는 등 다르게 생각하는 경우가 많다. 조직도 더 큰 규모로 같은 실수를 저질러, 이미 많은 돈을 투자했다는 이유로 실패하고 있는 사업에 돈을 더 쏟아붓는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Economists advise people to attend any event for which they have already paid.",
+      "Sunk costs have a greater effect on large organizations than on individuals.",
+      "The amount already spent on a project is not, by itself, a good reason to continue it.",
+      "A ticket that can be fully refunded is still a sunk cost once it has been paid for."
+    ],
+    "answer": 2,
+    "explain": "근거: 매몰비용은 \"should not influence the decision\"이며, 이미 투자했다는 이유로 \"pouring more money into failing projects\"하는 것을 오류로 봄.\n(1) 뒤집기 — 낸 돈과 무관하게 즐거움만 따지라고 함\n(2) 비교 왜곡 — '더 큰 규모의 같은 실수'일 뿐 영향이 더 크다는 말은 없음\n(4) 정의와 반대 — 매몰비용은 \"cannot be recovered\""
+  },
+  {
+    "id": "rct_0183",
+    "topic": "aviation",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Pressing On",
+    "passage": "Pilots sometimes press on toward a destination even as weather or other conditions make the original plan unwise, a tendency known as plan continuation bias. Studies of accidents and incidents suggest that the pull grows stronger as the goal draws nearer: a crew that would readily turn back an hour from its destination may be reluctant to do so in the final minutes of an approach. Gradual changes are especially hard to resist, because each small step makes conditions only slightly worse than they were a moment before. One common defense is to set clear limits in advance, such as a minimum visibility or a point by which the aircraft must be stable on its approach, and to treat crossing a limit as an automatic signal to abandon the plan rather than as an occasion for fresh debate.",
+    "passage_ko": "조종사들은 날씨나 다른 조건 때문에 원래 계획이 현명하지 않게 되었는데도 목적지를 향해 계속 밀고 나가는 경우가 있는데, 이런 경향을 계획 지속 편향(plan continuation bias)이라고 한다. 사고와 준사고 연구에 따르면 이 끌림은 목표에 가까워질수록 강해진다. 목적지까지 한 시간 남은 지점에서는 기꺼이 회항할 승무원도 접근의 마지막 몇 분 동안에는 그렇게 하기를 꺼릴 수 있다. 점진적인 변화는 특히 거스르기 어렵다. 한 걸음 한 걸음이 조건을 직전보다 조금씩만 나쁘게 만들기 때문이다. 흔히 쓰는 방어책은 최저 시정이나 항공기가 접근 경로에서 안정되어 있어야 하는 지점처럼 분명한 한계를 미리 정해 두고, 한계를 넘는 것을 새로 논의할 계기가 아니라 계획을 포기하라는 자동 신호로 여기는 것이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Plan continuation bias mainly affects inexperienced pilots, who are less able to judge changing weather.",
+      "A crew is least willing to abandon its plan an hour from the destination, when much of the flight remains.",
+      "Limits set before a flight work best when the crew reconsiders each one as the aircraft reaches it.",
+      "Fixed limits help partly because they spare crews from judging each small change against the last one."
+    ],
+    "answer": 3,
+    "explain": "근거: 점진적 변화는 \"each small step makes conditions only slightly worse than they were a moment before\"라 거스르기 어렵고, 한계를 넘으면 \"an automatic signal ... rather than ... fresh debate\" — 직전과 비교하는 판단을 대신해 준다.\n(1) 지문에 없는 내용 — 경험 부족 언급 없음\n(2) 뒤집기 — 1시간 전엔 쉽게 회항, 마지막 몇 분에 가장 꺼림\n(3) 지문과 반대 — 한계에 이르면 다시 논의하지 않음"
+  },
+  {
+    "id": "rct_0184",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Following the Brighter Horizon",
+    "passage": "Sea turtle hatchlings usually emerge from their nests at night and must reach the ocean quickly. They find it by crawling toward the brightest part of the horizon. On an undeveloped beach, that is almost always the open sea, where moonlight and starlight reflect off the water, while dunes and vegetation make the landward horizon darker. Artificial lighting from buildings and roads can reverse this pattern and draw hatchlings inland, where many die from exhaustion, predators, or traffic. Some coastal communities now require beachfront lights to be shielded, mounted low, or switched to amber or red during the nesting season, because hatchlings are much less sensitive to these longer wavelengths than to white or blue light.",
+    "passage_ko": "바다거북 새끼는 보통 밤에 둥지에서 나오며, 서둘러 바다에 닿아야 한다. 새끼들은 수평선에서 가장 밝은 쪽으로 기어가는 방법으로 바다를 찾는다. 개발되지 않은 해변에서 그곳은 거의 언제나 탁 트인 바다 쪽인데, 달빛과 별빛이 물에 반사되는 반면 사구와 식물 때문에 육지 쪽 수평선은 더 어둡기 때문이다. 건물과 도로의 인공조명은 이 패턴을 뒤집어 새끼들을 내륙으로 끌어들일 수 있고, 그곳에서 많은 새끼가 탈진이나 포식자, 차량 때문에 죽는다. 일부 해안 지역은 이제 산란기 동안 해변 조명에 가리개를 씌우거나, 낮게 달거나, 호박색이나 붉은색으로 바꾸도록 요구한다. 새끼들은 이런 긴 파장의 빛에 백색광이나 청색광보다 훨씬 덜 민감하기 때문이다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Replacing a bright white porch light with a low amber one would likely help nearby hatchlings.",
+      "Hatchlings find the ocean mainly by following the smell of salt water carried on the wind.",
+      "Hatchlings usually emerge during the day, when the sea reflects the most sunlight.",
+      "Artificial lights affect hatchlings only on beaches that have no dunes or vegetation."
+    ],
+    "answer": 0,
+    "explain": "근거: 조명을 \"shielded, mounted low, or switched to amber or red\"하게 하는 이유는 \"hatchlings are much less sensitive to these longer wavelengths than to white or blue light\".\n(2) 지문과 다름 — 냄새가 아니라 가장 밝은 수평선을 향해 기어감\n(3) 지문과 반대 — 보통 밤에 나옴\n(4) 지문에 없는 조건 — only, 사구 유무에 따른 차이는 언급 없음"
+  },
+  {
+    "id": "rct_0185",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Safe Water in the Field",
+    "passage": "Troops operating far from a supply base often have to make local water safe to drink, and each common method has limits. Boiling kills bacteria, viruses, and parasites alike, but it requires fuel and time. Portable filters remove bacteria and parasites, yet most let viruses through, because viruses are far smaller than the filter's pores. Chemical tablets kill bacteria and viruses but act slowly against some parasites with tough outer shells, and they work more slowly still in cold water or in water clouded with sediment, which can shield germs from the chemical. For these reasons, units in the field often combine methods, first filtering the water, which also removes sediment, and then treating it chemically, so that each step covers a weakness of the other.",
+    "passage_ko": "보급 기지에서 멀리 떨어져 작전하는 부대는 현지의 물을 마실 수 있게 만들어야 하는 경우가 많은데, 흔히 쓰는 방법마다 한계가 있다. 끓이기는 세균, 바이러스, 기생충을 모두 죽이지만 연료와 시간이 든다. 휴대용 필터는 세균과 기생충을 걸러 내지만, 바이러스는 필터 구멍보다 훨씬 작기 때문에 대부분의 필터는 바이러스를 통과시킨다. 화학 정제는 세균과 바이러스를 죽이지만 껍질이 단단한 일부 기생충에는 느리게 작용하며, 찬물이나 침전물로 탁해진 물에서는 더욱 느리게 작용한다. 침전물이 병원균을 화학 물질로부터 가려 줄 수 있기 때문이다. 이런 이유로 야전 부대는 흔히 방법을 함께 쓴다. 먼저 물을 필터로 거르면 침전물도 제거되고, 그다음 화학적으로 처리하면 각 단계가 서로의 약점을 메워 준다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Boiling is the method units prefer in the field, since it kills every kind of germ.",
+      "Portable filters are more reliable against viruses than chemical tablets are.",
+      "Filtering murky water first can help chemical tablets work faster than they otherwise would.",
+      "Chemical tablets work fastest in cold water, where germs are less active and so easier to kill."
+    ],
+    "answer": 2,
+    "explain": "근거: 정제는 \"work more slowly still ... in water clouded with sediment\"이고 필터는 \"also removes sediment\" — 먼저 거르면 정제가 더 빨리 작용할 수 있다.\n(1) 절반만 맞음 — 끓이기는 모든 균을 죽이지만 연료·시간이 들고, 부대가 '선호'한다는 말은 없음\n(2) 비교 뒤집기 — 필터는 대부분 바이러스를 통과시키고 정제는 바이러스를 죽임\n(4) 뒤집기 — 찬물에서는 '더 느리게' 작용"
+  },
+  {
+    "id": "rct_0186",
+    "topic": "science",
+    "diff": 3,
+    "qtype": "detail",
+    "title": "Fish That Do Not Freeze",
+    "passage": "Seawater near Antarctica stays at about -1.9°C, the temperature at which salt water freezes, yet the blood of most fish would freeze at about -0.8°C. Many fish nevertheless thrive in these waters because their bodies produce antifreeze proteins. These proteins do not work the way dissolved salt does, by lowering the freezing point through sheer quantity. Instead, they attach to the surfaces of tiny ice crystals that enter the body and stop the crystals from growing larger. Some fish in other cold regions produce antifreeze proteins only during winter, when the water is coldest, and stop making them as the water warms, saving the energy that producing the proteins requires.",
+    "passage_ko": "남극 근처의 바닷물은 소금물이 어는 온도인 약 -1.9°C를 유지하지만, 대부분의 물고기 혈액은 약 -0.8°C에서 얼 것이다. 그런데도 많은 물고기가 이 바다에서 번성하는데, 몸에서 결빙 방지 단백질(antifreeze protein)을 만들어 내기 때문이다. 이 단백질은 녹아 있는 소금처럼 순전히 양으로 어는점을 낮추는 방식으로 작용하지 않는다. 대신 몸 안으로 들어온 작은 얼음 결정의 표면에 달라붙어 결정이 더 커지지 못하게 막는다. 다른 추운 지역의 일부 물고기는 물이 가장 차가운 겨울에만 결빙 방지 단백질을 만들고 물이 따뜻해지면 생산을 멈추어, 단백질을 만드는 데 드는 에너지를 아낀다.",
+    "q": "According to the passage, how do antifreeze proteins keep fish from freezing?",
+    "q_ko": "지문에 따르면, 결빙 방지 단백질은 어떻게 물고기가 얼지 않게 하는가?",
+    "options": [
+      "They prevent ice crystals from entering the fish's body from the water.",
+      "They attach to tiny ice crystals in the body and stop them from growing.",
+      "They lower the blood's freezing point in the same way dissolved salt does.",
+      "They keep the fish's blood slightly warmer than the surrounding water."
+    ],
+    "answer": 1,
+    "explain": "근거: \"they attach to the surfaces of tiny ice crystals that enter the body and stop the crystals from growing larger\".\n(1) 지문과 반대 — 얼음 결정은 몸 안으로 들어옴(enter the body)\n(3) 지문과 반대 — 소금처럼 \"through sheer quantity\" 작용하지 않음\n(4) 지문에 없는 내용 — 체온을 높인다는 말은 없음"
+  },
+  {
+    "id": "rct_0187",
+    "topic": "health",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "A Normal Reading That Misleads",
+    "passage": "Carbon monoxide, an odorless gas produced by burning fuel, is dangerous because it binds to hemoglobin, the oxygen-carrying molecule in red blood cells, far more tightly than oxygen does. Blood that has absorbed carbon monoxide therefore delivers less oxygen to the body's tissues. This creates a problem for diagnosis. A standard pulse oximeter, the clip-on sensor that estimates the share of hemoglobin carrying oxygen, makes its estimate from the way blood absorbs light, and hemoglobin bound to carbon monoxide absorbs light much as oxygen-bound hemoglobin does. As a result, the device can show a normal reading in a patient who is seriously poisoned. Confirming the diagnosis requires a blood test or a specialized sensor that can tell the two forms apart.",
+    "passage_ko": "연료가 탈 때 생기는 냄새 없는 기체인 일산화탄소는 적혈구 속 산소 운반 분자인 헤모글로빈에 산소보다 훨씬 강하게 결합하기 때문에 위험하다. 따라서 일산화탄소를 흡수한 혈액은 몸의 조직에 산소를 덜 전달한다. 이것이 진단을 어렵게 만든다. 표준 맥박 산소측정기(pulse oximeter), 즉 산소를 운반하는 헤모글로빈의 비율을 추정하는 집게형 센서는 혈액이 빛을 흡수하는 방식으로 추정하는데, 일산화탄소와 결합한 헤모글로빈은 산소와 결합한 헤모글로빈과 거의 같은 방식으로 빛을 흡수한다. 그 결과 이 기기는 심각하게 중독된 환자에게서도 정상 수치를 보여 줄 수 있다. 진단을 확정하려면 혈액 검사나 두 형태를 구별할 수 있는 특수 센서가 필요하다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "In carbon monoxide poisoning, a pulse oximeter may overstate how much oxygen the blood carries.",
+      "A pulse oximeter is unreliable for all patients because it judges oxygen levels by absorbed light.",
+      "A low pulse oximeter reading is the most dependable sign of carbon monoxide poisoning.",
+      "Carbon monoxide harms the body chiefly by destroying red blood cells faster than they are made."
+    ],
+    "answer": 0,
+    "explain": "근거: 측정기는 빛 흡수로 추정하는데 일산화탄소 결합 헤모글로빈도 \"absorbs light much as oxygen-bound hemoglobin does\" → 중독 환자도 \"a normal reading\" — 실제보다 산소가 많은 것처럼 나온다.\n(2) 과잉 일반화 — all, 문제는 일산화탄소 같은 경우에 한정\n(3) 뒤집기 — 중독돼도 정상 수치가 나올 수 있음\n(4) 원리 왜곡 — 적혈구 파괴가 아니라 헤모글로빈에 결합해 산소 운반을 줄임"
+  },
+  {
+    "id": "rct_0188",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Waiting to Fly After a Dive",
+    "passage": "Under water, a diver breathes air at a pressure that increases with depth, and the higher pressure causes the body's tissues to absorb extra nitrogen. The nitrogen is harmless while the diver stays at depth. If the diver rises too quickly, however, the surrounding pressure drops faster than the blood can carry the nitrogen to the lungs to be breathed out, and bubbles may form in the tissues, causing decompression sickness. Divers therefore ascend slowly and, after deeper or longer dives, pause at set depths on the way up. The danger does not end at the surface. Tissues continue to release excess nitrogen for hours, and an airliner's cabin, though pressurized, is kept at a lower pressure than the air at sea level. Divers are therefore advised to wait, often 12 to 24 hours, before boarding a flight.",
+    "passage_ko": "물속에서 잠수사는 깊이에 따라 높아지는 압력의 공기를 마시며, 높아진 압력 때문에 몸의 조직은 여분의 질소를 흡수한다. 이 질소는 잠수사가 깊은 곳에 머무는 동안에는 해가 없다. 그러나 너무 빨리 올라오면, 혈액이 질소를 폐로 옮겨 내쉬게 하는 속도보다 주변 압력이 더 빨리 떨어져 조직에 기포가 생길 수 있고, 이것이 감압병을 일으킨다. 그래서 잠수사는 천천히 상승하며, 더 깊거나 더 오래 잠수한 뒤에는 올라오는 도중 정해진 깊이에서 멈춘다. 위험은 수면에서 끝나지 않는다. 조직은 몇 시간 동안 여분의 질소를 계속 내보내는데, 여객기 객실은 여압이 되어 있긴 해도 해수면 공기보다 낮은 압력으로 유지된다. 그래서 잠수사는 비행기에 타기 전에 흔히 12~24시간을 기다리라는 권고를 받는다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "Nitrogen absorbed by a diver's tissues becomes harmful the longer the diver remains at depth.",
+      "A diver who ascends slowly enough may board a flight right away without any added risk.",
+      "Decompression sickness most often shows up as pain in the joints of the arms and legs.",
+      "Flying soon after a dive is hazardous for the same basic reason that a rapid ascent is."
+    ],
+    "answer": 3,
+    "explain": "근거: 빨리 올라오면 압력이 너무 빨리 떨어져 기포가 생기는데, 수면 뒤에도 \"Tissues continue to release excess nitrogen for hours\"이고 기내는 \"a lower pressure than the air at sea level\" — 비행도 같은 원리로 압력을 낮춘다.\n(1) 지문과 반대 — 수심에 머무는 동안은 \"harmless\"\n(2) 지문과 반대 — \"The danger does not end at the surface\"\n(3) 지문에 없는 상식 — 관절 통증은 언급 없음"
+  },
+  {
+    "id": "rct_0189",
+    "topic": "culture",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Why Museums Keep the Lights Low",
+    "passage": "Visitors are sometimes surprised by how dimly museums light their drawings, watercolors, and old photographs. The reason is that light, especially ultraviolet light, gradually fades many pigments and weakens paper, and the damage cannot be reversed. What matters is the total amount of light an object receives over time, so a work shown under dim light for many months can fade as much as one shown under bright light for a shorter period. Museums therefore filter out ultraviolet light, keep lighting low for sensitive works, and limit how long those works stay on display, often returning them to dark storage after a few months. Oil paintings and stone sculptures are far less vulnerable and can be shown under brighter light for years.",
+    "passage_ko": "관람객들은 박물관이 소묘, 수채화, 오래된 사진을 얼마나 어둡게 비추는지 보고 놀라곤 한다. 그 이유는 빛, 특히 자외선이 많은 안료를 서서히 바래게 하고 종이를 약하게 만들며, 그 손상은 되돌릴 수 없기 때문이다. 중요한 것은 작품이 시간에 걸쳐 받는 빛의 총량이므로, 어두운 빛 아래 몇 달 동안 전시된 작품은 밝은 빛 아래 더 짧게 전시된 작품만큼 바랠 수 있다. 그래서 박물관은 자외선을 걸러 내고, 민감한 작품의 조명을 낮게 유지하며, 그런 작품의 전시 기간을 제한해 몇 달 뒤에는 어두운 수장고로 돌려보내는 경우가 많다. 유화와 석조 조각은 훨씬 덜 취약해서 더 밝은 빛 아래 몇 년 동안 전시될 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Dim lighting prevents fading entirely, so sensitive works can safely stay on display for good.",
+      "Fading caused by light can be gradually reversed once a work has been returned to dark storage.",
+      "Halving the light on a watercolor would let it be shown about twice as long for equal fading.",
+      "Oil paintings fade faster than watercolors because their colors are applied more thickly."
+    ],
+    "answer": 2,
+    "explain": "근거: \"What matters is the total amount of light an object receives over time\" — 빛을 절반으로 줄이면 같은 총량에 이르기까지 약 두 배의 시간이 걸린다.\n(1) 지문과 반대 — 어두운 빛도 몇 달이면 밝은 빛만큼 바랠 수 있음\n(2) 지문과 반대 — 손상은 \"cannot be reversed\"\n(4) 비교 뒤집기 — 유화는 \"far less vulnerable\""
+  },
+  {
+    "id": "rct_0190",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Charged Hook",
+    "passage": "As a helicopter hovers, its spinning rotor blades rub against air, dust, and moisture, and the aircraft gradually builds up a charge of static electricity. Because the helicopter is not touching the ground, the charge has nowhere to go, and it can become strong enough to deliver a painful and startling shock, particularly in dry, dusty, or snowy conditions. During a rescue, this charge travels down the metal hoist cable to the hook. Rescue crews therefore teach survivors and ground personnel not to grab the hook until it has touched the water or the ground, which allows the charge to drain away. The precaution is not a one-time step: if the hook is lifted clear again while the helicopter keeps hovering, the charge can build back up.",
+    "passage_ko": "헬리콥터가 제자리 비행(호버링)을 하는 동안 회전하는 로터 블레이드가 공기, 먼지, 수분과 마찰하면서 기체에 정전기가 서서히 쌓인다. 헬리콥터는 땅에 닿아 있지 않으므로 이 전하는 빠져나갈 곳이 없고, 특히 건조하거나 먼지가 많거나 눈이 오는 조건에서는 고통스럽고 깜짝 놀랄 만한 충격을 줄 만큼 강해질 수 있다. 구조 중에는 이 전하가 금속 호이스트 케이블을 타고 갈고리까지 내려온다. 그래서 구조대원들은 생존자와 지상 요원에게 갈고리가 물이나 땅에 닿기 전에는 잡지 말라고 가르치는데, 그래야 전하가 빠져나가기 때문이다. 이 예방 조치는 한 번으로 끝나지 않는다. 헬리콥터가 계속 호버링하는 동안 갈고리가 다시 들어 올려지면 전하가 다시 쌓일 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A hovering helicopter builds up static charge only when it flies through rain or snow.",
+      "A hook that touched the water once may need to touch it again before anyone grabs it.",
+      "Once the hook has touched the ground, it stays safe to handle for the rest of the hover.",
+      "The main danger of the shock is damage to the electronic equipment aboard the helicopter."
+    ],
+    "answer": 1,
+    "explain": "근거: \"The precaution is not a one-time step: if the hook is lifted clear again while the helicopter keeps hovering, the charge can build back up\".\n(1) 과잉 일반화 — only, 공기·먼지와의 마찰로도 쌓이며 특히 건조할 때 강함\n(3) 지문과 반대 — 다시 들리면 전하가 다시 쌓임\n(4) 지문에 없는 내용 — 위험은 사람이 받는 고통스러운 충격"
+  },
+  {
+    "id": "rct_0191",
+    "topic": "economics",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "When Higher Prices Pay",
+    "passage": "Whether raising a price brings in more money depends on how buyers respond. If customers cut their purchases only slightly when the price rises, the extra amount collected on each sale outweighs the lost sales, and total revenue increases; economists call such demand inelastic. If customers cut their purchases sharply, revenue falls, and demand is called elastic. Demand tends to be inelastic for goods that have few substitutes, such as gasoline for commuters with no other way to get to work. It tends to be elastic when close substitutes are available, as with one particular brand of bottled water. Responses can also change with time: buyers who cannot adjust quickly may keep buying after a price increase but find alternatives over the following months or years.",
+    "passage_ko": "가격을 올렸을 때 돈을 더 벌게 되는지는 구매자가 어떻게 반응하느냐에 달려 있다. 가격이 오를 때 고객이 구매를 조금만 줄이면, 판매 한 건마다 더 받는 금액이 줄어든 판매량을 상쇄하고도 남아 총수입이 늘어난다. 경제학자들은 이런 수요를 비탄력적(inelastic)이라고 부른다. 고객이 구매를 크게 줄이면 수입이 줄고, 이런 수요는 탄력적(elastic)이라고 한다. 출퇴근할 다른 방법이 없는 통근자에게 휘발유처럼 대체재가 거의 없는 재화는 수요가 비탄력적인 경향이 있다. 특정 상표의 생수처럼 가까운 대체재가 있으면 수요는 탄력적인 경향이 있다. 반응은 시간에 따라 달라질 수도 있다. 빨리 적응할 수 없는 구매자는 가격이 오른 뒤에도 계속 사지만, 이후 몇 달이나 몇 년에 걸쳐 대안을 찾을 수 있다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "A price rise that first increases revenue could later reduce it as buyers find alternatives.",
+      "Raising the price of a good that has many close substitutes is likely to increase total revenue.",
+      "A seller can always increase revenue by raising the price of a good that people need.",
+      "When demand is elastic, buyers keep purchasing about the same amount after a price rise."
+    ],
+    "answer": 0,
+    "explain": "근거: 구매를 조금만 줄이면 수입이 늘고 크게 줄이면 줄며, \"buyers who cannot adjust quickly may keep buying ... but find alternatives over the following months or years\" — 처음엔 늘던 수입이 나중엔 줄 수 있다.\n(2) 뒤집기 — 대체재가 많으면 탄력적이라 수입이 줄어듦\n(3) 과잉 일반화 — always, 시간이 지나면 대안을 찾을 수 있음\n(4) 정의 뒤집기 — 탄력적이면 구매를 '크게' 줄임"
+  },
+  {
+    "id": "rct_0192",
+    "topic": "environment",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Zone Without Oxygen",
+    "passage": "Each summer, a large area of low-oxygen water forms near the bottom of the northern Gulf of Mexico. The process begins on land, where fertilizer washed from farm fields is carried by rivers into the sea. The added nutrients feed huge blooms of algae near the surface. The living algae do little harm; the trouble begins when they die and sink, and bacteria decomposing them use up the oxygen in the deeper water. In summer, a layer of warm, fresher river water floats on top of the colder, saltier seawater, preventing the two from mixing and keeping oxygen from the surface from reaching the bottom. Fish can often swim away, but slow-moving animals such as clams and worms may die. The zone usually shrinks when autumn storms stir the water.",
+    "passage_ko": "해마다 여름이면 멕시코만 북부의 바닥 근처에 산소가 부족한 넓은 수역이 생긴다. 이 과정은 육지에서 시작된다. 농경지에서 씻겨 나간 비료가 강을 따라 바다로 실려 간다. 더해진 영양분은 수면 근처에서 거대한 조류(algae) 번성을 일으킨다. 살아 있는 조류는 별 해가 없다. 문제는 조류가 죽어서 가라앉고, 그것을 분해하는 세균이 깊은 물의 산소를 다 써 버릴 때 시작된다. 여름에는 따뜻하고 덜 짠 강물 층이 더 차갑고 짠 바닷물 위에 떠 있어 둘이 섞이지 못하게 하고, 수면의 산소가 바닥까지 닿지 못하게 한다. 물고기는 대개 헤엄쳐 달아날 수 있지만, 조개나 벌레처럼 느리게 움직이는 동물은 죽을 수 있다. 이 수역은 보통 가을 폭풍이 물을 휘저으면 줄어든다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Living algae near the surface consume most of the oxygen that is found in the deeper water.",
+      "Clams and worms are more likely than fish to escape from the low-oxygen water near the bottom.",
+      "The low-oxygen zone has grown steadily larger over the past several decades.",
+      "A strong storm in midsummer might temporarily raise oxygen levels near the seafloor."
+    ],
+    "answer": 3,
+    "explain": "근거: 여름엔 층이 나뉘어 \"keeping oxygen from the surface from reaching the bottom\"이고 \"The zone usually shrinks when autumn storms stir the water\" — 물을 뒤섞는 폭풍이면 한여름에도 바닥 산소가 잠시 늘 수 있다.\n(1) 주체 뒤집기 — 살아 있는 조류가 아니라 죽은 조류를 분해하는 세균이 산소를 씀\n(2) 비교 뒤집기 — 물고기는 피하고 조개·벌레는 죽을 수 있음\n(3) 지문에 없는 내용 — 장기 추세는 언급 없음"
+  },
+  {
+    "id": "rct_0193",
+    "topic": "military",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Waking Up Groggy",
+    "passage": "During sustained operations, when a full night's sleep is impossible, even a short nap can restore alertness. Naps carry a hidden cost, however. On waking, people often experience sleep inertia, a period of grogginess in which reaction time and judgment are worse than they were before the nap. The effect usually fades within about half an hour, but it is stronger when a person wakes from deep sleep. Because deep sleep typically begins only after roughly half an hour of sleep, naps of 10 to 20 minutes tend to produce little grogginess. People who are badly sleep-deprived, however, fall into deep sleep much sooner. Leaders who schedule naps are therefore advised to allow time for personnel to wake fully before they return to demanding tasks.",
+    "passage_ko": "하룻밤을 온전히 자는 것이 불가능한 지속 작전 중에는 짧은 낮잠도 각성 상태를 회복시킬 수 있다. 하지만 낮잠에는 숨은 대가가 있다. 깨어날 때 사람들은 흔히 수면 관성(sleep inertia)을 겪는데, 이는 반응 시간과 판단력이 낮잠 전보다 나빠지는 멍한 상태의 시간이다. 이 효과는 보통 30분 정도 안에 사라지지만, 깊은 잠에서 깰 때 더 강하다. 깊은 잠은 대개 잠든 지 30분쯤 지나서야 시작되므로, 10~20분의 낮잠은 멍한 상태를 거의 일으키지 않는 경향이 있다. 그러나 수면이 심하게 부족한 사람은 훨씬 더 빨리 깊은 잠에 빠진다. 그래서 낮잠 일정을 짜는 지휘관은 인원이 힘든 임무로 돌아가기 전에 완전히 깰 시간을 주라는 권고를 받는다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문에서 추론할 수 있는 것은?",
+    "options": [
+      "a nap of 10 to 20 minutes causes little grogginess, however tired the sleeper may be",
+      "a 15-minute nap may leave an exhausted soldier groggier than it would leave a mildly tired one",
+      "sleep inertia is worse after short naps, because the sleeper never reaches deep sleep",
+      "because of sleep inertia, naps during operations usually do more harm than good"
+    ],
+    "answer": 1,
+    "explain": "근거: 짧은 낮잠은 깊은 잠이 \"only after roughly half an hour\" 시작되어 멍함이 적지만, \"People who are badly sleep-deprived, however, fall into deep sleep much sooner\" — 지친 병사는 15분 만에도 깊은 잠에서 깰 수 있다.\n(1) 예외 무시 — 심한 수면 부족자는 예외\n(3) 인과 뒤집기 — 깊은 잠에서 깰 때 더 심함\n(4) 지문과 반대 — \"even a short nap can restore alertness\""
+  },
+  {
+    "id": "rct_0194",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "detail",
+    "title": "Fresh Food on Deployment",
+    "passage": "A warship leaving port carries fresh fruit and vegetables, but they do not last. Lettuce and berries may spoil within a week, while potatoes, onions, apples, and citrus fruit can keep for several weeks in cool storage. Food service staff therefore plan menus around shelf life, serving the most perishable items first and relying more and more on frozen, canned, and dried foods as the days pass. Supply ships can deliver fresh produce at sea, but these deliveries depend on schedules, weather, and the ship's operations, so a crew may go weeks without a salad. Because fresh food matters greatly to morale on long deployments, the arrival of a resupply is often noticed first in the dining area.",
+    "passage_ko": "항구를 떠나는 군함은 신선한 과일과 채소를 싣고 가지만, 그것들은 오래가지 않는다. 상추와 베리류는 일주일 안에 상할 수 있는 반면, 감자, 양파, 사과, 감귤류는 서늘하게 보관하면 몇 주 동안 버틸 수 있다. 그래서 급양 요원들은 보관 기간을 기준으로 식단을 짜서 가장 상하기 쉬운 것부터 내놓고, 날이 갈수록 냉동·통조림·건조 식품에 점점 더 의존한다. 보급함이 바다에서 신선 농산물을 전달할 수 있지만, 이 보급은 일정, 날씨, 함정의 작전에 좌우되므로 승조원들이 몇 주 동안 샐러드를 못 먹을 수도 있다. 긴 배치 기간에 신선한 음식은 사기에 매우 중요하기 때문에, 보급품이 도착했다는 사실은 흔히 식당에서 가장 먼저 알아차린다.",
+    "q": "According to the passage, what determines the order in which fresh foods are served aboard ship?",
+    "q_ko": "지문에 따르면, 함정에서 신선 식품을 내놓는 순서는 무엇으로 정해지는가?",
+    "options": [
+      "Items most likely to spoil soon are served before longer-lasting ones.",
+      "Items the crew enjoys most are served first, to help support morale at sea.",
+      "Items delivered most recently by a supply ship are served first.",
+      "Items that take up the most refrigerated space are served first."
+    ],
+    "answer": 0,
+    "explain": "근거: \"plan menus around shelf life, serving the most perishable items first\".\n(2) 세부 왜곡 — 사기(morale)는 보급품 도착 이야기일 뿐 순서 기준이 아님\n(3) 지문에 없는 기준 — 최근 보급순은 언급 없음\n(4) 지문에 없는 기준 — 냉장 공간은 언급 없음"
+  },
+  {
+    "id": "rct_0195",
+    "topic": "health",
+    "diff": 3,
+    "qtype": "detail",
+    "title": "Sanitizer or Soap?",
+    "passage": "Alcohol-based hand sanitizers and soap and water protect against illness in different ways. Sanitizers kill many germs on contact, provided they contain at least 60 percent alcohol and are rubbed over all surfaces of the hands until dry. Soap works mainly by loosening dirt, grease, and germs so that running water can rinse them away. Because sanitizers remove nothing from the skin, they work poorly on hands that are visibly dirty or greasy, since the dirt can shield germs from the alcohol. Some germs, including norovirus, a common cause of stomach illness, also resist alcohol. For these reasons, health agencies recommend sanitizer when soap and water are not available but advise washing whenever hands are visibly soiled.",
+    "passage_ko": "알코올 손 소독제와 비누·물은 서로 다른 방식으로 질병을 막는다. 소독제는 알코올이 60퍼센트 이상 들어 있고 손의 모든 면에 마를 때까지 문질러 바르면 많은 병원균을 닿는 즉시 죽인다. 비누는 주로 때, 기름, 병원균을 떼어 내 흐르는 물에 씻겨 나가게 하는 방식으로 작용한다. 소독제는 피부에서 아무것도 제거하지 않으므로 눈에 띄게 더럽거나 기름진 손에서는 효과가 떨어지는데, 때가 병원균을 알코올로부터 가려 줄 수 있기 때문이다. 흔한 위장병 원인인 노로바이러스를 비롯한 일부 병원균은 알코올에도 잘 견딘다. 이런 이유로 보건 기관들은 비누와 물을 쓸 수 없을 때 소독제를 권하지만, 손이 눈에 띄게 더러울 때는 언제나 씻으라고 권고한다.",
+    "q": "According to the passage, why do hand sanitizers work poorly on visibly dirty hands?",
+    "q_ko": "지문에 따르면, 손 소독제가 눈에 띄게 더러운 손에 잘 듣지 않는 이유는?",
+    "options": [
+      "Dirt lowers the sanitizer's alcohol content to below 60 percent.",
+      "Germs on dirty hands are usually norovirus, which resists alcohol.",
+      "Sanitizers leave dirt in place, and it can shield germs from the alcohol.",
+      "Dirty hands dry too quickly for the sanitizer to reach every surface of the skin."
+    ],
+    "answer": 2,
+    "explain": "근거: \"Because sanitizers remove nothing from the skin, they work poorly on hands that are visibly dirty or greasy, since the dirt can shield germs from the alcohol\".\n(1) 세부 왜곡 — 60%는 필요한 최소 농도일 뿐, 때가 농도를 낮춘다는 말은 없음\n(2) 세부 섞기 — 노로바이러스는 별개의 이유이며 '대개'라는 말은 없음\n(4) 지문에 없는 내용 — 손이 빨리 마른다는 설명은 없음"
+  },
+  {
+    "id": "rct_0196",
+    "topic": "science",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Waves That Reveal the Core",
+    "passage": "An earthquake sends two main kinds of waves through the Earth. Primary, or P, waves push and pull the material they pass through, so they can travel through solids, liquids, and gases. Secondary, or S, waves move material from side to side, and because a liquid offers no resistance to that kind of motion, S waves cannot pass through liquids at all. Early in the twentieth century, seismologists noticed that stations on the far side of the planet from a large earthquake recorded P waves but no direct S waves. They concluded that part of the Earth's deep interior must be liquid, and later measurements showed that this liquid layer, the outer core, surrounds a solid inner core.",
+    "passage_ko": "지진은 지구 내부로 두 가지 주요 파동을 보낸다. 1차파, 즉 P파는 통과하는 물질을 밀고 당기므로 고체, 액체, 기체를 모두 지나갈 수 있다. 2차파, 즉 S파는 물질을 좌우로 흔드는데, 액체는 그런 움직임에 저항하지 않으므로 S파는 액체를 전혀 통과하지 못한다. 20세기 초 지진학자들은 큰 지진이 일어난 곳에서 볼 때 지구 반대편에 있는 관측소들이 P파는 기록하지만 직접 도달한 S파는 기록하지 못한다는 것을 알아차렸다. 그들은 지구 깊은 내부의 일부가 액체임이 틀림없다고 결론지었고, 이후의 측정을 통해 이 액체층인 외핵이 고체인 내핵을 둘러싸고 있다는 것이 밝혀졌다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "S waves cross liquids more slowly than P waves do, so they reach distant stations late.",
+      "Stations on the far side of the planet from a large earthquake record no waves of any kind from it.",
+      "The absence of P waves at distant stations showed that the Earth's inner core is solid.",
+      "If the outer core were solid, distant stations would be expected to record direct S waves too."
+    ],
+    "answer": 3,
+    "explain": "근거: S파는 \"cannot pass through liquids at all\"이고, 먼 관측소에 직접 S파가 없다는 사실에서 내부가 액체라고 결론 — 외핵이 고체라면 S파가 통과해 기록될 것이다.\n(1) 지문과 반대 — S파는 액체를 '전혀' 통과하지 못함(늦게 도착하는 것이 아님)\n(2) 지문과 반대 — P파는 기록됨\n(3) 세부 왜곡 — P파는 기록되었고, 내핵이 고체라는 것은 이후 측정으로 밝혀짐"
+  },
+  {
+    "id": "rct_0197",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Escaping an Upside-Down Cabin",
+    "passage": "A helicopter that lands in water is likely to roll over and sink quickly, because its engines, gearbox, and rotor sit high above the cabin and make it top-heavy. Occupants may find themselves upside down, in darkness, with water pouring in. To prepare for this, military aircrew and many offshore workers train in a mock cabin that is lowered into a pool and turned over. Trainees learn to locate the nearest exit by touch before impact and to keep one hand on it. They are also taught not to release their seat belts until the violent motion and inrush of water have stopped. Releasing too early can leave a person floating free in an inverted cabin with no fixed reference, unable to tell which way leads out.",
+    "passage_ko": "물에 내려앉은 헬리콥터는 엔진, 기어박스, 로터가 객실 위쪽 높은 곳에 있어 위가 무겁기 때문에 뒤집혀 빠르게 가라앉을 가능성이 크다. 탑승자는 거꾸로 뒤집힌 채 어둠 속에서 물이 쏟아져 들어오는 상황에 놓일 수 있다. 이에 대비하기 위해 군 항공 승무원과 많은 해상 작업자들은 수영장에 내려져 뒤집히는 모형 객실에서 훈련한다. 훈련생들은 충격 전에 손으로 더듬어 가장 가까운 출구를 찾고 한 손을 그 위에 얹어 두는 법을 배운다. 또한 격렬한 움직임과 물의 유입이 멈출 때까지 좌석벨트를 풀지 말라고 배운다. 너무 일찍 풀면 뒤집힌 객실 안에서 고정된 기준점 없이 떠다니게 되어 어느 쪽이 밖으로 나가는 길인지 알 수 없게 될 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Knowing where an exit is before impact matters because it may be impossible to find by sight afterward.",
+      "Helicopters sink quickly after landing in water mainly because their cabins are heavier than those of airplanes.",
+      "Trainees are taught to release their seat belts as soon as the helicopter strikes the water.",
+      "A helicopter that rolls over in water usually rights itself once the violent motion stops."
+    ],
+    "answer": 0,
+    "explain": "근거: 탑승자는 \"upside down, in darkness\" 상태가 될 수 있어 \"locate the nearest exit by touch before impact\"하도록 훈련 — 충격 뒤에는 눈으로 출구를 찾기 어려울 수 있다.\n(2) 원인 왜곡 — 엔진·로터가 위에 있어 \"top-heavy\"하기 때문이며, 비행기와 비교하지 않음\n(3) 지문과 반대 — 움직임과 물 유입이 멈출 때까지 벨트를 풀지 않음\n(4) 지문에 없는 내용 — 오히려 뒤집혀 빠르게 가라앉는다고 함"
+  },
+  {
+    "id": "rct_0198",
+    "topic": "economics",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Who Pays for the Lighthouse?",
+    "passage": "Economists describe a public good as one that people cannot easily be prevented from using and that one person can use without leaving less for others. The lighthouse has long served as the standard example. Once its light is shining, every passing ship benefits, and one ship's use of it takes nothing away from the next. Because a shipowner can enjoy the light without paying for it, many economists concluded that private firms would never build lighthouses and that only governments could. In 1974, however, the economist Ronald Coase pointed out that many lighthouses in England had been built and operated privately from the 1600s into the 1800s. Their owners were paid through fees collected from ships in nearby ports, where payment could be enforced.",
+    "passage_ko": "경제학자들은 사람들이 이용하는 것을 쉽게 막을 수 없고, 한 사람이 이용해도 다른 사람의 몫이 줄지 않는 재화를 공공재(public good)라고 부른다. 등대는 오랫동안 그 대표적인 예로 쓰여 왔다. 일단 불빛이 켜지면 지나가는 모든 배가 혜택을 보고, 한 배가 이용한다고 다음 배의 몫이 줄지도 않는다. 선주는 돈을 내지 않고도 불빛을 누릴 수 있으므로, 많은 경제학자는 민간 기업은 결코 등대를 짓지 않을 것이며 정부만이 지을 수 있다고 결론지었다. 그러나 1974년 경제학자 로널드 코스(Ronald Coase)는 잉글랜드의 많은 등대가 1600년대부터 1800년대까지 민간에 의해 건설되고 운영되었다고 지적했다. 등대 소유주들은 지불을 강제할 수 있는 인근 항구에서 배들에게 걷은 요금으로 돈을 받았다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
+    "options": [
+      "Coase showed that a lighthouse is not a public good, because ships compete for its light.",
+      "The difficulty of collecting from users can sometimes be solved by charging them elsewhere.",
+      "Privately run lighthouses in England were more reliable than those run by the government.",
+      "Because ships could not be made to pay, England's lighthouses were all built by the government."
+    ],
+    "answer": 1,
+    "explain": "근거: 배는 돈을 내지 않고도 불빛을 누리지만, 민간 소유주는 \"fees collected from ships in nearby ports, where payment could be enforced\"로 돈을 받았다 — 다른 곳에서 요금을 걷어 문제를 풀었다.\n(1) 왜곡 — 배들이 불빛을 두고 경쟁한다는 것은 \"takes nothing away\"와 반대\n(3) 지문에 없는 비교 — 신뢰성은 비교하지 않음\n(4) 지문과 반대 — 민간이 짓고 운영한 등대가 많았음"
+  },
+  {
+    "id": "rct_0199",
+    "topic": "environment",
+    "diff": 2,
+    "qtype": "main_idea",
+    "title": "Bridges for Wildlife",
+    "passage": "Highways cut across the landscapes that many animals must travel to find food, mates, and new territory, and collisions with vehicles kill large numbers of animals while also injuring drivers. One response has been to build wildlife crossings: bridges covered with soil and plants that carry animals over a road, or tunnels that let them pass beneath it. Crossings work only when they are combined with fencing that keeps animals off the pavement and guides them toward the structures. Even then, results take time. Studies in western North America found that some species, such as deer, began using new crossings within months, while wary animals such as bears took several years to use them regularly. Species also differ in their preferences, with some favoring wide, open overpasses and others the cover of a tunnel.",
+    "passage_ko": "고속도로는 많은 동물이 먹이와 짝, 새 영역을 찾아 이동해야 하는 땅을 가로지르며, 차량과의 충돌은 많은 동물을 죽이고 운전자도 다치게 한다. 한 가지 대응책은 생태 통로를 만드는 것이다. 흙과 식물로 덮여 동물이 도로 위로 건너가게 하는 다리나, 도로 아래로 지나가게 하는 터널이다. 생태 통로는 동물이 도로에 들어오지 못하게 막고 통로 쪽으로 이끄는 울타리와 함께 설치될 때만 효과가 있다. 그렇게 해도 결과가 나오려면 시간이 걸린다. 북아메리카 서부의 연구에 따르면 사슴 같은 일부 종은 몇 달 안에 새 통로를 이용하기 시작했지만, 곰처럼 경계심이 많은 동물은 정기적으로 이용하기까지 몇 년이 걸렸다. 종마다 선호도 달라서, 어떤 종은 넓고 탁 트인 육교를, 다른 종은 몸을 숨길 수 있는 터널을 좋아한다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 나타낸 것은?",
+    "options": [
+      "Bears are more cautious than deer and generally refuse to use crossings that were built for other animals.",
+      "Highways should be closed or rerouted wherever large animals regularly need to travel across them.",
+      "Tunnels are more effective than overpasses for helping most kinds of animals cross roads.",
+      "Wildlife crossings can reduce road deaths, but how well they work depends on fencing, design, and time."
+    ],
+    "answer": 3,
+    "explain": "근거: 도로 피해에 대한 대응으로 생태 통로를 소개한 뒤 \"work only when they are combined with fencing\", \"results take time\", 종마다 선호가 다르다고 설명 — 효과는 울타리·설계·시간에 달려 있다는 것이 요지.\n(1) 세부 왜곡 — 곰도 몇 년 뒤 \"use them regularly\"\n(2) 지문에 없는 주장 — 도로 폐쇄·우회는 언급 없음\n(3) 지문과 반대 — 종마다 선호가 다름"
+  },
+  {
+    "id": "rct_0200",
+    "topic": "culture",
+    "diff": 3,
+    "qtype": "main_idea",
+    "title": "Many Hands Behind One Print",
+    "passage": "The Japanese woodblock prints of the Edo period, such as the famous views of Mount Fuji, are usually credited to a single artist, but each was the product of a team. A publisher chose the subject, paid for production, and sold the finished prints. The artist supplied a design drawn in ink on thin paper. A carver pasted this drawing face down onto a block of cherry wood and cut away everything except the lines, destroying the original drawing in the process. Additional blocks were carved for each color, and a printer inked them one at a time, aligning each sheet with small notches cut into the blocks. Because one set of blocks could produce hundreds of copies, prints were cheap enough for ordinary townspeople to buy.",
+    "passage_ko": "후지산 풍경으로 유명한 작품들처럼 에도 시대 일본의 목판화는 보통 한 명의 화가가 만든 것으로 여겨지지만, 사실 각각은 한 팀의 작품이었다. 출판인(publisher)이 주제를 정하고 제작비를 대며 완성된 판화를 팔았다. 화가는 얇은 종이에 먹으로 그린 밑그림을 제공했다. 조각가는 이 그림을 벚나무 판목에 뒤집어 붙이고 선만 남기고 나머지를 모두 깎아 냈는데, 이 과정에서 원래 그림은 없어졌다. 색마다 판목을 따로 더 새겼고, 인쇄공이 판목에 한 번에 하나씩 물감을 칠해 찍었으며, 판목에 새긴 작은 홈으로 종이 위치를 맞추었다. 판목 한 벌로 수백 장을 찍을 수 있었기 때문에, 판화는 평범한 도시 사람들도 살 수 있을 만큼 쌌다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 나타낸 것은?",
+    "options": [
+      "Edo-period prints were cheap because one set of blocks could produce hundreds of copies.",
+      "The carver was the most important member of the team, since the carver's knife fixed every line.",
+      "Prints usually credited to one artist were in fact produced by several specialists working together.",
+      "Edo-period artists preferred printmaking to painting because prints reached far more buyers."
+    ],
+    "answer": 2,
+    "explain": "근거: \"usually credited to a single artist, but each was the product of a team\" 뒤에 출판인·화가·조각가·인쇄공의 역할을 차례로 설명 — 여러 전문가의 협업이 요지.\n(1) 세부일 뿐 — 맞는 내용이지만 마지막 문장의 세부\n(2) 지문에 없는 평가 — 누가 가장 중요한지는 말하지 않음\n(4) 지문에 없는 내용 — 화가의 선호는 언급 없음"
+  }
+]
