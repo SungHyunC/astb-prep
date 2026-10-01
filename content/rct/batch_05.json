@@ -63,7 +63,7 @@
     "qtype": "inference",
     "title": "Cold Injury Above Freezing",
     "passage": "Cold injuries do not require freezing temperatures. Frostbite occurs when tissue actually freezes, but a different injury, often called trench foot, develops when the feet stay cold and wet for many hours at temperatures well above freezing. Wet socks draw heat away from the skin far faster than dry ones, and tight boots and long periods of standing still reduce blood flow further. The early signs are easy to dismiss: the feet may feel only numb or cold, and serious pain and swelling often appear only after they are rewarmed. Because nerves and blood vessels can remain damaged for months or even years, prevention receives heavy emphasis. Soldiers are taught to carry spare socks, change them at least once a day, dry and massage their feet, and avoid lacing their boots too tightly.",
-    "passage_ko": "냉손상은 영하의 기온이 있어야만 생기는 것이 아니다. 동상은 조직이 실제로 얼 때 생기지만, 흔히 참호족(trench foot)이라 불리는 다른 손상은 영상보다 훨씬 높은 기온에서도 발이 여러 시간 동안 차갑고 젖은 채로 있으면 생긴다. 젖은 양말은 마른 양말보다 피부의 열을 훨씬 빨리 빼앗고, 꽉 끼는 군화와 오랫동안 가만히 서 있는 것은 혈류를 더 줄인다. 초기 징후는 대수롭지 않게 넘기기 쉽다. 발이 그저 무감각하거나 차갑게 느껴질 뿐이고, 심한 통증과 부기는 발을 다시 데운 뒤에야 나타나는 경우가 많다. 신경과 혈관이 몇 달, 심지어 몇 년 동안 손상된 채로 남을 수 있기 때문에 예방이 크게 강조된다. 병사들은 여분의 양말을 가지고 다니며 적어도 하루에 한 번은 갈아 신고, 발을 말리고 마사지하며, 군화 끈을 너무 꽉 매지 않도록 교육받는다.",
+    "passage_ko": "냉손상은 영하의 기온이 있어야만 생기는 것이 아니다. 동상은 조직이 실제로 얼 때 생기지만, 흔히 참호족(trench foot)이라 불리는 다른 손상은 어는점보다 훨씬 높은 기온에서도 발이 여러 시간 동안 차갑고 젖은 채로 있으면 생긴다. 젖은 양말은 마른 양말보다 피부의 열을 훨씬 빨리 빼앗고, 꽉 끼는 군화와 오랫동안 가만히 서 있는 것은 혈류를 더 줄인다. 초기 징후는 대수롭지 않게 넘기기 쉽다. 발이 그저 무감각하거나 차갑게 느껴질 뿐이고, 심한 통증과 부기는 발을 다시 데운 뒤에야 나타나는 경우가 많다. 신경과 혈관이 몇 달, 심지어 몇 년 동안 손상된 채로 남을 수 있기 때문에 예방이 크게 강조된다. 병사들은 여분의 양말을 가지고 다니며 적어도 하루에 한 번은 갈아 신고, 발을 말리고 마사지하며, 군화 끈을 너무 꽉 매지 않도록 교육받는다.",
     "q": "It can be inferred from the passage that",
     "q_ko": "지문에서 추론할 수 있는 것은?",
     "options": [
@@ -214,8 +214,8 @@
     "diff": 2,
     "qtype": "inference",
     "title": "Soreness That Comes Later",
-    "passage": "Muscle soreness that appears a day or two after unfamiliar exercise is known as delayed-onset muscle soreness. It was once blamed on lactic acid, but lactic acid is cleared from the muscles within about an hour after exercise ends, long before the soreness reaches its peak. The soreness is now thought to result from small-scale damage to muscle fibers and the repair process that follows. It is most severe after movements in which a muscle lengthens while resisting a load, such as running downhill or slowly lowering a heavy weight. The body adapts quickly, however: repeating the same exercise a week or two later typically causes much less soreness, even if the workout is just as hard.",
-    "passage_ko": "익숙하지 않은 운동을 하고 하루나 이틀 뒤에 나타나는 근육통을 지연성 근육통(delayed-onset muscle soreness)이라고 한다. 예전에는 젖산 탓으로 여겨졌지만, 젖산은 운동이 끝난 뒤 약 한 시간 안에 근육에서 제거되므로 통증이 절정에 이르기 훨씬 전에 사라진다. 지금은 이 통증이 근섬유의 미세한 손상과 그 뒤에 이어지는 회복 과정에서 생기는 것으로 여겨진다. 통증은 근육이 부하에 저항하면서 늘어나는 동작, 예를 들어 내리막 달리기나 무거운 중량을 천천히 내리는 동작 뒤에 가장 심하다. 하지만 몸은 빨리 적응한다. 한두 주 뒤에 같은 운동을 반복하면, 운동 강도가 똑같더라도 대개 통증이 훨씬 덜하다.",
+    "passage": "Muscle soreness that appears a day or two after unfamiliar exercise is known as delayed-onset muscle soreness. It was once blamed on lactic acid, but lactic acid is cleared from the muscles within about an hour after exercise ends, long before the soreness reaches its peak. The soreness is now thought to result from small-scale damage to muscle fibers and the repair process that follows. It is most severe after movements in which a muscle lengthens while resisting a load, such as walking or running downhill or slowly lowering a heavy weight. The body adapts quickly, however: repeating the same exercise a week or two later typically causes much less soreness, even if the workout is just as hard.",
+    "passage_ko": "익숙하지 않은 운동을 하고 하루나 이틀 뒤에 나타나는 근육통을 지연성 근육통(delayed-onset muscle soreness)이라고 한다. 예전에는 젖산 탓으로 여겨졌지만, 젖산은 운동이 끝난 뒤 약 한 시간 안에 근육에서 제거되므로 통증이 절정에 이르기 훨씬 전에 사라진다. 지금은 이 통증이 근섬유의 미세한 손상과 그 뒤에 이어지는 회복 과정에서 생기는 것으로 여겨진다. 통증은 근육이 부하에 저항하면서 늘어나는 동작, 예를 들어 내리막을 걷거나 달리는 동작, 무거운 중량을 천천히 내리는 동작 뒤에 가장 심하다. 하지만 몸은 빨리 적응한다. 한두 주 뒤에 같은 운동을 반복하면, 운동 강도가 똑같더라도 대개 통증이 훨씬 덜하다.",
     "q": "Which of the following statements is best supported by the passage?",
     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
     "options": [
@@ -225,7 +225,7 @@
       "Stretching before exercise is the most effective way to prevent delayed soreness."
     ],
     "answer": 0,
-    "explain": "근거: 통증은 \"most severe after movements in which a muscle lengthens while resisting a load, such as running downhill\" — 내리막이 오르막보다 더 아플 수 있다.\n(2) 지문과 반대 — 젖산은 약 1시간 안에 제거됨\n(3) 뒤집기 — 반복하면 통증이 \"much less\"\n(4) 지문에 없는 내용 — 스트레칭은 언급 없음"
+    "explain": "근거: 통증은 \"most severe after movements in which a muscle lengthens while resisting a load, such as walking or running downhill\" — 가파른 길을 걸어 내려가는 것이 바로 이런 동작이므로, 같은 길을 오를 때보다 더 아플 수 있다.\n(2) 지문과 반대 — 젖산은 약 1시간 안에 제거됨\n(3) 뒤집기 — 반복하면 통증이 \"much less\"\n(4) 지문에 없는 내용 — 스트레칭은 언급 없음"
   },
   {
     "id": "rct_0173",
@@ -363,7 +363,7 @@
   {
     "id": "rct_0180",
     "topic": "health",
-    "diff": 3,
+    "diff": 2,
     "qtype": "detail",
     "title": "Caffeine and the Clock",
     "passage": "Caffeine promotes alertness by blocking the action of adenosine, a chemical that builds up in the brain during waking hours and produces the feeling of sleepiness. Its effect is not immediate: caffeine reaches its peak level in the blood roughly 30 to 60 minutes after it is consumed. Nor is the effect brief. In a typical adult, about half of a dose is still in the body five or six hours later, though this figure varies widely from person to person. Caffeine taken in the late afternoon can therefore still be active at bedtime. Some people say that coffee does not affect their sleep because they fall asleep easily, but laboratory studies have found that caffeine can reduce the amount of deep sleep even in people who notice no difficulty falling asleep.",
@@ -477,7 +477,7 @@
   {
     "id": "rct_0186",
     "topic": "science",
-    "diff": 3,
+    "diff": 2,
     "qtype": "detail",
     "title": "Fish That Do Not Freeze",
     "passage": "Seawater near Antarctica stays at about -1.9°C, the temperature at which salt water freezes, yet the blood of most fish would freeze at about -0.8°C. Many fish nevertheless thrive in these waters because their bodies produce antifreeze proteins. These proteins do not work the way dissolved salt does, by lowering the freezing point through sheer quantity. Instead, they attach to the surfaces of tiny ice crystals that enter the body and stop the crystals from growing larger. Some fish in other cold regions produce antifreeze proteins only during winter, when the water is coldest, and stop making them as the water warms, saving the energy that producing the proteins requires.",
@@ -496,7 +496,7 @@
   {
     "id": "rct_0187",
     "topic": "health",
-    "diff": 4,
+    "diff": 3,
     "qtype": "inference",
     "title": "A Normal Reading That Misleads",
     "passage": "Carbon monoxide, an odorless gas produced by burning fuel, is dangerous because it binds to hemoglobin, the oxygen-carrying molecule in red blood cells, far more tightly than oxygen does. Blood that has absorbed carbon monoxide therefore delivers less oxygen to the body's tissues. This creates a problem for diagnosis. A standard pulse oximeter, the clip-on sensor that estimates the share of hemoglobin carrying oxygen, makes its estimate from the way blood absorbs light, and hemoglobin bound to carbon monoxide absorbs light much as oxygen-bound hemoglobin does. As a result, the device can show a normal reading in a patient who is seriously poisoned. Confirming the diagnosis requires a blood test or a specialized sensor that can tell the two forms apart.",
@@ -518,18 +518,18 @@
     "diff": 3,
     "qtype": "inference",
     "title": "Waiting to Fly After a Dive",
-    "passage": "Under water, a diver breathes air at a pressure that increases with depth, and the higher pressure causes the body's tissues to absorb extra nitrogen. The nitrogen is harmless while the diver stays at depth. If the diver rises too quickly, however, the surrounding pressure drops faster than the blood can carry the nitrogen to the lungs to be breathed out, and bubbles may form in the tissues, causing decompression sickness. Divers therefore ascend slowly and, after deeper or longer dives, pause at set depths on the way up. The danger does not end at the surface. Tissues continue to release excess nitrogen for hours, and an airliner's cabin, though pressurized, is kept at a lower pressure than the air at sea level. Divers are therefore advised to wait, often 12 to 24 hours, before boarding a flight.",
-    "passage_ko": "물속에서 잠수사는 깊이에 따라 높아지는 압력의 공기를 마시며, 높아진 압력 때문에 몸의 조직은 여분의 질소를 흡수한다. 이 질소는 잠수사가 깊은 곳에 머무는 동안에는 해가 없다. 그러나 너무 빨리 올라오면, 혈액이 질소를 폐로 옮겨 내쉬게 하는 속도보다 주변 압력이 더 빨리 떨어져 조직에 기포가 생길 수 있고, 이것이 감압병을 일으킨다. 그래서 잠수사는 천천히 상승하며, 더 깊거나 더 오래 잠수한 뒤에는 올라오는 도중 정해진 깊이에서 멈춘다. 위험은 수면에서 끝나지 않는다. 조직은 몇 시간 동안 여분의 질소를 계속 내보내는데, 여객기 객실은 여압이 되어 있긴 해도 해수면 공기보다 낮은 압력으로 유지된다. 그래서 잠수사는 비행기에 타기 전에 흔히 12~24시간을 기다리라는 권고를 받는다.",
+    "passage": "Under water, a diver breathes air at a pressure that increases with depth, and the higher pressure causes the body's tissues to absorb extra nitrogen. This dissolved nitrogen forms no bubbles while the diver stays at depth. If the diver rises too quickly, however, the surrounding pressure drops faster than the blood can carry the nitrogen to the lungs to be breathed out, and bubbles may form in the tissues, causing decompression sickness. Divers therefore ascend slowly and, after deeper or longer dives, pause at set depths on the way up. The danger does not end at the surface. Tissues continue to release excess nitrogen for hours, and an airliner's cabin, though pressurized, is kept at a lower pressure than the air at sea level. Divers are therefore advised to wait, often 12 to 24 hours, before boarding a flight.",
+    "passage_ko": "물속에서 잠수사는 깊이에 따라 높아지는 압력의 공기를 마시며, 높아진 압력 때문에 몸의 조직은 여분의 질소를 흡수한다. 이렇게 녹아든 질소는 잠수사가 깊은 곳에 머무는 동안에는 기포를 만들지 않는다. 그러나 너무 빨리 올라오면, 혈액이 질소를 폐로 옮겨 내쉬게 하는 속도보다 주변 압력이 더 빨리 떨어져 조직에 기포가 생길 수 있고, 이것이 감압병을 일으킨다. 그래서 잠수사는 천천히 상승하며, 더 깊거나 더 오래 잠수한 뒤에는 올라오는 도중 정해진 깊이에서 멈춘다. 위험은 수면에서 끝나지 않는다. 조직은 몇 시간 동안 여분의 질소를 계속 내보내는데, 여객기 객실은 여압이 되어 있긴 해도 해수면 공기보다 낮은 압력으로 유지된다. 그래서 잠수사는 비행기에 타기 전에 흔히 12~24시간을 기다리라는 권고를 받는다.",
     "q": "The passage best supports which of the following conclusions?",
     "q_ko": "지문이 가장 잘 뒷받침하는 결론은?",
     "options": [
-      "Nitrogen absorbed by a diver's tissues becomes harmful the longer the diver remains at depth.",
+      "Nitrogen bubbles usually form in a diver's tissues while the diver is still at full depth.",
       "A diver who ascends slowly enough may board a flight right away without any added risk.",
       "Decompression sickness most often shows up as pain in the joints of the arms and legs.",
       "Flying soon after a dive is hazardous for the same basic reason that a rapid ascent is."
     ],
     "answer": 3,
-    "explain": "근거: 빨리 올라오면 압력이 너무 빨리 떨어져 기포가 생기는데, 수면 뒤에도 \"Tissues continue to release excess nitrogen for hours\"이고 기내는 \"a lower pressure than the air at sea level\" — 비행도 같은 원리로 압력을 낮춘다.\n(1) 지문과 반대 — 수심에 머무는 동안은 \"harmless\"\n(2) 지문과 반대 — \"The danger does not end at the surface\"\n(3) 지문에 없는 상식 — 관절 통증은 언급 없음"
+    "explain": "근거: 빨리 올라오면 압력이 너무 빨리 떨어져 기포가 생기는데, 수면 뒤에도 \"Tissues continue to release excess nitrogen for hours\"이고 기내는 \"a lower pressure than the air at sea level\" — 비행도 같은 원리로 압력을 낮춘다.\n(1) 지문과 반대 — 수심에 머무는 동안에는 \"forms no bubbles\", 기포는 너무 빨리 올라올 때 생김\n(2) 지문과 반대 — \"The danger does not end at the surface\"\n(3) 지문에 없는 상식 — 관절 통증은 언급 없음"
   },
   {
     "id": "rct_0189",
@@ -553,7 +553,7 @@
   {
     "id": "rct_0190",
     "topic": "aviation",
-    "diff": 3,
+    "diff": 2,
     "qtype": "inference",
     "title": "A Charged Hook",
     "passage": "As a helicopter hovers, its spinning rotor blades rub against air, dust, and moisture, and the aircraft gradually builds up a charge of static electricity. Because the helicopter is not touching the ground, the charge has nowhere to go, and it can become strong enough to deliver a painful and startling shock, particularly in dry, dusty, or snowy conditions. During a rescue, this charge travels down the metal hoist cable to the hook. Rescue crews therefore teach survivors and ground personnel not to grab the hook until it has touched the water or the ground, which allows the charge to drain away. The precaution is not a one-time step: if the hook is lifted clear again while the helicopter keeps hovering, the charge can build back up.",
@@ -572,7 +572,7 @@
   {
     "id": "rct_0191",
     "topic": "economics",
-    "diff": 4,
+    "diff": 3,
     "qtype": "inference",
     "title": "When Higher Prices Pay",
     "passage": "Whether raising a price brings in more money depends on how buyers respond. If customers cut their purchases only slightly when the price rises, the extra amount collected on each sale outweighs the lost sales, and total revenue increases; economists call such demand inelastic. If customers cut their purchases sharply, revenue falls, and demand is called elastic. Demand tends to be inelastic for goods that have few substitutes, such as gasoline for commuters with no other way to get to work. It tends to be elastic when close substitutes are available, as with one particular brand of bottled water. Responses can also change with time: buyers who cannot adjust quickly may keep buying after a price increase but find alternatives over the following months or years.",
@@ -648,7 +648,7 @@
   {
     "id": "rct_0195",
     "topic": "health",
-    "diff": 3,
+    "diff": 2,
     "qtype": "detail",
     "title": "Sanitizer or Soap?",
     "passage": "Alcohol-based hand sanitizers and soap and water protect against illness in different ways. Sanitizers kill many germs on contact, provided they contain at least 60 percent alcohol and are rubbed over all surfaces of the hands until dry. Soap works mainly by loosening dirt, grease, and germs so that running water can rinse them away. Because sanitizers remove nothing from the skin, they work poorly on hands that are visibly dirty or greasy, since the dirt can shield germs from the alcohol. Some germs, including norovirus, a common cause of stomach illness, also resist alcohol. For these reasons, health agencies recommend sanitizer when soap and water are not available but advise washing whenever hands are visibly soiled.",
