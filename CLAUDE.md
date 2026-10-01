@@ -12,7 +12,7 @@
 ## 콘텐츠
 - 원본은 `content/`(규격 `content/AUTHORING.md`, 기준값 `content/enums.json`), 앱은 `data/`만 읽는다.
 - 콘텐츠를 고친 뒤: `node scripts/validate.mjs && node scripts/build_data.mjs` (validate가 OK여야 커밋).
-- 4지선다, 영어 문항 + 한국어 `q_ko`·`explain`. MCT 그림은 `fig` 파라미터(§5)로만 — SVG를 직접 넣지 않는다.
+- 4지선다, 영어 문항 + 한국어 `q_ko`·`explain`. MCT·ANIT 그림은 `fig` 파라미터(§5·§5-2)로만 — SVG를 직접 넣지 않는다. 난이도 `diff`는 1–4(§0-1).
 
 ## 구조 메모
 - 빌드 없는 정적 PWA. `js/*.js`는 classic script로 순서대로 로드되고 전역 스코프를 공유한다. 최상위 실행문은 `js/boot.js`에만.
