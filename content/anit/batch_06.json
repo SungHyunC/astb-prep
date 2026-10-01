@@ -222,8 +222,8 @@
     "q_ko": "그림에서 B로 표시된 조종면을 움직이면 주로 비행기의 무엇이 바뀌는가?",
     "options": ["Roll, about the longitudinal axis", "Pitch, about the lateral axis", "Yaw, about the vertical axis", "Pitch, about the longitudinal axis"],
     "answer": 1,
-    "explain": "B는 수평안정판(A) 뒤에 달린 승강타(elevator)다. 승강타는 기수를 들거나 숙이는 피치(pitch)를 조종하며, 피치는 날개 끝에서 날개 끝으로 지나는 가로축(lateral axis)을 중심으로 한 회전이다. 에일러론은 세로축(longitudinal axis) 둘레의 롤, 러더는 수직축(vertical axis) 둘레의 요를 만든다. 💡 피치 = 가로축, 롤 = 세로축.",
-    "fig": {"type": "aircraft", "view": "side", "labels": [{"part": "horizontal_stabilizer", "label": "A"}, {"part": "elevator", "label": "B"}]},
+    "explain": "B는 수평안정판 뒷전에 달린 승강타(elevator)다(A는 수직안정판 뒤의 러더). 승강타는 기수를 들거나 숙이는 피치(pitch)를 조종하며, 피치는 날개 끝에서 날개 끝으로 지나는 가로축(lateral axis)을 중심으로 한 회전이다. 러더(A)는 수직축(vertical axis) 둘레의 요, 에일러론은 세로축(longitudinal axis) 둘레의 롤을 만든다. 💡 피치 = 가로축, 롤 = 세로축.",
+    "fig": {"type": "aircraft", "view": "side", "labels": [{"part": "rudder", "label": "A"}, {"part": "elevator", "label": "B"}]},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -353,12 +353,12 @@
     "id": "anit_0282",
     "topic": "aircraft_structure",
     "diff": 2,
-    "q": "The figure shows a top view of an airplane. The surface labeled B is the:",
-    "q_ko": "그림은 비행기를 위에서 본 모습이다. B로 표시된 조종면은?",
-    "options": ["Aileron", "Flap", "Elevator", "Trim tab"],
+    "q": "The figure shows a top view of an airplane. The surface labeled A is the:",
+    "q_ko": "그림은 비행기를 위에서 본 모습이다. A로 표시된 조종면은?",
+    "options": ["Flap", "Aileron", "Elevator", "Trim tab"],
     "answer": 1,
-    "explain": "날개 뒷전에는 두 종류의 조종면이 있다. 동체에 가까운 안쪽(inboard)이 플랩(flap, B)이고, 날개 끝 쪽 바깥(outboard)이 에일러론(aileron, A)이다. 플랩은 양쪽이 함께 내려가 양력·항력을 늘려 저속 착륙을 돕고, 에일러론은 좌우가 반대로 움직여 롤을 만든다. 승강타와 트림 탭은 꼬리날개에 있다.",
-    "fig": {"type": "aircraft", "view": "top", "labels": [{"part": "aileron", "label": "A"}, {"part": "flap", "label": "B"}]},
+    "explain": "날개 뒷전에는 두 종류의 조종면이 있다. 날개 끝 쪽 바깥(outboard)에 있는 A가 에일러론(aileron)이고, 그 안쪽 동체에 가까운(inboard) 다른 색 면이 플랩(flap)이다. 에일러론은 좌우가 반대로 움직여 롤을 만들고, 플랩은 양쪽이 함께 내려가 양력·항력을 늘려 저속 착륙을 돕는다. 승강타와 트림 탭은 꼬리날개에 있다.",
+    "fig": {"type": "aircraft", "view": "top", "labels": [{"part": "aileron", "label": "A"}]},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -537,7 +537,7 @@
     "q_ko": "선체 분류 기호 LCC가 나타내는 함정은?",
     "options": ["Landing craft, air cushion", "Littoral combat ship", "Amphibious command ship", "Dock landing ship"],
     "answer": 2,
-    "explain": "LCC는 상륙지휘함(amphibious command ship)으로, 대규모 통신·지휘 시설을 갖춰 상륙작전과 함대의 지휘소 역할을 한다. 블루리지(Blue Ridge)급 2척(LCC-19 Blue Ridge, LCC-20 Mount Whitney)이 번호 함대의 기함으로 쓰인다. 공기부양 상륙정은 LCAC, 연안전투함은 LCS, 도크형 상륙함은 LSD다.",
+    "explain": "LCC는 상륙지휘함(amphibious command ship)으로, 대규모 통신·지휘 시설을 갖춰 상륙작전과 함대의 지휘소 역할을 한다. 대표적인 예가 블루리지(Blue Ridge)급으로, LCC-19 블루리지는 번호 함대의 기함(flagship)으로 쓰인다. 공기부양 상륙정은 LCAC, 연안전투함은 LCS, 도크형 상륙함은 LSD다.",
     "tags": ["navy"]
   },
   {
