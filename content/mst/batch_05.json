@@ -65,7 +65,7 @@
   {
     "id": "mst_0207",
     "topic": "algebra_systems",
-    "diff": 4,
+    "diff": 3,
     "q": "The line y = 2x and the parabola y = x² - 3 intersect at two points. What is the sum of the y-coordinates of the two points?",
     "q_ko": "직선 y = 2x와 포물선 y = x² - 3은 두 점에서 만난다. 두 교점의 y좌표의 합은?",
     "options": ["2","4","6","8"],
@@ -98,7 +98,7 @@
   {
     "id": "mst_0210",
     "topic": "algebra_systems",
-    "diff": 3,
+    "diff": 2,
     "q": "One-third of the sum of two numbers is 14, and one-half of their difference is 3. What is the larger number?",
     "q_ko": "두 수의 합의 1/3은 14이고, 두 수의 차의 1/2은 3이다. 두 수 중 큰 수는?",
     "options": ["18","21","24","27"],
@@ -152,11 +152,11 @@
     "id": "mst_0215",
     "topic": "fractions_decimals_percent",
     "diff": 4,
-    "q": "A fuel gauge reads 3/4 full when the tank is actually only 2/3 full. By what percent does the gauge overstate the actual amount of fuel?",
-    "q_ko": "연료계는 3/4을 가리키지만 실제 탱크는 2/3만 차 있다. 연료계는 실제 연료량을 몇 퍼센트 과대 표시하고 있는가?",
-    "options": ["8.3%","11.1%","12.5%","112.5%"],
+    "q": "A fuel gauge reads 7/8 full when the tank is actually only 3/4 full. The amount shown on the gauge is about what percent greater than the actual amount of fuel?",
+    "q_ko": "연료계는 7/8을 가리키지만 실제 탱크는 3/4만 차 있다. 연료계에 표시된 양은 실제 연료량보다 약 몇 퍼센트 더 많은가?",
+    "options": ["12.5%","14.3%","16.7%","116.7%"],
     "answer": 2,
-    "explain": "풀이: 차이 = 3/4 - 2/3 = 9/12 - 8/12 = 1/12. 기준은 실제 양 2/3이므로 (1/12) ÷ (2/3) = 1/12 × 3/2 = 1/8 = 12.5%. ⚠️ 함정: 1/12 ≈ 8.3%는 탱크 전체 대비 차이(퍼센트포인트)다. 표시값 3/4로 나누면 11.1%, 3/4 ÷ 2/3 = 9/8을 그대로 쓰면 112.5%가 된다."
+    "explain": "풀이: 차이 = 7/8 - 3/4 = 7/8 - 6/8 = 1/8. 기준은 실제 양 3/4이므로 (1/8) ÷ (3/4) = 1/8 × 4/3 = 1/6 ≈ 16.7%. ⚠️ 함정: 1/8 = 12.5%는 탱크 전체 대비 차이(퍼센트포인트)다. 표시값 7/8로 나누면 1/7 ≈ 14.3%, 7/8 ÷ 3/4 = 7/6 ≈ 116.7%는 표시량이 실제의 몇 %인지일 뿐 '더 많은' 비율이 아니다."
   },
   {
     "id": "mst_0216",
@@ -192,7 +192,7 @@
   {
     "id": "mst_0219",
     "topic": "word_problems",
-    "diff": 4,
+    "diff": 3,
     "q": "A squadron's flight hours rose 25% from April to May. In June, flight hours dropped from May's level, ending 10% above April's level. By what percent did flight hours drop from May to June?",
     "q_ko": "어느 비행대대의 비행시간이 4월에서 5월로 25% 늘었다. 6월에는 5월보다 줄어 4월보다 10% 많은 수준이 되었다. 5월에서 6월로 비행시간은 몇 퍼센트 줄었는가?",
     "options": ["12.0%","13.6%","15.0%","88.0%"],
@@ -297,7 +297,7 @@
   {
     "id": "mst_0229",
     "topic": "exponents_roots_logs",
-    "diff": 4,
+    "diff": 3,
     "q": "Which of the following is equal to 4/(3 - √5)?",
     "q_ko": "4/(3 - √5)와 같은 값은?",
     "options": ["3 - √5","(6 + 2√5)/7","3 + √5","12 + 4√5"],
@@ -350,7 +350,7 @@
   {
     "id": "mst_0234",
     "topic": "ratios_proportions",
-    "diff": 4,
+    "diff": 3,
     "q": "In a squadron, the ratio of pilots to naval flight officers (NFOs) is 4:3, and the ratio of NFOs to enlisted aircrew is 2:5. If the squadron has 24 pilots, how many pilots, NFOs, and enlisted aircrew does it have in all?",
     "q_ko": "어느 비행대대에서 조종사 대 해군 비행장교(NFO)의 비는 4:3이고, NFO 대 부사관 탑승요원(enlisted aircrew)의 비는 2:5이다. 조종사가 24명이면 조종사, NFO, 탑승요원은 모두 합해 몇 명인가?",
     "options": ["66","72","87","102"],
@@ -380,7 +380,7 @@
   {
     "id": "mst_0237",
     "topic": "algebra_linear",
-    "diff": 4,
+    "diff": 3,
     "q": "For what value of k does the equation 3(2x - 5) - 4(x - 3) = 2(x + 1) + k have infinitely many solutions?",
     "q_ko": "방정식 3(2x - 5) - 4(x - 3) = 2(x + 1) + k의 해가 무수히 많으려면 k의 값은?",
     "options": ["-29","-5","-1","5"],

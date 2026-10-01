@@ -17,7 +17,7 @@ const FIG = (() => {
   function ground(x1,x2,y){ let s=`<line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}" class="ln"/>`;
     for(let x=x1+4;x<x2;x+=9) s+=`<line x1="${x}" y1="${y}" x2="${x-7}" y2="${y+7}" class="hatch"/>`; return s; }
   // 회전 방향 화살표 (화면 좌표: 각도 증가 = 시계 방향)
-  function rotArrow(cx,cy,R,dir,cls="ac"){ const P=a=>[cx+R*Math.cos(a),cy+R*Math.sin(a)], a1=-150*Math.PI/180, a2=-30*Math.PI/180;
+  function rotArrow(cx,cy,R,dir,cls="ac"){ const P=a=>[cx+R*Math.cos(a),cy+R*Math.sin(a)], a1=-117*Math.PI/180, a2=-63*Math.PI/180;   // 위쪽 54° 호 — 옆 기어에 닿지 않게
     if(dir==="cw"){ const [sx,sy]=P(a1),[ex,ey]=P(a2); return `<path d="M${n2(sx)} ${n2(sy)} A${R} ${R} 0 0 1 ${n2(ex)} ${n2(ey)}" class="${cls}"/>`+head(ex,ey,-Math.sin(a2),Math.cos(a2),cls==="hi"?"arw hi":"arw",9); }
     const [sx,sy]=P(a2),[ex,ey]=P(a1); return `<path d="M${n2(sx)} ${n2(sy)} A${R} ${R} 0 0 0 ${n2(ex)} ${n2(ey)}" class="${cls}"/>`+head(ex,ey,Math.sin(a1),-Math.cos(a1),cls==="hi"?"arw hi":"arw",9); }
   function zigzagH(x1,x2,y,amp=7,n=6){ const w=(x2-x1)/n; let d=`M${n2(x1)} ${y}`; for(let i=0;i<n;i++) d+=` L${n2(x1+w*(i+0.5))} ${y+(i%2?amp:-amp)}`; return `<path d="${d} L${n2(x2)} ${y}" class="ln"/>`; }
@@ -75,7 +75,7 @@ const FIG = (() => {
       const cls="gear"+(ge.label===f.driver?" drv":"")+(f.ask&&ge.label===f.ask?" ask":"");
       g+=`<path d="${gearPath(cx,cy,r,ge.teeth)}" class="${cls}"/><circle cx="${n2(cx)}" cy="${n2(cy)}" r="${n2(Math.max(4,r*0.18))}" class="fillb"/>`;
       g+=T(cx,cy+r+18,`${ge.label} · ${ge.teeth}T`,ge.label===f.driver?"a":(f.ask&&ge.label===f.ask?"g":"m"));
-      if(ge.label===f.driver) g+=rotArrow(cx,cy,r+10,f.dir);
+      if(ge.label===f.driver) g+=rotArrow(cx,cy,r+12,f.dir);
       if(f.ask&&ge.label===f.ask&&ge.label!==f.driver) g+=T(cx,cy-r-10,"?","g");
     });
     return svg(n2(W),n2(H),g,"맞물린 기어");
@@ -163,7 +163,7 @@ const FIG = (() => {
     g+=`<rect x="${x0}" y="${by-5}" width="${x1-x0}" height="10" rx="3" class="fillb"/>`;
     for(const s of f.supports){ const x=X(s.x);
       g+=`<path d="M${n2(x)} ${by+5} L${n2(x-13)} ${by+29} L${n2(x+13)} ${by+29} Z" class="fillw"/>`+ground(x-22,x+22,by+29)+T(x,by+50,s.label,"a"); }
-    for(const it of f.loads){ const x=X(it.x);
+    for(const it of f.loads){ const x=clamp(X(it.x),x0+17,x1-17);      // 끝에 놓인 하중도 상자가 보 밖으로 나가지 않게
       g+=`<rect x="${n2(x-17)}" y="${by-31}" width="34" height="26" rx="3" class="fillb"/>`+T(x,by-38,it.label,"a"); }
     const pts=[...new Set([0,f.length,...f.supports.map(s=>s.x),...f.loads.map(l=>l.x)])].sort((a,b)=>a-b), dy=H-16;
     for(let i=0;i+1<pts.length;i++){ const a=X(pts[i]), b=X(pts[i+1]); if(b-a<10) continue;

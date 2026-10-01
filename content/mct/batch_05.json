@@ -25,12 +25,12 @@
     "id": "mct_0203",
     "topic": "gears_belts",
     "diff": 3,
-    "q": "Pulley A, 4 in in diameter, drives pulley B, 10 in in diameter, with an open belt that does not slip. Which statement is true?",
-    "q_ko": "지름 4인치 풀리 A가 미끄러지지 않는 평벨트로 지름 10인치 풀리 B를 돌린다. 옳은 설명은?",
+    "q": "Pulley A, 5 in in diameter, drives pulley B, 12 in in diameter, with an open belt that does not slip. Which statement is true?",
+    "q_ko": "지름 5인치 풀리 A가 미끄러지지 않는 평벨트로 지름 12인치 풀리 B를 돌린다. 옳은 설명은?",
     "options": ["A has the higher rpm, and A's rim moves faster","Both have the same rpm, and B's rim moves faster","B has the higher rpm, and both rims move at the same speed","A has the higher rpm, and both rims move at the same speed"],
     "answer": 3,
-    "explain": "원리: 벨트는 한 덩어리로 움직이므로 두 풀리 테두리의 속도(선속도)는 벨트 속도와 같다. 테두리 속도 = 둘레 × rpm이 같으려면 작은 A가 더 많이 돌아야 한다: A의 rpm = B의 10 ÷ 4 = 2.5배. 두 풀리의 rpm이 같은 것은 같은 축에 붙어 있을 때뿐이다.",
-    "fig": {"type":"belt","pulleys":[{"d":4,"label":"A"},{"d":10,"label":"B"}],"unit":"in","crossed":false,"driver":"A","dir":"cw"}
+    "explain": "원리: 벨트는 한 덩어리로 움직이므로 두 풀리 테두리의 속도(선속도)는 벨트 속도와 같다. 테두리 속도 = 둘레 × rpm이 같으려면 작은 A가 더 많이 돌아야 한다: A의 rpm = B의 12 ÷ 5 = 2.4배. 두 풀리의 rpm이 같은 것은 같은 축에 붙어 있을 때뿐이다.",
+    "fig": {"type":"belt","pulleys":[{"d":5,"label":"A"},{"d":12,"label":"B"}],"unit":"in","crossed":false,"driver":"A","dir":"cw"}
   },
   {
     "id": "mct_0204",
@@ -144,10 +144,10 @@
     "topic": "levers",
     "diff": 4,
     "q": "A worker holds a loaded shovel level. His back hand grips the end of the handle, his front hand is 1.5 ft from that end, and 12 lb of sand sits 4.5 ft from that end. Ignoring the shovel's weight, how hard must the back hand push down?",
-    "q_ko": "작업자가 흙을 담은 삽을 수평으로 들고 있다. 뒷손은 손잡이 끝을 잡고, 앞손은 그 끝에서 1.5피트, 모래 12파운드는 그 끝에서 4.5피트 지점에 있다. 삽의 무게를 무시할 때, 뒷손은 얼마의 힘으로 아래로 눌러야 하는가?",
+    "q_ko": "작업자가 모래를 담은 삽을 수평으로 들고 있다. 뒷손은 손잡이 끝을 잡고, 앞손은 그 끝에서 1.5피트, 모래 12파운드는 그 끝에서 4.5피트 지점에 있다. 삽의 무게를 무시할 때, 뒷손은 얼마의 힘으로 아래로 눌러야 하는가?",
     "options": ["12 lb","24 lb","36 lb","48 lb"],
     "answer": 1,
-    "explain": "원리: 모멘트 + 힘의 평형 — 앞손을 받침점으로 보면 모래는 3 ft, 뒷손은 1.5 ft 떨어져 있다. 뒷손 × 1.5 = 12 × 3 → 뒷손 = 24 lb(아래로). 앞손은 위로 24 + 12 = 36 lb를 받친다. ⚠️ 함정: 36 lb는 앞손이 드는 힘이고, 48 lb는 두 힘을 더한 값이다."
+    "explain": "원리: 모멘트 + 힘의 평형 — 앞손을 받침점으로 보면 모래는 3 ft, 뒷손은 1.5 ft 떨어져 있다. 뒷손 × 1.5 = 12 × 3 → 뒷손 = 24 lb(아래로). 앞손은 위로 24 + 12 = 36 lb를 받친다. ⚠️ 함정: 36 lb는 앞손이 드는 힘(모래 거리를 손잡이 끝에서 잰 4.5 ft로 계산해도 36이 나온다)이고, 48 lb는 앞손 힘에 모래 무게를 또 더한 값이다."
   },
   {
     "id": "mct_0215",
@@ -205,12 +205,11 @@
     "id": "mct_0220",
     "topic": "springs",
     "diff": 3,
-    "q": "Springs A (40 lb/in) and B (20 lb/in) hang side by side from the ceiling and are attached to a bar that stays level. A 90-lb load hangs from the bar. How much of the load does spring A carry?",
-    "q_ko": "스프링 A(40 lb/in)와 B(20 lb/in)가 천장에 나란히 매달려 수평을 유지하는 막대에 연결되어 있고, 막대에 90파운드 짐이 매달려 있다. 스프링 A가 받는 하중은?",
+    "q": "Springs A (40 lb/in) and B (20 lb/in) hang side by side from the ceiling and are attached to a light bar that stays level. A 90-lb load hangs from the bar. How much of the load does spring A carry?",
+    "q_ko": "스프링 A(40 lb/in)와 B(20 lb/in)가 천장에 나란히 매달려 수평을 유지하는 가벼운 막대에 연결되어 있고, 막대에 90파운드 짐이 매달려 있다. 스프링 A가 받는 하중은?",
     "options": ["30 lb","45 lb","60 lb","90 lb"],
     "answer": 2,
-    "explain": "원리: 병렬 스프링은 늘어난 길이가 같으므로 힘이 상수에 비례해 나뉜다. 전체 상수 60 lb/in → 늘어남 90 ÷ 60 = 1.5 in. A = 40 × 1.5 = 60 lb, B = 20 × 1.5 = 30 lb. ⚠️ 함정: 똑같이 나누면 45 lb, 거꾸로 나누면 30 lb.",
-    "fig": {"type":"springs","mode":"parallel","springs":["40 lb/in","20 lb/in"],"load":"90 lb"}
+    "explain": "원리: 병렬 스프링은 늘어난 길이가 같으므로 힘이 상수에 비례해 나뉜다. 전체 상수 60 lb/in → 늘어남 90 ÷ 60 = 1.5 in. A = 40 × 1.5 = 60 lb, B = 20 × 1.5 = 30 lb(막대가 수평이려면 짐은 뻣뻣한 A 쪽에 더 가깝게 걸려 있다). ⚠️ 함정: 똑같이 나누면 45 lb, 거꾸로 나누면 30 lb."
   },
   {
     "id": "mct_0221",
@@ -342,11 +341,11 @@
     "id": "mct_0233",
     "topic": "springs",
     "diff": 4,
-    "q": "A 20-lb/in spring hangs from the ceiling. A bar on its lower end holds two 30-lb/in springs side by side, which share a 45-lb load equally. How far does the load move down?",
-    "q_ko": "천장에 20 lb/in 스프링이 매달려 있고, 그 아래 끝의 막대에 30 lb/in 스프링 2개가 나란히 달려 45파운드 짐을 똑같이 나눠 든다. 짐은 얼마나 내려가는가?",
-    "options": ["0.75 in","2.25 in","3 in","5.25 in"],
+    "q": "A 24-lb/in spring hangs from the ceiling. A light bar on its lower end holds two 36-lb/in springs side by side, which share a 72-lb load equally. How far does the load move down?",
+    "q_ko": "천장에 24 lb/in 스프링이 매달려 있고, 그 아래 끝의 가벼운 막대에 36 lb/in 스프링 2개가 나란히 달려 72파운드 짐을 똑같이 나눠 든다. 짐은 얼마나 내려가는가?",
+    "options": ["1 in","3 in","4 in","7 in"],
     "answer": 2,
-    "explain": "원리: 직렬은 늘어난 길이를 더하고, 병렬은 스프링 상수를 더한다. 위 스프링은 45 lb 전부를 받아 45 ÷ 20 = 2.25 in. 아래 병렬 쌍은 상수 30 + 30 = 60 lb/in → 45 ÷ 60 = 0.75 in. 합계 3 in. ⚠️ 함정: 세 스프링을 모두 직렬로 보면 5.25 in, 한 부분만 계산하면 2.25 in이나 0.75 in."
+    "explain": "원리: 직렬은 늘어난 길이를 더하고, 병렬은 스프링 상수를 더한다. 위 스프링은 72 lb 전부를 받아 72 ÷ 24 = 3 in. 아래 병렬 쌍은 상수 36 + 36 = 72 lb/in → 72 ÷ 72 = 1 in. 합계 4 in. ⚠️ 함정: 세 스프링을 모두 직렬로 보면 3 + 2 + 2 = 7 in, 한 부분만 계산하면 3 in이나 1 in."
   },
   {
     "id": "mct_0234",
@@ -392,7 +391,7 @@
   {
     "id": "mct_0238",
     "topic": "inclined_screw_wedge",
-    "diff": 3,
+    "diff": 2,
     "q": "Ignoring friction, which change will halve the force needed on the handle of a screw jack?",
     "q_ko": "마찰을 무시할 때, 나사 잭 손잡이에 필요한 힘을 절반으로 줄이는 변화는?",
     "options": ["Halve the handle length","Double the thread pitch","Use a screw twice as thick","Double the handle length"],
@@ -509,8 +508,7 @@
     "q_ko": "가벼운 12피트 다이빙 보드가 뒤쪽 끝 A에서 볼트로 고정되어 있고, A에서 8피트 떨어진 받침대 B 위에 얹혀 있다. 150파운드 다이버가 보드 앞 끝에 서 있다. 받침대 B가 받는 힘은 얼마인가?",
     "options": ["75 lb","100 lb","150 lb","225 lb"],
     "answer": 3,
-    "explain": "원리: 내민보(1종 지렛대) — B를 받침점으로 보면 다이버는 B에서 4 ft 밖, 볼트 A는 8 ft 안쪽에 있다. A가 보드를 아래로 붙잡는 힘 = 150 × 4 ÷ 8 = 75 lb. B는 다이버 무게와 볼트가 당기는 힘을 함께 받는다: 150 + 75 = 225 lb. ⚠️ 함정: B가 다이버 무게(150 lb)만 받는다고 생각하기 쉽다.",
-    "fig": {"type":"beam","length":12,"unit":"ft","supports":[{"x":0,"label":"A"},{"x":8,"label":"B"}],"loads":[{"x":12,"label":"150 lb"}]}
+    "explain": "원리: 내민보(1종 지렛대) — B를 받침점으로 보면 다이버는 B에서 4 ft 밖, 볼트 A는 8 ft 안쪽에 있다. A가 보드를 아래로 붙잡는 힘 = 150 × 4 ÷ 8 = 75 lb. B는 다이버 무게와 볼트가 당기는 힘을 함께 받는다: 150 + 75 = 225 lb. ⚠️ 함정: B가 다이버 무게(150 lb)만 받는다고 생각하기 쉽다."
   },
   {
     "id": "mct_0250",
