@@ -1,0 +1,762 @@
+[
+  {
+    "id": "rct_0121",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Cushion Near the Runway",
+    "passage": "When an airplane flies within about one wingspan of the ground, the surface interferes with the swirling air at its wingtips and with the downward flow of air behind the wing. The result, called ground effect, is a reduction in induced drag, the drag that comes as a by-product of producing lift. Pilots notice it most during landing: an airplane that arrives over the runway with extra speed tends to float a long way before touching down. Ground effect can also mislead a pilot on takeoff. A heavily loaded airplane may lift off at a speed too low to sustain a climb, because the extra efficiency near the surface is helping to hold it up. Once it climbs higher than about a wingspan, the drag returns in full, and the airplane may sink back toward the runway.",
+    "passage_ko": "비행기가 지면에서 대략 날개폭 하나 이내의 높이로 날면, 지면이 날개 끝에서 소용돌이치는 공기와 날개 뒤로 내려가는 공기 흐름을 방해한다. 그 결과 지면효과(ground effect)라고 불리는 현상, 즉 양력을 만들 때 부산물로 생기는 항력인 유도항력(induced drag)의 감소가 나타난다. 조종사들은 이것을 착륙 때 가장 많이 느낀다. 여분의 속도를 가진 채 활주로 위에 도착한 비행기는 접지하기 전에 한참을 떠서 날아가는(float) 경향이 있다. 지면효과는 이륙 때 조종사를 오도할 수도 있다. 짐을 무겁게 실은 비행기는 지면 근처의 추가 효율이 기체를 받쳐 주는 덕분에, 상승을 유지하기에는 너무 낮은 속도에서 떠오를 수 있다. 날개폭 하나쯤의 높이를 넘어 올라가면 항력이 고스란히 되돌아오고, 비행기는 활주로 쪽으로 다시 가라앉을 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Floating during landing is usually a sign that an airplane is carrying too much weight.",
+      "Ground effect raises the speed an airplane needs in order to lift off the runway.",
+      "An airplane that lifts off at a low speed may lose performance as it climbs higher.",
+      "Ground effect lets a heavily loaded airplane climb more steeply after takeoff."
+    ],
+    "answer": 2,
+    "explain": "근거: \"may lift off at a speed too low to sustain a climb\" + \"Once it climbs higher than about a wingspan, the drag returns in full\" → 낮은 속도로 뜬 비행기는 고도가 오르면 성능이 떨어질 수 있다.\n(1) 세부 비틀기 — 착륙 때 뜨는 원인은 무게가 아니라 \"extra speed\"\n(2) 뒤집기 — 지면효과는 오히려 더 낮은 속도에서 뜨게 만든다\n(4) 뒤집기 — 지면효과를 벗어나면 항력이 돌아와 상승이 어려워진다"
+  },
+  {
+    "id": "rct_0122",
+    "topic": "naval",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Who Keeps Clear?",
+    "passage": "When two power-driven vessels cross paths with a risk of collision, the international rules of the road give them different duties. The vessel that has the other on its own starboard (right) side is the give-way vessel and must keep well clear, preferably by an early and obvious change of course or speed. The other, the stand-on vessel, is required to hold its course and speed so that the give-way vessel can predict its movements. That requirement is not absolute. If it becomes clear that the give-way vessel is not taking proper action, the stand-on vessel may maneuver on its own, and once the two are so close that the give-way vessel's action alone cannot prevent a collision, the stand-on vessel must act. Even then, the give-way vessel is not released from its own duty to keep clear.",
+    "passage_ko": "동력선 두 척이 충돌 위험이 있는 상태로 서로의 진로를 가로지를 때, 국제 해상충돌예방규칙은 두 배에 서로 다른 의무를 지운다. 상대 배를 자기 우현(starboard, 오른쪽)에 두고 보는 배는 피항선(give-way vessel)으로, 가능하면 일찍, 분명하게 침로나 속력을 바꾸어 충분히 비켜야 한다. 다른 한 척인 유지선(stand-on vessel)은 피항선이 자신의 움직임을 예측할 수 있도록 침로와 속력을 유지해야 한다. 이 요구는 절대적인 것은 아니다. 피항선이 적절한 조치를 하지 않는 것이 분명해지면 유지선은 스스로 조선할 수 있으며, 두 배가 너무 가까워져 피항선의 동작만으로는 충돌을 막을 수 없게 되면 유지선은 반드시 행동해야 한다. 그때에도 피항선은 비켜야 할 자신의 의무에서 벗어나지 않는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Holding course and speed does not always satisfy the stand-on vessel's obligations.",
+      "A vessel that sees another vessel on its own port side must keep out of its way.",
+      "The stand-on vessel must maneuver as soon as it suspects the other may not keep clear.",
+      "If two crossing vessels collide, the give-way vessel alone is responsible for it."
+    ],
+    "answer": 0,
+    "explain": "근거: \"once the two are so close that the give-way vessel's action alone cannot prevent a collision, the stand-on vessel must act\" → 끝까지 침로·속력만 지키는 것으로는 의무를 다하지 못할 수 있다.\n(2) 뒤집기 — 상대를 자기 '우현'에 둔 배가 피항선\n(3) 조건 비틀기 — 상대가 안 피하는 게 분명해지면 '해도 된다(may)', 반드시(must)는 충돌 직전\n(4) 과잉 일반화 — 유지선에도 행동 의무가 있다"
+  },
+  {
+    "id": "rct_0123",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Behind the Crest",
+    "passage": "Defenders holding a hill usually dig in on the forward slope, the side facing the enemy, where they can see and fire at an attacker from long range. A reverse slope defense instead places the main positions just behind the crest, on the side facing away from the enemy. From there, defenders cannot be seen or hit by direct fire from a distance, and attackers who come over the top are briefly outlined against the sky and can be engaged at close range. Troops can also move and resupply out of the enemy's sight. The price is a short field of fire and a limited view of the enemy's approach, so small observation posts are usually placed on or forward of the crest to give warning. If attackers seize the crest itself, however, the advantage can shift sharply to them.",
+    "passage_ko": "언덕을 지키는 방어 부대는 보통 적을 향한 쪽인 전사면(forward slope)에 진지를 파는데, 그곳에서는 공격자를 먼 거리에서 보고 사격할 수 있다. 반면 역사면 방어(reverse slope defense)는 주 진지를 능선 바로 뒤, 적의 반대쪽을 향한 비탈에 둔다. 그곳의 방어자는 멀리서 관측되거나 직사화기에 맞지 않으며, 능선을 넘어오는 공격자는 잠깐 하늘을 배경으로 윤곽이 드러나 가까운 거리에서 교전할 수 있다. 부대는 적의 시야 밖에서 이동하고 재보급할 수도 있다. 그 대가는 짧은 사계(field of fire)와 적의 접근에 대한 제한된 시야이므로, 보통 능선 위나 그 앞쪽에 소규모 관측소를 두어 경고를 받는다. 그러나 공격자가 능선 자체를 차지하면 이점은 급격히 그들 쪽으로 넘어갈 수 있다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "A reverse slope defense lets defenders engage attackers at greater range than a forward slope does.",
+      "Commanders choose a reverse slope mainly when their troops lack long-range weapons.",
+      "Once attackers capture the crest, a reverse slope position becomes easier to hold.",
+      "Troops on a reverse slope rely partly on others posted at or beyond the crest for warning."
+    ],
+    "answer": 3,
+    "explain": "근거: \"a limited view of the enemy's approach, so small observation posts are usually placed on or forward of the crest to give warning\".\n(1) 비교 뒤집기 — 역사면 방어의 대가가 \"a short field of fire\"\n(2) 지문에 없는 이유 — 장거리 무기 부족은 언급 없음\n(3) 뒤집기 — 능선을 빼앗기면 이점이 공격자에게 넘어간다"
+  },
+  {
+    "id": "rct_0124",
+    "topic": "science",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Rails in the Summer Sun",
+    "passage": "Steel expands as it warms and contracts as it cools. Railroads once dealt with this by laying track in short lengths with small gaps between them, which produced the familiar clicking of wheels but also wore out wheels and rails. Most main lines now use continuous welded rail, in which lengths are welded into strings that can run for miles. Such rail cannot expand freely, so changes in temperature instead create stress inside the steel: tension when the rail is colder than the temperature at which it was fixed in place, and compression when it is hotter. Too much tension can pull a weld apart, but too much compression is usually the greater danger, because it can make the track buckle sideways. Crews therefore fix rail at a chosen neutral temperature, often above the local average, warming or stretching it first when it is installed on cool days.",
+    "passage_ko": "강철은 따뜻해지면 늘어나고 식으면 줄어든다. 예전에 철도는 선로를 짧은 길이로 깔고 그 사이에 작은 틈을 두는 방식으로 이를 처리했는데, 이 때문에 귀에 익은 바퀴의 '덜컹' 소리가 났지만 바퀴와 레일도 닳았다. 오늘날 대부분의 간선은 장대레일(continuous welded rail)을 쓰는데, 레일들을 용접해 몇 마일씩 이어지는 한 줄로 만든 것이다. 이런 레일은 자유롭게 늘어날 수 없으므로, 온도 변화는 대신 강철 내부에 응력을 만든다. 레일이 고정될 때의 온도보다 차가우면 인장(tension), 더 뜨거우면 압축(compression)이 생긴다. 인장이 지나치면 용접부가 끊어질 수 있지만, 대개는 압축이 지나친 쪽이 더 큰 위험이다. 선로가 옆으로 휘어 버릴(buckle) 수 있기 때문이다. 그래서 작업반은 레일을 미리 정한 중립 온도, 흔히 그 지역 평균보다 높은 온도에서 고정하며, 서늘한 날 설치할 때는 먼저 레일을 데우거나 잡아 늘인다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "continuous welded rail is most likely to buckle on the coldest days of the year",
+      "rail fixed on a cold day without warming or stretching would buckle more easily in summer",
+      "rail is warmed before it is fixed so that it will be under compression on cold days",
+      "short rails with gaps were replaced mainly because the gaps wasted a great deal of steel"
+    ],
+    "answer": 1,
+    "explain": "근거: 고정 온도보다 \"hotter\"하면 압축이 생기고, 압축이 지나치면 \"buckle sideways\" → 추운 날 그대로 고정하면 기준 온도가 낮아져 여름에 압축이 더 커진다.\n(1) 뒤집기 — 좌굴은 더울 때(압축)의 위험, 추울 때는 인장\n(3) 뒤집기 — 미리 데우는 것은 기준 온도를 높여 추운 날 '인장' 상태가 되게 하려는 것\n(4) 지문에 없는 이유 — 틈의 문제는 소음과 마모"
+  },
+  {
+    "id": "rct_0125",
+    "topic": "history",
+    "diff": 2,
+    "qtype": "main_idea",
+    "title": "One Decree in Three Scripts",
+    "passage": "In 1799, French soldiers rebuilding a fort near the Egyptian town of Rashid, which Europeans called Rosetta, uncovered a broken slab of dark stone covered in writing. The inscription, a decree issued by a council of priests in 196 BC, appeared three times: in hieroglyphs, in a cursive Egyptian script called Demotic, and in ancient Greek. No one had been able to read hieroglyphs for well over a thousand years, but scholars could still read Greek, so the stone offered a way to compare a known text with unknown ones. Progress was nonetheless slow, partly because many researchers assumed that every hieroglyph stood for an idea rather than a sound. In 1822 the French scholar Jean-François Champollion announced a breakthrough: working first from royal names enclosed in oval rings, he showed that many hieroglyphs represented sounds.",
+    "passage_ko": "1799년, 이집트의 라시드(유럽인들은 로제타라고 불렀다)라는 마을 근처에서 요새를 다시 짓던 프랑스 병사들이 글씨로 뒤덮인 검은 돌판 조각을 발견했다. 기원전 196년 사제 회의가 공포한 포고문인 이 비문은 세 번 새겨져 있었다. 상형문자(hieroglyphs)로, 민중문자(Demotic)라고 불리는 이집트 필기체로, 그리고 고대 그리스어로였다. 상형문자는 천 년이 훨씬 넘도록 아무도 읽지 못하고 있었지만 학자들은 그리스어는 여전히 읽을 수 있었으므로, 이 돌은 알려진 글과 알려지지 않은 글을 비교할 길을 열어 주었다. 그래도 진전은 더뎠는데, 많은 연구자가 상형문자 하나하나가 소리가 아니라 뜻을 나타낸다고 가정했던 것도 한 이유였다. 1822년 프랑스 학자 장프랑수아 샹폴리옹이 돌파구를 발표했다. 그는 타원형 고리 안에 들어 있는 왕의 이름부터 분석해, 많은 상형문자가 소리를 나타낸다는 것을 보여 주었다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 표현한 것은?",
+    "options": [
+      "French soldiers uncovered the stone while rebuilding a fort near the town of Rashid.",
+      "A text repeated in a readable language gave scholars a path to reading hieroglyphs.",
+      "Lost writing systems can be decoded only when a text also appears in a known language.",
+      "Champollion was the most respected expert on ancient Egypt of his generation."
+    ],
+    "answer": 1,
+    "explain": "근거: \"scholars could still read Greek, so the stone offered a way to compare a known text with unknown ones\" — 지문 전체가 이 비교가 해독으로 이어진 과정이다.\n(1) 너무 좁음 — 발견 경위라는 세부 하나\n(3) 과잉 일반화 — only, 다른 해독 방법은 다루지 않는다\n(4) 지문에 없는 평가 — 샹폴리옹의 명성은 언급 없음"
+  },
+  {
+    "id": "rct_0126",
+    "topic": "leadership",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Imagining the Failure First",
+    "passage": "Once a team has agreed on a plan, members often keep their doubts to themselves. Raising a concern can feel disloyal, and enthusiasm for a chosen course makes its weaknesses harder to see. A technique called the premortem tries to get around this. Before the plan is carried out, the leader asks the team to imagine that it is some months later and the plan has failed badly, then gives each person a few minutes to write down why it failed. Because the failure is treated as having already happened, explaining it is no longer a challenge to the plan or to the leader but a task everyone has been assigned. The list that results does not decide whether the plan goes ahead; it shows where the plan needs to be strengthened or watched closely.",
+    "passage_ko": "팀이 일단 계획에 합의하고 나면 구성원들은 흔히 의심을 속으로만 간직한다. 우려를 제기하는 것이 불충처럼 느껴질 수 있고, 선택한 방침에 대한 열의 때문에 그 약점이 잘 보이지 않게 된다. 사전 부검(premortem)이라는 기법은 이 문제를 피해 가려 한다. 계획을 실행하기 전에 리더는 팀원들에게 몇 달이 지났고 계획이 크게 실패했다고 상상하게 한 뒤, 각자에게 몇 분을 주어 왜 실패했는지 적게 한다. 실패를 이미 일어난 일로 다루기 때문에, 그것을 설명하는 일은 더 이상 계획이나 리더에 대한 도전이 아니라 모두에게 주어진 과제가 된다. 그렇게 나온 목록이 계획의 진행 여부를 결정하지는 않는다. 그것은 계획의 어디를 보강하거나 주의 깊게 지켜봐야 하는지를 보여 준다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "The results of a premortem determine whether a plan should go forward or be dropped.",
+      "Once a plan is approved, team members usually voice their disagreements openly.",
+      "A premortem is most useful after a plan fails, when its real causes can be studied.",
+      "The technique works by making criticism of the plan feel like an assigned duty."
+    ],
+    "answer": 3,
+    "explain": "근거: \"explaining it is no longer a challenge to the plan or to the leader but a task everyone has been assigned\".\n(1) 정면 반박 — 목록은 \"does not decide whether the plan goes ahead\"\n(2) 뒤집기 — 합의 후에는 의심을 \"keep their doubts to themselves\"\n(3) 시점 비틀기 — 계획을 실행하기 \"Before\" 실패를 상상하는 기법"
+  },
+  {
+    "id": "rct_0127",
+    "topic": "technology",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Reading Through the Box",
+    "passage": "A barcode is simply a printed pattern, so it costs almost nothing to add to a package, but a scanner must have a clear view of it, and items are usually read one at a time. Radio-frequency identification, or RFID, works differently. A tag contains a tiny chip and antenna, and many tags have no battery, drawing their power from the radio signal sent by the reader. Because radio waves pass through cardboard and plastic, a reader can identify dozens of tagged items inside a closed box in seconds without anyone handling them. The tags cost more than printed codes, however, and their signals can be weakened or blocked by metal and by containers of liquid, which absorb or reflect radio energy. Many warehouses therefore use both systems side by side.",
+    "passage_ko": "바코드는 인쇄된 무늬일 뿐이라 포장에 붙이는 데 비용이 거의 들지 않지만, 스캐너가 그것을 똑바로 볼 수 있어야 하고 물건은 대개 한 번에 하나씩 읽힌다. 무선 주파수 식별(RFID)은 다르게 작동한다. 태그에는 작은 칩과 안테나가 들어 있으며, 많은 태그는 배터리 없이 판독기가 보내는 전파 신호에서 전력을 얻는다. 전파는 골판지와 플라스틱을 통과하므로, 판독기는 아무도 손대지 않고도 닫힌 상자 안의 태그 붙은 물건 수십 개를 몇 초 만에 식별할 수 있다. 그러나 태그는 인쇄된 코드보다 비싸고, 그 신호는 금속이나 액체가 든 용기에 의해 약해지거나 차단될 수 있는데, 이들이 전파 에너지를 흡수하거나 반사하기 때문이다. 그래서 많은 창고가 두 방식을 나란히 함께 쓴다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "a sealed case of bottled water would be harder to read by RFID than one of paper towels",
+      "an RFID tag cannot be read by a scanner unless it carries a battery of its own",
+      "a barcode scanner can identify every item packed inside a closed cardboard box",
+      "most warehouses will stop using barcodes once RFID tags become less expensive"
+    ],
+    "answer": 0,
+    "explain": "근거: 전파는 \"pass through cardboard and plastic\"이지만 \"blocked by metal and by containers of liquid\" → 생수 상자는 종이 타월 상자보다 판독이 어렵다.\n(2) 세부 비틀기 — 많은 태그는 \"have no battery\"\n(3) 뒤집기 — 바코드는 스캐너가 \"a clear view\"를 가져야 한다\n(4) 지문에 없는 예측 — 두 방식을 함께 쓴다고만 했다"
+  },
+  {
+    "id": "rct_0128",
+    "topic": "space",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Falling Without Landing",
+    "passage": "Astronauts aboard a space station drift around the cabin, and it is natural to assume that they have escaped Earth's gravity. They have not. At the altitude of a typical crewed station, about 400 kilometers up, gravity is still roughly 90 percent as strong as it is on the ground. The crew floats because the station and everyone in it are falling together. A scale placed under an astronaut's feet would read zero, since the scale is falling at the same rate and the astronaut cannot press against it. The station never hits the ground because it is also moving sideways at about 7.7 kilometers per second, fast enough that Earth's surface curves away beneath it as quickly as the station falls. Training aircraft flying steep arcs can create the same floating sensation for about 20 seconds at a time.",
+    "passage_ko": "우주정거장에 탄 우주비행사들은 선실 안을 둥둥 떠다니며, 그들이 지구 중력에서 벗어났다고 생각하기 쉽다. 그렇지 않다. 유인 우주정거장의 일반적인 고도인 약 400킬로미터 상공에서도 중력은 여전히 지상의 약 90퍼센트나 된다. 승무원이 뜨는 것은 정거장과 그 안의 모든 사람이 함께 떨어지고 있기 때문이다. 우주비행사의 발밑에 저울을 놓으면 0을 가리킬 텐데, 저울도 같은 속도로 떨어지고 있어서 우주비행사가 그것을 누를 수 없기 때문이다. 정거장이 땅에 부딪히지 않는 것은 초속 약 7.7킬로미터로 옆으로도 움직이고 있기 때문인데, 이는 정거장이 떨어지는 만큼 빠르게 지구 표면이 그 아래에서 휘어져 멀어질 만큼 빠른 속도다. 가파른 포물선을 그리며 나는 훈련용 항공기도 한 번에 약 20초 동안 같은 떠 있는 느낌을 만들어 낼 수 있다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "Astronauts float because gravity at the station's altitude is too weak to hold them.",
+      "A scale on the station would show astronauts weighing about 90 percent of their normal weight.",
+      "The floating felt aboard a space station can be experienced without leaving the atmosphere.",
+      "A space station stays in orbit because its engines constantly push it away from Earth."
+    ],
+    "answer": 2,
+    "explain": "근거: \"Training aircraft flying steep arcs can create the same floating sensation\" — 항공기는 대기 안에서 난다. 뜨는 이유는 중력이 없어서가 아니라 함께 떨어지기(falling together) 때문.\n(1) 뒤집기 — 중력은 여전히 \"roughly 90 percent as strong\"\n(2) 수치 섞기 — 함께 떨어지므로 저울은 \"would read zero\"\n(4) 지문에 없는 설명 — 궤도 유지는 옆 방향 속도 덕분"
+  },
+  {
+    "id": "rct_0129",
+    "topic": "aviation",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "When the Airspeed Lies",
+    "passage": "An airspeed indicator works by comparing two pressures: the pressure of air rammed into a forward-facing pitot tube and the static pressure of the surrounding air, which decreases as an aircraft climbs. The greater the difference between them, the higher the speed shown. A pitot tube also has a small drain hole that lets moisture escape. If ice blocks the tube's opening but the drain hole stays clear, the rammed pressure leaks away and the indicated airspeed falls toward zero. If both the opening and the drain hole are blocked, the air trapped in the tube keeps a fixed pressure, so the indicator no longer responds to real changes in speed. It still responds to changes in static pressure, however, behaving much like an altimeter. Pilots are taught to recognize these patterns and to cross-check airspeed against attitude and power settings.",
+    "passage_ko": "속도계(airspeed indicator)는 두 압력을 비교해 작동한다. 앞을 향한 피토관(pitot tube)으로 밀려 들어오는 공기의 압력과, 항공기가 상승할수록 낮아지는 주변 공기의 정압(static pressure)이다. 둘의 차이가 클수록 더 높은 속도가 표시된다. 피토관에는 습기가 빠져나가도록 작은 배수 구멍도 있다. 얼음이 관의 입구를 막았지만 배수 구멍이 열려 있으면, 밀려 들어온 압력이 새어 나가 지시 대기속도가 0을 향해 떨어진다. 입구와 배수 구멍이 모두 막히면, 관 안에 갇힌 공기가 일정한 압력을 유지하므로 계기는 더 이상 실제 속도 변화에 반응하지 않는다. 그러나 정압 변화에는 여전히 반응해 고도계와 비슷하게 움직인다. 조종사는 이런 양상을 알아보고, 속도를 자세 및 출력 설정과 교차 확인하도록 교육받는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "If only the tube's opening is blocked, the indicator will show a rising speed in a climb.",
+      "Any ice that forms in the pitot tube will make the indicated airspeed drop toward zero.",
+      "If both openings are blocked, the indicated airspeed will fall to zero almost at once.",
+      "If both openings are blocked, a climb at constant speed will show a rising airspeed."
+    ],
+    "answer": 3,
+    "explain": "근거: 정압은 \"decreases as an aircraft climbs\", 차이가 클수록 \"the higher the speed shown\", 둘 다 막히면 관 속 압력은 \"a fixed pressure\" → 상승하면 차이가 커져 속도가 오르는 것처럼 보인다.\n(1) 경우 혼동 — 입구만 막히면 \"falls toward zero\"\n(2) 과잉 일반화 — 둘 다 막힌 경우는 0으로 떨어지지 않는다\n(3) 경우 혼동 — 0으로 떨어지는 것은 배수 구멍이 열려 있을 때"
+  },
+  {
+    "id": "rct_0130",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "The Bulb Below the Bow",
+    "passage": "Many large ships have a rounded bulb that projects forward from the bow just below the waterline. As the ship moves, the bulb pushes up a wave of its own, and when the hull is properly designed, this wave is out of step with the wave formed by the bow, so the two partly cancel. Less energy is lost to making waves, and the ship can burn noticeably less fuel. The benefit, however, depends on conditions. A bulb is shaped for a particular speed and draft, and when a ship sails much slower than intended, or rides high in the water with little cargo, the bulb can add drag instead of reducing it. When a number of shipping companies decided to run their vessels more slowly to save fuel, some of them paid to have the bulbs on those ships reshaped.",
+    "passage_ko": "많은 대형 선박에는 선수에서 수면 바로 아래로 앞으로 튀어나온 둥근 혹 모양의 부분, 즉 구상선수(bulbous bow)가 있다. 배가 움직이면 이 구상부가 자기 나름의 파도를 일으키는데, 선체가 제대로 설계되어 있으면 이 파도는 선수가 만드는 파도와 엇박자가 되어 둘이 부분적으로 상쇄된다. 파도를 만드는 데 잃는 에너지가 줄고, 배는 눈에 띄게 연료를 덜 쓸 수 있다. 그러나 그 이득은 조건에 따라 달라진다. 구상부는 특정한 속력과 흘수(draft)에 맞춰 설계되며, 배가 의도보다 훨씬 느리게 항해하거나 화물이 적어 물 위로 높이 떠 있으면 구상부가 항력을 줄이기는커녕 오히려 늘릴 수 있다. 여러 해운사가 연료를 아끼려고 선박을 더 느리게 운항하기로 했을 때, 그중 일부는 비용을 들여 그 배들의 구상부 모양을 고쳤다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Adding a bulb to almost any ship will reduce the energy it loses to making waves.",
+      "A bulb that lowers fuel use at one speed may raise fuel use at another.",
+      "A ship riding high with little cargo gets the greatest benefit from its bulb.",
+      "Some companies reshaped their ships' bulbs mainly so the ships could sail faster."
+    ],
+    "answer": 1,
+    "explain": "근거: \"when a ship sails much slower than intended ... the bulb can add drag instead of reducing it\" → 한 속력에서 연료를 줄이던 구상부가 다른 속력에서는 늘릴 수 있다.\n(1) 과잉 일반화 — 효과는 설계된 속력·흘수에서 나온다\n(3) 뒤집기 — 짐이 적어 높이 뜨면 항력이 늘 수 있다\n(4) 이유 비틀기 — 더 '느리게' 운항하게 되어 고쳤다"
+  },
+  {
+    "id": "rct_0131",
+    "topic": "military",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Loading for the Landing",
+    "passage": "Ships carrying troops and equipment to an operation can be loaded in two very different ways. In administrative loading, cargo is packed to use every available cubic foot, so the fewest ships can carry the most material. This method works well when the ships will unload at a secure port, where there is time to sort everything on the pier. Combat loading arranges the cargo instead around the plan for the landing: whatever the first units ashore will need is stowed where it can come off first, and each unit's vehicles, ammunition, and supplies are kept together. Because this arrangement leaves gaps and wastes space, a force that is combat loaded requires more shipping. The trade-off is accepted when troops may have to fight as soon as they land, since a critical item buried under less urgent cargo can be as useless as one left behind.",
+    "passage_ko": "작전에 투입될 병력과 장비를 실어 나르는 배는 매우 다른 두 방식으로 적재될 수 있다. 행정 적재(administrative loading)에서는 가능한 모든 공간을 쓰도록 화물을 채워, 가장 적은 배로 가장 많은 물자를 나른다. 이 방식은 배가 안전한 항구에서 짐을 내려 부두에서 모든 것을 분류할 시간이 있을 때 잘 맞는다. 반면 전투 적재(combat loading)는 상륙 계획에 맞추어 화물을 배치한다. 가장 먼저 상륙하는 부대에 필요한 것은 무엇이든 가장 먼저 내릴 수 있는 곳에 싣고, 각 부대의 차량·탄약·보급품은 한데 모아 둔다. 이렇게 배치하면 빈틈이 생기고 공간이 낭비되므로, 전투 적재한 부대는 더 많은 선박이 필요하다. 병력이 상륙하자마자 싸워야 할 수도 있을 때는 이 손해를 감수하는데, 덜 급한 화물 밑에 묻힌 핵심 물품은 두고 온 물품만큼이나 쓸모가 없을 수 있기 때문이다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "Moving a force to a secure port would usually take fewer ships than landing it under fire.",
+      "Combat loading lets a force carry more equipment in the same number of ships.",
+      "Since combat loading needs more ships, it is used whenever enough ships are available.",
+      "In combat loading, the items needed first are packed beneath those needed later."
+    ],
+    "answer": 0,
+    "explain": "근거: 행정 적재는 \"the fewest ships\"로 \"a secure port\"에 맞고, 전투 적재는 \"requires more shipping\"이며 상륙 즉시 싸울 때 쓴다 → 같은 부대라도 적지 상륙에 배가 더 든다.\n(2) 뒤집기 — 전투 적재는 공간을 낭비한다\n(3) 조건 비틀기 — 배가 넉넉해서가 아니라 상륙 즉시 전투 가능성 때문\n(4) 뒤집기 — 먼저 필요한 것은 \"can come off first\""
+  },
+  {
+    "id": "rct_0132",
+    "topic": "science",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Bending Toward the Window",
+    "passage": "A seedling on a windowsill gradually bends toward the glass. This response, called phototropism, puzzled scientists for a long time, and an early clue came from experiments by Charles Darwin and his son Francis in 1880. They found that grass seedlings with their tips covered by small opaque caps did not bend toward light, while seedlings whose lower stems were shielded bent normally. Later researchers traced the effect to a growth hormone, auxin, that is made at the tip and moves down the stem. Light shining from one side causes more auxin to collect on the shaded side, and cells there lengthen faster than cells on the lit side. The uneven growth curves the stem toward the light. The bend therefore appears below the tip, in a region that does not itself need to sense the light.",
+    "passage_ko": "창턱에 놓인 어린 식물은 점점 유리창 쪽으로 휜다. 굴광성(phototropism)이라 불리는 이 반응은 오랫동안 과학자들을 어리둥절하게 했는데, 초기의 단서는 1880년 찰스 다윈과 그의 아들 프랜시스의 실험에서 나왔다. 그들은 끝부분을 빛이 통하지 않는 작은 덮개로 씌운 풀 새싹은 빛 쪽으로 휘지 않은 반면, 아랫줄기를 가린 새싹은 정상적으로 휜다는 것을 발견했다. 이후 연구자들은 이 현상의 원인을 끝부분에서 만들어져 줄기를 따라 내려가는 생장 호르몬인 옥신(auxin)에서 찾았다. 빛이 한쪽에서 비치면 그늘진 쪽에 옥신이 더 많이 모이고, 그쪽 세포가 빛을 받는 쪽 세포보다 더 빨리 길어진다. 이 고르지 않은 생장이 줄기를 빛 쪽으로 휘게 한다. 그래서 휘는 부분은 끝보다 아래, 스스로는 빛을 감지할 필요가 없는 부위에서 나타난다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "cells on the lit side of a stem lengthen faster than those on the shaded side",
+      "a seedling bends toward light only if its lower stem is exposed to the light",
+      "a seedling whose tip had been cut off would probably not bend toward light",
+      "the roots of most plants tend to grow away from light rather than toward it"
+    ],
+    "answer": 2,
+    "explain": "근거: 끝을 덮은 새싹은 \"did not bend\", 옥신은 \"made at the tip\" → 끝을 잘라 내면 휘지 않을 것이다.\n(1) 뒤집기 — 그늘진 쪽 세포가 더 빨리 길어진다\n(2) 반대 결과 — 아랫줄기를 가려도 \"bent normally\"\n(4) 지문에 없는 상식 — 뿌리 이야기는 없다"
+  },
+  {
+    "id": "rct_0133",
+    "topic": "history",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Two Tries at Panama",
+    "passage": "The French effort to dig a canal across Panama, begun in 1881, was led by Ferdinand de Lesseps, who had built the Suez Canal through flat desert at sea level. He planned the same kind of canal in Panama, but the route crossed mountains and a river prone to violent floods, and landslides repeatedly refilled the excavation. Yellow fever and malaria killed thousands of workers, at a time when few people suspected that mosquitoes spread either disease. The company collapsed in 1889. When the United States took over the project in 1904, it changed two things. Its sanitation officers drained standing water and screened buildings, acting on recent evidence that mosquitoes carried the diseases. And its engineers abandoned the sea-level plan, damming the river to create a lake and building locks to lift ships up to it and lower them down again. The canal opened in 1914.",
+    "passage_ko": "1881년에 시작된 프랑스의 파나마 운하 건설은 평평한 사막을 가로질러 해수면 높이로 수에즈 운하를 건설했던 페르디낭 드 레셉스가 이끌었다. 그는 파나마에서도 같은 종류의 운하를 계획했지만, 그 경로는 산악 지대와 격렬한 홍수가 잦은 강을 가로질렀고, 산사태가 파 놓은 곳을 거듭 다시 메웠다. 황열병과 말라리아로 수천 명의 노동자가 죽었는데, 당시에는 모기가 이 병들을 퍼뜨린다고 의심하는 사람이 거의 없었다. 회사는 1889년에 파산했다. 1904년 미국이 사업을 넘겨받았을 때 두 가지가 바뀌었다. 미국의 위생 담당관들은 모기가 이 병들을 옮긴다는 최근의 증거에 따라 고인 물을 빼고 건물에 방충망을 쳤다. 그리고 기술자들은 해수면식 계획을 버리고, 강을 막아 호수를 만든 뒤 배를 호수까지 들어 올렸다가 다시 내려 주는 갑문(lock)을 지었다. 운하는 1914년에 개통했다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "The United States succeeded mainly because it spent more money than France had.",
+      "Like the Suez Canal, the canal that opened in 1914 was built at sea level.",
+      "De Lesseps's success at Suez may have led him to a plan poorly suited to Panama.",
+      "Walter Reed's research in Cuba proved that mosquitoes spread yellow fever."
+    ],
+    "answer": 2,
+    "explain": "근거: 수에즈는 \"flat desert at sea level\"이었고 파나마에서도 \"the same kind of canal\"을 계획했지만 경로가 \"crossed mountains and a river prone to violent floods\".\n(1) 지문에 없는 이유 — 자금 비교는 없다\n(2) 뒤집기 — 미국은 \"abandoned the sea-level plan\"하고 갑문을 지었다\n(4) 지문에 없는 상식 — 월터 리드는 언급되지 않는다"
+  },
+  {
+    "id": "rct_0134",
+    "topic": "leadership",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Leading Former Peers",
+    "passage": "Being promoted to lead the group one used to belong to is among the hardest transitions a new leader faces. Former peers may expect special treatment, test whether old friendships still count, or quietly resent the promotion. Experienced mentors suggest a few practices. The new leader should acknowledge the change openly rather than pretend nothing is different, and should explain how decisions will be made from now on. Friendships need not end, but favoritism, or even its appearance, must, so standards should be applied to everyone in the same way. Many new leaders also make the mistake of trying to prove themselves by changing everything at once; listening first and making a few well-chosen changes usually earns more respect than a burst of new rules.",
+    "passage_ko": "자신이 속해 있던 집단을 이끌도록 승진하는 것은 새 리더가 겪는 가장 어려운 전환 가운데 하나다. 예전 동료들은 특별 대우를 기대하거나, 옛 우정이 아직 통하는지 시험하거나, 승진을 조용히 못마땅해할 수 있다. 경험 많은 멘토들은 몇 가지 방법을 권한다. 새 리더는 아무것도 달라지지 않은 척하지 말고 변화를 솔직히 인정해야 하며, 앞으로 결정이 어떻게 내려질지 설명해야 한다. 우정이 끝날 필요는 없지만 편애는, 아니 편애처럼 보이는 것조차 끝나야 하므로, 기준은 모든 사람에게 똑같이 적용되어야 한다. 많은 새 리더가 한꺼번에 모든 것을 바꾸어 자신을 증명하려는 실수도 한다. 먼저 듣고 잘 고른 몇 가지만 바꾸는 편이 대개 새 규칙을 쏟아내는 것보다 더 많은 존중을 얻는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A new leader may keep old friendships as long as everyone is held to the same standards.",
+      "A new leader should end friendships with former peers to avoid seeming to play favorites.",
+      "Making many changes quickly is the surest way for a new leader to earn the team's respect.",
+      "Most organizations avoid promoting people to lead the teams they once belonged to."
+    ],
+    "answer": 0,
+    "explain": "근거: \"Friendships need not end, but favoritism, or even its appearance, must\" + 기준은 \"applied to everyone in the same way\".\n(2) 과잉 일반화 — 우정을 끊을 필요는 없다고 했다\n(3) 뒤집기 — 한꺼번에 바꾸는 것은 \"mistake\"\n(4) 지문에 없는 진술 — 조직의 승진 관행은 언급 없음"
+  },
+  {
+    "id": "rct_0135",
+    "topic": "technology",
+    "diff": 2,
+    "qtype": "detail",
+    "title": "Steering a Beam Without Moving",
+    "passage": "A traditional radar sweeps the sky by physically turning its antenna, so it revisits any particular direction only once per rotation, often every few seconds. A phased-array radar instead uses a flat, fixed panel made up of hundreds or thousands of small antenna elements. By slightly delaying the signal sent from each element, the system makes the combined beam point in a chosen direction, and it can shift that direction electronically in a tiny fraction of a second. This allows a single radar to scan for new contacts while repeatedly checking on targets it is already tracking. Because one flat panel can cover only part of the horizon, ships that use the technology usually mount several panels facing different directions. Such systems are more complex and costly than rotating antennas.",
+    "passage_ko": "전통적인 레이더는 안테나를 물리적으로 돌려 하늘을 훑기 때문에, 특정 방향을 한 바퀴 돌 때마다 한 번, 흔히 몇 초에 한 번씩만 다시 살핀다. 반면 위상배열(phased-array) 레이더는 수백 또는 수천 개의 작은 안테나 소자로 이루어진 평평한 고정 패널을 쓴다. 각 소자에서 보내는 신호를 조금씩 지연시킴으로써 시스템은 합쳐진 빔이 원하는 방향을 가리키게 하고, 그 방향을 전자적으로 순식간에 바꿀 수 있다. 덕분에 레이더 하나가 새 접촉물을 탐색하면서 이미 추적 중인 표적도 반복해서 확인할 수 있다. 평평한 패널 하나는 수평선의 일부만 담당할 수 있으므로, 이 기술을 쓰는 함정은 보통 서로 다른 방향을 향한 패널 여러 개를 단다. 이런 시스템은 회전 안테나보다 더 복잡하고 비싸다.",
+    "q": "According to the passage, a phased-array radar points its beam in a new direction by",
+    "q_ko": "지문에 따르면, 위상배열 레이더가 빔을 새 방향으로 돌리는 방법은?",
+    "options": [
+      "rotating its flat panel quickly toward the chosen direction",
+      "switching off every panel except the one facing the target",
+      "changing the frequency of the signal the whole panel sends",
+      "slightly delaying the signal sent from each of its elements"
+    ],
+    "answer": 3,
+    "explain": "근거: \"By slightly delaying the signal sent from each element, the system makes the combined beam point in a chosen direction\".\n(1) 혼동 — 패널은 \"fixed\", 안테나를 돌리는 것은 전통적 레이더\n(2) 세부 비틀기 — 여러 패널은 방향을 나눠 맡을 뿐, 빔을 돌리는 방법이 아니다\n(3) 지문에 없음 — 주파수를 바꾼다는 말은 없다"
+  },
+  {
+    "id": "rct_0136",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Approaching Over Darkness",
+    "passage": "Pilots judge their approach angle at night largely by the shape that the runway lights make in the windshield. When the approach crosses water or empty desert, the area below the aircraft is completely dark, and the runway can seem to hang in a black void. In these conditions, often called a black hole approach, many pilots perceive themselves as higher than they really are and respond by descending, sometimes far below a safe path. The illusion is strongest when the only other visible lights are those of a town rising on terrain beyond the airport. Because the problem lies in perception rather than skill, experience alone does not protect against it. Pilots are taught instead to rely on approach-slope lights beside the runway, an electronic glide path, or a planned descent checked against altitude and distance.",
+    "passage_ko": "조종사는 밤에 접근각을 주로 활주로 등화가 앞유리에 그리는 모양으로 판단한다. 접근 경로가 바다나 텅 빈 사막을 지나면 항공기 아래는 완전히 캄캄하고, 활주로는 검은 허공에 매달린 것처럼 보일 수 있다. 블랙홀 접근(black hole approach)이라 불리는 이런 조건에서 많은 조종사는 자신이 실제보다 높다고 느끼고 그에 맞춰 강하하는데, 때로는 안전한 경로보다 훨씬 아래로 내려간다. 이 착시는 활주로 외에 보이는 불빛이 공항 너머 오르막 지형에 자리한 마을의 불빛뿐일 때 가장 강하다. 문제는 기량이 아니라 지각에 있으므로 경험만으로는 이를 막을 수 없다. 그래서 조종사는 대신 활주로 옆의 진입각 지시등, 전자식 활공 경로, 또는 고도와 거리로 확인하는 계획된 강하에 의지하도록 교육받는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Pilots on a black hole approach usually end up flying higher than the proper path.",
+      "On a dark approach, a pilot's sense of being too high is a poor guide to descending.",
+      "A pilot with many years of night flying is largely protected from the illusion.",
+      "The illusion arises mainly when the runway lights are too dim to be seen clearly."
+    ],
+    "answer": 1,
+    "explain": "근거: \"perceive themselves as higher than they really are and respond by descending, sometimes far below a safe path\" → 높다는 느낌만 믿고 내려가면 위험하다.\n(1) 뒤집기 — 실제로는 너무 '낮게' 날게 된다\n(3) 정면 반박 — \"experience alone does not protect against it\"\n(4) 세부 비틀기 — 활주로 불빛은 보인다. 문제는 그 아래가 \"completely dark\"한 것"
+  },
+  {
+    "id": "rct_0137",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "main_idea",
+    "title": "Red Right Returning, Not Everywhere",
+    "passage": "Channel buoys guide ships along the safe water into and out of harbors, and most of them follow an international system adopted in 1980. That system did not produce a single worldwide standard, however. In Region B, which includes North and South America, Japan, and the Philippines, a vessel returning from sea keeps red marks on its right, or starboard, side and green marks on its left. In Region A, which covers most of the rest of the world, the colors are reversed. Some features are shared by both regions: the shape of a channel buoy carries the same meaning everywhere, and marks warning of an isolated danger look alike in both. A navigator moving from one region to the other must still remember which color rule applies, because a red buoy in a European channel means the opposite of a red buoy in an American one.",
+    "passage_ko": "항로 부표는 배가 항구를 드나들 때 안전한 수역을 따라가도록 안내하며, 대부분은 1980년에 채택된 국제 체계를 따른다. 그러나 그 체계가 하나의 세계 표준을 만들어 낸 것은 아니다. 남북 아메리카, 일본, 필리핀을 포함하는 B지역에서는 바다에서 돌아오는 배가 붉은 표지를 오른쪽, 즉 우현에, 녹색 표지를 왼쪽에 둔다. 세계의 나머지 대부분을 포함하는 A지역에서는 색이 반대다. 두 지역에 공통인 특징도 있다. 항로 부표의 모양은 어디서나 같은 뜻이고, 고립 장애 표지도 두 지역에서 똑같이 생겼다. 그래도 한 지역에서 다른 지역으로 옮겨 가는 항해사는 어느 색 규칙이 적용되는지 기억해야 한다. 유럽 항로의 붉은 부표는 미국 항로의 붉은 부표와 정반대를 뜻하기 때문이다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 표현한 것은?",
+    "options": [
+      "Because buoy colors differ by region, navigators must know which system applies.",
+      "The 1980 system succeeded in giving every country the same set of buoy markings.",
+      "A buoy's shape matters more to navigators than its color in every part of the world.",
+      "In the Americas, vessels returning from sea keep red buoys on their starboard side."
+    ],
+    "answer": 0,
+    "explain": "근거: \"That system did not produce a single worldwide standard\" + \"must still remember which color rule applies\" — 지역마다 색 규칙이 반대라는 것이 요지.\n(2) 정면 반박 — 단일 세계 표준이 되지 못했다\n(3) 지문에 없는 비교 — 모양이 색보다 중요하다는 말은 없다\n(4) 너무 좁음 — B지역 규칙이라는 세부 하나"
+  },
+  {
+    "id": "rct_0138",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Hull Shaped Like a V",
+    "passage": "A mine or roadside bomb that explodes beneath a vehicle sends a blast of hot gas and debris upward into the floor. Vehicles built to resist such attacks rely on two main features. Their hulls are shaped like a V, so that much of the blast is deflected outward along the angled sides rather than striking a flat surface head-on, and they ride high above the road, since the force of a blast weakens quickly with distance. These features have saved many lives, but they come at a price. A tall, heavy vehicle with a raised center of gravity is more likely to tip over, especially on soft road shoulders, steep slopes, or the banks of irrigation canals, and its weight can exceed what small bridges are built to carry. Crews of such vehicles therefore practice rollover drills alongside their other training.",
+    "passage_ko": "차량 아래에서 터지는 지뢰나 도로변 폭탄은 뜨거운 가스와 파편을 바닥 쪽으로 세차게 밀어 올린다. 이런 공격을 견디도록 만든 차량은 두 가지 주요 특징에 의존한다. 차체 하부가 V자 모양이어서 폭풍의 상당 부분이 평평한 면을 정면으로 때리는 대신 비스듬한 측면을 따라 바깥으로 비껴 나가고, 폭발력은 거리에 따라 빠르게 약해지므로 차체가 도로 위로 높이 떠 있다. 이런 특징은 많은 생명을 구했지만 대가가 따른다. 무게중심이 높고 키가 크고 무거운 차량은 특히 무른 갓길, 가파른 비탈, 관개수로의 둑에서 넘어지기 쉽고, 그 무게는 작은 다리가 견디도록 지어진 하중을 넘을 수 있다. 그래서 이런 차량의 승무원은 다른 훈련과 함께 전복 대비 훈련도 한다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "a flat-bottomed vehicle riding close to the road would better withstand a blast beneath it",
+      "rollover drills are practiced mainly because blasts tend to throw vehicles onto their sides",
+      "raising a vehicle higher above the road helps keep it from tipping over on steep slopes",
+      "the features that protect a crew from blasts below can add to other dangers it faces"
+    ],
+    "answer": 3,
+    "explain": "근거: \"These features have saved many lives, but they come at a price\" — 높은 무게중심은 전복 위험, 무게는 작은 다리의 하중 초과.\n(1) 뒤집기 — V자 하부와 높은 차고가 폭발을 견디는 방식\n(2) 원인 비틀기 — 전복 훈련의 이유는 높은 무게중심과 지형\n(3) 인과 뒤집기 — 높이 올리면 무게중심이 올라가 더 잘 넘어진다"
+  },
+  {
+    "id": "rct_0139",
+    "topic": "science",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Water That Isn't There",
+    "passage": "Light travels slightly faster through warm air than through cool air, so a ray crossing layers of different temperature bends, always curving toward the cooler, denser air. On a sunny day, the air just above a paved road can be far hotter than the air a few feet higher. Light from the sky that heads down toward the road is bent upward before it reaches the pavement and arrives at a driver's eyes from below the horizon. The brain interprets this as light reflected from a surface, and the road appears to hold a shimmering pool of water. Over very cold seas the layers are reversed, with cold air near the surface and warmer air above. Light is then bent downward, and distant ships can appear to float above the horizon, while objects normally hidden beyond it may come into view.",
+    "passage_ko": "빛은 차가운 공기보다 따뜻한 공기 속에서 약간 더 빨리 나아가므로, 온도가 다른 층을 지나는 광선은 휘는데, 언제나 더 차갑고 밀도가 높은 공기 쪽으로 굽는다. 맑은 날 포장도로 바로 위의 공기는 몇 피트 위의 공기보다 훨씬 뜨거울 수 있다. 하늘에서 도로 쪽으로 내려가던 빛은 노면에 닿기 전에 위로 휘어, 지평선 아래쪽에서 운전자의 눈에 들어온다. 뇌는 이를 어떤 표면에서 반사된 빛으로 해석하고, 도로에는 일렁이는 물웅덩이가 있는 것처럼 보인다. 아주 차가운 바다 위에서는 층이 반대가 되어, 수면 가까이에 찬 공기가, 그 위에 더 따뜻한 공기가 놓인다. 그러면 빛이 아래로 휘어, 먼 배가 수평선 위에 떠 있는 것처럼 보일 수 있고, 평소에는 수평선 너머에 가려 있던 물체가 눈에 들어오기도 한다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Light passing from cool air into warmer air bends toward the warmer layer.",
+      "Over cold seas, distant ships tend to appear lower than their true positions.",
+      "The apparent water on a hot road is really an image of light from the sky.",
+      "Road mirages occur because a thin film of moisture forms on hot pavement."
+    ],
+    "answer": 2,
+    "explain": "근거: \"Light from the sky ... arrives at a driver's eyes from below the horizon\" + 뇌가 이를 반사로 해석 → 도로 위 '물'은 하늘에서 온 빛의 상.\n(1) 뒤집기 — 빛은 \"toward the cooler, denser air\"로 휜다\n(2) 뒤집기 — 차가운 바다 위에서는 배가 \"float above the horizon\"\n(4) 원인 비틀기 — 실제 물기가 아니라 빛의 굴절"
+  },
+  {
+    "id": "rct_0140",
+    "topic": "space",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "A Telescope in the Shade",
+    "passage": "The James Webb Space Telescope observes mainly in infrared light, the kind given off by warm objects, so it must be kept extremely cold or its own warmth would swamp the faint signals it is trying to detect. Its location helps. Webb circles a point about 1.5 million kilometers from Earth, on the side facing away from the Sun, where a spacecraft keeps pace with Earth as both travel around the Sun. From there, the Sun, Earth, and Moon all stay in roughly the same direction, so a single sunshield the size of a tennis court can keep the telescope in permanent shade. The point is not stable, however. Small thruster firings are needed every few weeks to stay near it, and the propellant carried for this purpose is expected to limit how long the telescope can operate. Unlike Hubble, which orbits a few hundred kilometers up, Webb was not designed to be visited by astronauts.",
+    "passage_ko": "제임스 웹 우주망원경은 주로 따뜻한 물체가 내뿜는 빛인 적외선으로 관측하므로, 아주 차갑게 유지되어야 한다. 그러지 않으면 망원경 자체의 온기가 잡아내려는 희미한 신호를 덮어 버린다. 위치가 이를 돕는다. 웹은 지구에서 약 150만 킬로미터 떨어진, 태양 반대쪽의 한 지점 주위를 도는데, 그곳에서는 우주선이 지구와 함께 태양 주위를 돌며 지구와 보조를 맞춘다. 거기서는 태양·지구·달이 모두 대략 같은 방향에 머물기 때문에, 테니스장만 한 차양막 하나로 망원경을 늘 그늘 속에 둘 수 있다. 그러나 이 지점은 안정적이지 않다. 그 근처에 머물려면 몇 주마다 작은 추력기 분사가 필요하며, 이를 위해 싣고 간 추진제가 망원경의 운용 기간을 제한할 것으로 예상된다. 수백 킬로미터 상공을 도는 허블과 달리, 웹은 우주비행사가 찾아가도록 설계되지 않았다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "the telescope's great distance from Earth is the reason it observes mainly in infrared",
+      "once its propellant is gone, the telescope could not stay near its observing point",
+      "Earth's shadow keeps the telescope cold, so the sunshield serves mainly as a backup",
+      "the telescope was launched in late 2021 aboard a rocket supplied by Europe"
+    ],
+    "answer": 1,
+    "explain": "근거: 이 지점은 \"not stable\"이라 머물려면 \"Small thruster firings\"가 필요하고, 추진제가 \"limit how long the telescope can operate\".\n(1) 인과 뒤집기 — 적외선으로 관측하기 때문에 차갑게 둘 수 있는 위치를 고른 것\n(3) 지문 반박 — 그늘은 \"a single sunshield\"가 만든다\n(4) 지문에 없는 상식 — 발사 시기·로켓은 언급 없음"
+  },
+  {
+    "id": "rct_0141",
+    "topic": "history",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Bombers from a Carrier Deck",
+    "passage": "In April 1942, four months after the attack on Pearl Harbor, sixteen U.S. Army B-25 bombers took off from the aircraft carrier USS Hornet to strike targets in Japan. The twin-engine bombers could take off from a carrier deck but were far too large to land on one, so the plan called for them to fly on after the attack to airfields in China. On the morning of the raid, however, the task force was spotted by a Japanese patrol boat, and the bombers were launched hours early, much farther from Japan than intended. After dropping their bombs, most crews ran short of fuel in darkness and bad weather; they crash-landed or bailed out over China, and one plane landed in the Soviet Union. The physical damage in Japan was slight, but the raid lifted American morale and alarmed Japanese leaders, who hurried plans to push their defensive perimeter outward.",
+    "passage_ko": "진주만 공격 넉 달 뒤인 1942년 4월, 미 육군의 B-25 폭격기 16대가 일본의 목표물을 타격하기 위해 항공모함 호넷(USS Hornet)에서 이륙했다. 이 쌍발 폭격기들은 항모 갑판에서 이륙할 수는 있었지만 착함하기에는 너무 컸기 때문에, 계획은 공격 후 계속 날아가 중국의 비행장에 내리는 것이었다. 그러나 공습 당일 아침 기동부대가 일본 초계정에 발각되었고, 폭격기들은 예정보다 몇 시간 일찍, 의도보다 일본에서 훨씬 먼 곳에서 발진했다. 폭탄을 떨어뜨린 뒤 대부분의 승무원은 어둠과 악천후 속에서 연료가 바닥나, 중국 상공에서 불시착하거나 낙하산으로 탈출했고, 한 대는 소련에 착륙했다. 일본이 입은 물리적 피해는 미미했지만, 이 공습은 미국의 사기를 끌어올렸고 일본 지도부를 놀라게 해, 그들은 방어선을 바깥으로 밀어내려는 계획을 서둘렀다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Had the task force gone unseen, more bombers might have reached their planned airfields.",
+      "The bombers were launched early because bad weather was closing in on the task force.",
+      "Japanese leaders responded to the raid by drawing their defenses closer to home.",
+      "The raid's leader, James Doolittle, later received the Medal of Honor for leading it."
+    ],
+    "answer": 0,
+    "explain": "근거: 발각되어 \"launched hours early, much farther from Japan than intended\" → 대부분 연료가 바닥나 중국에서 불시착·탈출. 발각되지 않았다면 더 많은 기체가 비행장에 닿았을 수 있다.\n(2) 원인 비틀기 — 조기 발진은 초계정에 \"spotted\"되었기 때문\n(3) 뒤집기 — 방어선을 \"push ... outward\"하려 했다\n(4) 지문에 없는 상식 — 지휘관과 훈장은 언급 없음"
+  },
+  {
+    "id": "rct_0142",
+    "topic": "aviation",
+    "diff": 2,
+    "qtype": "detail",
+    "title": "Too Heavy to Land",
+    "passage": "A large airliner is often allowed to weigh considerably more at takeoff than at landing. The landing limit is lower because the landing gear and wing structure must absorb the jolt of touchdown, which is far harsher than the gradual lift-off of a takeoff. On a long flight this causes no difficulty, since the airplane burns tons of fuel before it arrives. But if a problem forces it to return soon after departure, it may still be too heavy to land within its limits. Some aircraft can then jettison fuel through valves near the wingtips, usually at an altitude high enough that most of it evaporates before reaching the ground. Aircraft without that system may circle for an hour or more to burn fuel, and in a true emergency, a crew can land overweight and have the airplane inspected afterward.",
+    "passage_ko": "대형 여객기는 흔히 착륙할 때보다 이륙할 때 훨씬 더 무거운 무게가 허용된다. 착륙 한도가 더 낮은 이유는 착륙장치와 날개 구조가 접지의 충격을 흡수해야 하는데, 이 충격이 이륙 때 서서히 떠오르는 것보다 훨씬 거칠기 때문이다. 장거리 비행에서는 이것이 문제가 되지 않는다. 도착하기 전에 연료를 수 톤이나 태우기 때문이다. 그러나 문제가 생겨 출발 직후 되돌아와야 한다면, 비행기는 아직 한도 안에서 착륙하기에는 너무 무거울 수 있다. 그때 일부 항공기는 날개 끝 근처의 밸브로 연료를 방출(jettison)할 수 있는데, 보통 대부분이 지면에 닿기 전에 증발할 만큼 높은 고도에서 한다. 그런 장치가 없는 항공기는 연료를 태우려고 한 시간 이상 선회하기도 하며, 정말 비상일 때는 승무원이 중량을 초과한 채 착륙하고 나중에 기체 점검을 받게 할 수 있다.",
+    "q": "According to the passage, a large airliner's maximum landing weight is lower than its maximum takeoff weight because",
+    "q_ko": "지문에 따르면, 대형 여객기의 최대 착륙 중량이 최대 이륙 중량보다 낮은 이유는?",
+    "options": [
+      "airliners burn most of their fuel during the first part of a flight",
+      "fuel jettisoned at a low altitude may reach the ground before evaporating",
+      "touchdown puts more stress on the airplane's structure than lift-off does",
+      "pilots need extra power at landing in case they must abort and climb again"
+    ],
+    "answer": 2,
+    "explain": "근거: \"the landing gear and wing structure must absorb the jolt of touchdown, which is far harsher than the gradual lift-off\".\n(1) 지문에 없는 진술 — 연료 소모 시점은 이유로 나오지 않는다\n(2) 다른 세부 — 연료 방출 고도 이야기일 뿐 중량 한도의 이유가 아니다\n(4) 지문에 없는 상식 — 복행 출력은 언급 없음"
+  },
+  {
+    "id": "rct_0143",
+    "topic": "naval",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "When a Mooring Line Parts",
+    "passage": "A mooring line under heavy load stores energy much as a stretched rubber band does. If the line breaks, that energy is released in an instant, and the two ends whip back with enough force to cause severe or fatal injuries. The danger depends on the material. Synthetic lines such as nylon stretch far more than wire rope before breaking, and that stretch lets them absorb sudden jerks from a ship surging against a pier. For the same reason, however, they hold more stored energy at the moment of failure, so they recoil more violently. Decks have often been painted to mark a snap-back zone where a parting line is expected to strike. Investigations of accidents have shown that a line led around a fitting can recoil in unexpected directions, so crews are now taught to treat the entire area near a loaded line as hazardous.",
+    "passage_ko": "큰 하중을 받는 계류줄은 잡아 늘인 고무줄처럼 에너지를 저장한다. 줄이 끊어지면 그 에너지가 한순간에 풀려나, 두 끝이 심각하거나 치명적인 부상을 입힐 만큼의 힘으로 튕겨 돌아온다. 위험은 재질에 따라 다르다. 나일론 같은 합성섬유 줄은 끊어지기 전에 와이어로프보다 훨씬 많이 늘어나며, 그 늘어남 덕분에 배가 부두 쪽으로 출렁일 때의 갑작스러운 충격을 흡수할 수 있다. 그러나 같은 이유로 끊어지는 순간 더 많은 에너지를 품고 있어, 더 격렬하게 튕겨 나간다. 갑판에는 끊어진 줄이 칠 것으로 예상되는 스냅백 구역(snap-back zone)이 흔히 페인트로 표시되어 왔다. 사고 조사 결과 고정구를 돌아 이어진 줄은 예상치 못한 방향으로 튈 수 있음이 밝혀졌고, 그래서 이제 승조원들은 하중이 걸린 줄 근처 전체를 위험 구역으로 여기도록 교육받는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Wire rope recoils more violently than nylon when it breaks because it stretches less.",
+      "A painted deck marking shows sailors exactly where a parting line will strike.",
+      "Most injuries from parting mooring lines involve wire rope rather than nylon.",
+      "The quality that helps nylon absorb sudden jerks also makes its failure more dangerous."
+    ],
+    "answer": 3,
+    "explain": "근거: 늘어남이 \"lets them absorb sudden jerks\" + \"For the same reason, however, ... they recoil more violently\".\n(1) 비교 뒤집기 — 더 많이 늘어나는 나일론이 더 격렬하게 튄다\n(2) 과잉 일반화 — 줄은 \"recoil in unexpected directions\"할 수 있다\n(3) 지문에 없는 진술 — 부상 통계는 없고, 오히려 나일론이 더 격렬히 튄다고 했다"
+  },
+  {
+    "id": "rct_0144",
+    "topic": "military",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Tracers Cut Both Ways",
+    "passage": "A tracer round carries a small charge of burning chemical in its base that glows brightly as the bullet flies, letting a gunner see where the stream of fire is going and walk it onto a target. Machine-gun ammunition is often linked with one tracer for every four or five ordinary rounds, which is enough to show the line of fire. Tracers have drawbacks, however. The glowing trail points both ways, so an enemy watching the streaks can follow them back to the weapon. The burning compound can also set fire to dry grass, and it burns out after a certain distance, so a gunner firing at very distant targets may lose sight of the rounds before they land. For these reasons, units sometimes limit or forbid the use of tracers, particularly at night.",
+    "passage_ko": "예광탄(tracer)은 탄 밑부분에 타는 화학물질을 조금 담고 있어 총알이 날아가는 동안 밝게 빛나므로, 사수는 사격의 흐름이 어디로 가는지 보면서 그것을 표적 위로 옮겨 갈 수 있다. 기관총 탄약은 흔히 일반탄 네다섯 발마다 예광탄 한 발을 섞어 연결하는데, 사격선을 보여 주기에는 그것으로 충분하다. 그러나 예광탄에는 단점이 있다. 빛나는 궤적은 양쪽을 다 가리키므로, 빛줄기를 지켜보는 적은 그것을 따라 무기 위치까지 거슬러 갈 수 있다. 타는 화합물은 마른 풀에 불을 낼 수도 있고, 일정 거리를 지나면 다 타 버리므로, 아주 먼 표적을 쏘는 사수는 탄이 떨어지기 전에 그것을 놓칠 수 있다. 이런 이유로 부대는 때때로 예광탄 사용을 제한하거나 금지하며, 특히 밤에 그렇다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Machine-gun belts are usually loaded so that every round is a tracer.",
+      "Firing tracers can help an enemy work out where a gunner is located.",
+      "Tracers are most helpful when a gunner is firing at very distant targets.",
+      "Units restrict tracers mainly because they cost more than ordinary rounds."
+    ],
+    "answer": 1,
+    "explain": "근거: \"The glowing trail points both ways, so an enemy watching the streaks can follow them back to the weapon\".\n(1) 수치 비틀기 — 보통 \"one tracer for every four or five ordinary rounds\"\n(3) 뒤집기 — 먼 거리에서는 다 타 버려 \"lose sight of the rounds\"\n(4) 지문에 없는 이유 — 비용은 언급 없음"
+  },
+  {
+    "id": "rct_0145",
+    "topic": "science",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Same Atoms, Different Materials",
+    "passage": "Diamond and graphite, the gray material in pencil 'lead,' are both made entirely of carbon atoms, yet they could hardly be more different. In diamond, each carbon atom is bonded tightly to four neighbors in a rigid three-dimensional framework, which makes diamond the hardest natural material and keeps it from conducting electricity. In graphite, the atoms are bonded in flat sheets. Bonds within each sheet are strong, but the sheets are held to one another only weakly, so they slide apart easily; that is why graphite leaves a mark on paper and can serve as a dry lubricant. Some electrons in graphite are free to move along the sheets, allowing it to conduct electricity. Diamonds form under the intense pressures found deep underground, while graphite forms under much milder conditions.",
+    "passage_ko": "다이아몬드와, 연필심의 회색 물질인 흑연은 둘 다 오직 탄소 원자로만 이루어져 있지만, 둘은 더없이 다르다. 다이아몬드에서는 각 탄소 원자가 이웃 원자 넷과 단단히 결합해 견고한 3차원 골격을 이루는데, 이 때문에 다이아몬드는 가장 단단한 천연 물질이 되며 전기가 통하지 않는다. 흑연에서는 원자들이 평평한 판 모양으로 결합해 있다. 각 판 안의 결합은 강하지만 판과 판은 서로 약하게만 붙어 있어 쉽게 미끄러져 떨어진다. 흑연이 종이에 자국을 남기고 건식 윤활제로 쓰일 수 있는 것은 그 때문이다. 흑연의 일부 전자는 판을 따라 자유롭게 움직일 수 있어 전기가 통한다. 다이아몬드는 땅속 깊은 곳의 엄청난 압력에서 생기는 반면, 흑연은 훨씬 온화한 조건에서 생긴다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "graphite is soft because the bonds within each of its carbon sheets are weak",
+      "diamond conducts electricity better than graphite because its bonds are stronger",
+      "most diamonds used in industry today are manufactured in laboratories rather than mined",
+      "materials made of the same element can differ in whether they conduct electricity"
+    ],
+    "answer": 3,
+    "explain": "근거: 둘 다 \"made entirely of carbon atoms\"인데 다이아몬드는 전기가 통하지 않고 흑연은 \"allowing it to conduct electricity\".\n(1) 세부 비틀기 — 판 '안'의 결합은 강하고 판 '사이'가 약하다\n(2) 뒤집기 — 전기가 통하는 쪽은 흑연\n(3) 지문에 없는 상식 — 인조 다이아몬드는 언급 없음"
+  },
+  {
+    "id": "rct_0146",
+    "topic": "leadership",
+    "diff": 3,
+    "qtype": "main_idea",
+    "title": "Learning Each Other's Jobs",
+    "passage": "In many small teams, each critical task is understood by only one person. That arrangement is efficient while everyone is present, but the absence of a single member through illness, transfer, or injury can stall the whole group. Cross-training, in which members learn at least the basics of one another's jobs, guards against this. It also helps people understand how their own work affects their teammates, which can reduce friction and errors at the points where tasks are handed off. Cross-training has costs, however. Hours spent learning a second job are hours not spent sharpening the first, and a team in which everyone knows a little about everything may lack anyone with deep expertise. Effective leaders therefore choose which skills to duplicate, usually starting with the tasks the team could least afford to lose.",
+    "passage_ko": "많은 소규모 팀에서는 핵심 업무 하나하나를 한 사람만 알고 있다. 이런 방식은 모두가 자리에 있을 때는 효율적이지만, 질병·전출·부상으로 한 사람만 빠져도 팀 전체가 멈출 수 있다. 구성원들이 서로의 업무를 최소한 기초만이라도 배우는 교차 훈련(cross-training)은 이를 막아 준다. 또한 자기 일이 동료에게 어떤 영향을 주는지 이해하게 도와, 업무가 넘어가는 지점에서의 마찰과 실수를 줄일 수 있다. 그러나 교차 훈련에는 비용이 있다. 두 번째 일을 배우는 데 쓴 시간은 첫 번째 일을 갈고닦는 데 쓰지 못한 시간이고, 모두가 모든 것을 조금씩 아는 팀에는 깊은 전문성을 가진 사람이 없을 수 있다. 그래서 유능한 리더는 어떤 기술을 중복시킬지 고르며, 보통 팀이 잃을 여유가 가장 없는 업무부터 시작한다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 표현한 것은?",
+    "options": [
+      "Cross-training mainly improves how team members understand one another's work.",
+      "Every member of a team should learn to perform every other member's job.",
+      "Cross-training guards against losing key skills but should be applied selectively.",
+      "Leaders should avoid cross-training because it weakens a team's expertise."
+    ],
+    "answer": 2,
+    "explain": "근거: 장점(한 명이 빠져도 멈추지 않음)과 \"Cross-training has costs\"를 함께 다룬 뒤 \"choose which skills to duplicate\"로 맺는다.\n(1) 너무 좁음 — 부수 효과 하나\n(2) 과잉 일반화 — 모두가 모든 일을 알면 깊은 전문성이 없을 수 있다\n(4) 반쪽 — 비용은 맞지만 결론은 '피하라'가 아니라 '골라서 하라'"
+  },
+  {
+    "id": "rct_0147",
+    "topic": "technology",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Braking That Recharges",
+    "passage": "An electric car can slow itself by running its drive motor as a generator. Instead of turning the car's motion into heat in the brake pads, this regenerative braking turns part of it back into electricity that is stored in the battery for later use. The gain is greatest in stop-and-go city traffic, where a car brakes often, and smaller on a long highway trip at steady speed. Regenerative braking has limits, though. A battery that is already fully charged, or one that is very cold, can accept little additional energy, so the car must rely more on its friction brakes. The motor also cannot absorb energy quickly enough for a hard emergency stop, and its braking effect fades at very low speeds. For these reasons, every electric car still carries a conventional braking system, although its pads often last far longer than those on a gasoline car.",
+    "passage_ko": "전기차는 구동 모터를 발전기로 돌려 스스로 속도를 줄일 수 있다. 이 회생 제동(regenerative braking)은 차의 운동을 브레이크 패드의 열로 바꾸는 대신, 그 일부를 다시 전기로 바꾸어 나중에 쓰도록 배터리에 저장한다. 이득은 차가 자주 제동하는 시내의 가다 서다 하는 교통에서 가장 크고, 일정한 속도로 달리는 긴 고속도로 주행에서는 더 작다. 그러나 회생 제동에는 한계가 있다. 이미 완전히 충전된 배터리나 아주 차가운 배터리는 추가 에너지를 거의 받아들이지 못하므로, 차는 마찰 브레이크에 더 의존해야 한다. 모터는 급한 비상 정지에 필요한 만큼 빠르게 에너지를 흡수하지도 못하고, 아주 낮은 속도에서는 제동 효과가 약해진다. 이런 이유로 모든 전기차에는 여전히 일반 제동 장치가 달려 있지만, 그 패드는 흔히 휘발유차의 패드보다 훨씬 오래간다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Regenerative braking recovers the most energy on long highway drives at a steady speed.",
+      "A car starting down a long hill fully charged may recover little energy on the way.",
+      "A full battery is the only condition that limits how much energy the motor can recover.",
+      "An electric car's brake pads wear out faster because the motor also helps slow the car."
+    ],
+    "answer": 1,
+    "explain": "근거: \"A battery that is already fully charged ... can accept little additional energy\" → 완충 상태로 긴 내리막을 내려가면 회수할 수 있는 에너지가 적다.\n(1) 뒤집기 — 이득은 \"stop-and-go city traffic\"에서 가장 크다\n(3) 과잉 일반화 — only, 차가운 배터리·급정지·저속에서도 한계가 있다\n(4) 뒤집기 — 패드는 \"last far longer\""
+  },
+  {
+    "id": "rct_0148",
+    "topic": "aviation",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Settling into Its Own Downwash",
+    "passage": "A helicopter descending almost straight down with little forward speed can settle into the air its own rotor has just pushed downward. Under these conditions the air flows down through the rotor, curls up around the blade tips, and is drawn back in from above, forming a large ring-shaped vortex. The condition, called vortex ring state, can produce a rate of descent far greater than the pilot intends. Its most dangerous feature is that the natural response makes it worse. Raising the collective to add power and blade pitch strengthens the downward flow that feeds the ring, so the helicopter may sink even faster. Recovery usually requires moving the aircraft out of the disturbed air, most often by tilting the rotor to gain forward speed. Because this takes altitude, the condition is most hazardous close to the ground, such as during a steep approach to a landing zone.",
+    "passage_ko": "전진 속도가 거의 없이 거의 수직으로 강하하는 헬리콥터는 자기 로터가 방금 아래로 밀어낸 공기 속으로 가라앉을 수 있다. 이런 조건에서는 공기가 로터를 통과해 아래로 흐르다가 블레이드 끝 주변에서 위로 말려 올라가 다시 위쪽에서 빨려 들어오며, 커다란 고리 모양의 소용돌이를 만든다. 와류 고리 상태(vortex ring state)라고 불리는 이 상태는 조종사가 의도한 것보다 훨씬 큰 강하율을 낳을 수 있다. 가장 위험한 점은 자연스러운 반응이 상황을 악화시킨다는 것이다. 출력과 블레이드 피치를 높이려고 콜렉티브를 올리면 고리에 공기를 공급하는 하강 흐름이 더 강해져, 헬리콥터가 더 빨리 가라앉을 수 있다. 회복하려면 보통 기체를 교란된 공기 밖으로 빼내야 하며, 가장 흔한 방법은 로터를 기울여 전진 속도를 얻는 것이다. 이 과정에는 고도가 들기 때문에, 이 상태는 착륙 지점으로 가파르게 접근할 때처럼 지면 가까이에서 가장 위험하다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "approaching a landing zone with some forward speed lowers the risk of entering the condition",
+      "a pilot facing an unexpected sink rate near the ground should begin by raising the collective",
+      "the ring vortex forms because the rotor stops pushing air downward while the aircraft descends",
+      "the condition is easiest to recover from when it develops close to the ground during an approach"
+    ],
+    "answer": 0,
+    "explain": "근거: 이 상태는 \"descending almost straight down with little forward speed\"일 때 생기고 회복도 \"gain forward speed\"로 한다 → 전진 속도를 유지하며 접근하면 위험이 준다.\n(2) 함정 — 콜렉티브를 올리는 \"natural response makes it worse\"\n(3) 원리 비틀기 — 로터는 계속 공기를 아래로 밀고, 그 공기를 다시 빨아들인다\n(4) 뒤집기 — 회복에 고도가 들어 지면 근처가 \"most hazardous\""
+  },
+  {
+    "id": "rct_0149",
+    "topic": "naval",
+    "diff": 2,
+    "qtype": "detail",
+    "title": "A Raft That Launches Itself",
+    "passage": "The inflatable life rafts carried on many ships are packed in hard canisters that sit in cradles on deck. Normally the crew releases a canister by hand, throws it overboard, and pulls a line called the painter, which is tied to the ship, to start inflation. If a ship sinks too quickly for anyone to launch the rafts, a device called a hydrostatic release unit acts instead. When the sinking ship carries the canister to a depth of about four meters, water pressure triggers the unit to cut the strap holding the canister down, and the buoyant canister floats free. As the ship continues downward, the painter pulls tight and starts the inflation. A deliberately weak link in the painter then breaks, so the open raft floats on the surface instead of being dragged under with the ship.",
+    "passage_ko": "많은 배에 실린 팽창식 구명뗏목은 단단한 통(canister)에 접혀 담긴 채 갑판의 받침대에 놓여 있다. 보통은 승조원이 손으로 통을 풀어 배 밖으로 던지고, 배에 묶인 페인터(painter)라는 줄을 당겨 팽창을 시작한다. 아무도 뗏목을 띄울 수 없을 만큼 배가 빨리 가라앉으면, 수압 이탈 장치(hydrostatic release unit)가 대신 작동한다. 가라앉는 배가 통을 약 4미터 깊이까지 끌고 내려가면, 수압이 장치를 작동시켜 통을 고정한 끈을 끊고, 부력이 있는 통은 떠올라 풀려난다. 배가 계속 내려가면 페인터가 팽팽해지며 팽창이 시작된다. 그다음 페인터에 일부러 약하게 만든 연결부(weak link)가 끊어져, 펼쳐진 뗏목은 배와 함께 끌려 들어가지 않고 수면에 뜬다.",
+    "q": "According to the passage, what keeps an automatically released raft from being pulled under with a sinking ship?",
+    "q_ko": "지문에 따르면, 자동으로 풀려난 뗏목이 가라앉는 배에 끌려 들어가지 않게 해 주는 것은?",
+    "options": [
+      "The hydrostatic release unit cuts the painter at a depth of about four meters.",
+      "A weak link in the painter breaks after the line has started the inflation.",
+      "The crew cuts the painter by hand as soon as the raft has finished inflating.",
+      "The canister is too buoyant for the sinking ship to drag it under the water."
+    ],
+    "answer": 1,
+    "explain": "근거: \"A deliberately weak link in the painter then breaks, so the open raft floats on the surface instead of being dragged under\".\n(1) 세부 비틀기 — 수압 이탈 장치가 끊는 것은 페인터가 아니라 통을 묶은 끈(strap)\n(3) 상황 비틀기 — 자동 이탈은 아무도 손쓸 수 없을 때를 위한 장치\n(4) 지문에 없는 설명 — 부력만으로 버틴다는 말은 없다"
+  },
+  {
+    "id": "rct_0150",
+    "topic": "military",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Crack and Thump",
+    "passage": "A rifle bullet usually leaves the barrel faster than sound, and as it passes near a person it produces a small shock wave heard as a sharp crack. The sound of the shot itself, a duller thump, travels from the weapon at the ordinary speed of sound. Because the bullet outruns the sound of the shot over most of its flight, a soldier near its path hears the crack first and the thump afterward, and the gap between them grows as the distance to the shooter increases. Soldiers can use that gap to estimate range. Direction is harder to judge. The crack reaches the ear from the bullet's passing path rather than from the weapon, so turning toward it can be misleading; the thump, though fainter, points back toward the firing position. A bullet traveling slower than sound, such as one from many pistols, produces no crack at all.",
+    "passage_ko": "소총탄은 보통 음속보다 빠르게 총구를 떠나며, 사람 근처를 지나갈 때 날카로운 '크랙(crack)'으로 들리는 작은 충격파를 만든다. 사격 자체의 소리인 둔탁한 '썸프(thump)'는 무기에서 보통의 음속으로 퍼져 나간다. 총알은 비행 구간 대부분에서 사격음보다 앞서 나가므로, 탄도 가까이에 있는 병사는 크랙을 먼저, 썸프를 나중에 듣게 되고, 둘 사이의 간격은 사수까지의 거리가 멀수록 커진다. 병사는 이 간격으로 거리를 어림할 수 있다. 방향은 판단하기가 더 어렵다. 크랙은 무기가 아니라 총알이 지나간 경로에서 귀에 닿으므로 그쪽으로 돌아서면 오도될 수 있다. 썸프는 더 약하지만 사격 위치를 가리킨다. 많은 권총탄처럼 음속보다 느리게 나는 총알은 크랙을 전혀 만들지 않는다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Because it is louder, the crack is the better guide to the direction of the shooter.",
+      "A long delay between the crack and the thump means the shooter is relatively close.",
+      "The fainter of the two sounds is the better clue to where the shot was fired from.",
+      "A suppressor can quiet the thump of a rifle but cannot remove the crack of its bullet."
+    ],
+    "answer": 2,
+    "explain": "근거: 크랙 쪽으로 \"turning toward it can be misleading; the thump, though fainter, points back toward the firing position\" → 더 약한 소리 쪽이 사격 위치.\n(1) 뒤집기 — 크랙은 탄도에서 들려 방향을 오도한다\n(2) 뒤집기 — 간격은 \"grows as the distance to the shooter increases\"\n(4) 지문에 없는 상식 — 소음기는 언급 없음"
+  },
+  {
+    "id": "rct_0151",
+    "topic": "science",
+    "diff": 3,
+    "qtype": "detail",
+    "title": "Cooking in Thin Air",
+    "passage": "Water boils when its molecules gain enough energy to form bubbles of vapor against the pressure of the air above. At sea level this happens at 100°C (212°F), but air pressure falls with altitude, so water boils at a lower temperature in the mountains, around 90°C at 3,000 meters. Cooking depends on the temperature of the water, not on its bubbling, so food boiled at high altitude takes longer to cook. Turning up the burner does not help: it makes the water boil more vigorously, but the temperature stays at the boiling point. A pressure cooker solves the problem by sealing in the steam. The trapped steam raises the pressure inside the pot, which raises the boiling point to about 120°C, and food cooks considerably faster than it would in an open pot even at sea level.",
+    "passage_ko": "물은 분자들이 위쪽 공기의 압력을 이기고 수증기 거품을 만들 만큼 에너지를 얻을 때 끓는다. 해수면에서는 이것이 100°C(212°F)에서 일어나지만, 기압은 고도가 높아질수록 낮아지므로 산에서는 물이 더 낮은 온도, 3,000미터에서는 약 90°C에서 끓는다. 조리는 물이 끓어오르는 것이 아니라 물의 온도에 달려 있으므로, 높은 고도에서 삶는 음식은 익는 데 더 오래 걸린다. 불을 세게 해도 소용없다. 물이 더 세차게 끓을 뿐 온도는 끓는점에 머문다. 압력솥은 증기를 가두어 이 문제를 해결한다. 갇힌 증기가 솥 안의 압력을 높이고, 이것이 끓는점을 약 120°C까지 올려, 음식은 해수면에서 뚜껑 없는 냄비로 조리할 때보다도 훨씬 빨리 익는다.",
+    "q": "According to the passage, a pressure cooker shortens cooking time because it",
+    "q_ko": "지문에 따르면, 압력솥이 조리 시간을 줄이는 이유는?",
+    "options": [
+      "lets the water inside reach a higher temperature before it boils",
+      "makes the water boil more vigorously than it would in an open pot",
+      "lowers the boiling point so that the water begins to boil sooner",
+      "keeps the pressure inside the pot equal to the pressure at sea level"
+    ],
+    "answer": 0,
+    "explain": "근거: \"The trapped steam raises the pressure inside the pot, which raises the boiling point to about 120°C\".\n(2) 함정 — 세게 끓이는 것은 온도를 올리지 못한다고 했다\n(3) 뒤집기 — 끓는점을 낮추는 것은 낮은 기압(고지대)\n(4) 세부 비틀기 — 해수면 기압보다 '높여서' 해수면보다도 빨리 익힌다"
+  },
+  {
+    "id": "rct_0152",
+    "topic": "history",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Wire Across the Ocean",
+    "passage": "In August 1858, after several failed attempts, a telegraph cable was finally laid across the floor of the Atlantic between Ireland and Newfoundland. Celebrations broke out on both sides of the ocean, but the cable carried signals so weakly that a greeting of fewer than a hundred words from Queen Victoria took many hours to transmit. Within weeks it went silent. Part of the blame fell on the project's chief electrician, who had applied very high voltages in an effort to push signals through faster, damaging the cable's insulation. The physicist William Thomson had argued instead for low voltages and a highly sensitive receiving instrument. When the effort resumed, the huge steamship Great Eastern laid a heavier, better-insulated cable in 1866, and Thomson's methods were adopted. That cable worked reliably, and news that once took more than a week to cross the ocean by ship now arrived within minutes.",
+    "passage_ko": "1858년 8월, 몇 차례의 실패 끝에 마침내 아일랜드와 뉴펀들랜드 사이 대서양 바닥에 전신 케이블이 깔렸다. 대서양 양쪽에서 축하가 벌어졌지만, 케이블은 신호를 너무 약하게 전해서 빅토리아 여왕의 100단어도 안 되는 인사말을 보내는 데 여러 시간이 걸렸다. 몇 주 안에 케이블은 먹통이 되었다. 책임의 일부는 사업의 수석 전기 기사에게 돌아갔는데, 그는 신호를 더 빨리 밀어 보내려고 매우 높은 전압을 걸어 케이블의 절연을 손상시켰다. 물리학자 윌리엄 톰슨은 그 대신 낮은 전압과 아주 민감한 수신 장치를 주장했었다. 사업이 재개되자 거대한 증기선 그레이트 이스턴호가 1866년에 더 무겁고 절연이 더 좋은 케이블을 깔았고, 톰슨의 방식이 채택되었다. 그 케이블은 안정적으로 작동했고, 배로 대서양을 건너는 데 일주일 넘게 걸리던 소식이 이제 몇 분 만에 도착했다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "Raising the voltage on the 1858 cable made its signals both faster and more reliable.",
+      "The Great Eastern was chosen mainly because its crew had laid the 1858 cable.",
+      "Cyrus Field organized the company that paid for laying the Atlantic cables.",
+      "The 1858 cable might have lasted longer if Thomson's advice had been followed."
+    ],
+    "answer": 3,
+    "explain": "근거: 고전압이 \"damaging the cable's insulation\" + 톰슨은 \"argued instead for low voltages\" → 그의 조언을 따랐다면 더 오래 버텼을 수 있다.\n(1) 뒤집기 — 고전압은 절연을 손상시켜 케이블이 멈췄다\n(2) 지문에 없는 이유 — 승무원 이야기는 없다\n(3) 지문에 없는 상식 — 사이러스 필드는 언급되지 않는다"
+  },
+  {
+    "id": "rct_0153",
+    "topic": "space",
+    "diff": 2,
+    "qtype": "inference",
+    "title": "Power on Mars",
+    "passage": "The first rovers to explore large areas of Mars relied on solar panels. Two of them landed in 2004 with missions planned to last about three months, because engineers expected dust settling on the panels to steadily cut their power. Instead, gusts of wind occasionally swept the panels clean, and one rover kept working for more than fourteen years until a planet-wide dust storm blocked the sunlight it needed. Larger rovers that followed, including Curiosity and Perseverance, use a different source: a generator that converts heat from decaying radioactive material into electricity. Its output does not depend on sunlight or the season, so these rovers can operate through dust storms and the long Martian winter, although the generator's power slowly declines as the material decays.",
+    "passage_ko": "화성의 넓은 지역을 탐사한 최초의 로버들은 태양 전지판에 의존했다. 그중 두 대는 2004년에 착륙했는데, 전지판에 내려앉는 먼지가 전력을 꾸준히 떨어뜨릴 것으로 엔지니어들이 예상했기 때문에 임무 기간은 약 3개월로 계획되었다. 그런데 이따금 부는 돌풍이 전지판의 먼지를 쓸어 냈고, 한 로버는 행성 전체를 뒤덮은 먼지 폭풍이 필요한 햇빛을 가릴 때까지 14년 넘게 작동했다. 그 뒤를 이은 큐리오시티와 퍼서비어런스 같은 더 큰 로버들은 다른 전원을 쓴다. 붕괴하는 방사성 물질의 열을 전기로 바꾸는 발전기다. 그 출력은 햇빛이나 계절에 좌우되지 않으므로 이 로버들은 먼지 폭풍과 긴 화성의 겨울에도 작동할 수 있지만, 발전기의 전력은 물질이 붕괴함에 따라 서서히 줄어든다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Curiosity's power supply weakens sharply whenever a dust storm blocks the Sun.",
+      "Engineers designed the early rovers so that wind would keep their panels clean.",
+      "Wind helped at least one early rover work far longer than its planned mission.",
+      "A radioactive generator supplies power that stays the same for as long as it runs."
+    ],
+    "answer": 2,
+    "explain": "근거: \"gusts of wind occasionally swept the panels clean, and one rover kept working for more than fourteen years\" (계획은 약 3개월).\n(1) 뒤집기 — 방사성 발전기는 햇빛과 무관해 \"operate through dust storms\"\n(2) 세부 비틀기 — 엔지니어들은 먼지로 전력이 줄 것이라고 '예상'했다\n(4) 정면 반박 — 출력은 \"slowly declines\""
+  },
+  {
+    "id": "rct_0154",
+    "topic": "aviation",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "A Stall at Any Speed",
+    "passage": "A wing stalls when the angle between it and the oncoming air, called the angle of attack, exceeds a critical value and the smooth flow over its upper surface breaks away. Because the cause is this angle rather than speed itself, a wing can stall at any airspeed. The stall speed published for an airplane is therefore valid only under stated conditions, usually level flight at a particular weight. In a steep turn, the wing must produce more lift than the airplane weighs to keep it from descending, so it flies at a larger angle of attack and reaches the critical angle at a higher speed. A heavier airplane must likewise fly at a larger angle to support its weight at any given speed. Many stall accidents occur during turns close to the ground, often when a pilot tightens a turn while watching a point on the ground rather than the airspeed.",
+    "passage_ko": "날개와 마주 오는 공기 사이의 각, 즉 받음각(angle of attack)이 임계값을 넘어 윗면의 매끄러운 흐름이 떨어져 나가면 날개는 실속한다. 원인이 속도 자체가 아니라 이 각이므로, 날개는 어떤 속도에서도 실속할 수 있다. 그래서 항공기에 공시된 실속 속도는 정해진 조건, 대개 특정 무게에서의 수평 비행에서만 유효하다. 급선회에서는 고도가 떨어지지 않도록 날개가 비행기 무게보다 큰 양력을 내야 하므로, 더 큰 받음각으로 날게 되어 더 높은 속도에서 임계각에 이른다. 더 무거운 비행기도 마찬가지로 어떤 속도에서든 무게를 받치려면 더 큰 받음각으로 날아야 한다. 많은 실속 사고는 지면 가까이에서 선회하다 일어나는데, 흔히 조종사가 속도계 대신 지상의 한 점을 바라보며 선회를 조일 때다.",
+    "q": "The passage best supports which of the following conclusions?",
+    "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
+    "options": [
+      "A heavier airplane will stall at a lower airspeed than a lighter one in level flight.",
+      "A heavy airplane in a steep turn could stall well above its published stall speed.",
+      "Extending the flaps lowers the speed at which an airplane's wing will stall.",
+      "Stall accidents happen most often at high altitude, well away from the ground."
+    ],
+    "answer": 1,
+    "explain": "근거: 실속 속도는 \"valid only under stated conditions\", 급선회와 무거운 무게 모두 받음각을 키워 \"reaches the critical angle at a higher speed\".\n(1) 뒤집기 — 무거우면 더 큰 받음각이 필요해 더 높은 속도에서 실속\n(3) 지문에 없는 상식 — 플랩은 언급 없음\n(4) 뒤집기 — 많은 사고가 \"close to the ground\"의 선회 중"
+  },
+  {
+    "id": "rct_0155",
+    "topic": "naval",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Calling a Submarine",
+    "passage": "Seawater conducts electricity, and as a result it absorbs radio waves within a short distance. The higher a signal's frequency, the faster it fades, so the radio links that ships and aircraft use to exchange large amounts of data cannot reach a submarine even a few meters below the surface. Lower frequencies penetrate farther, and navies have built enormous shore antennas to send them, but the lower the frequency, the less information a signal can carry. The lowest frequencies used could reach a deeply submerged submarine yet delivered only a few characters per minute, enough to tell a boat to come up and receive a fuller message. Sending a reply is harder still. A submarine generally has to bring an antenna to or near the surface, which can expose it to radar and to other sensors searching for it.",
+    "passage_ko": "바닷물은 전기가 통하기 때문에 짧은 거리 안에서 전파를 흡수한다. 신호의 주파수가 높을수록 더 빨리 약해지므로, 함정과 항공기가 많은 양의 데이터를 주고받는 데 쓰는 무선 링크는 수면 아래 몇 미터에 있는 잠수함에도 닿지 못한다. 더 낮은 주파수는 더 깊이 뚫고 들어가며, 해군들은 그것을 보내려고 거대한 육상 안테나를 지었지만, 주파수가 낮을수록 신호가 실어 나를 수 있는 정보는 적어진다. 사용된 가장 낮은 주파수는 깊이 잠항한 잠수함에 닿을 수 있었지만 1분에 몇 글자밖에 전하지 못해, 잠수함에게 떠올라 더 자세한 메시지를 받으라고 알리는 정도였다. 답신을 보내는 것은 더 어렵다. 잠수함은 대개 안테나를 수면이나 그 가까이로 올려야 하는데, 그러면 레이더와 자신을 찾는 다른 센서에 노출될 수 있다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A deeply submerged submarine can be alerted, but replying usually involves some risk.",
+      "Higher-frequency signals reach deeper below the sea surface than lower ones do.",
+      "The lowest radio frequencies are used because they carry the most information.",
+      "Submarines often use underwater sound to exchange long messages with nearby ships."
+    ],
+    "answer": 0,
+    "explain": "근거: 가장 낮은 주파수는 \"could reach a deeply submerged submarine\"하지만 분당 몇 글자뿐이고, 답신하려면 안테나를 \"to or near the surface\"로 올려 \"expose it to radar\".\n(2) 뒤집기 — 주파수가 높을수록 \"the faster it fades\"\n(3) 뒤집기 — 주파수가 낮을수록 \"less information\"\n(4) 지문에 없는 상식 — 수중 음향 통신은 언급 없음"
+  },
+  {
+    "id": "rct_0156",
+    "topic": "military",
+    "diff": 3,
+    "qtype": "main_idea",
+    "title": "Friend or Foe",
+    "passage": "Fratricide, the accidental killing of one's own forces, has occurred in nearly every war, and studies of such incidents show that it rarely results from carelessness alone. More often, troops under stress misidentify a vehicle or position at night, in smoke, or at long range, or units are not where others believe them to be. Electronic identification systems can help: a transponder on a friendly aircraft or vehicle answers a coded challenge automatically. But not every unit carries a compatible system, and equipment can fail, so the lack of a reply does not prove that a target is hostile. Armed forces therefore combine technology with procedures, such as clearly drawn boundaries between units, recognition markings, and frequent position reports, and with training that teaches troops to confirm a target before firing on it.",
+    "passage_ko": "아군을 실수로 죽이는 오인 사격(fratricide)은 거의 모든 전쟁에서 일어났으며, 이런 사건들을 연구해 보면 단순한 부주의만으로 일어나는 경우는 드물다. 그보다는 스트레스 속의 병력이 밤이나 연기 속, 혹은 먼 거리에서 차량이나 진지를 잘못 식별하거나, 부대가 다른 부대들이 생각하는 위치에 있지 않은 경우가 더 많다. 전자 식별 장비가 도움이 될 수 있다. 아군 항공기나 차량의 트랜스폰더는 암호화된 질의(challenge)에 자동으로 응답한다. 그러나 모든 부대가 호환되는 장비를 갖춘 것은 아니고 장비는 고장 날 수 있으므로, 응답이 없다고 해서 표적이 적이라는 증거가 되지는 않는다. 그래서 군은 기술을 부대 간의 명확한 경계선, 식별 표지, 잦은 위치 보고 같은 절차, 그리고 사격 전에 표적을 확인하도록 가르치는 훈련과 결합한다.",
+    "q": "Which of the following best expresses the main idea of the passage?",
+    "q_ko": "다음 중 지문의 요지를 가장 잘 표현한 것은?",
+    "options": [
+      "Most friendly-fire incidents are caused by careless troops who ignore procedures.",
+      "Electronic identification systems have largely solved the problem of fratricide.",
+      "Friendly fire happens most often at night, when vehicles are hardest to recognize.",
+      "Preventing fratricide requires procedures and training as well as technology."
+    ],
+    "answer": 3,
+    "explain": "근거: 기술은 도움이 되지만 \"the lack of a reply does not prove that a target is hostile\" → \"combine technology with procedures ... and with training\"이 결론.\n(1) 뒤집기 — \"rarely results from carelessness alone\"\n(2) 과잉 일반화 — 장비가 없거나 고장 날 수 있다\n(3) 너무 좁음·비틀기 — 야간은 원인 중 하나일 뿐 '가장 흔하다'는 말은 없다"
+  },
+  {
+    "id": "rct_0157",
+    "topic": "science",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Why Ice Is Slippery",
+    "passage": "For more than a century, many textbooks explained the slipperiness of ice by pressure melting: the weight of a skater, concentrated on a narrow blade, was said to lower the melting point of the ice beneath it and create a thin film of water. Calculations later showed that the pressure under a blade lowers the melting point far too little to explain why people can skate on ice many degrees below freezing. Friction offers a partial explanation, since a sliding blade warms the surface it rubs against, but ice is slippery even for someone standing still on it. Most researchers now attribute the effect to the surface itself. The water molecules in the top few layers of ice are bound less tightly than those inside and can move almost like a liquid. This layer thins as the temperature drops, and on extremely cold days ice can feel noticeably less slick, more like sand.",
+    "passage_ko": "한 세기가 넘도록 많은 교과서는 얼음이 미끄러운 이유를 압력 융해로 설명했다. 좁은 날에 집중된 스케이트 타는 사람의 무게가 그 아래 얼음의 녹는점을 낮춰 얇은 물막을 만든다는 것이다. 그러나 나중의 계산에 따르면, 날 아래의 압력이 녹는점을 낮추는 정도는 영하 몇 도나 되는 얼음 위에서도 사람들이 스케이트를 탈 수 있는 이유를 설명하기에 턱없이 작다. 미끄러지는 날이 닿는 표면을 데우므로 마찰이 부분적인 설명이 되지만, 얼음은 그 위에 가만히 서 있는 사람에게도 미끄럽다. 오늘날 대부분의 연구자는 그 효과를 표면 자체에서 찾는다. 얼음 맨 위 몇 층의 물 분자는 안쪽 분자보다 덜 단단히 묶여 있어 거의 액체처럼 움직일 수 있다. 이 층은 온도가 내려갈수록 얇아지며, 아주 추운 날에는 얼음이 눈에 띄게 덜 미끄럽고 모래처럼 느껴질 수 있다.",
+    "q": "It can be inferred from the passage that",
+    "q_ko": "지문으로부터 추론할 수 있는 것은?",
+    "options": [
+      "a heavier skater should glide more easily, since added weight melts more of the ice",
+      "molecules deep inside a block of ice move more freely than those near its surface",
+      "very cold ice feels like sand largely because its loose surface layer has thinned",
+      "friction from the blade explains why ice stays slippery for someone standing still"
+    ],
+    "answer": 2,
+    "explain": "근거: 미끄러움은 표면층 때문이며 \"This layer thins as the temperature drops, and on extremely cold days ice can feel ... more like sand\".\n(1) 버려진 설명 — 압력이 녹는점을 낮추는 정도는 \"far too little\"\n(2) 뒤집기 — 표면 분자가 안쪽보다 \"bound less tightly\"\n(4) 뒤집기 — 마찰은 미끄러질 때만 생기는데, 가만히 서 있어도 미끄럽다"
+  },
+  {
+    "id": "rct_0158",
+    "topic": "history",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Dogs, Ponies, and Engines",
+    "passage": "In the race to the South Pole, the Norwegian Roald Amundsen and the Briton Robert Falcon Scott made very different choices about transport. Amundsen, who had spent time learning travel methods from Arctic peoples, relied on skis and on large teams of sled dogs, which could cross snow quickly and could themselves be used as food along the way. He also marked his supply depots with lines of flags extending miles to each side so they could be found in poor visibility. Scott brought a mix of motor sledges, ponies, and dogs, but the engines broke down and the ponies suffered badly in the cold, so his men ended up hauling their own sledges for much of the journey. Amundsen reached the Pole in December 1911, about five weeks before Scott, and returned safely; Scott and his four companions died on the way back.",
+    "passage_ko": "남극점 경쟁에서 노르웨이의 로알 아문센과 영국의 로버트 팰컨 스콧은 이동 수단에 대해 매우 다른 선택을 했다. 북극 지방 원주민에게서 이동 방법을 배운 경험이 있던 아문센은 스키와 대규모 썰매개 무리에 의존했는데, 개들은 눈 위를 빨리 건널 수 있었고 도중에 그 자체로 식량이 될 수도 있었다. 그는 또 시계가 나쁠 때도 찾을 수 있도록 보급소 양옆으로 몇 마일씩 뻗은 깃발 줄을 세워 표시했다. 스콧은 모터 썰매, 조랑말, 개를 섞어 가져갔지만, 엔진은 고장 났고 조랑말은 추위에 몹시 시달려, 결국 대원들이 여정의 상당 부분 동안 썰매를 직접 끌었다. 아문센은 1911년 12월, 스콧보다 약 5주 먼저 극점에 도달해 무사히 돌아왔고, 스콧과 그의 동료 네 명은 돌아오는 길에 숨졌다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "Scott's motor sledges worked well but could not keep pace with Amundsen's dog teams.",
+      "Scott's men likely spent more of their own strength hauling loads than Amundsen's did.",
+      "Amundsen marked his depots with flags mainly to guide later expeditions to the Pole.",
+      "Unusually cold weather on the return journey was the main cause of Scott's death."
+    ],
+    "answer": 1,
+    "explain": "근거: 스콧 대원들은 \"ended up hauling their own sledges for much of the journey\", 아문센은 스키와 썰매개에 의존했다.\n(1) 정면 반박 — 엔진은 \"broke down\"\n(3) 목적 비틀기 — 깃발은 \"poor visibility\"에서 보급소를 찾기 위한 것\n(4) 지문에 없는 원인 — 귀환길 날씨는 언급 없음"
+  },
+  {
+    "id": "rct_0159",
+    "topic": "leadership",
+    "diff": 4,
+    "qtype": "inference",
+    "title": "Targets That Help and Targets That Hurt",
+    "passage": "Decades of research on goal setting have produced a fairly consistent finding: people given a specific, challenging target, such as finishing an inspection in four hours with no missed items, usually outperform people told simply to do their best. A clear target directs attention, sustains effort, and makes progress easy to measure. The effect depends on two conditions, however. People must actually accept the goal, and they need regular feedback showing how close they are to reaching it. There is also an important exception. When a task is complex and the people doing it have not yet learned how to perform it, a demanding performance target can backfire: people under pressure to hit a number tend to rush and to cling to the first method they try. In such cases, a goal of learning, such as finding several workable methods, often produces better results than a numerical target.",
+    "passage_ko": "수십 년에 걸친 목표 설정 연구는 꽤 일관된 결과를 내놓았다. 예컨대 '빠뜨리는 항목 없이 네 시간 안에 점검을 마칠 것'처럼 구체적이고 도전적인 목표를 받은 사람은 대개 그저 최선을 다하라는 말만 들은 사람보다 더 잘 해낸다. 명확한 목표는 주의를 이끌고, 노력을 지속시키며, 진척을 재기 쉽게 만든다. 그러나 이 효과는 두 가지 조건에 달려 있다. 사람들이 그 목표를 실제로 받아들여야 하고, 목표에 얼마나 가까워졌는지 보여 주는 정기적인 피드백이 필요하다. 중요한 예외도 있다. 과제가 복잡하고 그 일을 하는 사람들이 아직 수행 방법을 익히지 못했을 때는 높은 성과 목표가 역효과를 낼 수 있다. 숫자를 맞추라는 압박을 받는 사람들은 서두르고, 처음 시도한 방법에 매달리는 경향이 있기 때문이다. 이런 경우에는 쓸 만한 방법을 여러 개 찾는 것 같은 학습 목표가 수치 목표보다 더 좋은 결과를 내는 경우가 많다.",
+    "q": "Which of the following statements is best supported by the passage?",
+    "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
+    "options": [
+      "A specific, difficult goal raises performance whether or not people have actually accepted it.",
+      "On a complex new task, a demanding numerical target encourages people to try more methods.",
+      "Telling people to do their best works better than a specific target for most kinds of work.",
+      "A demanding numerical target tends to help most when people already know how to do the task."
+    ],
+    "answer": 3,
+    "explain": "근거: \"When a task is complex and the people doing it have not yet learned how to perform it, a demanding performance target can backfire\" → 수치 목표는 이미 할 줄 아는 사람에게 더 잘 듣는다.\n(1) 조건 무시 — \"People must actually accept the goal\"\n(2) 뒤집기 — 압박받으면 \"cling to the first method they try\"\n(3) 뒤집기 — 대체로 구체적 목표가 \"do their best\"보다 낫다"
+  },
+  {
+    "id": "rct_0160",
+    "topic": "technology",
+    "diff": 3,
+    "qtype": "inference",
+    "title": "Signals That Stay Cool",
+    "passage": "Many cities have replaced the incandescent bulbs in their traffic signals with light-emitting diodes. The change has clear benefits: LED signals use a small fraction of the electricity, and they last for years rather than months, which reduces the cost of sending crews to replace burned-out lamps. The old bulbs, however, had an advantage that few people noticed, because most of the energy they consumed was given off as heat. In winter, that heat melted snow and ice that stuck to the signal's lens. LED signals run much cooler, and during heavy, wet snowstorms their lenses can become coated until drivers can no longer tell which light is lit. Some cities in snowy regions have responded by fitting signals with small heating elements or redesigned hoods, while others send crews out to clear signals by hand during storms.",
+    "passage_ko": "많은 도시가 교통 신호등의 백열전구를 발광 다이오드(LED)로 바꾸었다. 이 변화에는 분명한 이점이 있다. LED 신호등은 전기를 아주 적게 쓰고, 몇 달이 아니라 몇 년을 가므로 다 탄 전구를 갈러 작업반을 보내는 비용이 줄어든다. 그러나 옛 전구에는 사람들이 거의 알아채지 못한 장점이 있었는데, 소비한 에너지 대부분이 열로 방출되었기 때문이다. 겨울에는 그 열이 신호등 렌즈에 달라붙은 눈과 얼음을 녹였다. LED 신호등은 훨씬 덜 뜨거워서, 습한 폭설 때는 운전자가 어느 불이 켜졌는지 알 수 없을 때까지 렌즈가 눈으로 덮일 수 있다. 눈이 많은 지역의 일부 도시는 신호등에 작은 발열체나 새로 설계한 차양을 달아 대응했고, 다른 도시들은 폭설 중에 작업반을 보내 손으로 신호등의 눈을 치운다.",
+    "q": "The passage most strongly suggests that",
+    "q_ko": "지문이 가장 강하게 시사하는 것은?",
+    "options": [
+      "the heat that wasted energy in old signals also kept their lenses free of snow",
+      "LED signals tend to burn out more often than incandescent bulbs in cold weather",
+      "adding heaters to LED signals uses more power than the old bulbs consumed",
+      "cities that switch to LED signals no longer need to send crews out in storms"
+    ],
+    "answer": 0,
+    "explain": "근거: 전구는 \"most of the energy they consumed was given off as heat\"였고 그 열이 \"melted snow and ice\" — 낭비이던 열이 눈에는 장점이었다.\n(2) 세부 비틀기 — LED는 \"years rather than months\", 문제는 고장이 아니라 눈 덮임\n(3) 지문에 없는 비교 — 히터 전력량은 언급 없음\n(4) 정면 반박 — 폭설 중 \"send crews out to clear signals by hand\""
+  }
+]
