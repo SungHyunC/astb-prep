@@ -19,3 +19,5 @@
 - 시험 러너(`js/exam.js`)는 AFOQT Master `app.js`의 startExam~submitExam 골격을 이식했다(섹션 타이머·스냅샷·wakeLock).
 - 동기화(`js/sync.js`): `astb_app_state`(진도 JSON)·`astb_daily_log`·`astb_settings`. 큰 진도 덩어리는 **실시간 구독하지 않는다**(Supabase 무료 한도 Egress 절약) — 포그라운드 복귀 시 `pullMiscIfStale()`로 받는다.
 - 예상 OAR은 비공식 추정(`js/score.js`의 `OAR_CURVE`). 화면에 항상 `OAR_NOTE`를 함께 표시.
+- 적응형(CAT) 실전은 `js/cat.js` — `exam.cat` 플래그로 `exam.js` 러너에 붙는다(안내 화면·확인·채점만 분기). 문항 `diff`(1–4)가 곧 IRT 난이도 b(`CAT.B`)이므로 난이도 라벨은 AUTHORING §0-1 기준으로 정확히. 적응형 기록은 `examHist[].cat`(θ·환산 점수·경로 path — path는 동기화하지 않음).
+- 그림(`fig`)은 MCT·ANIT만. 새 그림 타입은 `js/figures.js` 렌더러 + `scripts/validate.mjs` 규칙 + `content/enums.json`(figTypes/anitFigTypes/figParts) + AUTHORING §5를 함께 고친다.

@@ -73,7 +73,7 @@
       "short rails with gaps were replaced mainly because the gaps wasted a great deal of steel"
     ],
     "answer": 1,
-    "explain": "근거: 고정 온도보다 \"hotter\"하면 압축이 생기고, 압축이 지나치면 \"buckle sideways\" → 추운 날 그대로 고정하면 기준 온도가 낮아져 여름에 압축이 더 커진다.\n(1) 뒤집기 — 좌굴은 더울 때(압축)의 위험, 추울 때는 인장\n(3) 뒤집기 — 미리 데우는 것은 기준 온도를 높여 추운 날 '인장' 상태가 되게 하려는 것\n(4) 지문에 없는 이유 — 틈의 문제는 소음과 마모"
+    "explain": "근거: 고정 온도보다 \"hotter\"하면 압축이 생기고, 압축이 지나치면 \"buckle sideways\" → 추운 날 그대로 고정하면 기준 온도가 낮아져 여름에 압축이 더 커진다.\n(1) 뒤집기 — 좌굴은 더울 때(압축)의 위험, 추울 때는 인장\n(3) 뒤집기 — 데운 뒤 고정하면 기준 온도가 높아져 추운 날에는 오히려 '인장' 상태가 된다(목적은 여름의 압축을 줄이는 것)\n(4) 지문에 없는 이유 — 틈의 문제는 소음과 마모"
   },
   {
     "id": "rct_0125",
@@ -97,7 +97,7 @@
   {
     "id": "rct_0126",
     "topic": "leadership",
-    "diff": 3,
+    "diff": 2,
     "qtype": "inference",
     "title": "Imagining the Failure First",
     "passage": "Once a team has agreed on a plan, members often keep their doubts to themselves. Raising a concern can feel disloyal, and enthusiasm for a chosen course makes its weaknesses harder to see. A technique called the premortem tries to get around this. Before the plan is carried out, the leader asks the team to imagine that it is some months later and the plan has failed badly, then gives each person a few minutes to write down why it failed. Because the failure is treated as having already happened, explaining it is no longer a challenge to the plan or to the leader but a task everyone has been assigned. The list that results does not decide whether the plan goes ahead; it shows where the plan needs to be strengthened or watched closely.",
@@ -233,8 +233,8 @@
     "diff": 3,
     "qtype": "inference",
     "title": "Two Tries at Panama",
-    "passage": "The French effort to dig a canal across Panama, begun in 1881, was led by Ferdinand de Lesseps, who had built the Suez Canal through flat desert at sea level. He planned the same kind of canal in Panama, but the route crossed mountains and a river prone to violent floods, and landslides repeatedly refilled the excavation. Yellow fever and malaria killed thousands of workers, at a time when few people suspected that mosquitoes spread either disease. The company collapsed in 1889. When the United States took over the project in 1904, it changed two things. Its sanitation officers drained standing water and screened buildings, acting on recent evidence that mosquitoes carried the diseases. And its engineers abandoned the sea-level plan, damming the river to create a lake and building locks to lift ships up to it and lower them down again. The canal opened in 1914.",
-    "passage_ko": "1881년에 시작된 프랑스의 파나마 운하 건설은 평평한 사막을 가로질러 해수면 높이로 수에즈 운하를 건설했던 페르디낭 드 레셉스가 이끌었다. 그는 파나마에서도 같은 종류의 운하를 계획했지만, 그 경로는 산악 지대와 격렬한 홍수가 잦은 강을 가로질렀고, 산사태가 파 놓은 곳을 거듭 다시 메웠다. 황열병과 말라리아로 수천 명의 노동자가 죽었는데, 당시에는 모기가 이 병들을 퍼뜨린다고 의심하는 사람이 거의 없었다. 회사는 1889년에 파산했다. 1904년 미국이 사업을 넘겨받았을 때 두 가지가 바뀌었다. 미국의 위생 담당관들은 모기가 이 병들을 옮긴다는 최근의 증거에 따라 고인 물을 빼고 건물에 방충망을 쳤다. 그리고 기술자들은 해수면식 계획을 버리고, 강을 막아 호수를 만든 뒤 배를 호수까지 들어 올렸다가 다시 내려 주는 갑문(lock)을 지었다. 운하는 1914년에 개통했다.",
+    "passage": "The French effort to dig a canal across Panama, begun in 1881, was led by Ferdinand de Lesseps, who had built the Suez Canal through flat desert at sea level. He planned the same kind of canal in Panama, but the route crossed mountains and a river prone to violent floods, and landslides repeatedly refilled the excavation. Yellow fever and malaria killed thousands of workers, at a time when few people suspected that mosquitoes spread either disease. The company collapsed in 1889. When the United States took over the project in 1904, it made two key changes. Its sanitation officers drained standing water and screened buildings, acting on recent evidence that mosquitoes carried the diseases. And its engineers abandoned the sea-level plan, damming the river to create a lake and building locks to lift ships up to it and lower them down again. The canal opened in 1914.",
+    "passage_ko": "1881년에 시작된 프랑스의 파나마 운하 건설은 평평한 사막을 가로질러 해수면 높이로 수에즈 운하를 건설했던 페르디낭 드 레셉스가 이끌었다. 그는 파나마에서도 같은 종류의 운하를 계획했지만, 그 경로는 산악 지대와 격렬한 홍수가 잦은 강을 가로질렀고, 산사태가 파 놓은 곳을 거듭 다시 메웠다. 황열병과 말라리아로 수천 명의 노동자가 죽었는데, 당시에는 모기가 이 병들을 퍼뜨린다고 의심하는 사람이 거의 없었다. 회사는 1889년에 파산했다. 1904년 미국은 사업을 넘겨받으면서 두 가지 핵심적인 변화를 주었다. 미국의 위생 담당관들은 모기가 이 병들을 옮긴다는 최근의 증거에 따라 고인 물을 빼고 건물에 방충망을 쳤다. 그리고 기술자들은 해수면식 계획을 버리고, 강을 막아 호수를 만든 뒤 배를 호수까지 들어 올렸다가 다시 내려 주는 갑문(lock)을 지었다. 운하는 1914년에 개통했다.",
     "q": "The passage best supports which of the following conclusions?",
     "q_ko": "지문이 가장 잘 뒷받침하는 결론은 다음 중 무엇인가?",
     "options": [
@@ -279,10 +279,10 @@
       "rotating its flat panel quickly toward the chosen direction",
       "switching off every panel except the one facing the target",
       "changing the frequency of the signal the whole panel sends",
-      "slightly delaying the signal sent from each of its elements"
+      "adjusting the timing of the signal from each small element"
     ],
     "answer": 3,
-    "explain": "근거: \"By slightly delaying the signal sent from each element, the system makes the combined beam point in a chosen direction\".\n(1) 혼동 — 패널은 \"fixed\", 안테나를 돌리는 것은 전통적 레이더\n(2) 세부 비틀기 — 여러 패널은 방향을 나눠 맡을 뿐, 빔을 돌리는 방법이 아니다\n(3) 지문에 없음 — 주파수를 바꾼다는 말은 없다"
+    "explain": "근거: \"By slightly delaying the signal sent from each element, the system makes the combined beam point in a chosen direction\" → 각 소자 신호를 조금씩 지연시키는 것, 즉 신호의 타이밍을 조절하는 것.\n(1) 혼동 — 패널은 \"fixed\", 안테나를 돌리는 것은 전통적 레이더\n(2) 세부 비틀기 — 여러 패널은 방향을 나눠 맡을 뿐, 빔을 돌리는 방법이 아니다\n(3) 지문에 없음 — 조절하는 것은 주파수가 아니라 신호의 지연(타이밍)이다"
   },
   {
     "id": "rct_0136",
@@ -420,7 +420,7 @@
   {
     "id": "rct_0143",
     "topic": "naval",
-    "diff": 4,
+    "diff": 3,
     "qtype": "inference",
     "title": "When a Mooring Line Parts",
     "passage": "A mooring line under heavy load stores energy much as a stretched rubber band does. If the line breaks, that energy is released in an instant, and the two ends whip back with enough force to cause severe or fatal injuries. The danger depends on the material. Synthetic lines such as nylon stretch far more than wire rope before breaking, and that stretch lets them absorb sudden jerks from a ship surging against a pier. For the same reason, however, they hold more stored energy at the moment of failure, so they recoil more violently. Decks have often been painted to mark a snap-back zone where a parting line is expected to strike. Investigations of accidents have shown that a line led around a fitting can recoil in unexpected directions, so crews are now taught to treat the entire area near a loaded line as hazardous.",
@@ -499,8 +499,8 @@
     "diff": 4,
     "qtype": "inference",
     "title": "Braking That Recharges",
-    "passage": "An electric car can slow itself by running its drive motor as a generator. Instead of turning the car's motion into heat in the brake pads, this regenerative braking turns part of it back into electricity that is stored in the battery for later use. The gain is greatest in stop-and-go city traffic, where a car brakes often, and smaller on a long highway trip at steady speed. Regenerative braking has limits, though. A battery that is already fully charged, or one that is very cold, can accept little additional energy, so the car must rely more on its friction brakes. The motor also cannot absorb energy quickly enough for a hard emergency stop, and its braking effect fades at very low speeds. For these reasons, every electric car still carries a conventional braking system, although its pads often last far longer than those on a gasoline car.",
-    "passage_ko": "전기차는 구동 모터를 발전기로 돌려 스스로 속도를 줄일 수 있다. 이 회생 제동(regenerative braking)은 차의 운동을 브레이크 패드의 열로 바꾸는 대신, 그 일부를 다시 전기로 바꾸어 나중에 쓰도록 배터리에 저장한다. 이득은 차가 자주 제동하는 시내의 가다 서다 하는 교통에서 가장 크고, 일정한 속도로 달리는 긴 고속도로 주행에서는 더 작다. 그러나 회생 제동에는 한계가 있다. 이미 완전히 충전된 배터리나 아주 차가운 배터리는 추가 에너지를 거의 받아들이지 못하므로, 차는 마찰 브레이크에 더 의존해야 한다. 모터는 급한 비상 정지에 필요한 만큼 빠르게 에너지를 흡수하지도 못하고, 아주 낮은 속도에서는 제동 효과가 약해진다. 이런 이유로 모든 전기차에는 여전히 일반 제동 장치가 달려 있지만, 그 패드는 흔히 휘발유차의 패드보다 훨씬 오래간다.",
+    "passage": "An electric car can slow itself by running its drive motor as a generator. Instead of turning the car's motion into heat in the brake pads, this regenerative braking turns part of it back into electricity that is stored in the battery for later use. The gain is greatest in stop-and-go city traffic and on long downhill grades, where a car must brake often or for long periods, and smaller on a long highway trip at steady speed. Regenerative braking has limits, though. A battery that is already fully charged, or one that is very cold, can accept little additional energy, so the car must rely more on its friction brakes. The motor also cannot absorb energy quickly enough for a hard emergency stop, and its braking effect fades at very low speeds. For these reasons, every electric car still carries a conventional braking system, although its pads often last far longer than those on a gasoline car.",
+    "passage_ko": "전기차는 구동 모터를 발전기로 돌려 스스로 속도를 줄일 수 있다. 이 회생 제동(regenerative braking)은 차의 운동을 브레이크 패드의 열로 바꾸는 대신, 그 일부를 다시 전기로 바꾸어 나중에 쓰도록 배터리에 저장한다. 이득은 차가 자주, 또는 오랫동안 제동해야 하는 시내의 가다 서다 하는 교통과 긴 내리막길에서 가장 크고, 일정한 속도로 달리는 긴 고속도로 주행에서는 더 작다. 그러나 회생 제동에는 한계가 있다. 이미 완전히 충전된 배터리나 아주 차가운 배터리는 추가 에너지를 거의 받아들이지 못하므로, 차는 마찰 브레이크에 더 의존해야 한다. 모터는 급한 비상 정지에 필요한 만큼 빠르게 에너지를 흡수하지도 못하고, 아주 낮은 속도에서는 제동 효과가 약해진다. 이런 이유로 모든 전기차에는 여전히 일반 제동 장치가 달려 있지만, 그 패드는 흔히 휘발유차의 패드보다 훨씬 오래간다.",
     "q": "Which of the following statements is best supported by the passage?",
     "q_ko": "다음 중 지문이 가장 잘 뒷받침하는 진술은?",
     "options": [
@@ -510,7 +510,7 @@
       "An electric car's brake pads wear out faster because the motor also helps slow the car."
     ],
     "answer": 1,
-    "explain": "근거: \"A battery that is already fully charged ... can accept little additional energy\" → 완충 상태로 긴 내리막을 내려가면 회수할 수 있는 에너지가 적다.\n(1) 뒤집기 — 이득은 \"stop-and-go city traffic\"에서 가장 크다\n(3) 과잉 일반화 — only, 차가운 배터리·급정지·저속에서도 한계가 있다\n(4) 뒤집기 — 패드는 \"last far longer\""
+    "explain": "근거: 긴 내리막은 보통 이득이 큰 곳(\"on long downhill grades\")이지만 \"A battery that is already fully charged ... can accept little additional energy\" → 완충 상태로 내리막을 시작하면 회수할 수 있는 에너지가 적다.\n(1) 뒤집기 — 고속도로 정속 주행은 이득이 \"smaller\", 가장 큰 곳은 시내 교통과 긴 내리막\n(3) 과잉 일반화 — only, 차가운 배터리·급정지·저속에서도 한계가 있다\n(4) 뒤집기 — 패드는 \"last far longer\""
   },
   {
     "id": "rct_0148",
@@ -537,12 +537,12 @@
     "diff": 2,
     "qtype": "detail",
     "title": "A Raft That Launches Itself",
-    "passage": "The inflatable life rafts carried on many ships are packed in hard canisters that sit in cradles on deck. Normally the crew releases a canister by hand, throws it overboard, and pulls a line called the painter, which is tied to the ship, to start inflation. If a ship sinks too quickly for anyone to launch the rafts, a device called a hydrostatic release unit acts instead. When the sinking ship carries the canister to a depth of about four meters, water pressure triggers the unit to cut the strap holding the canister down, and the buoyant canister floats free. As the ship continues downward, the painter pulls tight and starts the inflation. A deliberately weak link in the painter then breaks, so the open raft floats on the surface instead of being dragged under with the ship.",
-    "passage_ko": "많은 배에 실린 팽창식 구명뗏목은 단단한 통(canister)에 접혀 담긴 채 갑판의 받침대에 놓여 있다. 보통은 승조원이 손으로 통을 풀어 배 밖으로 던지고, 배에 묶인 페인터(painter)라는 줄을 당겨 팽창을 시작한다. 아무도 뗏목을 띄울 수 없을 만큼 배가 빨리 가라앉으면, 수압 이탈 장치(hydrostatic release unit)가 대신 작동한다. 가라앉는 배가 통을 약 4미터 깊이까지 끌고 내려가면, 수압이 장치를 작동시켜 통을 고정한 끈을 끊고, 부력이 있는 통은 떠올라 풀려난다. 배가 계속 내려가면 페인터가 팽팽해지며 팽창이 시작된다. 그다음 페인터에 일부러 약하게 만든 연결부(weak link)가 끊어져, 펼쳐진 뗏목은 배와 함께 끌려 들어가지 않고 수면에 뜬다.",
+    "passage": "The inflatable life rafts carried on many ships are packed in hard canisters that sit in cradles on deck. Normally the crew releases a canister by hand, throws it overboard, and pulls a line called the painter, which is tied to the ship, to start inflation. If a ship sinks too quickly for anyone to launch the rafts, a device called a hydrostatic release unit acts instead. When the sinking ship has carried the canister a few meters below the surface, water pressure triggers the unit to cut the strap holding the canister down, and the buoyant canister floats free. As the ship continues downward, the painter pulls tight and starts the inflation. A deliberately weak link in the painter then breaks, so the open raft floats on the surface instead of being dragged under with the ship.",
+    "passage_ko": "많은 배에 실린 팽창식 구명뗏목은 단단한 통(canister)에 접혀 담긴 채 갑판의 받침대에 놓여 있다. 보통은 승조원이 손으로 통을 풀어 배 밖으로 던지고, 배에 묶인 페인터(painter)라는 줄을 당겨 팽창을 시작한다. 아무도 뗏목을 띄울 수 없을 만큼 배가 빨리 가라앉으면, 수압 이탈 장치(hydrostatic release unit)가 대신 작동한다. 가라앉는 배가 통을 수면 아래 몇 미터까지 끌고 내려가면, 수압이 장치를 작동시켜 통을 고정한 끈을 끊고, 부력이 있는 통은 떠올라 풀려난다. 배가 계속 내려가면 페인터가 팽팽해지며 팽창이 시작된다. 그다음 페인터에 일부러 약하게 만든 연결부(weak link)가 끊어져, 펼쳐진 뗏목은 배와 함께 끌려 들어가지 않고 수면에 뜬다.",
     "q": "According to the passage, what keeps an automatically released raft from being pulled under with a sinking ship?",
     "q_ko": "지문에 따르면, 자동으로 풀려난 뗏목이 가라앉는 배에 끌려 들어가지 않게 해 주는 것은?",
     "options": [
-      "The hydrostatic release unit cuts the painter at a depth of about four meters.",
+      "The hydrostatic release unit cuts the painter a few meters below the surface.",
       "A weak link in the painter breaks after the line has started the inflation.",
       "The crew cuts the painter by hand as soon as the raft has finished inflating.",
       "The canister is too buoyant for the sinking ship to drag it under the water."
@@ -689,18 +689,18 @@
     "diff": 4,
     "qtype": "inference",
     "title": "Why Ice Is Slippery",
-    "passage": "For more than a century, many textbooks explained the slipperiness of ice by pressure melting: the weight of a skater, concentrated on a narrow blade, was said to lower the melting point of the ice beneath it and create a thin film of water. Calculations later showed that the pressure under a blade lowers the melting point far too little to explain why people can skate on ice many degrees below freezing. Friction offers a partial explanation, since a sliding blade warms the surface it rubs against, but ice is slippery even for someone standing still on it. Most researchers now attribute the effect to the surface itself. The water molecules in the top few layers of ice are bound less tightly than those inside and can move almost like a liquid. This layer thins as the temperature drops, and on extremely cold days ice can feel noticeably less slick, more like sand.",
-    "passage_ko": "한 세기가 넘도록 많은 교과서는 얼음이 미끄러운 이유를 압력 융해로 설명했다. 좁은 날에 집중된 스케이트 타는 사람의 무게가 그 아래 얼음의 녹는점을 낮춰 얇은 물막을 만든다는 것이다. 그러나 나중의 계산에 따르면, 날 아래의 압력이 녹는점을 낮추는 정도는 영하 몇 도나 되는 얼음 위에서도 사람들이 스케이트를 탈 수 있는 이유를 설명하기에 턱없이 작다. 미끄러지는 날이 닿는 표면을 데우므로 마찰이 부분적인 설명이 되지만, 얼음은 그 위에 가만히 서 있는 사람에게도 미끄럽다. 오늘날 대부분의 연구자는 그 효과를 표면 자체에서 찾는다. 얼음 맨 위 몇 층의 물 분자는 안쪽 분자보다 덜 단단히 묶여 있어 거의 액체처럼 움직일 수 있다. 이 층은 온도가 내려갈수록 얇아지며, 아주 추운 날에는 얼음이 눈에 띄게 덜 미끄럽고 모래처럼 느껴질 수 있다.",
+    "passage": "For more than a century, many textbooks explained the slipperiness of ice by pressure melting: the weight of a skater, concentrated on a narrow blade, was said to lower the melting point of the ice beneath it and create a thin film of water. Calculations later showed that the pressure under a blade lowers the melting point far too little to explain why people can skate on ice many degrees below freezing. Friction offers a partial explanation, since a sliding blade warms the surface it rubs against, but ice is slippery even for someone standing still on it. Many researchers now attribute much of the effect to the surface itself. The water molecules in the top few layers of ice are bound less tightly than those inside and can move almost like a liquid. This layer thins as the temperature drops, and on extremely cold days ice can feel noticeably less slick, more like sand.",
+    "passage_ko": "한 세기가 넘도록 많은 교과서는 얼음이 미끄러운 이유를 압력 융해로 설명했다. 좁은 날에 집중된 스케이트 타는 사람의 무게가 그 아래 얼음의 녹는점을 낮춰 얇은 물막을 만든다는 것이다. 그러나 나중의 계산에 따르면, 날 아래의 압력이 녹는점을 낮추는 정도는 영하 몇 도나 되는 얼음 위에서도 사람들이 스케이트를 탈 수 있는 이유를 설명하기에 턱없이 작다. 미끄러지는 날이 닿는 표면을 데우므로 마찰이 부분적인 설명이 되지만, 얼음은 그 위에 가만히 서 있는 사람에게도 미끄럽다. 오늘날 많은 연구자는 그 효과의 상당 부분을 표면 자체에서 찾는다. 얼음 맨 위 몇 층의 물 분자는 안쪽 분자보다 덜 단단히 묶여 있어 거의 액체처럼 움직일 수 있다. 이 층은 온도가 내려갈수록 얇아지며, 아주 추운 날에는 얼음이 눈에 띄게 덜 미끄럽고 모래처럼 느껴질 수 있다.",
     "q": "It can be inferred from the passage that",
     "q_ko": "지문으로부터 추론할 수 있는 것은?",
     "options": [
       "a heavier skater should glide more easily, since added weight melts more of the ice",
       "molecules deep inside a block of ice move more freely than those near its surface",
-      "very cold ice feels like sand largely because its loose surface layer has thinned",
+      "very cold ice can feel like sand largely because its loose surface layer has thinned",
       "friction from the blade explains why ice stays slippery for someone standing still"
     ],
     "answer": 2,
-    "explain": "근거: 미끄러움은 표면층 때문이며 \"This layer thins as the temperature drops, and on extremely cold days ice can feel ... more like sand\".\n(1) 버려진 설명 — 압력이 녹는점을 낮추는 정도는 \"far too little\"\n(2) 뒤집기 — 표면 분자가 안쪽보다 \"bound less tightly\"\n(4) 뒤집기 — 마찰은 미끄러질 때만 생기는데, 가만히 서 있어도 미끄럽다"
+    "explain": "근거: 미끄러움의 상당 부분은 표면층 때문이며 \"This layer thins as the temperature drops, and on extremely cold days ice can feel ... more like sand\".\n(1) 버려진 설명 — 압력이 녹는점을 낮추는 정도는 \"far too little\"\n(2) 뒤집기 — 표면 분자가 안쪽보다 \"bound less tightly\"\n(4) 뒤집기 — 마찰은 미끄러질 때만 생기는데, 가만히 서 있어도 미끄럽다"
   },
   {
     "id": "rct_0158",
