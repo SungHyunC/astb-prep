@@ -3,11 +3,11 @@
     "id": "anit_0251",
     "topic": "nautical_terms",
     "diff": 2,
-    "q": "In port, the officer of the deck stands watch near the brow in an area designated for official and ceremonial functions. What is this area called?",
-    "q_ko": "정박 중 당직사관(OOD)은 현문 통로(brow) 근처, 공식·의전 행사를 위해 지정된 구역에서 당직을 선다. 이 구역을 무엇이라 하는가?",
-    "options": ["Fantail", "Forecastle", "Quarterdeck", "Wardroom"],
+    "q": "Aboard a Navy ship, where do most enlisted crew members eat their meals?",
+    "q_ko": "해군 함정에서 대부분의 사병(enlisted) 승조원이 식사하는 곳은?",
+    "options": ["Galley", "Wardroom", "Mess decks", "Ready room"],
     "answer": 2,
-    "explain": "쿼터데크(Quarterdeck)는 함장이 공식·의전 기능을 위해 지정한 구역으로, 정박 중에는 보통 brow가 닿는 곳에 두고 당직사관(OOD)이 승·하함자를 맞는다. 특정 갑판이 아니라 '지정된 구역'이라는 점이 핵심이다. Fantail은 주갑판 맨 뒤(선미), Forecastle은 앞쪽 갑판, Wardroom은 장교 식당·휴게실이다.",
+    "explain": "메스 덱(mess decks)은 사병 승조원의 식당 구역이다. 갤리(galley)는 음식을 조리하는 주방이고, 워드룸(wardroom)은 장교 식당·휴게실, 레디 룸(ready room)은 비행대대 조종사들이 브리핑을 받고 대기하는 방이다. ⚠️ 함정에서 '음식을 만드는 곳(galley)'과 '먹는 곳(mess decks)'을 구별하자.",
     "tags": ["navy"]
   },
   {
@@ -16,10 +16,10 @@
     "diff": 2,
     "q": "The attitude indicator shown indicates that the aircraft is in a:",
     "q_ko": "그림의 자세계(attitude indicator)가 나타내는 항공기의 상태는?",
-    "options": ["Climbing right turn", "Climbing left turn", "Descending right turn", "Descending left turn"],
+    "options": ["Climbing left turn", "Climbing right turn", "Descending left turn", "Descending right turn"],
     "answer": 1,
-    "explain": "고정된 미니어처 비행기의 중심이 수평선 위(하늘색)에 있으므로 기수가 들린 상승 자세다. 또 미니어처 비행기의 왼쪽 날개는 수평선 아래(갈색), 오른쪽 날개는 위에 있어 좌경사다. → 상승 좌선회(climbing left turn). 💡 암기: 그림을 돌려 수평선을 수평으로 놓았을 때 미니어처 비행기가 기운 쪽이 선회 방향이다.",
-    "fig": {"type": "attitude", "bank": -30, "pitch": 7},
+    "explain": "고정된 미니어처 비행기의 중심이 수평선 위(하늘색)에 있으므로 기수가 들린 상승 자세다. 또 미니어처 비행기의 오른쪽 날개는 수평선 아래(갈색), 왼쪽 날개는 위에 있어 우경사다. → 상승 우선회(climbing right turn). 💡 암기: 그림을 돌려 수평선을 수평으로 놓았을 때 미니어처 비행기가 기운 쪽이 선회 방향이다.",
+    "fig": {"type": "attitude", "bank": 35, "pitch": 6},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -71,12 +71,12 @@
     "id": "anit_0257",
     "topic": "aircraft_structure",
     "diff": 4,
-    "q": "The figure shows a top view of an airplane. To trim the airplane nose-up, the tab labeled B is deflected:",
-    "q_ko": "그림은 비행기를 위에서 본 모습이다. 기수 들림(nose-up) 쪽으로 트림하면 B로 표시된 탭은 어떻게 움직이는가?",
-    "options": ["Up, forcing the elevator trailing edge down", "Down, forcing the elevator trailing edge up", "Up, forcing the elevator trailing edge up", "Down, forcing the elevator trailing edge down"],
+    "q": "The figure shows a top view of a conventional airplane. In normal cruise flight, the surface labeled A usually produces:",
+    "q_ko": "그림은 꼬리날개가 뒤에 있는 일반적인 비행기를 위에서 본 모습이다. 정상 순항 중 A로 표시된 면은 보통 어떤 힘을 만드는가?",
+    "options": ["An upward force that carries part of the weight", "A downward force that balances the nose-heavy airplane", "A sideways force that keeps the nose straight", "No force unless the elevator is moved"],
     "answer": 1,
-    "explain": "B는 승강타(A) 뒷전에 붙은 트림 탭(trim tab)이다. 트림 탭은 조종면과 반대로 움직인다. 기수 들림 트림을 하면 탭이 아래로 내려가고, 탭에 부딪힌 공기가 승강타 뒷전을 위로 밀어 올려 기수 들림 상태를 유지한다(PHAK: 'full nose-up' 트림이면 탭은 'full down' 위치). 그래서 조종사가 조종간을 계속 당기고 있을 필요가 없다.",
-    "fig": {"type": "aircraft", "view": "top", "labels": [{"part": "elevator", "label": "A"}, {"part": "trim_tab", "label": "B"}]},
+    "explain": "A는 수평안정판(horizontal stabilizer)이다. 대부분의 비행기는 무게중심(CG)이 날개의 양력 중심보다 앞에 있어 기수가 숙여지려 하므로(nose-heavy), 수평꼬리가 아래로 향하는 힘(tail-down force)을 만들어 균형을 잡는다(PHAK). 그래서 CG가 앞으로 갈수록 필요한 꼬리 하향력이 커지고 날개가 그만큼 더 많은 양력을 내야 해 실속 속도가 높아진다. 기수를 좌우로 잡아 주는 것은 수직안정판이다.",
+    "fig": {"type": "aircraft", "view": "top", "labels": [{"part": "horizontal_stabilizer", "label": "A"}]},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -93,13 +93,12 @@
   {
     "id": "anit_0259",
     "topic": "instruments",
-    "diff": 3,
-    "q": "Based on the heading indicator shown, to turn to a heading of 090° by the shortest way, the pilot should turn:",
-    "q_ko": "그림의 방향 지시계(heading indicator)를 보고, 가장 짧은 방향으로 090°에 맞추려면 조종사는 어떻게 선회해야 하는가?",
-    "options": ["Left, through 150°", "Right, through 150°", "Left, through 210°", "Right, through 210°"],
+    "diff": 4,
+    "q": "During a descent, the static port becomes completely blocked by ice while the pitot tube remains open. As the descent continues, the airspeed indicator will read:",
+    "q_ko": "강하 중 정압공(static port)이 얼음으로 완전히 막히고 피토관은 열려 있다. 강하를 계속하면 속도계는 어떻게 지시하는가?",
+    "options": ["Lower than the actual airspeed", "Higher than the actual airspeed", "Zero, regardless of airspeed", "The actual airspeed, unaffected"],
     "answer": 1,
-    "explain": "계기 맨 위(지표 아래)의 '30'은 300°를 뜻한다(카드 숫자 × 10). 300°에서 오른쪽(시계 방향)으로 돌면 360°까지 60°, 다시 090°까지 90°로 모두 150°다. 왼쪽으로 돌면 300° → 090°는 210°를 돌아야 한다. 💡 두 방향 회전량의 합은 항상 360°이므로 180°보다 작은 쪽이 최단이다.",
-    "fig": {"type": "heading", "hdg": 300},
+    "explain": "정압공이 막히면 막힌 고도의 (더 낮은) 정압이 계통에 갇힌다. 강하하면 바깥의 실제 정압은 커지는데 속도계는 피토 압력을 갇힌 낮은 정압과 비교하므로 차이가 실제보다 크게 나타나 실제보다 빠른 속도를 지시한다. 반대로 상승 중에는 실제보다 느리게 지시한다. 같은 상황에서 고도계는 막힌 고도에 멈추고 승강계는 0을 가리킨다(PHAK).",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -160,13 +159,13 @@
   {
     "id": "anit_0265",
     "topic": "instruments",
-    "diff": 4,
-    "q": "If the airplane holds the attitude shown in coordinated flight at constant power, what will the altimeter and heading indicator show?",
-    "q_ko": "비행기가 일정한 출력으로 그림의 자세를 유지하며 정상 선회(coordinated flight)를 한다면, 고도계와 방향 지시계는 어떻게 변하는가?",
-    "options": ["Altitude increasing, heading increasing", "Altitude increasing, heading decreasing", "Altitude decreasing, heading increasing", "Altitude decreasing, heading decreasing"],
+    "diff": 3,
+    "q": "From the attitude shown, the pilot wants to enter a climbing right turn. Which control inputs are needed?",
+    "q_ko": "그림의 자세에서 조종사가 상승 우선회로 바꾸려 한다. 어떤 조종 입력이 필요한가?",
+    "options": ["Roll left and raise the nose", "Roll left and lower the nose", "Roll right and raise the nose", "Roll right and lower the nose"],
     "answer": 2,
-    "explain": "미니어처 비행기 중심이 수평선 아래(갈색)에 있으니 기수가 내려간 강하 자세이고, 오른쪽 날개가 수평선 아래·왼쪽 날개가 위에 있으니 우경사다. 정상 선회로 강하하며 오른쪽으로 돌면 고도는 줄고, 방위 숫자는 시계 방향으로 커진다(예: 090 → 120). 💡 우선회 = 방위 증가, 좌선회 = 방위 감소.",
-    "fig": {"type": "attitude", "bank": 25, "pitch": -6},
+    "explain": "그림은 미니어처 비행기 중심이 수평선 아래(기수 하강)이고 왼쪽 날개가 수평선 아래로 내려간 좌경사, 즉 강하 좌선회 자세다. 상승 우선회로 바꾸려면 오른쪽으로 롤해 날개를 수평을 지나 우경사로 만들고, 조종간을 당겨 기수를 수평선 위로 들어야 한다. 💡 '지금 자세'와 '원하는 자세'를 피치(기수 위·아래)와 경사(좌·우) 두 축으로 나눠 비교하라.",
+    "fig": {"type": "attitude", "bank": -30, "pitch": -6},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -175,10 +174,10 @@
     "diff": 3,
     "q": "On final approach, a pilot sees the PAPI shown. What does it indicate, and what should the pilot do?",
     "q_ko": "최종 접근 중 조종사에게 그림과 같은 PAPI가 보인다. 무엇을 뜻하며 조종사는 어떻게 해야 하는가?",
-    "options": ["Slightly high; increase the rate of descent", "Slightly high; reduce the rate of descent", "Slightly low; increase the rate of descent", "Slightly low; reduce the rate of descent"],
+    "options": ["Well above the path; steepen the descent", "Slightly above the path; descend a bit faster", "Slightly below the path; descend a bit slower", "Well below the path; level off until on the path"],
     "answer": 3,
-    "explain": "PAPI는 백색 2·적색 2가 정상 활공경로(약 3°)다. 백색 1·적색 3은 약간 낮음(slightly low)이므로 강하율을 줄여(출력을 조금 더하는 등) 경로로 다시 올라가야 한다. 백색 3은 약간 높음, 백색 4는 높음, 적색 4는 낮음이다. 💡 암기: 'White on white, check your height / Red on red, you're dead' — 적색이 많을수록 낮다.",
-    "fig": {"type": "papi", "white": 1},
+    "explain": "PAPI는 백색 2·적색 2가 정상 활공경로(약 3°)다. 4개가 모두 적색이면 경로보다 훨씬 낮은(well below, 약 2.5° 미만) 상태이므로 더 내려가지 말고 수평을 유지하거나 필요하면 출력을 더해, 백색 2·적색 2가 보일 때까지 경로로 돌아가야 한다. 백색 1은 약간 낮음, 백색 3은 약간 높음, 백색 4는 훨씬 높음이다. 💡 암기: 'Red on red, you're dead' — 적색이 많을수록 낮다.",
+    "fig": {"type": "papi", "white": 0},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -302,7 +301,7 @@
     "options": ["Add power, lower the nose, then level the wings", "Reduce power, raise the nose, then level the wings", "Reduce power, level the wings, then raise the nose", "Add power, raise the nose, then level the wings"],
     "answer": 2,
     "explain": "그림은 기수가 크게 내려가고 깊게 경사진 기수 하강 이상 자세(nose-low unusual attitude)다. FAA 계기비행 교범의 회복 순서: ① 출력을 줄여 과속을 막고 ② 협조된 에일러론·러더로 날개를 수평으로 한 다음 ③ 승강타를 부드럽게 당겨 기수를 든다. 경사를 둔 채 먼저 당기면 선회만 조여져 하중이 커지고 나선 강하가 깊어진다. '출력 증가 → 기수 내림 → 날개 수평'은 기수 상승(nose-high) 자세의 회복법이다.",
-    "fig": {"type": "attitude", "bank": -60, "pitch": -15},
+    "fig": {"type": "attitude", "bank": 60, "pitch": -15},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -335,7 +334,7 @@
     "q_ko": "글라이더를 견인 중인 비행기와 헬리콥터가 거의 같은 고도에서 수렴하고 있다(정면 접근 아님). 우선통행권은 누구에게 있는가?",
     "options": ["The helicopter", "The airplane towing the glider", "Whichever aircraft is on the other's right", "Whichever aircraft is at the lower altitude"],
     "answer": 1,
-    "explain": "14 CFR 91.113(d): 다른 항공기를 견인하거나 공중급유 중인 항공기는 다른 모든 엔진 구동 항공기보다 우선통행권이 있다. 헬리콥터도 엔진 구동 항공기이므로 견인 중인 비행기에 양보해야 한다. '오른쪽 항공기 우선'은 같은 범주끼리 수렴할 때, '낮은 고도 우선'은 착륙 접근 중인 항공기끼리의 규칙이다. 💡 조난 > 기구 > 글라이더 > 비행선 > 비행기·헬기, 단 견인·급유 중이면 엔진 항공기보다 우선.",
+    "explain": "14 CFR 91.113(d): 다른 항공기를 견인하거나 공중급유 중인 항공기는 다른 모든 엔진 구동 항공기보다 우선통행권이 있다. 헬리콥터도 엔진 구동 항공기이므로 견인 중인 비행기에 양보해야 한다. '오른쪽 항공기 우선'은 우선순위가 같은 항공기끼리 수렴할 때 적용하는 규칙이고, 고도의 높고 낮음은 이 상황의 기준이 아니다. 💡 조난 > 기구 > 글라이더 > 비행선 > 비행기·헬기, 단 견인·급유 중이면 엔진 항공기보다 우선.",
     "tags": ["afoqt_overlap"]
   },
   {
@@ -432,22 +431,22 @@
     "id": "anit_0289",
     "topic": "aviation_history",
     "diff": 4,
-    "q": "In 1911, which naval officer began flight training and became the U.S. Navy's first aviator, later designated Naval Aviator No. 1?",
-    "q_ko": "1911년 비행 훈련을 시작해 미 해군 최초의 비행사가 되었고, 나중에 '해군 비행사 1호(Naval Aviator No. 1)'로 지정된 해군 장교는?",
-    "options": ["Eugene Ely", "Glenn Curtiss", "Theodore G. Ellyson", "John H. Towers"],
+    "q": "The U.S. Navy's first airplane, the Curtiss A-1 ordered in 1911, was nicknamed the \"Triad\" because it could:",
+    "q_ko": "1911년에 주문된 미 해군 최초의 비행기 커티스(Curtiss) A-1은 '트라이어드(Triad)'라는 별명으로 불렸다. 그 이유는?",
+    "options": ["Carry a crew of three", "Fly with three stacked wings", "Operate on land, on water, and in the air", "Fly with three engines"],
     "answer": 2,
-    "explain": "시어도어 엘리슨(Theodore G. 'Spuds' Ellyson) 중위는 1911년 1월 글렌 커티스(Glenn Curtiss)의 비행학교에서 훈련을 시작한 첫 해군 장교로, 해군 비행사 1호가 되었다. 유진 엘리(Eugene Ely)는 1910–1911년 함상 이·착륙을 처음 해낸 민간 조종사, 커티스는 민간 항공기 제작자이자 교관, 존 타워스(John H. Towers)는 해군 비행사 3호다.",
+    "explain": "커티스 A-1 트라이어드는 1911년 5월 8일 주문된 해군 최초의 항공기로, 이날이 해군 항공의 탄생일로 기념된다. 바퀴와 플로트(float)를 함께 갖춰 땅과 물 위에서 뜨고 내리며 하늘을 날 수 있었기 때문에 '세 가지(land·sea·air)'라는 뜻의 Triad라 불렸다. 엔진 1개짜리 복엽기였다.",
     "tags": ["navy"]
   },
   {
     "id": "anit_0290",
     "topic": "carrier_ops",
     "diff": 3,
-    "q": "On a carrier flight deck, the catapult officer who gives the final signal to launch an aircraft is nicknamed the:",
-    "q_ko": "항공모함 비행갑판에서 항공기 발진의 최종 신호를 주는 캐터펄트 장교의 별명은?",
-    "options": ["Handler", "Air Boss", "Mini Boss", "Shooter"],
+    "q": "On an aircraft carrier, what is the traditional nickname of the Landing Signal Officer (LSO)?",
+    "q_ko": "항공모함에서 착함 신호 장교(LSO, Landing Signal Officer)의 전통적인 별명은?",
+    "options": ["Handler", "Air Boss", "Mini Boss", "Paddles"],
     "answer": 3,
-    "explain": "캐터펄트 장교(catapult officer)는 '슈터(Shooter)'라 불리며 황색 저지를 입는다. 갑판과 항공기 상태를 최종 확인한 뒤 무릎을 꿇고 갑판을 짚은 다음 앞쪽을 가리키는 동작으로 발진 신호를 준다. Handler는 비행갑판 통제실(Flight Deck Control)에서 항공기 배치를 맡는 장교, Air Boss와 Mini Boss는 Pri-Fly에서 비행 운용을 지휘하는 항공 담당관과 그 보좌관이다.",
+    "explain": "LSO는 광학 착함 장치가 나오기 전 색깔 있는 패들(paddles)을 흔들어 착함하는 조종사에게 신호를 줬기 때문에 지금도 'Paddles'라 불린다. 오늘날에는 무전으로 조종사의 접근을 돕고 착함마다 점수를 매긴다. Handler는 갑판의 항공기 배치를 맡는 장교, Air Boss와 Mini Boss는 Pri-Fly에서 비행 운용을 지휘하는 항공 담당관과 그 보좌관이다.",
     "tags": ["navy"]
   },
   {
@@ -456,10 +455,10 @@
     "diff": 4,
     "q": "To roll the wings level from the attitude shown, which aileron must deflect upward?",
     "q_ko": "그림의 자세에서 날개를 수평으로 되돌리려면 어느 쪽 에일러론이 위로 올라가야 하는가?",
-    "options": ["The left aileron, rolling the airplane left", "The left aileron, rolling the airplane right", "The right aileron, rolling the airplane right", "The right aileron, rolling the airplane left"],
+    "options": ["The right aileron, rolling the airplane right", "The right aileron, rolling the airplane left", "The left aileron, rolling the airplane left", "The left aileron, rolling the airplane right"],
     "answer": 0,
-    "explain": "그림은 오른쪽 날개가 수평선 아래로 내려간 우경사(약 45°)다. 날개를 수평으로 하려면 왼쪽으로 롤해야 하므로 조종간을 왼쪽으로 한다. 이때 왼쪽 에일러론은 올라가 왼쪽 날개의 양력이 줄어 내려가고, 오른쪽 에일러론은 내려가 오른쪽 날개가 올라간다. 💡 에일러론이 올라간 쪽 날개가 내려간다 = 그쪽으로 롤.",
-    "fig": {"type": "attitude", "bank": 45, "pitch": 5},
+    "explain": "그림은 왼쪽 날개가 수평선 아래로 내려간 좌경사(약 45°)다. 날개를 수평으로 하려면 오른쪽으로 롤해야 하므로 조종간을 오른쪽으로 한다. 이때 오른쪽 에일러론은 올라가 오른쪽 날개의 양력이 줄어 내려가고, 왼쪽 에일러론은 내려가 왼쪽 날개가 올라간다. 💡 에일러론이 올라간 쪽 날개가 내려간다 = 그쪽으로 롤.",
+    "fig": {"type": "attitude", "bank": -45, "pitch": 5},
     "tags": ["afoqt_overlap"]
   },
   {
@@ -556,11 +555,11 @@
     "id": "anit_0300",
     "topic": "regs_airspace",
     "diff": 3,
-    "q": "Below 10,000 ft MSL in Class E airspace, what are the basic VFR minimum distances from clouds?",
-    "q_ko": "Class E 공역의 MSL 10,000 ft 미만에서 VFR 비행 시 구름으로부터의 최소 거리는?",
-    "options": ["Clear of clouds", "500 ft below, 1,000 ft above, 2,000 ft horizontally", "1,000 ft below, 500 ft above, 2,000 ft horizontally", "1,000 ft below, 1,000 ft above, 1 statute mile horizontally"],
+    "q": "Two airplanes are approaching an airport for landing at the same time. Which one has the right-of-way?",
+    "q_ko": "두 비행기가 같은 시각에 착륙하려고 공항에 접근하고 있다. 우선통행권은 어느 쪽에 있는가?",
+    "options": ["The airplane at the higher altitude", "The airplane at the lower altitude", "The faster airplane", "The airplane on the other's right"],
     "answer": 1,
-    "explain": "14 CFR 91.155: Class C·D와 MSL 10,000 ft 미만의 Class E에서 VFR 최저 기상은 시정 3 SM, 구름 아래 500 ft·위 1,000 ft·수평 2,000 ft다(💡 '3-152'). MSL 10,000 ft 이상의 Class E는 시정 5 SM, 아래·위 1,000 ft, 수평 1 SM이고, 'clear of clouds'는 Class B(및 낮은 고도 주간 Class G)의 기준이다.",
+    "explain": "14 CFR 91.113(g): 착륙하려고 공항에 접근하는 항공기가 둘 이상이면 낮은 고도의 항공기에 우선통행권이 있다. 단, 이 규칙을 이용해 최종 접근 중인 다른 항공기 앞으로 끼어들거나 추월해서는 안 된다. 또 최종 접근·착륙 중인 항공기는 비행 중이거나 지상에 있는 다른 항공기보다 우선한다. '오른쪽 항공기 우선'은 같은 범주끼리 수렴할 때의 규칙이다.",
     "tags": ["afoqt_overlap"]
   }
 ]
